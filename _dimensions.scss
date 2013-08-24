@@ -64,3 +64,34 @@ Make an element the width of its parent.
     display: block;
     width: 100%;
 }
+
+
+/* ==========================================================================
+   MIN AND MAX HEIGHTS AND WIDTHS
+   ========================================================================== */
+
+.max-hi-100 {  max-height: 100%; }
+.max-hi-none { max-height: none; }
+.max-hi-max {  max-height: max-content; }
+.max-hi-min {  max-height: min-content; }
+.max-hi-fit {  max-height: fit-content; }
+.max-hi-fill { max-height: fill-available; }
+
+.max-wi { max-width: 100%; }
+.max-wi { max-width: none; }
+.max-wi { max-width: max-content; }
+.max-wi { max-width: min-content; }
+.max-wi { max-width: fit-content; }
+.max-wi { max-width: fill-available; }
+
+.min-hi { min-height: 50%; }
+.min-hi { min-height: max-content; }
+.min-hi { min-height: min-content; }
+.min-hi { min-height: fit-content; }
+.min-hi { min-height: fill-available; }
+
+.min-wi { min-width: 50%; }
+.min-wi { min-width: max-content; }
+.min-wi { min-width: min-content; }
+.min-wi { min-width: fit-content; }
+.min-wi { min-width: fill-available; }
