@@ -1,0 +1,66 @@
+/* ==========================================================================
+   DIMENSIONS
+   ========================================================================== */
+
+
+.wi-25  { width: 25%; }
+.wi-50  { width: 50%; }
+.wi-75  { width: 75%; }
+.wi-full { width: 100%; }
+
+/* ==========================================================================
+   GEOMETRY
+   ========================================================================== */
+
+/* Width Scale */
+
+.wi-1  { width: 1rem;}
+.wi-2  { width: 2rem;}
+.wi-3  { width: 4rem;}
+.wi-4  { width: 8rem;}
+
+/* Height Scale */
+
+.ht-1  { height: 1rem;}
+.ht-2  { height: 2rem;}
+.ht-3  { height: 4rem;}
+.ht-4  { height: 8rem;}
+
+/* Squares */
+
+.sq-1 { width: 1rem;  height: 1rem; }
+.sq-2 { width: 2rem;  height: 2rem; }
+.sq-3 { width: 4rem;  height: 4rem; }
+.sq-4 { width: 8rem;  height: 8rem; }
+.sq-5 { width: 16rem; height: 16rem; }
+
+/*
+
+Make an element shrink wrap its content.  Should be combined with a float class .fl or .fr
+*/
+
+.shrink {
+    display: block;
+    width: auto !important;
+}
+
+/*
+
+Make an element fill the remaining space.  N.B. This will hide overflow.
+*/
+
+.fill {
+    display: block;
+    overflow: hidden;
+    width: auto !important;
+}
+
+/*
+
+Make an element the width of its parent.
+*/
+
+.db-full {
+    display: block;
+    width: 100%;
+}
