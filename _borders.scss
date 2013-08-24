@@ -1,0 +1,21 @@
+/* ==========================================================================
+   BORDERS
+   ========================================================================== */
+
+
+/* Border base */
+
+.bor { border-style: solid; border-width: 1px; }
+
+
+/* Border extensions */
+
+.bor--blk {      border-color: $near-black; }
+.bor--dk-gry {   border-color: $dark-gray; }
+.bor--md-gry {   border-color: $mid-gray; }
+.bor--gray {     border-color: $gray; }
+.bor--silver  {  border-color: $silver; }
+.bor--lt-slvr {  border-color: $light-silver; }
+.bor--lt-gry {   border-color: $light-gray; }
+.bor--near-wht { border-color: $near-white; }
+.bor--wht {      border-color: $white; }
