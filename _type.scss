@@ -96,10 +96,21 @@
 .ws-prewrap { white-space: pre-wrap; }
 .ws-preline { white-space: pre-line; }
 
-/* Line Height */
+/* Leading */
 
 .lh      { line-height: 1; }
 .lh-copy { line-height: 1.6; }
 .lh-2    { line-height: 2; }
 .lh-3    { line-height: 3; }
+
+/* Tracking */
+
+.tracked {      letter-spacing: 0.1em; }
+.mega-tracked { letter-spacing: 0.2em; }
+
+/* Word Break */
+
+.wb {       word-break: normal; }
+.wb-break { word-break: break-all; }
+.wb-keep {  word-break: keep-all; }
 

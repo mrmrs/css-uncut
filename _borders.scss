@@ -19,3 +19,11 @@
 .bor--lt-gry {   border-color: $light-gray; }
 .bor--near-wht { border-color: $near-white; }
 .bor--wht {      border-color: $white; }
+
+
+/* Border Radius */
+
+.br { border-radius: 4px; }
+.br-circ { border-radius: 9999px; }
+.br-100 { border-radius: 100%; }
+
