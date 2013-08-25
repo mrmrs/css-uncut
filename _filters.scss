@@ -1,9 +1,21 @@
-filter: blur(5px);
-filter: brightness(0.5)
-filter: contrast(200%)
-filter: drop-shadow(16px 16px 10px black)
-filter: hue-rotate(90deg)
-filter: grayscale(100%)
-filter: invert(100%)
-filter: saturate(200%)
-filter: sepia(100%)
+/* ==========================================================================
+   FILTERS
+   ========================================================================== */
+
+
+.blur-1 { filter: blur(1px); }
+.blur-2 { filter: blur(2px); }
+.blur-3 { filter: blur(4px); }
+.blur-4 { filter: blur(8px); }
+.blur-5 { filter: blur(16px); }
+
+.bright { filter: brightness(0.5); }
+.bright { filter: brightness(1); }
+
+.contrast { filter: contrast(200%); }
+.drop-shadow { filter: drop-shadow(16px 16px 10px black); }
+.hue-rotate { filter: hue-rotate(90deg); }
+.gray { filter: grayscale(100%); }
+.invert { filter: invert(100%); }
+.saturate { filter: saturate(200%); }
+.sepia { filter: sepia(100%); }
