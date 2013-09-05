@@ -22,3 +22,9 @@
 .bg-round {     background-repeat: round; }
 .bg-norepeat {  background-repeat: no-repeat; }
 
+
+/* Background Clip */
+
+.bg-clip-bb { background-clip: border-box; }
+.bg-clip-pb { background-clip: padding-box; }
+.bg-clip-cb { background-clip: content-box; }
