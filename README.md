@@ -9,4 +9,7 @@ Flex-box
 Transitions
 Type Scale
 
+
+Text Shadow
+
 Add things to todo list
