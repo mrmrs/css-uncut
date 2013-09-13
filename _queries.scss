@@ -1,0 +1,23 @@
+/* ==========================================================================
+   QUERIES   
+   ========================================================================== */
+
+/*
+ * Mixing for mobile first queries. 
+ * Two breakpoints.
+ * Use like @include break(medium) { ***Styles*** }
+ *
+ */
+
+@mixin break($point) {
+  @if $point == medium {
+    @media screen and (min-width: 640px) and (max-width: 1023px) { 
+      @content; 
+    }
+  }
+  @else if $point == large {
+    @media screen and (min-width: 1024px)  { 
+      @content; 
+    }
+  }
+}

@@ -11,6 +11,38 @@
 
    ========================================================================== */
 
+/* Type Scale */
+
+body  { font-size: 1.2rem; }
+p     { line-height: 1.5; }
+small, .small { font-size: .85rem; }
+
+h1, .f1    { font-size: 2rem; }
+h2, .f2    { font-size: 1.5rem; }
+h3, .f3    { font-size: 1.2rem; }
+h4, .f4    { font-size: 1.2rem; }
+h5, .f5    { font-size: 1.2rem; }
+h6, .f6    { font-size: 1.2rem; }
+
+@include break(medium) {
+ h1, .f1 { font-size: 2rem; }
+ h2, .f2 { font-size: 1.5rem; }
+ h3, .f3 { font-size: 1.2rem; }
+ h4, .f4 { font-size: 1.2rem; }
+ h5, .f5 { font-size: 1rem; }
+ h6, .f6 { font-size: .85rem; }
+}
+
+@include break(large) {
+ h1, .f1 { font-size: 3rem; }
+ h2, .f2 { font-size: 2rem; }
+ h3, .f3 { font-size: 1.5rem; }
+ h4, .f4 { font-size: 1.2rem; }
+ h5, .f5 { font-size: 1rem; }
+ h6, .f6 { font-size: 1rem; }
+}
+
+
 /* Text Transform */
 
 .ttc { text-transform: capitalize; }
