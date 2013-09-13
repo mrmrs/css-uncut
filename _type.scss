@@ -43,15 +43,6 @@ h6, .f6    { font-size: 1.2rem; }
 }
 
 
-/* Text Transform */
-
-.ttc { text-transform: capitalize; }
-.ttu { text-transform: uppercase; }
-.ttl { text-transform: lowercase; }
-.ttn { text-transform: none; }
-.ttf { text-transform: full-width; }
-
-
 /* Text Align */
 
 .tl  { text-align: left; }
@@ -139,10 +130,4 @@ h6, .f6    { font-size: 1.2rem; }
 
 .tracked {      letter-spacing: 0.1em; }
 .mega-tracked { letter-spacing: 0.2em; }
-
-/* Word Break */
-
-.wb {       word-break: normal; }
-.wb-break { word-break: break-all; }
-.wb-keep {  word-break: keep-all; }
 
