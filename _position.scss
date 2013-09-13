@@ -26,6 +26,23 @@
 .bottom-1 { right: 1rem; }
 
 
+/* Top Percentage based scale */
+
+.top-10  { top: 10%; }
+.top-20  { top: 20%; }
+.top-30  { top: 30%; }
+.top-40  { top: 40%; }
+.top-50  { top: 50%; }
+.top-60  { top: 60%; }
+.top-70  { top: 70%; }
+.top-80  { top: 80%; }
+.top-90  { top: 90%; }
+.top-100 { top: 100%; }
+
+.top-auto { top: auto; }
+.top-i { top: inherit; ;}
+
+
 /* Put it in the middle */
 
 .center { margin: 0 auto; }
