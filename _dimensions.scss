@@ -19,6 +19,18 @@
 .wi-3  { width: 4rem;}
 .wi-4  { width: 8rem;}
 
+/* Width Keywords */
+
+.wi-bb { width: border-box; }
+.wi-cb { width: content-box; }
+.wi-mx { width: max-content; }
+.wi-mn { width: min-content; }
+.wi-av { width: available; }
+.wi-fc { width: fit-content; }
+.wi-at { width: auto; }
+
+width: inherit
+
 /* Height Scale */
 
 .ht-1  { height: 1rem;}
