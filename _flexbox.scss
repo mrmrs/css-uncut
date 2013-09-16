@@ -1,0 +1,32 @@
+/* ==========================================================================
+   FLEXBOX
+   - Align Content
+   ========================================================================== */
+
+/* Align Content */
+
+.ac-fs { align-content: flex-start; }
+.ac-fe { align-content: flex-end; }
+.ac-c {  align-content: center; }
+.ac-sb { align-content: space-between; }
+.ac-sa { align-content: space-around; }
+.ac-s {  align-content: stretch; }
+.ac-i {  align-content: inherit; }
+
+/* Align Items */
+
+.ai-fs { align-items: flex-start; }
+.ai-fe { align-items: flex-end; }
+.ai-c {  align-items: center; }
+.ai-b {  align-items: baseline; }
+.ai-s {  align-items: stretch; }
+.ai-i {  align-items: inherit; }
+
+.as-a { align-self: auto; }
+.as-fs { align-self: flex-start; }
+.as-fe { align-self: flex-end; }
+.as-c { align-self: center; }
+.as-b { align-self: baseline; }
+.as-s { align-self: stretch; }
+.as-i { align-self: inherit; }
+
