@@ -124,3 +124,10 @@
 .btw-3 { border-top-width: 4px; }
 .btw-4 { border-top-width: 8px; }
 .btw-5 { border-top-width: 16px; }
+
+/* Border Collapse */
+
+.bc-collapse {  border-collapse: collapse; }
+.bc-separate {  border-collapse: separate; }
+.bc-i {         border-collapse: inherit; }
+
