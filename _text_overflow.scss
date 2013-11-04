@@ -12,3 +12,30 @@
 .to-clip-ellipsis { text-overflow: clip ellipsis; }
 .to-double { text-overflow: "…" "…"; }
 .to-i { text-overflow: inherit; }
+
+@include break(not-small) {
+  .to-clip-ns { text-overflow: clip; }
+  .to-ellipsis-ns { text-overflow: ellipsis; }
+  .to-dots-ns { text-overflow: "…"; }
+  .to-clip-ellipsis-ns { text-overflow: clip ellipsis; }
+  .to-double-ns { text-overflow: "…" "…"; }
+  .to-i-ns { text-overflow: inherit; }
+}
+
+@include break(medium) {
+  .to-clip-m { text-overflow: clip; }
+  .to-ellipsis-m { text-overflow: ellipsis; }
+  .to-dots-m { text-overflow: "…"; }
+  .to-clip-ellipsis-m { text-overflow: clip ellipsis; }
+  .to-double-m { text-overflow: "…" "…"; }
+  .to-i-m { text-overflow: inherit; }
+}
+
+@include break(large) {
+  .to-clip-l { text-overflow: clip; }
+  .to-ellipsis-l { text-overflow: ellipsis; }
+  .to-dots-l { text-overflow: "…"; }
+  .to-clip-ellipsis-l { text-overflow: clip ellipsis; }
+  .to-double-l { text-overflow: "…" "…"; }
+  .to-i-l { text-overflow: inherit; }
+}

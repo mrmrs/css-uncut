@@ -7,3 +7,21 @@
 .hyphen-manual  {  hyphens: manual; }
 .hyphen-auto    {  hyphens: auto; }
 
+@include break(not-small) {
+  .hyphen-none-ns    {  hyphens: none; }
+  .hyphen-manual-ns  {  hyphens: manual; }
+  .hyphen-auto-ns    {  hyphens: auto; }
+}
+
+@include break(medium) {
+  .hyphen-none-m    {  hyphens: none; }
+  .hyphen-manual-m  {  hyphens: manual; }
+  .hyphen-auto-m    {  hyphens: auto; }
+}
+
+@include break(large) {
+  .hyphen-none-l    {  hyphens: none; }
+  .hyphen-manual-l  {  hyphens: manual; }
+  .hyphen-auto-l    {  hyphens: auto; }
+}
+

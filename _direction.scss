@@ -4,3 +4,19 @@
 
 .ltr { direction: ltr; }
 .rtl { direction: rtl; }
+
+@include break(not-small) {
+  .ltr-ns { direction: ltr; }
+  .rtl-ns { direction: rtl; }
+}
+
+@include break(medium) {
+  .ltr-m { direction: ltr; }
+  .rtl-m { direction: rtl; }
+}
+
+@include break(large) {
+  .ltr-l { direction: ltr; }
+  .rtl-l { direction: rtl; }
+}
+

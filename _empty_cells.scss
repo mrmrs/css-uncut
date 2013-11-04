@@ -6,3 +6,21 @@
 .empty-hide {     empty-cells: hide; }
 .empty-inherit {  empty-cells: inherit; }
 
+@include break(not-small) {
+  .empty-show-ns {     empty-cells: show; }
+  .empty-hide-ns {     empty-cells: hide; }
+  .empty-inherit-ns {  empty-cells: inherit; }
+}
+
+@include break(medium) {
+  .empty-show-m {     empty-cells: show; }
+  .empty-hide-m {     empty-cells: hide; }
+  .empty-inherit-m {  empty-cells: inherit; }
+}
+
+@include break(large) {
+  .empty-show-l {     empty-cells: show; }
+  .empty-hide-l {     empty-cells: hide; }
+  .empty-inherit-l {  empty-cells: inherit; }
+}
+

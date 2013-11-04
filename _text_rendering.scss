@@ -8,3 +8,26 @@
 .txtr-precise   { text-rendering: geometricPrecision; }
 .txtr-i         { text-rendering: inherit; }
 
+@include break(not-small) {
+  .txtr-auto-ns      { text-rendering: auto; }
+  .txtr-speed-ns     { text-rendering: optimizeSpeed; }
+  .txtr-legibile-ns  { text-rendering: optimizeLegibility; }
+  .txtr-precise-ns   { text-rendering: geometricPrecision; }
+  .txtr-i-ns         { text-rendering: inherit; }
+}
+
+@include break(medium) {
+  .txtr-auto-m      { text-rendering: auto; }
+  .txtr-speed-m     { text-rendering: optimizeSpeed; }
+  .txtr-legibile-m  { text-rendering: optimizeLegibility; }
+  .txtr-precise-m   { text-rendering: geometricPrecision; }
+  .txtr-i-m         { text-rendering: inherit; }
+}
+
+@include break(large) {
+  .txtr-auto-l      { text-rendering: auto; }
+  .txtr-speed-l     { text-rendering: optimizeSpeed; }
+  .txtr-legibile-l  { text-rendering: optimizeLegibility; }
+  .txtr-precise-l   { text-rendering: geometricPrecision; }
+  .txtr-i-l         { text-rendering: inherit; }
+}

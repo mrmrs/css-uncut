@@ -11,3 +11,32 @@
 .tup-ru   { text-underline-position: right under; }
 .tup-i    { text-underline-position: inherit; }
 
+@include break(not-small) {
+  .tup-auto-ns { text-underline-position: auto; }
+  .tup-u-ns    { text-underline-position: under; }
+  .tup-l-ns    { text-underline-position: left; }
+  .tup-r-ns    { text-underline-position: right; }
+  .tup-ul-ns   { text-underline-position: under left; }
+  .tup-ru-ns   { text-underline-position: right under; }
+  .tup-i-ns    { text-underline-position: inherit; }
+}
+
+@include break(medium) {
+  .tup-auto-m { text-underline-position: auto; }
+  .tup-u-m    { text-underline-position: under; }
+  .tup-l-m    { text-underline-position: left; }
+  .tup-r-m    { text-underline-position: right; }
+  .tup-ul-m   { text-underline-position: under left; }
+  .tup-ru-m   { text-underline-position: right under; }
+  .tup-i-m    { text-underline-position: inherit; }
+}
+
+@include break(large) {
+  .tup-auto-l { text-underline-position: auto; }
+  .tup-u-l    { text-underline-position: under; }
+  .tup-l-l    { text-underline-position: left; }
+  .tup-r-l    { text-underline-position: right; }
+  .tup-ul-l   { text-underline-position: under left; }
+  .tup-ru-l   { text-underline-position: right under; }
+  .tup-i-l    { text-underline-position: inherit; }
+}

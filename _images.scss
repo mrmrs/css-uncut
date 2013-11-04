@@ -6,7 +6,6 @@
 
 img { width: 100%; }
 
-
 /* IMG Rendering */
 
 .render-auto { image-rendering: auto; }
@@ -25,3 +24,44 @@ img { width: 100%; }
 .img-turn-315 { image-orientation: 315deg; }
 .img-turn-360 { image-orientation: 360deg; }
 
+@include break(not-small) {
+  .render-auto-ns {  image-rendering: auto; }
+  .render-auto-ns {  image-rendering: crisp-edges; }
+  .render-auto-ns {  image-rendering: pixelated; }
+  .img-turn-45-ns  { image-orientation: 45deg;  }
+  .img-turn-90-ns  { image-orientation: 90deg;  }
+  .img-turn-135-ns { image-orientation: 135deg; }
+  .img-turn-180-ns { image-orientation: 180deg; }
+  .img-turn-225-ns { image-orientation: 225deg; }
+  .img-turn-270-ns { image-orientation: 270deg; }
+  .img-turn-315-ns { image-orientation: 315deg; }
+  .img-turn-360-ns { image-orientation: 360deg; }
+}
+
+@include break(medium) {
+  .render-auto-m {  image-rendering: auto; }
+  .render-auto-m {  image-rendering: crisp-edges; }
+  .render-auto-m {  image-rendering: pixelated; }
+  .img-turn-45-m  { image-orientation: 45deg;  }
+  .img-turn-90-m  { image-orientation: 90deg;  }
+  .img-turn-135-m { image-orientation: 135deg; }
+  .img-turn-180-m { image-orientation: 180deg; }
+  .img-turn-225-m { image-orientation: 225deg; }
+  .img-turn-270-m { image-orientation: 270deg; }
+  .img-turn-315-m { image-orientation: 315deg; }
+  .img-turn-360-m { image-orientation: 360deg; }
+}
+
+@include break(large) {
+  .render-auto-l {  image-rendering: auto; }
+  .render-auto-l {  image-rendering: crisp-edges; }
+  .render-auto-l {  image-rendering: pixelated; }
+  .img-turn-45-l  { image-orientation: 45deg;  }
+  .img-turn-90-l  { image-orientation: 90deg;  }
+  .img-turn-135-l { image-orientation: 135deg; }
+  .img-turn-180-l { image-orientation: 180deg; }
+  .img-turn-225-l { image-orientation: 225deg; }
+  .img-turn-270-l { image-orientation: 270deg; }
+  .img-turn-315-l { image-orientation: 315deg; }
+  .img-turn-360-l { image-orientation: 360deg; }
+}
