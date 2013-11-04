@@ -1,18 +1,19 @@
 # CSS
 
-CSS things I never want to write out again.
+WTF is this?
 
-TODO:
+First off, it's an experiment.
+It's the entire css language - put into single purpose classes at multiple breakpoints.
+It helps make designing in the browser super fun, fast and easy.
+You'll feel like a super human with css in no time.
 
-Animations
-Flex-box
-Transitions
-Type Scale
+## Benefits
 
-
-Text Shadow
-
-Add things to todo list
+Highly grockable
+Easy to read
+Faster design by just editing HTML
+High performing in browsers
+16kb total (minified and gzipped)
 
 # License
 
