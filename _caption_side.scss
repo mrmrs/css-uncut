@@ -6,3 +6,20 @@
 .csb { caption-side: bottom; }
 .csi { caption-side: inherit; }
 
+@include break(not-small) {
+  .cst-ns { caption-side: top; }
+  .csb-ns { caption-side: bottom; }
+  .csi-ns { caption-side: inherit; }
+}
+
+@include break(medium) {
+  .cst-m { caption-side: top; }
+  .csb-m { caption-side: bottom; }
+  .csi-m { caption-side: inherit; }
+}
+
+@include break(large) {
+  .cst-l { caption-side: top; }
+  .csb-l { caption-side: bottom; }
+  .csi-l { caption-side: inherit; }
+}

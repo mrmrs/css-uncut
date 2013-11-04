@@ -1,6 +1,16 @@
 /* ==========================================================================
    ANIMATION UTILITIES
    - Animation Directions
+   - Animation Durations
+   - Animation Fill Modes
+   - Animation Count
+   - Animation Play State
+   - Animation Timing
+   - Animation Delays
+
+   - Breakpoint not-small
+   - Breakpoint medium
+   - Breakpoint large
 
    ========================================================================== */
 
@@ -12,7 +22,7 @@
 .ani-dir-alt-rev {  animation-direction: alternate-reverse; }
 
 
-/* Animation Durations  TODO: Change scale */
+/* Animation Durations */
 
 .ani-dur-1 { animation-duration: .4s; }
 .ani-dur-2 { animation-duration: .5s; }
@@ -22,7 +32,7 @@
 .ani-dur-6 { animation-duration: 10;  }
 
 
-/* Animation Fill Mode TODO: Class names. */
+/* Animation Fill Mode */
 
 .ani-fil-non { animation-fill-mode: none; }
 .ani-fil-frw { animation-fill-mode: forwards; }
@@ -57,7 +67,7 @@
 .ani-stop {      animation-timing-function: step-stop; }
 
 
-/* Animation delays */
+/* Animation Delays */
 
 .ani-delay-1 { animation-delay: .5s; }
 .ani-delay-2 { animation-delay: 1s; }
@@ -66,3 +76,137 @@
 .ani-delay-5 { animation-delay: 8s; }
 .ani-delay-6 { animation-delay: 16s; }
 
+@include break(not-small) {
+  .ani-dir-norm-ns {     animation-direction: normal; }
+  .ani-dir-rev-ns {      animation-direction: reverse; }
+  .ani-dir-alt-ns {      animation-direction: alternate; }
+  .ani-dir-alt-rev-ns {  animation-direction: alternate-reverse; }
+
+  .ani-dur-1-ns { animation-duration: .4s; }
+  .ani-dur-2-ns { animation-duration: .5s; }
+  .ani-dur-3-ns { animation-duration: .6s; }
+  .ani-dur-4-ns { animation-duration: 1s;  }
+  .ani-dur-5-ns { animation-duration: 1.5; }
+  .ani-dur-6-ns { animation-duration: 10;  }
+
+  .ani-fil-non-ns { animation-fill-mode: none; }
+  .ani-fil-frw-ns { animation-fill-mode: forwards; }
+  .ani-fil-bck-ns { animation-fill-mode: backwards; }
+  .ani-fil-bth-ns { animation-fill-mode: both; }
+
+  .ani-cnt-1-ns { animation-iteration-count: 1; }
+  .ani-cnt-2-ns { animation-iteration-count: 2; }
+  .ani-cnt-3-ns { animation-iteration-count: 5; }
+  .ani-cnt-4-ns { animation-iteration-count: 10; }
+  .ani-cnt-5-ns { animation-iteration-count: infinite; }
+
+  .ani-state-run-ns { animation-play-state: running; }
+  .ani-state-pause-ns { animation-play-state: paused; }
+
+  .ani-ease-ns {      animation-timing-function: ease; }
+  .ani-easein-ns {    animation-timing-function: ease-in; }
+  .ani-easeout-ns {   animation-timing-function: ease-out; }
+  .ani-easeinout-ns { animation-timing-function: ease-in-out; }
+  .ani-linear-ns {    animation-timing-function: linear; }
+  .ani-bezier-ns {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .ani-start-ns {     animation-timing-function: step-start; }
+  .ani-stop-ns {      animation-timing-function: step-stop; }
+
+  .ani-delay-1-ns { animation-delay: .5s; }
+  .ani-delay-2-ns { animation-delay: 1s; }
+  .ani-delay-3-ns { animation-delay: 2s; }
+  .ani-delay-4-ns { animation-delay: 4s; }
+  .ani-delay-5-ns { animation-delay: 8s; }
+  .ani-delay-6-ns { animation-delay: 16s; }
+
+}
+
+@include break(medium) {
+  .ani-dir-norm-m {     animation-direction: normal; }
+  .ani-dir-rev-m {      animation-direction: reverse; }
+  .ani-dir-alt-m {      animation-direction: alternate; }
+  .ani-dir-alt-rev-m {  animation-direction: alternate-reverse; }
+
+  .ani-dur-1-m { animation-duration: .4s; }
+  .ani-dur-2-m { animation-duration: .5s; }
+  .ani-dur-3-m { animation-duration: .6s; }
+  .ani-dur-4-m { animation-duration: 1s;  }
+  .ani-dur-5-m { animation-duration: 1.5; }
+  .ani-dur-6-m { animation-duration: 10;  }
+
+  .ani-fil-non-m { animation-fill-mode: none; }
+  .ani-fil-frw-m { animation-fill-mode: forwards; }
+  .ani-fil-bck-m { animation-fill-mode: backwards; }
+  .ani-fil-bth-m { animation-fill-mode: both; }
+
+  .ani-cnt-1-m { animation-iteration-count: 1; }
+  .ani-cnt-2-m { animation-iteration-count: 2; }
+  .ani-cnt-3-m { animation-iteration-count: 5; }
+  .ani-cnt-4-m { animation-iteration-count: 10; }
+  .ani-cnt-5-m { animation-iteration-count: infinite; }
+
+  .ani-state-run-m { animation-play-state: running; }
+  .ani-state-pause-m { animation-play-state: paused; }
+
+  .ani-ease-m {      animation-timing-function: ease; }
+  .ani-easein-m {    animation-timing-function: ease-in; }
+  .ani-easeout-m {   animation-timing-function: ease-out; }
+  .ani-easeinout-m { animation-timing-function: ease-in-out; }
+  .ani-linear-m {    animation-timing-function: linear; }
+  .ani-bezier-m {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .ani-start-m {     animation-timing-function: step-start; }
+  .ani-stop-m {      animation-timing-function: step-stop; }
+
+  .ani-delay-1-m { animation-delay: .5s; }
+  .ani-delay-2-m { animation-delay: 1s; }
+  .ani-delay-3-m { animation-delay: 2s; }
+  .ani-delay-4-m { animation-delay: 4s; }
+  .ani-delay-5-m { animation-delay: 8s; }
+  .ani-delay-6-m { animation-delay: 16s; }
+
+}
+
+@include break(large) {
+  .ani-dir-norm-l {     animation-direction: normal; }
+  .ani-dir-rev-l {      animation-direction: reverse; }
+  .ani-dir-alt-l {      animation-direction: alternate; }
+  .ani-dir-alt-rev-l {  animation-direction: alternate-reverse; }
+
+  .ani-dur-1-l { animation-duration: .4s; }
+  .ani-dur-2-l { animation-duration: .5s; }
+  .ani-dur-3-l { animation-duration: .6s; }
+  .ani-dur-4-l { animation-duration: 1s;  }
+  .ani-dur-5-l { animation-duration: 1.5; }
+  .ani-dur-6-l { animation-duration: 10;  }
+
+  .ani-fil-non-l { animation-fill-mode: none; }
+  .ani-fil-frw-l { animation-fill-mode: forwards; }
+  .ani-fil-bck-l { animation-fill-mode: backwards; }
+  .ani-fil-bth-l { animation-fill-mode: both; }
+
+  .ani-cnt-1-l { animation-iteration-count: 1; }
+  .ani-cnt-2-l { animation-iteration-count: 2; }
+  .ani-cnt-3-l { animation-iteration-count: 5; }
+  .ani-cnt-4-l { animation-iteration-count: 10; }
+  .ani-cnt-5-l { animation-iteration-count: infinite; }
+
+  .ani-state-run-l { animation-play-state: running; }
+  .ani-state-pause-l { animation-play-state: paused; }
+
+  .ani-ease-l {      animation-timing-function: ease; }
+  .ani-easein-l {    animation-timing-function: ease-in; }
+  .ani-easeout-l {   animation-timing-function: ease-out; }
+  .ani-easeinout-l { animation-timing-function: ease-in-out; }
+  .ani-linear-l {    animation-timing-function: linear; }
+  .ani-bezier-l {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .ani-start-l {     animation-timing-function: step-start; }
+  .ani-stop-l {      animation-timing-function: step-stop; }
+
+  .ani-delay-1-l { animation-delay: .5s; }
+  .ani-delay-2-l { animation-delay: 1s; }
+  .ani-delay-3-l { animation-delay: 2s; }
+  .ani-delay-4-l { animation-delay: 4s; }
+  .ani-delay-5-l { animation-delay: 8s; }
+  .ani-delay-6-l { animation-delay: 16s; }
+
+}

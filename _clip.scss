@@ -7,3 +7,18 @@
 .clip-auto {  clip: auto; }
 .clip-i {     clip: inherit; }
 
+@include break(not-small) {
+  .clip-auto-ns {  clip: auto; }
+  .clip-i-ns {     clip: inherit; }
+}
+
+@include break(medium) {
+  .clip-auto-m {  clip: auto; }
+  .clip-i-m {     clip: inherit; }
+}
+
+@include break(large) {
+  .clip-auto-l {  clip: auto; }
+  .clip-i-l {     clip: inherit; }
+}
+
