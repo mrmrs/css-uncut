@@ -9,11 +9,12 @@ You'll feel like a super human with css in no time.
 
 ## Benefits
 
-Highly grockable
-Easy to read
-Faster design by just editing HTML
-High performing in browsers
-16kb total (minified and gzipped)
+* Highly grockable
+* Easy to read
+* Faster design by just editing HTML
+* High performing in browsers
+* Modular - Take what you want, leave the rest
+* 16kb total (minified and gzipped)
 
 # License
 
