@@ -33,3 +33,44 @@ More info: https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility
 .bf-vis { backface-visibility: visible; }
 .bf-hid { backface-visibility: hidden; }
 
+@include break(not-small) {
+  .vis-ns          { visibility: visible; }
+  .vis-hidden-ns   { visibility: hidden; }
+  .vis-collapse-ns { visibility: collapse; }
+  .clipped-ns {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  .bf-vis-ns { backface-visibility: visible; }
+  .bf-hid-ns { backface-visibility: hidden; }
+}
+
+@include break(medium) {
+  .vis-m          { visibility: visible; }
+  .vis-hidden-m   { visibility: hidden; }
+  .vis-collapse-m { visibility: collapse; }
+  .clipped-m {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  .bf-vis-m { backface-visibility: visible; }
+  .bf-hid-m { backface-visibility: hidden; }
+}
+
+@include break(large) {
+  .vis-l          { visibility: visible; }
+  .vis-hidden-l   { visibility: hidden; }
+  .vis-collapse-l { visibility: collapse; }
+  .clipped-l {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+  .bf-vis-l { backface-visibility: visible; }
+  .bf-hid-l { backface-visibility: hidden; }
+}

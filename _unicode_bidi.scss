@@ -11,3 +11,32 @@
 .ub-pt {            unicode-bidi: plaintext; }
 .ub-i {             unicode-bidi: inherit; }
 
+@include break(not-small) {
+  .ub-norm-ns {          unicode-bidi: normal; }
+  .ub-embed-ns {         unicode-bidi: embed; }
+  .ub-iso-ns {           unicode-bidi: isolate; }
+  .ub-bidi-override-ns { unicode-bidi: bidi-override; }
+  .ub-iso-override-ns {  unicode-bidi: isolate-override; }
+  .ub-pt-ns {            unicode-bidi: plaintext; }
+  .ub-i-ns {             unicode-bidi: inherit; }
+}
+
+@include break(medium) {
+  .ub-norm-m {          unicode-bidi: normal; }
+  .ub-embed-m {         unicode-bidi: embed; }
+  .ub-iso-m {           unicode-bidi: isolate; }
+  .ub-bidi-override-m { unicode-bidi: bidi-override; }
+  .ub-iso-override-m {  unicode-bidi: isolate-override; }
+  .ub-pt-m {            unicode-bidi: plaintext; }
+  .ub-i-m {             unicode-bidi: inherit; }
+}
+
+@include break(large) {
+  .ub-norm-l {          unicode-bidi: normal; }
+  .ub-embed-l {         unicode-bidi: embed; }
+  .ub-iso-l {           unicode-bidi: isolate; }
+  .ub-bidi-override-l { unicode-bidi: bidi-override; }
+  .ub-iso-override-l {  unicode-bidi: isolate-override; }
+  .ub-pt-l {            unicode-bidi: plaintext; }
+  .ub-i-l {             unicode-bidi: inherit; }
+}
