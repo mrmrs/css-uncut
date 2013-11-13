@@ -2,12 +2,12 @@
    ANIMATION TIMING FUNCTION
    ========================================================================== */
 
-.ani-ease {      animation-timing-function: ease; }
-.ani-easein {    animation-timing-function: ease-in; }
-.ani-easeout {   animation-timing-function: ease-out; }
-.ani-easeinout { animation-timing-function: ease-in-out; }
-.ani-linear {    animation-timing-function: linear; }
-.ani-bezier {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
-.ani-start {     animation-timing-function: step-start; }
-.ani-stop {      animation-timing-function: step-stop; }
+.a-ease {      animation-timing-function: ease; }
+.a-easein {    animation-timing-function: ease-in; }
+.a-easeout {   animation-timing-function: ease-out; }
+.a-easeinout { animation-timing-function: ease-in-out; }
+.a-linear {    animation-timing-function: linear; }
+.a-bezier {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+.a-start {     animation-timing-function: step-start; }
+.a-stop {      animation-timing-function: step-stop; }
 
