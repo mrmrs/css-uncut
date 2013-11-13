@@ -2,7 +2,6 @@
    UNICODE BIDI
    ========================================================================== */
 
-
 .ub-norm {          unicode-bidi: normal; }
 .ub-embed {         unicode-bidi: embed; }
 .ub-iso {           unicode-bidi: isolate; }
@@ -40,3 +39,4 @@
   .ub-pt-l {            unicode-bidi: plaintext; }
   .ub-i-l {             unicode-bidi: inherit; }
 }
+
