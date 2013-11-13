@@ -101,8 +101,6 @@
   .bb-avoid-page-m {    break-before: avoid-page; }
   .bb-avoid-column-m {  break-before: avoid-column; }
   .bb-avoid-region-m {  break-before: avoid-region; }
-
-
 }
 
 @include break(large) {
@@ -136,6 +134,5 @@
   .bb-avoid-page-l {    break-before: avoid-page; }
   .bb-avoid-column-l {  break-before: avoid-column; }
   .bb-avoid-region-l {  break-before: avoid-region; }
-
 }
 
