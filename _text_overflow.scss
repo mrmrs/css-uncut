@@ -2,40 +2,41 @@
    TEXT OVERFLOW
    ========================================================================== */
 
-.to-clip { text-overflow: clip; }
-.to-ellipsis { text-overflow: ellipsis; }
-.to-dots { text-overflow: "…"; }
+.t-clip { text-overflow: clip; }
+.t-ellipsis { text-overflow: ellipsis; }
+.t-dots { text-overflow: "…"; }
 
 /* Two-value syntax: the first value describes the overflow at the left end of the line,
                      the second at the right end. Directionality has no influence */
 
-.to-clip-ellipsis { text-overflow: clip ellipsis; }
-.to-double { text-overflow: "…" "…"; }
-.to-i { text-overflow: inherit; }
+.t-clip-ellipsis { text-overflow: clip ellipsis; }
+.t-double { text-overflow: "…" "…"; }
+.t-i { text-overflow: inherit; }
 
 @include break(not-small) {
-  .to-clip-ns { text-overflow: clip; }
-  .to-ellipsis-ns { text-overflow: ellipsis; }
-  .to-dots-ns { text-overflow: "…"; }
-  .to-clip-ellipsis-ns { text-overflow: clip ellipsis; }
-  .to-double-ns { text-overflow: "…" "…"; }
-  .to-i-ns { text-overflow: inherit; }
+  .t-clip-ns { text-overflow: clip; }
+  .t-ellipsis-ns { text-overflow: ellipsis; }
+  .t-dots-ns { text-overflow: "…"; }
+  .t-clip-ellipsis-ns { text-overflow: clip ellipsis; }
+  .t-double-ns { text-overflow: "…" "…"; }
+  .t-i-ns { text-overflow: inherit; }
 }
 
 @include break(medium) {
-  .to-clip-m { text-overflow: clip; }
-  .to-ellipsis-m { text-overflow: ellipsis; }
-  .to-dots-m { text-overflow: "…"; }
-  .to-clip-ellipsis-m { text-overflow: clip ellipsis; }
-  .to-double-m { text-overflow: "…" "…"; }
-  .to-i-m { text-overflow: inherit; }
+  .t-clip-m { text-overflow: clip; }
+  .t-ellipsis-m { text-overflow: ellipsis; }
+  .t-dots-m { text-overflow: "…"; }
+  .t-clip-ellipsis-m { text-overflow: clip ellipsis; }
+  .t-double-m { text-overflow: "…" "…"; }
+  .t-i-m { text-overflow: inherit; }
 }
 
 @include break(large) {
-  .to-clip-l { text-overflow: clip; }
-  .to-ellipsis-l { text-overflow: ellipsis; }
-  .to-dots-l { text-overflow: "…"; }
-  .to-clip-ellipsis-l { text-overflow: clip ellipsis; }
-  .to-double-l { text-overflow: "…" "…"; }
-  .to-i-l { text-overflow: inherit; }
+  .t-clip-l { text-overflow: clip; }
+  .t-ellipsis-l { text-overflow: ellipsis; }
+  .t-dots-l { text-overflow: "…"; }
+  .t-clip-ellipsis-l { text-overflow: clip ellipsis; }
+  .t-double-l { text-overflow: "…" "…"; }
+  .t-i-l { text-overflow: inherit; }
 }
+
