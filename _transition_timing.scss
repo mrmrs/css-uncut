@@ -1,0 +1,15 @@
+/* ==========================================================================
+   TRANSITIONS TIMING FUNCTIONS
+   ========================================================================== */
+
+.ttf-e { transition-timing-function: ease; }
+.ttf-ei { transition-timing-function: ease-in; }
+.ttf-eo { transition-timing-function: ease-out; }
+.ttf-eio { transition-timing-function: ease-in-out; }
+.ttf-lin { transition-timing-function: linear; }
+.ttf-cb { transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+.ttf-ss { transition-timing-function: step-start; }
+.ttf-se  { transition-timing-function: step-end; }
+.ttf-steps { transition-timing-function: steps(4, end); }
+.ttf-i { transition-timing-function: inherit; }
+
