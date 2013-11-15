@@ -1,0 +1,9 @@
+/* ==========================================================================
+   COUNTER RESET
+   ========================================================================== */
+
+.cr {       counter-reset: count; }
+.cr-minus { counter-reset: count -1; }
+.cr-none {  counter-reset: none; }
+.cr-i {     counter-reset: inherit; }
+

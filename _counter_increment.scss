@@ -1,0 +1,8 @@
+/* ==========================================================================
+   COUNTER INCREMENT
+   ========================================================================== */
+
+.ci-plus {  counter-increment: count; }
+.ci-minus { counter-increment: count -1; }
+.ci-none {  counter-increment: none; }
+.ci-i {     counter-increment: inherit; }
