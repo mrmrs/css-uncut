@@ -3,18 +3,17 @@
 WTF is this?
 
 First off, it's an experiment.
-It's the entire css language - put into single purpose classes at multiple breakpoints.
-It helps make designing in the browser super fun, fast and easy.
-You'll feel like a super human with css in no time.
+Second - it is an answer to a question I started asking myself after
+I noticed some websites serving up more than a megabyte of css.
 
-## Benefits
+"How big is the entire css language? I mean the ENTIRE thing. Is it bigger or smaller than 1MB?"
 
-* Highly grockable
-* Easy to read
-* Faster design by just editing HTML
-* High performing in browsers
-* Modular - Take what you want, leave the rest
-* 16kb total (minified and gzipped)
+So this is the entire css language - put into single purpose classes at multiple breakpoints.
+For properties that take integers as values instead of strings i.e margin and padding - I have
+created a 10 step scale. Which is more verbose than I need - but figured I'd air on the side
+of making this as big as possible. Turns out all of css * 4 isn't all that big.
+
+* 17kb total (minified and gzipped)
 
 # License
 
