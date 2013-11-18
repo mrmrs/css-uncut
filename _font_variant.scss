@@ -2,5 +2,8 @@
    FONT VARIANTS
    ========================================================================== */
 
+.fv-norm    { font-variant: normal; }
+.fv-sc,
 .small-caps { font-variant: small-caps; }
+.fv-i       { font-variant: inherit; }
 

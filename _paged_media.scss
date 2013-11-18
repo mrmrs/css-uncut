@@ -2,7 +2,6 @@
    PAGED MEDIA
    ========================================================================== */
 
-
 .page-ba-auto {   page-break-after: auto; }
 .page-ba-always { page-break-after: always; }
 .page-ba-avoid {  page-break-after: avoid; }
@@ -17,7 +16,7 @@
 .page-bb-r {      page-break-before: right; }
 .page-bb-i {      page-break-before: inherit; }
 
-.page-bi-auto { page-break-inside: auto; }
-.page-bi-avoid { page-break-inside: avoid; }
-.page-bi-i { page-break-inside: inherit; }
+.page-bi-auto {   page-break-inside: auto; }
+.page-bi-avoid {  page-break-inside: avoid; }
+.page-bi-i {      page-break-inside: inherit; }
 

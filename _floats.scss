@@ -3,24 +3,25 @@
    ========================================================================== */
 
 
-.fl { float: left; }
-.fr { float: right; }
+.fl { float: left;  display: inline; }
+.fr { float: right; display: inline; }
 .fn { float: none; }
 
 @include break(not-small) {
-  .fl-ns { float: left; }
-  .fr-ns { float: right; }
+  .fl-ns { float: left; display: inline; }
+  .fr-ns { float: right;display: inline; }
   .fn-ns { float: none; }
 }
 
 @include break(medium) {
-  .fl-m { float: left; }
-  .fr-m { float: right; }
+  .fl-m { float: left; display: inline; }
+  .fr-m { float: right;  display: inline; }
   .fn-m { float: none; }
 }
 
 @include break(large) {
-  .fl-l { float: left; }
-  .fr-l { float: right; }
+  .fl-l { float: left; display: inline; }
+  .fr-l { float: right;  display: inline; }
   .fn-l { float: none; }
 }
+
