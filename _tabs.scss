@@ -8,29 +8,23 @@
 .tabs-large   { tab-size: 8; }
 
 @include break(not-small) {
-
-.tabs-none    { tab-size: 0; }
-.tabs-2       { tab-size: 2; }
-.tabs-default { tab-size: 4; }
-.tabs-large   { tab-size: 8; }
-
+  .tabs-none-ns    { tab-size: 0; }
+  .tabs-2-ns       { tab-size: 2; }
+  .tabs-default-ns { tab-size: 4; }
+  .tabs-large-ns   { tab-size: 8; }
 }
 
 @include break(medium) {
-
-.tabs-none    { tab-size: 0; }
-.tabs-2       { tab-size: 2; }
-.tabs-default { tab-size: 4; }
-.tabs-large   { tab-size: 8; }
-
+  .tabs-none-m    { tab-size: 0; }
+  .tabs-2-m       { tab-size: 2; }
+  .tabs-default-m { tab-size: 4; }
+  .tabs-large-m   { tab-size: 8; }
 }
 
 @include break(large) {
-
-.tabs-none    { tab-size: 0; }
-.tabs-2       { tab-size: 2; }
-.tabs-default { tab-size: 4; }
-.tabs-large   { tab-size: 8; }
-
+  .tabs-none-l    { tab-size: 0; }
+  .tabs-2-l       { tab-size: 2; }
+  .tabs-default-l { tab-size: 4; }
+  .tabs-large-l   { tab-size: 8; }
 }
 

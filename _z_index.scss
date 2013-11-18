@@ -15,47 +15,44 @@
 .z-999  { z-index: 999; }
 
 @include break(not-small) {
-.z-1    { z-index: 1; }
-.z-100  { z-index: 100; }
-.z-200  { z-index: 200; }
-.z-300  { z-index: 300; }
-.z-400  { z-index: 400; }
-.z-500  { z-index: 500; }
-.z-600  { z-index: 600; }
-.z-700  { z-index: 700; }
-.z-800  { z-index: 800; }
-.z-900  { z-index: 900; }
-.z-999  { z-index: 999; }
-
+  .z-1-ns    { z-index: 1; }
+  .z-100-ns  { z-index: 100; }
+  .z-200-ns  { z-index: 200; }
+  .z-300-ns  { z-index: 300; }
+  .z-400-ns  { z-index: 400; }
+  .z-500-ns  { z-index: 500; }
+  .z-600-ns  { z-index: 600; }
+  .z-700-ns  { z-index: 700; }
+  .z-800-ns  { z-index: 800; }
+  .z-900-ns  { z-index: 900; }
+  .z-999-ns  { z-index: 999; }
 }
 
 @include break(medium) {
-.z-1    { z-index: 1; }
-.z-100  { z-index: 100; }
-.z-200  { z-index: 200; }
-.z-300  { z-index: 300; }
-.z-400  { z-index: 400; }
-.z-500  { z-index: 500; }
-.z-600  { z-index: 600; }
-.z-700  { z-index: 700; }
-.z-800  { z-index: 800; }
-.z-900  { z-index: 900; }
-.z-999  { z-index: 999; }
-
+  .z-1-m    { z-index: 1; }
+  .z-100-m  { z-index: 100; }
+  .z-200-m  { z-index: 200; }
+  .z-300-m  { z-index: 300; }
+  .z-400-m  { z-index: 400; }
+  .z-500-m  { z-index: 500; }
+  .z-600-m  { z-index: 600; }
+  .z-700-m  { z-index: 700; }
+  .z-800-m  { z-index: 800; }
+  .z-900-m  { z-index: 900; }
+  .z-999-m  { z-index: 999; }
 }
 
 @include break(large) {
-.z-1    { z-index: 1; }
-.z-100  { z-index: 100; }
-.z-200  { z-index: 200; }
-.z-300  { z-index: 300; }
-.z-400  { z-index: 400; }
-.z-500  { z-index: 500; }
-.z-600  { z-index: 600; }
-.z-700  { z-index: 700; }
-.z-800  { z-index: 800; }
-.z-900  { z-index: 900; }
-.z-999  { z-index: 999; }
-
+  .z-1-l    { z-index: 1; }
+  .z-100-l  { z-index: 100; }
+  .z-200-l  { z-index: 200; }
+  .z-300-l  { z-index: 300; }
+  .z-400-l  { z-index: 400; }
+  .z-500-l  { z-index: 500; }
+  .z-600-l  { z-index: 600; }
+  .z-700-l  { z-index: 700; }
+  .z-800-l  { z-index: 800; }
+  .z-900-l  { z-index: 900; }
+  .z-999-l  { z-index: 999; }
 }
 

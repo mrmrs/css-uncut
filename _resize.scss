@@ -8,14 +8,23 @@
 .resize-ver  { resize: vertical; }
 
 @include break(not-small) {
-
+  .resize-none-ns { resize: none; }
+  .resize-both-ns { resize: both; }
+  .resize-hor-ns  { resize: horizontal; }
+  .resize-ver-ns  { resize: vertical; }
 }
 
 @include break(medium) {
-
+  .resize-none-m { resize: none; }
+  .resize-both-m { resize: both; }
+  .resize-hor-m  { resize: horizontal; }
+  .resize-ver-m  { resize: vertical; }
 }
 
 @include break(large) {
-
+  .resize-none-l { resize: none; }
+  .resize-both-l { resize: both; }
+  .resize-hor-l  { resize: horizontal; }
+  .resize-ver-l  { resize: vertical; }
 }
 

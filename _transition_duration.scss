@@ -10,32 +10,29 @@
 .td-i { transition-duration: inherit; }
 
 @include break(not-small) {
-.td-1 { transition-duration: 120ms; }
-.td-2 { transition-duration: .3s; }
-.td-3 { transition-duration: .6s; }
-.td-4 { transition-duration: 1s; }
-.td-5 { transition-duration: 5s; }
-.td-i { transition-duration: inherit; }
-
+  .td-1-ns { transition-duration: 120ms; }
+  .td-2-ns { transition-duration: .3s; }
+  .td-3-ns { transition-duration: .6s; }
+  .td-4-ns { transition-duration: 1s; }
+  .td-5-ns { transition-duration: 5s; }
+  .td-i-ns { transition-duration: inherit; }
 }
 
 @include break(medium) {
-.td-1 { transition-duration: 120ms; }
-.td-2 { transition-duration: .3s; }
-.td-3 { transition-duration: .6s; }
-.td-4 { transition-duration: 1s; }
-.td-5 { transition-duration: 5s; }
-.td-i { transition-duration: inherit; }
-
+  .td-1-m { transition-duration: 120ms; }
+  .td-2-m { transition-duration: .3s; }
+  .td-3-m { transition-duration: .6s; }
+  .td-4-m { transition-duration: 1s; }
+  .td-5-m { transition-duration: 5s; }
+  .td-i-m { transition-duration: inherit; }
 }
 
 @include break(large) {
-.td-1 { transition-duration: 120ms; }
-.td-2 { transition-duration: .3s; }
-.td-3 { transition-duration: .6s; }
-.td-4 { transition-duration: 1s; }
-.td-5 { transition-duration: 5s; }
-.td-i { transition-duration: inherit; }
-
+  .td-1-l { transition-duration: 120ms; }
+  .td-2-l { transition-duration: .3s; }
+  .td-3-l { transition-duration: .6s; }
+  .td-4-l { transition-duration: 1s; }
+  .td-5-l { transition-duration: 5s; }
+  .td-i-l { transition-duration: inherit; }
 }
 

@@ -21,3 +21,45 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+@include break(not-small) {
+  .vis-ns          { visibility: visible; }
+  .vis-hidden-ns   { visibility: hidden; }
+  .vis-collapse-ns { visibility: collapse; }
+  .vis-bf-vis-ns {   backface-visibility: visible; }
+  .vis-bf-hid-ns {   backface-visibility: hidden; }
+  .clipped-ns {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@include break(medium) {
+  .vis-m          { visibility: visible; }
+  .vis-hidden-m   { visibility: hidden; }
+  .vis-collapse-m { visibility: collapse; }
+  .vis-bf-vis-m { backface-visibility: visible; }
+  .vis-bf-hid-m { backface-visibility: hidden; }
+  .clipped-m {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
+@include break(large) {
+  .vis-l          { visibility: visible; }
+  .vis-hidden-l   { visibility: hidden; }
+  .vis-collapse-l { visibility: collapse; }
+  .vis-bf-vis-l { backface-visibility: visible; }
+  .vis-bf-hid-l { backface-visibility: hidden; }
+  .clipped-l {
+    position: fixed !important;
+    _position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+  }
+}
+
