@@ -9,3 +9,30 @@
 .a-delay-5 { animation-delay: 8s; }
 .a-delay-6 { animation-delay: 16s; }
 
+@include break(not-small) {
+  .a-delay-1-ns { animation-delay: .5s; }
+  .a-delay-2-ns { animation-delay: 1s; }
+  .a-delay-3-ns { animation-delay: 2s; }
+  .a-delay-4-ns { animation-delay: 4s; }
+  .a-delay-5-ns { animation-delay: 8s; }
+  .a-delay-6-ns { animation-delay: 16s; }
+}
+
+@include break(medium) {
+  .a-delay-1-m { animation-delay: .5s; }
+  .a-delay-2-m { animation-delay: 1s; }
+  .a-delay-3-m { animation-delay: 2s; }
+  .a-delay-4-m { animation-delay: 4s; }
+  .a-delay-5-m { animation-delay: 8s; }
+  .a-delay-6-m { animation-delay: 16s; }
+}
+
+@include break(large) {
+  .a-delay-1-l { animation-delay: .5s; }
+  .a-delay-2-l { animation-delay: 1s; }
+  .a-delay-3-l { animation-delay: 2s; }
+  .a-delay-4-l { animation-delay: 4s; }
+  .a-delay-5-l { animation-delay: 8s; }
+  .a-delay-6-l { animation-delay: 16s; }
+}
+
