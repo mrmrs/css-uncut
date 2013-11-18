@@ -7,23 +7,20 @@
 .mega-tracked  { letter-spacing:  .2em; }
 
 @include break(not-small) {
-.tracked       { letter-spacing:  .1em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .2em; }
-
+  .tracked-ns       { letter-spacing:  .1em; }
+  .tracked-tight-ns { letter-spacing: -.1em; }
+  .mega-tracked-ns  { letter-spacing:  .2em; }
 }
 
 @include break(medium) {
-.tracked       { letter-spacing:  .1em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .2em; }
-
+  .tracked-m       { letter-spacing:  .1em; }
+  .tracked-tight-m { letter-spacing: -.1em; }
+  .mega-tracked-m  { letter-spacing:  .2em; }
 }
 
 @include break(large) {
-.tracked       { letter-spacing:  .1em; }
-.tracked-tight { letter-spacing: -.1em; }
-.mega-tracked  { letter-spacing:  .2em; }
-
+  .tracked-l       { letter-spacing:  .1em; }
+  .tracked-tight-l { letter-spacing: -.1em; }
+  .mega-tracked-l  { letter-spacing:  .2em; }
 }
 

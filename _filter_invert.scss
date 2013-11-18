@@ -9,29 +9,28 @@
 .invert-5 { filter: invert(100%); }
 
 @include break(not-small) {
-.invert-1 { filter: invert(20%); }
-.invert-2 { filter: invert(40%); }
-.invert-3 { filter: invert(60%); }
-.invert-4 { filter: invert(80%); }
-.invert-5 { filter: invert(100%); }
+  .invert-1-ns { filter: invert(20%); }
+  .invert-2-ns { filter: invert(40%); }
+  .invert-3-ns { filter: invert(60%); }
+  .invert-4-ns { filter: invert(80%); }
+  .invert-5-ns { filter: invert(100%); }
 
 }
 
 @include break(medium) {
-.invert-1 { filter: invert(20%); }
-.invert-2 { filter: invert(40%); }
-.invert-3 { filter: invert(60%); }
-.invert-4 { filter: invert(80%); }
-.invert-5 { filter: invert(100%); }
+  .invert-1-m { filter: invert(20%); }
+  .invert-2-m { filter: invert(40%); }
+  .invert-3-m { filter: invert(60%); }
+  .invert-4-m { filter: invert(80%); }
+  .invert-5-m { filter: invert(100%); }
 
 }
 
 @include break(large) {
-.invert-1 { filter: invert(20%); }
-.invert-2 { filter: invert(40%); }
-.invert-3 { filter: invert(60%); }
-.invert-4 { filter: invert(80%); }
-.invert-5 { filter: invert(100%); }
-
+  .invert-1-l { filter: invert(20%); }
+  .invert-2-l { filter: invert(40%); }
+  .invert-3-l { filter: invert(60%); }
+  .invert-4-l { filter: invert(80%); }
+  .invert-5-l { filter: invert(100%); }
 }
 

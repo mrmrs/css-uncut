@@ -12,3 +12,15 @@
 .sq8 { width: 64rem; height: 64rem; }
 .sq9 { width: 96rem; height: 96rem; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

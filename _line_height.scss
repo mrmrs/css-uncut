@@ -9,29 +9,26 @@
 .lh-3     { line-height: 3; }
 
 @include break(not-small) {
-.lh       { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.5; }
-.lh-2     { line-height: 2; }
-.lh-3     { line-height: 3; }
-
+  .lh-ns       { line-height: 1; }
+  .lh-title-ns { line-height: 1.3; }
+  .lh-copy-ns  { line-height: 1.5; }
+  .lh-2-ns     { line-height: 2; }
+  .lh-3-ns     { line-height: 3; }
 }
 
 @include break(medium) {
-.lh       { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.5; }
-.lh-2     { line-height: 2; }
-.lh-3     { line-height: 3; }
-
+  .lh-m       { line-height: 1; }
+  .lh-title-m { line-height: 1.3; }
+  .lh-copy-m  { line-height: 1.5; }
+  .lh-2-m     { line-height: 2; }
+  .lh-3-m     { line-height: 3; }
 }
 
 @include break(large) {
-.lh       { line-height: 1; }
-.lh-title { line-height: 1.3; }
-.lh-copy  { line-height: 1.5; }
-.lh-2     { line-height: 2; }
-.lh-3     { line-height: 3; }
-
+  .lh-l       { line-height: 1; }
+  .lh-title-l { line-height: 1.3; }
+  .lh-copy-l  { line-height: 1.5; }
+  .lh-2-l     { line-height: 2; }
+  .lh-3-l     { line-height: 3; }
 }
 

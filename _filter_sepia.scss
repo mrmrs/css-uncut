@@ -11,35 +11,32 @@
 .sepia-6 { filter: sepia(150%); }
 
 @include break(not-small) {
-.sepia-0 { filter: sepia(0); }
-.sepia-1 { filter: sepia(25%); }
-.sepia-2 { filter: sepia(50%); }
-.sepia-3 { filter: sepia(75%); }
-.sepia-4 { filter: sepia(100%); }
-.sepia-5 { filter: sepia(125%); }
-.sepia-6 { filter: sepia(150%); }
-
+.sepia-0-ns { filter: sepia(0); }
+.sepia-1-ns { filter: sepia(25%); }
+.sepia-2-ns { filter: sepia(50%); }
+.sepia-3-ns { filter: sepia(75%); }
+.sepia-4-ns { filter: sepia(100%); }
+.sepia-5-ns { filter: sepia(125%); }
+.sepia-6-ns { filter: sepia(150%); }
 }
 
 @include break(medium) {
-.sepia-0 { filter: sepia(0); }
-.sepia-1 { filter: sepia(25%); }
-.sepia-2 { filter: sepia(50%); }
-.sepia-3 { filter: sepia(75%); }
-.sepia-4 { filter: sepia(100%); }
-.sepia-5 { filter: sepia(125%); }
-.sepia-6 { filter: sepia(150%); }
-
+  .sepia-0-m { filter: sepia(0); }
+  .sepia-1-m { filter: sepia(25%); }
+  .sepia-2-m { filter: sepia(50%); }
+  .sepia-3-m { filter: sepia(75%); }
+  .sepia-4-m { filter: sepia(100%); }
+  .sepia-5-m { filter: sepia(125%); }
+  .sepia-6-m { filter: sepia(150%); }
 }
 
 @include break(large) {
-.sepia-0 { filter: sepia(0); }
-.sepia-1 { filter: sepia(25%); }
-.sepia-2 { filter: sepia(50%); }
-.sepia-3 { filter: sepia(75%); }
-.sepia-4 { filter: sepia(100%); }
-.sepia-5 { filter: sepia(125%); }
-.sepia-6 { filter: sepia(150%); }
-
+  .sepia-0-l { filter: sepia(0); }
+  .sepia-1-l { filter: sepia(25%); }
+  .sepia-2-l { filter: sepia(50%); }
+  .sepia-3-l { filter: sepia(75%); }
+  .sepia-4-l { filter: sepia(100%); }
+  .sepia-5-l { filter: sepia(125%); }
+  .sepia-6-l { filter: sepia(150%); }
 }
 

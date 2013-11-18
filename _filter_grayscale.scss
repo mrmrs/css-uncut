@@ -15,44 +15,42 @@
 
 
 @include break(not-small) {
-.gray-1  { filter: grayscale(10%); }
-.gray-2  { filter: grayscale(20%); }
-.gray-3  { filter: grayscale(30%); }
-.gray-4  { filter: grayscale(40%); }
-.gray-5  { filter: grayscale(50%); }
-.gray-6  { filter: grayscale(60%); }
-.gray-7  { filter: grayscale(70%); }
-.gray-8  { filter: grayscale(80%); }
-.gray-9  { filter: grayscale(90%); }
-.gray-10 { filter: grayscale(100%); }
-
+  .gray-1-ns  { filter: grayscale(10%); }
+  .gray-2-ns  { filter: grayscale(20%); }
+  .gray-3-ns  { filter: grayscale(30%); }
+  .gray-4-ns  { filter: grayscale(40%); }
+  .gray-5-ns  { filter: grayscale(50%); }
+  .gray-6-ns  { filter: grayscale(60%); }
+  .gray-7-ns  { filter: grayscale(70%); }
+  .gray-8-ns  { filter: grayscale(80%); }
+  .gray-9-ns  { filter: grayscale(90%); }
+  .gray-10-ns { filter: grayscale(100%); }
 }
 
 @include break(medium) {
-.gray-1  { filter: grayscale(10%); }
-.gray-2  { filter: grayscale(20%); }
-.gray-3  { filter: grayscale(30%); }
-.gray-4  { filter: grayscale(40%); }
-.gray-5  { filter: grayscale(50%); }
-.gray-6  { filter: grayscale(60%); }
-.gray-7  { filter: grayscale(70%); }
-.gray-8  { filter: grayscale(80%); }
-.gray-9  { filter: grayscale(90%); }
-.gray-10 { filter: grayscale(100%); }
+  .gray-1-m  { filter: grayscale(10%); }
+  .gray-2-m  { filter: grayscale(20%); }
+  .gray-3-m  { filter: grayscale(30%); }
+  .gray-4-m  { filter: grayscale(40%); }
+  .gray-5-m  { filter: grayscale(50%); }
+  .gray-6-m  { filter: grayscale(60%); }
+  .gray-7-m  { filter: grayscale(70%); }
+  .gray-8-m  { filter: grayscale(80%); }
+  .gray-9-m  { filter: grayscale(90%); }
+  .gray-10-m { filter: grayscale(100%); }
 
 }
 
 @include break(large) {
-.gray-1  { filter: grayscale(10%); }
-.gray-2  { filter: grayscale(20%); }
-.gray-3  { filter: grayscale(30%); }
-.gray-4  { filter: grayscale(40%); }
-.gray-5  { filter: grayscale(50%); }
-.gray-6  { filter: grayscale(60%); }
-.gray-7  { filter: grayscale(70%); }
-.gray-8  { filter: grayscale(80%); }
-.gray-9  { filter: grayscale(90%); }
-.gray-10 { filter: grayscale(100%); }
-
+  .gray-1-l  { filter: grayscale(10%); }
+  .gray-2-l  { filter: grayscale(20%); }
+  .gray-3-l  { filter: grayscale(30%); }
+  .gray-4-l  { filter: grayscale(40%); }
+  .gray-5-l  { filter: grayscale(50%); }
+  .gray-6-l  { filter: grayscale(60%); }
+  .gray-7-l  { filter: grayscale(70%); }
+  .gray-8-l  { filter: grayscale(80%); }
+  .gray-9-l  { filter: grayscale(90%); }
+  .gray-10-l { filter: grayscale(100%); }
 }
 

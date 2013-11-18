@@ -25,14 +25,77 @@
 .mx-wi-fill { max-width: fill-available; }
 
 @include break(not-small) {
+.mx-wi-100  { max-width: 100%; }
+.mx-wi-75   { max-width: 75%; }
+.mx-wi-50   { max-width: 50%; }
+.mx-wi-25   { max-width: 25%; }
+
+.mx-wi1  {  max-width: 1rem; }
+.mx-wi2  {  max-width: 2rem; }
+.mx-wi3  {  max-width: 4rem; }
+.mx-wi4  {  max-width: 8rem; }
+.mx-wi5  {  max-width: 16rem; }
+.mx-wi6  {  max-width: 32rem; }
+.mx-wi7  {  max-width: 48rem; }
+.mx-wi8  {  max-width: 64rem; }
+.mx-wi9  {  max-width: 96rem; }
+.mx-wi10 {  max-width: 128rem; }
+
+.mx-wi-none { max-width: none; }
+.mx-wi-max  { max-width: max-content; }
+.mx-wi-min  { max-width: min-content; }
+.mx-wi-fit  { max-width: fit-content; }
+.mx-wi-fill { max-width: fill-available; }
 
 }
 
 @include break(medium) {
+.mx-wi-100  { max-width: 100%; }
+.mx-wi-75   { max-width: 75%; }
+.mx-wi-50   { max-width: 50%; }
+.mx-wi-25   { max-width: 25%; }
+
+.mx-wi1  {  max-width: 1rem; }
+.mx-wi2  {  max-width: 2rem; }
+.mx-wi3  {  max-width: 4rem; }
+.mx-wi4  {  max-width: 8rem; }
+.mx-wi5  {  max-width: 16rem; }
+.mx-wi6  {  max-width: 32rem; }
+.mx-wi7  {  max-width: 48rem; }
+.mx-wi8  {  max-width: 64rem; }
+.mx-wi9  {  max-width: 96rem; }
+.mx-wi10 {  max-width: 128rem; }
+
+.mx-wi-none { max-width: none; }
+.mx-wi-max  { max-width: max-content; }
+.mx-wi-min  { max-width: min-content; }
+.mx-wi-fit  { max-width: fit-content; }
+.mx-wi-fill { max-width: fill-available; }
 
 }
 
 @include break(large) {
+.mx-wi-100  { max-width: 100%; }
+.mx-wi-75   { max-width: 75%; }
+.mx-wi-50   { max-width: 50%; }
+.mx-wi-25   { max-width: 25%; }
+
+.mx-wi1  {  max-width: 1rem; }
+.mx-wi2  {  max-width: 2rem; }
+.mx-wi3  {  max-width: 4rem; }
+.mx-wi4  {  max-width: 8rem; }
+.mx-wi5  {  max-width: 16rem; }
+.mx-wi6  {  max-width: 32rem; }
+.mx-wi7  {  max-width: 48rem; }
+.mx-wi8  {  max-width: 64rem; }
+.mx-wi9  {  max-width: 96rem; }
+.mx-wi10 {  max-width: 128rem; }
+
+.mx-wi-none { max-width: none; }
+.mx-wi-max  { max-width: max-content; }
+.mx-wi-min  { max-width: min-content; }
+.mx-wi-fit  { max-width: fit-content; }
+.mx-wi-fill { max-width: fill-available; }
 
 }
 

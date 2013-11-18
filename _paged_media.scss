@@ -20,15 +20,3 @@
 .page-bi-avoid {  page-break-inside: avoid; }
 .page-bi-i {      page-break-inside: inherit; }
 
-@include break(not-small) {
-
-}
-
-@include break(medium) {
-
-}
-
-@include break(large) {
-
-}
-

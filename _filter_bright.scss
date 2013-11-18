@@ -9,30 +9,27 @@
 .bright-5 { filter: brightness(2); }
 
 @include break(not-small) {
-.blur-1 { filter: blur(1px); }
-.blur-2 { filter: blur(.125rem); }
-.blur-3 { filter: blur(.25rem); }
-.blur-4 { filter: blur(.5rem); }
-.blur-5 { filter: blur(1rem); }
-
+  .blur-1-ns { filter: blur(1px); }
+  .blur-2-ns { filter: blur(.125rem); }
+  .blur-3-ns { filter: blur(.25rem); }
+  .blur-4-ns { filter: blur(.5rem); }
+  .blur-5-ns { filter: blur(1rem); }
 }
 
 @include break(medium) {
-.blur-1 { filter: blur(1px); }
-.blur-2 { filter: blur(.125rem); }
-.blur-3 { filter: blur(.25rem); }
-.blur-4 { filter: blur(.5rem); }
-.blur-5 { filter: blur(1rem); }
-
+  .blur-1-m { filter: blur(1px); }
+  .blur-2-m { filter: blur(.125rem); }
+  .blur-3-m { filter: blur(.25rem); }
+  .blur-4-m { filter: blur(.5rem); }
+  .blur-5-m { filter: blur(1rem); }
 }
 
 @include break(large) {
-.blur-1 { filter: blur(1px); }
-.blur-2 { filter: blur(.125rem); }
-.blur-3 { filter: blur(.25rem); }
-.blur-4 { filter: blur(.5rem); }
-.blur-5 { filter: blur(1rem); }
-
+  .blur-1-l { filter: blur(1px); }
+  .blur-2-l { filter: blur(.125rem); }
+  .blur-3-l { filter: blur(.25rem); }
+  .blur-4-l { filter: blur(.5rem); }
+  .blur-5-l { filter: blur(1rem); }
 }
 
 
