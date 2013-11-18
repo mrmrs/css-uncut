@@ -15,47 +15,44 @@
 .crs-i {      column-rule-style: inherit; }
 
 @include break(not-small) {
-.crs-n {      column-rule-style: none; }
-.crs-hid {    column-rule-style: hidden; }
-.crs-dot {    column-rule-style: dotted; }
-.crs-dash {   column-rule-style: dashed; }
-.crs-solid {  column-rule-style: solid; }
-.crs-double { column-rule-style: double; }
-.crs-groove { column-rule-style: groove; }
-.crs-ridge {  column-rule-style: ridge; }
-.crs-inset {  column-rule-style: inset; }
-.crs-outset { column-rule-style: outset; }
-.crs-i {      column-rule-style: inherit; }
-
+  .crs-n-ns {      column-rule-style: none; }
+  .crs-hid-ns {    column-rule-style: hidden; }
+  .crs-dot-ns {    column-rule-style: dotted; }
+  .crs-dash-ns {   column-rule-style: dashed; }
+  .crs-solid-ns {  column-rule-style: solid; }
+  .crs-double-ns { column-rule-style: double; }
+  .crs-groove-ns { column-rule-style: groove; }
+  .crs-ridge-ns {  column-rule-style: ridge; }
+  .crs-inset-ns {  column-rule-style: inset; }
+  .crs-outset-ns { column-rule-style: outset; }
+  .crs-i-ns {      column-rule-style: inherit; }
 }
 
 @include break(medium) {
-.crs-n {      column-rule-style: none; }
-.crs-hid {    column-rule-style: hidden; }
-.crs-dot {    column-rule-style: dotted; }
-.crs-dash {   column-rule-style: dashed; }
-.crs-solid {  column-rule-style: solid; }
-.crs-double { column-rule-style: double; }
-.crs-groove { column-rule-style: groove; }
-.crs-ridge {  column-rule-style: ridge; }
-.crs-inset {  column-rule-style: inset; }
-.crs-outset { column-rule-style: outset; }
-.crs-i {      column-rule-style: inherit; }
-
+  .crs-n-m {      column-rule-style: none; }
+  .crs-hid-m {    column-rule-style: hidden; }
+  .crs-dot-m {    column-rule-style: dotted; }
+  .crs-dash-m {   column-rule-style: dashed; }
+  .crs-solid-m {  column-rule-style: solid; }
+  .crs-double-m { column-rule-style: double; }
+  .crs-groove-m { column-rule-style: groove; }
+  .crs-ridge-m {  column-rule-style: ridge; }
+  .crs-inset-m {  column-rule-style: inset; }
+  .crs-outset-m { column-rule-style: outset; }
+  .crs-i-m {      column-rule-style: inherit; }
 }
 
 @include break(large) {
-.crs-n {      column-rule-style: none; }
-.crs-hid {    column-rule-style: hidden; }
-.crs-dot {    column-rule-style: dotted; }
-.crs-dash {   column-rule-style: dashed; }
-.crs-solid {  column-rule-style: solid; }
-.crs-double { column-rule-style: double; }
-.crs-groove { column-rule-style: groove; }
-.crs-ridge {  column-rule-style: ridge; }
-.crs-inset {  column-rule-style: inset; }
-.crs-outset { column-rule-style: outset; }
-.crs-i {      column-rule-style: inherit; }
-
+  .crs-n-l {      column-rule-style: none; }
+  .crs-hid-l {    column-rule-style: hidden; }
+  .crs-dot-l {    column-rule-style: dotted; }
+  .crs-dash-l {   column-rule-style: dashed; }
+  .crs-solid-l {  column-rule-style: solid; }
+  .crs-double-l { column-rule-style: double; }
+  .crs-groove-l { column-rule-style: groove; }
+  .crs-ridge-l {  column-rule-style: ridge; }
+  .crs-inset-l {  column-rule-style: inset; }
+  .crs-outset-l { column-rule-style: outset; }
+  .crs-i-l {      column-rule-style: inherit; }
 }
 

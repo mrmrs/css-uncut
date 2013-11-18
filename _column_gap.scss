@@ -9,29 +9,27 @@
 .cg-i { column-gap: inherit; }
 
 @include break(not-small) {
-.cg-1 { column-gap: 1rem; }
-.cg-2 { column-gap: 2rem; }
-.cg-3 { column-gap: 4rem; }
-.cg-n { column-gap: normal; }
-.cg-i { column-gap: inherit; }
+  .cg-1-ns { column-gap: 1rem; }
+  .cg-2-ns { column-gap: 2rem; }
+  .cg-3-ns { column-gap: 4rem; }
+  .cg-n-ns { column-gap: normal; }
+  .cg-i-ns { column-gap: inherit; }
 
 }
 
 @include break(medium) {
-.cg-1 { column-gap: 1rem; }
-.cg-2 { column-gap: 2rem; }
-.cg-3 { column-gap: 4rem; }
-.cg-n { column-gap: normal; }
-.cg-i { column-gap: inherit; }
-
+  .cg-1-m { column-gap: 1rem; }
+  .cg-2-m { column-gap: 2rem; }
+  .cg-3-m { column-gap: 4rem; }
+  .cg-n-m { column-gap: normal; }
+  .cg-i-m { column-gap: inherit; }
 }
 
 @include break(large) {
-.cg-1 { column-gap: 1rem; }
-.cg-2 { column-gap: 2rem; }
-.cg-3 { column-gap: 4rem; }
-.cg-n { column-gap: normal; }
-.cg-i { column-gap: inherit; }
-
+  .cg-1-l { column-gap: 1rem; }
+  .cg-2-l { column-gap: 2rem; }
+  .cg-3-l { column-gap: 4rem; }
+  .cg-n-l { column-gap: normal; }
+  .cg-i-l { column-gap: inherit; }
 }
 

@@ -7,23 +7,21 @@
 .crc-i {            column-rule-color: inherit; }
 
 @include break(not-small) {
-.crc-drkgry {       column-rule-color: $dark-gray; }
-.crc-transparent {  column-rule-color: transparent; }
-.crc-i {            column-rule-color: inherit; }
-
+  .crc-drkgry-ns {       column-rule-color: $dark-gray; }
+  .crc-transparent-ns {  column-rule-color: transparent; }
+  .crc-i-ns {            column-rule-color: inherit; }
 }
 
 @include break(medium) {
-.crc-drkgry {       column-rule-color: $dark-gray; }
-.crc-transparent {  column-rule-color: transparent; }
-.crc-i {            column-rule-color: inherit; }
+  .crc-drkgry-m {       column-rule-color: $dark-gray; }
+  .crc-transparent-m {  column-rule-color: transparent; }
+  .crc-i-m {            column-rule-color: inherit; }
 
 }
 
 @include break(large) {
-.crc-drkgry {       column-rule-color: $dark-gray; }
-.crc-transparent {  column-rule-color: transparent; }
-.crc-i {            column-rule-color: inherit; }
-
+  .crc-drkgry-l {       column-rule-color: $dark-gray; }
+  .crc-transparent-l {  column-rule-color: transparent; }
+  .crc-i-l {            column-rule-color: inherit; }
 }
 

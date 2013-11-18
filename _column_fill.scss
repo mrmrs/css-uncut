@@ -7,23 +7,20 @@
 .cf-i       { column-fill: inherit; }
 
 @include break(not-small) {
-.cf-auto    { column-fill: auto; }
-.cf-balance { column-fill: balance; }
-.cf-i       { column-fill: inherit; }
-
+  .cf-auto-ns    { column-fill: auto; }
+  .cf-balance-ns { column-fill: balance; }
+  .cf-i-ns       { column-fill: inherit; }
 }
 
 @include break(medium) {
-.cf-auto    { column-fill: auto; }
-.cf-balance { column-fill: balance; }
-.cf-i       { column-fill: inherit; }
-
+  .cf-auto-m    { column-fill: auto; }
+  .cf-balance-m { column-fill: balance; }
+  .cf-i-m       { column-fill: inherit; }
 }
 
 @include break(large) {
-.cf-auto    { column-fill: auto; }
-.cf-balance { column-fill: balance; }
-.cf-i       { column-fill: inherit; }
-
+  .cf-auto-l    { column-fill: auto; }
+  .cf-balance-l { column-fill: balance; }
+  .cf-i-l       { column-fill: inherit; }
 }
 

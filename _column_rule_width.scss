@@ -17,53 +17,44 @@
 .crw-i {      column-rule-width: inherit; }
 
 @include break(not-small) {
-.crw-thin {   column-rule-width: thin; }
-.crw-med {    column-rule-width: medium; }
-.crw-thick {  column-rule-width: thick; }
-
-.crw-1 {      column-rule-width: 1px; }
-.crw-2 {      column-rule-width: 2px; }
-.crw-3 {      column-rule-width: 3px; }
-.crw-4 {      column-rule-width: 4px; }
-.crw-5 {      column-rule-width: 5px; }
-.crw-10 {     column-rule-width: 10px; }
-.crw-20 {     column-rule-width: 20px; }
-
-.crw-i {      column-rule-width: inherit; }
-
+  .crw-thin-ns {   column-rule-width: thin; }
+  .crw-med-ns {    column-rule-width: medium; }
+  .crw-thick-ns {  column-rule-width: thick; }
+  .crw-1-ns {      column-rule-width: 1px; }
+  .crw-2-ns {      column-rule-width: 2px; }
+  .crw-3-ns {      column-rule-width: 3px; }
+  .crw-4-ns {      column-rule-width: 4px; }
+  .crw-5-ns {      column-rule-width: 5px; }
+  .crw-10-ns {     column-rule-width: 10px; }
+  .crw-20-ns {     column-rule-width: 20px; }
+  .crw-i-ns {      column-rule-width: inherit; }
 }
 
 @include break(medium) {
-.crw-thin {   column-rule-width: thin; }
-.crw-med {    column-rule-width: medium; }
-.crw-thick {  column-rule-width: thick; }
-
-.crw-1 {      column-rule-width: 1px; }
-.crw-2 {      column-rule-width: 2px; }
-.crw-3 {      column-rule-width: 3px; }
-.crw-4 {      column-rule-width: 4px; }
-.crw-5 {      column-rule-width: 5px; }
-.crw-10 {     column-rule-width: 10px; }
-.crw-20 {     column-rule-width: 20px; }
-
-.crw-i {      column-rule-width: inherit; }
-
+  .crw-thin-m {   column-rule-width: thin; }
+  .crw-med-m {    column-rule-width: medium; }
+  .crw-thick-m {  column-rule-width: thick; }
+  .crw-1-m {      column-rule-width: 1px; }
+  .crw-2-m {      column-rule-width: 2px; }
+  .crw-3-m {      column-rule-width: 3px; }
+  .crw-4-m {      column-rule-width: 4px; }
+  .crw-5-m {      column-rule-width: 5px; }
+  .crw-10-m {     column-rule-width: 10px; }
+  .crw-20-m {     column-rule-width: 20px; }
+  .crw-i-m {      column-rule-width: inherit; }
 }
 
 @include break(large) {
-.crw-thin {   column-rule-width: thin; }
-.crw-med {    column-rule-width: medium; }
-.crw-thick {  column-rule-width: thick; }
-
-.crw-1 {      column-rule-width: 1px; }
-.crw-2 {      column-rule-width: 2px; }
-.crw-3 {      column-rule-width: 3px; }
-.crw-4 {      column-rule-width: 4px; }
-.crw-5 {      column-rule-width: 5px; }
-.crw-10 {     column-rule-width: 10px; }
-.crw-20 {     column-rule-width: 20px; }
-
-.crw-i {      column-rule-width: inherit; }
-
+  .crw-thin-l {   column-rule-width: thin; }
+  .crw-med-l {    column-rule-width: medium; }
+  .crw-thick-l {  column-rule-width: thick; }
+  .crw-1-l {      column-rule-width: 1px; }
+  .crw-2-l {      column-rule-width: 2px; }
+  .crw-3-l {      column-rule-width: 3px; }
+  .crw-4-l {      column-rule-width: 4px; }
+  .crw-5-l {      column-rule-width: 5px; }
+  .crw-10-l {     column-rule-width: 10px; }
+  .crw-20-l {     column-rule-width: 20px; }
+  .crw-i-l {      column-rule-width: inherit; }
 }
 
