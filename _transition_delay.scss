@@ -13,3 +13,45 @@
 
 .tdl-i { transition-delay: initial; }
 
+@include break(not-small) {
+.tdl0 { transition-delay: 0; }
+.tdl1 { transition-delay: 1s; }
+.tdl2 { transition-delay: 2s; }
+.tdl3 { transition-delay: 3s; }
+.tdl4 { transition-delay: 4s; }
+.tdl5 { transition-delay: 8s; }
+.tdl6 { transition-delay: 16s; }
+.tdl7 { transition-delay: 32s; }
+
+.tdl-i { transition-delay: initial; }
+
+}
+
+@include break(medium) {
+.tdl0 { transition-delay: 0; }
+.tdl1 { transition-delay: 1s; }
+.tdl2 { transition-delay: 2s; }
+.tdl3 { transition-delay: 3s; }
+.tdl4 { transition-delay: 4s; }
+.tdl5 { transition-delay: 8s; }
+.tdl6 { transition-delay: 16s; }
+.tdl7 { transition-delay: 32s; }
+
+.tdl-i { transition-delay: initial; }
+
+}
+
+@include break(large) {
+.tdl0 { transition-delay: 0; }
+.tdl1 { transition-delay: 1s; }
+.tdl2 { transition-delay: 2s; }
+.tdl3 { transition-delay: 3s; }
+.tdl4 { transition-delay: 4s; }
+.tdl5 { transition-delay: 8s; }
+.tdl6 { transition-delay: 16s; }
+.tdl7 { transition-delay: 32s; }
+
+.tdl-i { transition-delay: initial; }
+
+}
+

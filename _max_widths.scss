@@ -24,3 +24,15 @@
 .mx-wi-fit  { max-width: fit-content; }
 .mx-wi-fill { max-width: fill-available; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

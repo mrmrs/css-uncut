@@ -6,3 +6,24 @@
 .cf-balance { column-fill: balance; }
 .cf-i       { column-fill: inherit; }
 
+@include break(not-small) {
+.cf-auto    { column-fill: auto; }
+.cf-balance { column-fill: balance; }
+.cf-i       { column-fill: inherit; }
+
+}
+
+@include break(medium) {
+.cf-auto    { column-fill: auto; }
+.cf-balance { column-fill: balance; }
+.cf-i       { column-fill: inherit; }
+
+}
+
+@include break(large) {
+.cf-auto    { column-fill: auto; }
+.cf-balance { column-fill: balance; }
+.cf-i       { column-fill: inherit; }
+
+}
+

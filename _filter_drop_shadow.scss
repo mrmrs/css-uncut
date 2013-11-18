@@ -9,3 +9,33 @@
 .drop-shadow-5  { filter: drop-shadow(16px 16px 16px black); }
 .drop-shadow-6  { filter: drop-shadow(32px 32px 32px black); }
 
+@include break(not-small) {
+.drop-shadow-1  { filter: drop-shadow(1px 1px 1px black;); }
+.drop-shadow-2  { filter: drop-shadow(2px 2px 2px black); }
+.drop-shadow-3  { filter: drop-shadow(4px 4px 4px black); }
+.drop-shadow-4  { filter: drop-shadow(8px 8px 8px black); }
+.drop-shadow-5  { filter: drop-shadow(16px 16px 16px black); }
+.drop-shadow-6  { filter: drop-shadow(32px 32px 32px black); }
+
+}
+
+@include break(medium) {
+.drop-shadow-1  { filter: drop-shadow(1px 1px 1px black;); }
+.drop-shadow-2  { filter: drop-shadow(2px 2px 2px black); }
+.drop-shadow-3  { filter: drop-shadow(4px 4px 4px black); }
+.drop-shadow-4  { filter: drop-shadow(8px 8px 8px black); }
+.drop-shadow-5  { filter: drop-shadow(16px 16px 16px black); }
+.drop-shadow-6  { filter: drop-shadow(32px 32px 32px black); }
+
+}
+
+@include break(large) {
+.drop-shadow-1  { filter: drop-shadow(1px 1px 1px black;); }
+.drop-shadow-2  { filter: drop-shadow(2px 2px 2px black); }
+.drop-shadow-3  { filter: drop-shadow(4px 4px 4px black); }
+.drop-shadow-4  { filter: drop-shadow(8px 8px 8px black); }
+.drop-shadow-5  { filter: drop-shadow(16px 16px 16px black); }
+.drop-shadow-6  { filter: drop-shadow(32px 32px 32px black); }
+
+}
+

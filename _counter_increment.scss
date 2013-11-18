@@ -6,3 +6,27 @@
 .ci-minus { counter-increment: count -1; }
 .ci-none {  counter-increment: none; }
 .ci-i {     counter-increment: inherit; }
+@include break(not-small) {
+.ci-plus {  counter-increment: count; }
+.ci-minus { counter-increment: count -1; }
+.ci-none {  counter-increment: none; }
+.ci-i {     counter-increment: inherit; }
+
+}
+
+@include break(medium) {
+.ci-plus {  counter-increment: count; }
+.ci-minus { counter-increment: count -1; }
+.ci-none {  counter-increment: none; }
+.ci-i {     counter-increment: inherit; }
+
+}
+
+@include break(large) {
+.ci-plus {  counter-increment: count; }
+.ci-minus { counter-increment: count -1; }
+.ci-none {  counter-increment: none; }
+.ci-i {     counter-increment: inherit; }
+
+}
+

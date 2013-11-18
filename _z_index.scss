@@ -13,3 +13,49 @@
 .z-800  { z-index: 800; }
 .z-900  { z-index: 900; }
 .z-999  { z-index: 999; }
+
+@include break(not-small) {
+.z-1    { z-index: 1; }
+.z-100  { z-index: 100; }
+.z-200  { z-index: 200; }
+.z-300  { z-index: 300; }
+.z-400  { z-index: 400; }
+.z-500  { z-index: 500; }
+.z-600  { z-index: 600; }
+.z-700  { z-index: 700; }
+.z-800  { z-index: 800; }
+.z-900  { z-index: 900; }
+.z-999  { z-index: 999; }
+
+}
+
+@include break(medium) {
+.z-1    { z-index: 1; }
+.z-100  { z-index: 100; }
+.z-200  { z-index: 200; }
+.z-300  { z-index: 300; }
+.z-400  { z-index: 400; }
+.z-500  { z-index: 500; }
+.z-600  { z-index: 600; }
+.z-700  { z-index: 700; }
+.z-800  { z-index: 800; }
+.z-900  { z-index: 900; }
+.z-999  { z-index: 999; }
+
+}
+
+@include break(large) {
+.z-1    { z-index: 1; }
+.z-100  { z-index: 100; }
+.z-200  { z-index: 200; }
+.z-300  { z-index: 300; }
+.z-400  { z-index: 400; }
+.z-500  { z-index: 500; }
+.z-600  { z-index: 600; }
+.z-700  { z-index: 700; }
+.z-800  { z-index: 800; }
+.z-900  { z-index: 900; }
+.z-999  { z-index: 999; }
+
+}
+

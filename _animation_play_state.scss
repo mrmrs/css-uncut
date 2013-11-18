@@ -5,3 +5,18 @@
 .a-running { animation-play-state: running; }
 .a-paused { animation-play-state: paused; }
 
+@include break(not-small) {
+  .a-running-ns { animation-play-state: running; }
+  .a-paused-ns  { animation-play-state: paused; }
+}
+
+@include break(medium) {
+  .a-running-m { animation-play-state: running; }
+  .a-paused-m  { animation-play-state: paused; }
+}
+
+@include break(large) {
+  .a-running-l { animation-play-state: running; }
+  .a-paused-l  { animation-play-state: paused; }
+}
+

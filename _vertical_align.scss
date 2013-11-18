@@ -11,3 +11,39 @@
 .v-top      { vertical-align: top; }
 .v-btm      { vertical-align: bottom; }
 
+@include break(not-small) {
+.v-base     { vertical-align: baseline; }
+.v-sub      { vertical-align: sub; }
+.v-sup      { vertical-align: super; }
+.v-txt-top  { vertical-align: text-top; }
+.v-txt-btm  { vertical-align: text-bottom; }
+.v-mid      { vertical-align: middle; }
+.v-top      { vertical-align: top; }
+.v-btm      { vertical-align: bottom; }
+
+}
+
+@include break(medium) {
+.v-base     { vertical-align: baseline; }
+.v-sub      { vertical-align: sub; }
+.v-sup      { vertical-align: super; }
+.v-txt-top  { vertical-align: text-top; }
+.v-txt-btm  { vertical-align: text-bottom; }
+.v-mid      { vertical-align: middle; }
+.v-top      { vertical-align: top; }
+.v-btm      { vertical-align: bottom; }
+
+}
+
+@include break(large) {
+.v-base     { vertical-align: baseline; }
+.v-sub      { vertical-align: sub; }
+.v-sup      { vertical-align: super; }
+.v-txt-top  { vertical-align: text-top; }
+.v-txt-btm  { vertical-align: text-bottom; }
+.v-mid      { vertical-align: middle; }
+.v-top      { vertical-align: top; }
+.v-btm      { vertical-align: bottom; }
+
+}
+

@@ -47,3 +47,15 @@
 
 .center { margin: 0 auto; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

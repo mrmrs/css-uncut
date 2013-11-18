@@ -23,3 +23,15 @@
 .mn-wi-fit  { min-width: fit-content; }
 .mn-wi-fill { min-width: fill-available; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

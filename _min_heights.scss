@@ -23,3 +23,15 @@
 .mn-hi-fit  { min-height: fit-content; }
 .mn-hi-fill { min-height: fill-available; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

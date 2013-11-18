@@ -8,3 +8,30 @@
 .cg-n { column-gap: normal; }
 .cg-i { column-gap: inherit; }
 
+@include break(not-small) {
+.cg-1 { column-gap: 1rem; }
+.cg-2 { column-gap: 2rem; }
+.cg-3 { column-gap: 4rem; }
+.cg-n { column-gap: normal; }
+.cg-i { column-gap: inherit; }
+
+}
+
+@include break(medium) {
+.cg-1 { column-gap: 1rem; }
+.cg-2 { column-gap: 2rem; }
+.cg-3 { column-gap: 4rem; }
+.cg-n { column-gap: normal; }
+.cg-i { column-gap: inherit; }
+
+}
+
+@include break(large) {
+.cg-1 { column-gap: 1rem; }
+.cg-2 { column-gap: 2rem; }
+.cg-3 { column-gap: 4rem; }
+.cg-n { column-gap: normal; }
+.cg-i { column-gap: inherit; }
+
+}
+

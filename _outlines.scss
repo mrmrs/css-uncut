@@ -30,3 +30,15 @@
 .ow-2 { outline-width: 0.1rem; }
 .ow-i { outline-width: inherit; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

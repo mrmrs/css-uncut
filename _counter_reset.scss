@@ -7,3 +7,27 @@
 .cr-none {  counter-reset: none; }
 .cr-i {     counter-reset: inherit; }
 
+@include break(not-small) {
+.cr {       counter-reset: count; }
+.cr-minus { counter-reset: count -1; }
+.cr-none {  counter-reset: none; }
+.cr-i {     counter-reset: inherit; }
+
+}
+
+@include break(medium) {
+.cr {       counter-reset: count; }
+.cr-minus { counter-reset: count -1; }
+.cr-none {  counter-reset: none; }
+.cr-i {     counter-reset: inherit; }
+
+}
+
+@include break(large) {
+.cr {       counter-reset: count; }
+.cr-minus { counter-reset: count -1; }
+.cr-none {  counter-reset: none; }
+.cr-i {     counter-reset: inherit; }
+
+}
+

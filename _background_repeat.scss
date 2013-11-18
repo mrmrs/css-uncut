@@ -9,3 +9,30 @@
 .bg-spc {    background-repeat: space; }
 .bg-rnd {    background-repeat: round; }
 
+@include break(not-small) {
+  .bg-norep-ns {  background-repeat: no-repeat; }
+  .bg-x-ns {      background-repeat: repeat-x; }
+  .bg-y-ns {      background-repeat: repeat-y; }
+  .bg-rep-ns {    background-repeat: repeat; }
+  .bg-spc-ns {    background-repeat: space; }
+  .bg-rnd-ns {    background-repeat: round; }
+}
+
+@include break(medium) {
+  .bg-norep-m {  background-repeat: no-repeat; }
+  .bg-x-m {      background-repeat: repeat-x; }
+  .bg-y-m {      background-repeat: repeat-y; }
+  .bg-rep-m {    background-repeat: repeat; }
+  .bg-spc-m {    background-repeat: space; }
+  .bg-rnd-m {    background-repeat: round; }
+}
+
+@include break(large) {
+  .bg-norep-l {  background-repeat: no-repeat; }
+  .bg-x-l {      background-repeat: repeat-x; }
+  .bg-y-l {      background-repeat: repeat-y; }
+  .bg-rep-l {    background-repeat: repeat; }
+  .bg-spc-l {    background-repeat: space; }
+  .bg-rnd-l {    background-repeat: round; }
+}
+

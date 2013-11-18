@@ -8,3 +8,30 @@
 .blur-4 { filter: blur(.5rem); }
 .blur-5 { filter: blur(1rem); }
 
+@include break(not-small) {
+.blur-1 { filter: blur(1px); }
+.blur-2 { filter: blur(.125rem); }
+.blur-3 { filter: blur(.25rem); }
+.blur-4 { filter: blur(.5rem); }
+.blur-5 { filter: blur(1rem); }
+
+}
+
+@include break(medium) {
+.blur-1 { filter: blur(1px); }
+.blur-2 { filter: blur(.125rem); }
+.blur-3 { filter: blur(.25rem); }
+.blur-4 { filter: blur(.5rem); }
+.blur-5 { filter: blur(1rem); }
+
+}
+
+@include break(large) {
+.blur-1 { filter: blur(1px); }
+.blur-2 { filter: blur(.125rem); }
+.blur-3 { filter: blur(.25rem); }
+.blur-4 { filter: blur(.5rem); }
+.blur-5 { filter: blur(1rem); }
+
+}
+

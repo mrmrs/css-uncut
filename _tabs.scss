@@ -2,9 +2,35 @@
    TABS
    ========================================================================== */
 
+.tabs-none    { tab-size: 0; }
+.tabs-2       { tab-size: 2; }
+.tabs-default { tab-size: 4; }
+.tabs-large   { tab-size: 8; }
+
+@include break(not-small) {
 
 .tabs-none    { tab-size: 0; }
 .tabs-2       { tab-size: 2; }
 .tabs-default { tab-size: 4; }
 .tabs-large   { tab-size: 8; }
+
+}
+
+@include break(medium) {
+
+.tabs-none    { tab-size: 0; }
+.tabs-2       { tab-size: 2; }
+.tabs-default { tab-size: 4; }
+.tabs-large   { tab-size: 8; }
+
+}
+
+@include break(large) {
+
+.tabs-none    { tab-size: 0; }
+.tabs-2       { tab-size: 2; }
+.tabs-default { tab-size: 4; }
+.tabs-large   { tab-size: 8; }
+
+}
 

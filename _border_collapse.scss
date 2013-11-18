@@ -6,3 +6,21 @@
 .bc-separate {  border-collapse: separate; }
 .bc-i {         border-collapse: inherit; }
 
+@include break(not-small) {
+  .bc-collapse-ns {  border-collapse: collapse; }
+  .bc-separate-ns {  border-collapse: separate; }
+  .bc-i-ns {         border-collapse: inherit; }
+}
+
+@include break(medium) {
+  .bc-collapse-m {  border-collapse: collapse; }
+  .bc-separate-m {  border-collapse: separate; }
+  .bc-i-m {         border-collapse: inherit; }
+}
+
+@include break(large) {
+  .bc-collapse-l {  border-collapse: collapse; }
+  .bc-separate-l {  border-collapse: separate; }
+  .bc-i-l {         border-collapse: inherit; }
+}
+

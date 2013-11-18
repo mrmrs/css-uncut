@@ -7,3 +7,15 @@
 .of-scr { overflow: scroll; }
 .of-aut { overflow: auto; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

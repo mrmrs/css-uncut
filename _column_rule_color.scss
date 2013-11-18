@@ -6,3 +6,24 @@
 .crc-transparent {  column-rule-color: transparent; }
 .crc-i {            column-rule-color: inherit; }
 
+@include break(not-small) {
+.crc-drkgry {       column-rule-color: $dark-gray; }
+.crc-transparent {  column-rule-color: transparent; }
+.crc-i {            column-rule-color: inherit; }
+
+}
+
+@include break(medium) {
+.crc-drkgry {       column-rule-color: $dark-gray; }
+.crc-transparent {  column-rule-color: transparent; }
+.crc-i {            column-rule-color: inherit; }
+
+}
+
+@include break(large) {
+.crc-drkgry {       column-rule-color: $dark-gray; }
+.crc-transparent {  column-rule-color: transparent; }
+.crc-i {            column-rule-color: inherit; }
+
+}
+

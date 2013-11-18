@@ -11,3 +11,37 @@
 .a-start {     animation-timing-function: step-start; }
 .a-stop {      animation-timing-function: step-stop; }
 
+
+@include break(not-small) {
+  .a-ease-ns {      animation-timing-function: ease; }
+  .a-easein-ns {    animation-timing-function: ease-in; }
+  .a-easeout-ns {   animation-timing-function: ease-out; }
+  .a-easeinout-ns { animation-timing-function: ease-in-out; }
+  .a-linear-ns {    animation-timing-function: linear; }
+  .a-bezier-ns {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .a-start-ns {     animation-timing-function: step-start; }
+  .a-stop-ns {      animation-timing-function: step-stop; }
+}
+
+@include break(medium) {
+  .a-ease-m {      animation-timing-function: ease; }
+  .a-easein-m {    animation-timing-function: ease-in; }
+  .a-easeout-m {   animation-timing-function: ease-out; }
+  .a-easeinout-m { animation-timing-function: ease-in-out; }
+  .a-linear-m {    animation-timing-function: linear; }
+  .a-bezier-m {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .a-start-m {     animation-timing-function: step-start; }
+  .a-stop-m {      animation-timing-function: step-stop; }
+}
+
+@include break(large) {
+  .a-ease-l {      animation-timing-function: ease; }
+  .a-easein-l {    animation-timing-function: ease-in; }
+  .a-easeout-l {   animation-timing-function: ease-out; }
+  .a-easeinout-l { animation-timing-function: ease-in-out; }
+  .a-linear-l {    animation-timing-function: linear; }
+  .a-bezier-l {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .a-start-l {     animation-timing-function: step-start; }
+  .a-stop-l {      animation-timing-function: step-stop; }
+}
+

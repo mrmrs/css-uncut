@@ -14,3 +14,48 @@
 .crs-outset { column-rule-style: outset; }
 .crs-i {      column-rule-style: inherit; }
 
+@include break(not-small) {
+.crs-n {      column-rule-style: none; }
+.crs-hid {    column-rule-style: hidden; }
+.crs-dot {    column-rule-style: dotted; }
+.crs-dash {   column-rule-style: dashed; }
+.crs-solid {  column-rule-style: solid; }
+.crs-double { column-rule-style: double; }
+.crs-groove { column-rule-style: groove; }
+.crs-ridge {  column-rule-style: ridge; }
+.crs-inset {  column-rule-style: inset; }
+.crs-outset { column-rule-style: outset; }
+.crs-i {      column-rule-style: inherit; }
+
+}
+
+@include break(medium) {
+.crs-n {      column-rule-style: none; }
+.crs-hid {    column-rule-style: hidden; }
+.crs-dot {    column-rule-style: dotted; }
+.crs-dash {   column-rule-style: dashed; }
+.crs-solid {  column-rule-style: solid; }
+.crs-double { column-rule-style: double; }
+.crs-groove { column-rule-style: groove; }
+.crs-ridge {  column-rule-style: ridge; }
+.crs-inset {  column-rule-style: inset; }
+.crs-outset { column-rule-style: outset; }
+.crs-i {      column-rule-style: inherit; }
+
+}
+
+@include break(large) {
+.crs-n {      column-rule-style: none; }
+.crs-hid {    column-rule-style: hidden; }
+.crs-dot {    column-rule-style: dotted; }
+.crs-dash {   column-rule-style: dashed; }
+.crs-solid {  column-rule-style: solid; }
+.crs-double { column-rule-style: double; }
+.crs-groove { column-rule-style: groove; }
+.crs-ridge {  column-rule-style: ridge; }
+.crs-inset {  column-rule-style: inset; }
+.crs-outset { column-rule-style: outset; }
+.crs-i {      column-rule-style: inherit; }
+
+}
+

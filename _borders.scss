@@ -10,3 +10,15 @@
 .bb { border-style: solid; border-bottom: 1px; }
 .bl { border-style: solid; border-left-width: 1px; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

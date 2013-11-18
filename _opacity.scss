@@ -15,3 +15,15 @@
 .o-90 { opacity: .9; }
 .o-full { opacity: 1; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

@@ -1,6 +1,24 @@
 /* Font Style */
 
-.fsn      { font-style: normal; }
-.i        { font-style: italic; }
-.oblique  { font-style: oblique; }
+.fsn     { font-style: normal; }
+.i       { font-style: italic; }
+.oblique { font-style: oblique; }
+
+@include break(not-small) {
+  .fsn-ns     { font-style: normal; }
+  .i-ns       { font-style: italic; }
+  .oblique-ns { font-style: oblique; }
+}
+
+@include break(medium) {
+  .fsn-m     { font-style: normal; }
+  .i-m       { font-style: italic; }
+  .oblique-m { font-style: oblique; }
+}
+
+@include break(large) {
+  .fsn-l      { font-style: normal; }
+  .i-l        {  font-style: italic; }
+  .oblique-l    { font-style: oblique; }
+}
 

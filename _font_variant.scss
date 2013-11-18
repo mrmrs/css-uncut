@@ -7,3 +7,24 @@
 .small-caps { font-variant: small-caps; }
 .fv-i       { font-variant: inherit; }
 
+@include break(not-small) {
+  .fv-norm-ns    { font-variant: normal; }
+  .fv-sc-ns,
+  .small-caps-ns { font-variant: small-caps; }
+  .fv-i-ns       { font-variant: inherit; }
+}
+
+@include break(medium) {
+  .fv-norm-m    { font-variant: normal; }
+  .fv-sc-m,
+  .small-caps-m { font-variant: small-caps; }
+  .fv-i-m       { font-variant: inherit; }
+}
+
+@include break(large) {
+  .fv-norm-l    { font-variant: normal; }
+  .fv-sc-l,
+  .small-caps-l { font-variant: small-caps; }
+  .fv-i-l       { font-variant: inherit; }
+}
+

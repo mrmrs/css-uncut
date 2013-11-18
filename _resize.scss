@@ -7,3 +7,15 @@
 .resize-hor  { resize: horizontal; }
 .resize-ver  { resize: vertical; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
+

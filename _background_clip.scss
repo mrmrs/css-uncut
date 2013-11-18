@@ -6,3 +6,20 @@
 .bg-clip-pb { background-clip: padding-box; }
 .bg-clip-cb { background-clip: content-box; }
 
+@include break(not-small) {
+  .bg-clip-bb-ns { background-clip: border-box; }
+  .bg-clip-pb-ns { background-clip: padding-box; }
+  .bg-clip-cb-ns { background-clip: content-box; }
+}
+
+@include break(medium) {
+  .bg-clip-bb-m { background-clip: border-box; }
+  .bg-clip-pb-m { background-clip: padding-box; }
+  .bg-clip-cb-m { background-clip: content-box; }
+}
+
+@include break(large) {
+  .bg-clip-bb-l { background-clip: border-box; }
+  .bg-clip-pb-l { background-clip: padding-box; }
+  .bg-clip-cb-l { background-clip: content-box; }
+}

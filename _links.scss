@@ -3,3 +3,16 @@
    ========================================================================== */
 
 .link { text-decoration: none; }
+
+@include break(not-small) {
+  .link-ns { text-decoration: none; }
+}
+
+@include break(medium) {
+  .link-m { text-decoration: none; }
+}
+
+@include break(large) {
+  .link-l { text-decoration: none; }
+}
+

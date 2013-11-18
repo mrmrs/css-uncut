@@ -11,3 +11,14 @@
 .br-circ { border-radius: 9999px; }
 .br-100 {  border-radius: 100%; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}

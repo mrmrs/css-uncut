@@ -17,3 +17,51 @@
 .tp-b   { transition-property: bottom; }
 .tp-o   { transition-property: opacity; }
 
+@include break(not-small) {
+.tp-n   { transition-property: none; }
+.tp-all { transition-property: all; }
+.tp-i   { transition-property: inherit; }
+.tp-c   { transition-property: color; }
+.tp-bc   { transition-property: background-color; }
+.tp-w   { transition-property: width; }
+.tp-h   { transition-property: height; }
+.tp-l   { transition-property: left; }
+.tp-r   { transition-property: right; }
+.tp-t   { transition-property: top; }
+.tp-b   { transition-property: bottom; }
+.tp-o   { transition-property: opacity; }
+
+}
+
+@include break(medium) {
+.tp-n   { transition-property: none; }
+.tp-all { transition-property: all; }
+.tp-i   { transition-property: inherit; }
+.tp-c   { transition-property: color; }
+.tp-bc   { transition-property: background-color; }
+.tp-w   { transition-property: width; }
+.tp-h   { transition-property: height; }
+.tp-l   { transition-property: left; }
+.tp-r   { transition-property: right; }
+.tp-t   { transition-property: top; }
+.tp-b   { transition-property: bottom; }
+.tp-o   { transition-property: opacity; }
+
+}
+
+@include break(large) {
+.tp-n   { transition-property: none; }
+.tp-all { transition-property: all; }
+.tp-i   { transition-property: inherit; }
+.tp-c   { transition-property: color; }
+.tp-bc   { transition-property: background-color; }
+.tp-w   { transition-property: width; }
+.tp-h   { transition-property: height; }
+.tp-l   { transition-property: left; }
+.tp-r   { transition-property: right; }
+.tp-t   { transition-property: top; }
+.tp-b   { transition-property: bottom; }
+.tp-o   { transition-property: opacity; }
+
+}
+

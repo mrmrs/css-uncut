@@ -37,3 +37,14 @@
 .brw4 { border-right-width: .5rem; }
 .brw5 { border-right-width: 1rem; }
 
+@include break(not-small) {
+
+}
+
+@include break(medium) {
+
+}
+
+@include break(large) {
+
+}
