@@ -7,3 +7,24 @@
 .a-fil-bck { animation-fill-mode: backwards; }
 .a-fil-bth { animation-fill-mode: both; }
 
+@include break(not-small) {
+  .a-fil-non-ns { animation-fill-mode: none; }
+  .a-fil-frw-ns { animation-fill-mode: forwards; }
+  .a-fil-bck-ns { animation-fill-mode: backwards; }
+  .a-fil-bth-ns { animation-fill-mode: both; }
+}
+
+@include break(medium) {
+  .a-fil-non-m { animation-fill-mode: none; }
+  .a-fil-frw-m { animation-fill-mode: forwards; }
+  .a-fil-bck-m { animation-fill-mode: backwards; }
+  .a-fil-bth-m { animation-fill-mode: both; }
+}
+
+@include break(large) {
+  .a-fil-non-l { animation-fill-mode: none; }
+  .a-fil-frw-l { animation-fill-mode: forwards; }
+  .a-fil-bck-l { animation-fill-mode: backwards; }
+  .a-fil-bth-l { animation-fill-mode: both; }
+}
+
