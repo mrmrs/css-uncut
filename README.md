@@ -1,8 +1,8 @@
-# CSS
+# SINK CSS
 
 WTF is this?
 
-First off, it's an experiment.
+First, it's an experiment.
 Second - it is an answer to a question I started asking myself after
 I noticed some websites serving up more than a megabyte of css.
 
@@ -14,6 +14,7 @@ created a 10 step scale. Which is more verbose than I need - but figured I'd air
 of making this as big as possible. Turns out all of css * 4 isn't all that big.
 
 * 17kb total (minified and gzipped)
+
 
 # License
 
