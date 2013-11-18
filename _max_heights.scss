@@ -1,0 +1,25 @@
+/* ==========================================================================
+   MAX HEIGHT
+   ========================================================================== */
+
+.mx-hi-100 {  max-height: 100%; }
+.mx-hi-75  {  max-height: 75%; }
+.mx-hi-50  {  max-height: 50%; }
+.mx-hi-25  {  max-height: 25%; }
+
+.mx-hi1  {  max-height: 1rem; }
+.mx-hi2  {  max-height: 2rem; }
+.mx-hi3  {  max-height: 4rem; }
+.mx-hi4  {  max-height: 8rem; }
+.mx-hi5  {  max-height: 16rem; }
+.mx-hi6  {  max-height: 32rem; }
+.mx-hi7  {  max-height: 48rem; }
+.mx-hi8  {  max-height: 64rem; }
+.mx-hi9  {  max-height: 96rem; }
+.mx-hi10 {  max-height: 128rem; }
+
+.mx-hi-none { max-height: none; }
+.mx-hi-max {  max-height: max-content; }
+.mx-hi-min {  max-height: min-content; }
+.mx-hi-fit {  max-height: fit-content; }
+.mx-hi-fill { max-height: fill-available; }

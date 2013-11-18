@@ -1,0 +1,24 @@
+/* ==========================================================================
+   MIN HEIGHTS
+   ========================================================================== */
+
+.mn-hi-100  { min-height: 100%; }
+.mn-hi-75   { min-height: 75%; }
+.mn-hi-50   { min-height: 50%; }
+.mn-hi-25   { min-height: 25%; }
+
+.mn-hi1   { min-height: 1rem; }
+.mn-hi2   { min-height: 2rem; }
+.mn-hi3   { min-height: 4rem; }
+.mn-hi4   { min-height: 8rem; }
+.mn-hi5   { min-height: 16rem; }
+.mn-hi6   { min-height: 32rem; }
+.mn-hi7   { min-height: 48rem; }
+.mn-hi8   { min-height: 64rem; }
+.mn-hi9   { min-height: 96rem; }
+.mn-hi10  { min-height: 128rem; }
+
+.mn-hi-max  { min-height: max-content; }
+.mn-hi-min  { min-height: min-content; }
+.mn-hi-fit  { min-height: fit-content; }
+.mn-hi-fill { min-height: fill-available; }
