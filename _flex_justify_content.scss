@@ -1,0 +1,38 @@
+/* ==========================================================================
+   FLEXBOX - JUSTIFY CONTENT
+   ========================================================================== */
+
+.jc-fs {  justify-content: flex-start; }
+.jc-f3 {  justify-content: flex-end; }
+.jc-c {   justify-content: center; }
+.jc-sb {  justify-content: space-between; }
+.jc-sa {  justify-content: space-around; }
+.jc-i {   justify-content: inherit; }
+
+@include break(not-small) {
+  .jc-fs-ns {  justify-content: flex-start; }
+  .jc-f3-ns {  justify-content: flex-end; }
+  .jc-c-ns {   justify-content: center; }
+  .jc-sb-ns {  justify-content: space-between; }
+  .jc-sa-ns {  justify-content: space-around; }
+  .jc-i-ns {   justify-content: inherit; }
+}
+
+@include break(medium) {
+  .jc-fs-m {  justify-content: flex-start; }
+  .jc-f3-m {  justify-content: flex-end; }
+  .jc-c-m {   justify-content: center; }
+  .jc-sb-m {  justify-content: space-between; }
+  .jc-sa-m {  justify-content: space-around; }
+  .jc-i-m {   justify-content: inherit; }
+}
+
+@include break(large) {
+  .jc-fs-l {  justify-content: flex-start; }
+  .jc-f3-l {  justify-content: flex-end; }
+  .jc-c-l {   justify-content: center; }
+  .jc-sb-l {  justify-content: space-between; }
+  .jc-sa-l {  justify-content: space-around; }
+  .jc-i-l {   justify-content: inherit; }
+}
+

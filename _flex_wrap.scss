@@ -1,0 +1,30 @@
+/* ==========================================================================
+   FLEXBOX - FLEX WRAP
+   ========================================================================== */
+
+.fw-no {      flex-wrap: nowrap; }
+.fw-wrap {    flex-wrap: wrap; }
+.fw-wraprev { flex-wrap: wrap-reverse; }
+.fw-i {       flex-wrap: inherit; }
+
+@include break(not-small) {
+  .fw-no-ns {      flex-wrap: nowrap; }
+  .fw-wrap-ns {    flex-wrap: wrap; }
+  .fw-wraprev-ns { flex-wrap: wrap-reverse; }
+  .fw-i-ns {       flex-wrap: inherit; }
+}
+
+@include break(medium) {
+  .fw-no-m {      flex-wrap: nowrap; }
+  .fw-wrap-m {    flex-wrap: wrap; }
+  .fw-wraprev-m { flex-wrap: wrap-reverse; }
+  .fw-i-m {       flex-wrap: inherit; }
+}
+
+@include break(large) {
+  .fw-no-l {      flex-wrap: nowrap; }
+  .fw-wrap-l {    flex-wrap: wrap; }
+  .fw-wraprev-l { flex-wrap: wrap-reverse; }
+  .fw-i-l {       flex-wrap: inherit; }
+}
+

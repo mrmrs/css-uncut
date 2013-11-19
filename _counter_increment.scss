@@ -6,27 +6,25 @@
 .ci-minus { counter-increment: count -1; }
 .ci-none {  counter-increment: none; }
 .ci-i {     counter-increment: inherit; }
-@include break(not-small) {
-.ci-plus {  counter-increment: count; }
-.ci-minus { counter-increment: count -1; }
-.ci-none {  counter-increment: none; }
-.ci-i {     counter-increment: inherit; }
 
+@include break(not-small) {
+  .ci-plus-ns {  counter-increment: count; }
+  .ci-minus-ns { counter-increment: count -1; }
+  .ci-none-ns {  counter-increment: none; }
+  .ci-i-ns {     counter-increment: inherit; }
 }
 
 @include break(medium) {
-.ci-plus {  counter-increment: count; }
-.ci-minus { counter-increment: count -1; }
-.ci-none {  counter-increment: none; }
-.ci-i {     counter-increment: inherit; }
-
+  .ci-plus-m {  counter-increment: count; }
+  .ci-minus-m { counter-increment: count -1; }
+  .ci-none-m {  counter-increment: none; }
+  .ci-i-m {     counter-increment: inherit; }
 }
 
 @include break(large) {
-.ci-plus {  counter-increment: count; }
-.ci-minus { counter-increment: count -1; }
-.ci-none {  counter-increment: none; }
-.ci-i {     counter-increment: inherit; }
-
+  .ci-plus-l {  counter-increment: count; }
+  .ci-minus-l { counter-increment: count -1; }
+  .ci-none-l {  counter-increment: none; }
+  .ci-i-l {     counter-increment: inherit; }
 }
 

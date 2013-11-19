@@ -11,24 +11,19 @@
    Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
 
 .cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-.cf {
-    *zoom: 1;
-}
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+.cf {       *zoom: 1; }
 
 @include break(not-small) {
   .cn-ns { clear: none; }
   .cl-ns { clear: left; }
   .cr-ns { clear: right; }
   .cb-ns { clear: both; }
+  .cf-ns:before,
+  .cf-ns:after { content: " "; display: table; }
+  .cf-ns:after { clear: both; }
+  .cf-ns {       *zoom: 1; }
 }
 
 @include break(medium) {
@@ -36,6 +31,10 @@
   .cl-m { clear: left; }
   .cr-m { clear: right; }
   .cb-m { clear: both; }
+  .cf-m:before,
+  .cf-m:after { content: " "; display: table; }
+  .cf-m:after { clear: both; }
+  .cf-m {       *zoom: 1; }
 }
 
 @include break(large) {
@@ -43,5 +42,9 @@
   .cl-l { clear: left; }
   .cr-l { clear: right; }
   .cb-l { clear: both; }
+  .cf-l:before,
+  .cf-l:after { content: " "; display: table; }
+  .cf-l:after { clear: both; }
+  .cf-l {       *zoom: 1; }
 }
 

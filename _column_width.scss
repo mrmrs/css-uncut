@@ -12,39 +12,36 @@
 .cw-i {       column-width: inherit; }
 
 @include break(not-small) {
-.cw-auto {    column-width: auto; }
-.cw-xxs {     column-width: 4rem; }
-.cw-xs {      column-width: 8rem; }
-.cw-s {       column-width: 16rem; }
-.cw-m {       column-width: 32rem; }
-.cw-l {       column-width: 48rem; }
-.cw-xl {      column-width: 64rem; }
-.cw-i {       column-width: inherit; }
-
+  .cw-auto-ns {    column-width: auto; }
+  .cw-xxs-ns {     column-width: 4rem; }
+  .cw-xs-ns {      column-width: 8rem; }
+  .cw-s-ns {       column-width: 16rem; }
+  .cw-m-ns {       column-width: 32rem; }
+  .cw-l-ns {       column-width: 48rem; }
+  .cw-xl-ns {      column-width: 64rem; }
+  .cw-i-ns {       column-width: inherit; }
 }
 
 @include break(medium) {
-.cw-auto {    column-width: auto; }
-.cw-xxs {     column-width: 4rem; }
-.cw-xs {      column-width: 8rem; }
-.cw-s {       column-width: 16rem; }
-.cw-m {       column-width: 32rem; }
-.cw-l {       column-width: 48rem; }
-.cw-xl {      column-width: 64rem; }
-.cw-i {       column-width: inherit; }
-
+  .cw-auto-m {    column-width: auto; }
+  .cw-xxs-m {     column-width: 4rem; }
+  .cw-xs-m {      column-width: 8rem; }
+  .cw-s-m {       column-width: 16rem; }
+  .cw-m-m {       column-width: 32rem; }
+  .cw-l-m {       column-width: 48rem; }
+  .cw-xl-m {      column-width: 64rem; }
+  .cw-i-m {       column-width: inherit; }
 }
 
 @include break(large) {
-.cw-auto {    column-width: auto; }
-.cw-xxs {     column-width: 4rem; }
-.cw-xs {      column-width: 8rem; }
-.cw-s {       column-width: 16rem; }
-.cw-m {       column-width: 32rem; }
-.cw-l {       column-width: 48rem; }
-.cw-xl {      column-width: 64rem; }
-.cw-i {       column-width: inherit; }
-
+  .cw-auto-l {    column-width: auto; }
+  .cw-xxs-l {     column-width: 4rem; }
+  .cw-xs-l {      column-width: 8rem; }
+  .cw-s-l {       column-width: 16rem; }
+  .cw-m-l {       column-width: 32rem; }
+  .cw-l-l {       column-width: 48rem; }
+  .cw-xl-l {      column-width: 64rem; }
+  .cw-i-l {       column-width: inherit; }
 }
 
 

@@ -1,0 +1,36 @@
+/* ==========================================================================
+   FLEXBOX - FLEX SHRINK
+   ========================================================================== */
+
+.fls-1 { flex-shrink: 1; }
+.fls-2 { flex-shrink: 2; }
+.fls-3 { flex-shrink: 3; }
+.fls-4 { flex-shrink: 4; }
+.fls-i { flex-shrink: inherit; }
+
+
+@include break(not-small) {
+  .fls-1-ns { flex-shrink: 1; }
+  .fls-2-ns { flex-shrink: 2; }
+  .fls-3-ns { flex-shrink: 3; }
+  .fls-4-ns { flex-shrink: 4; }
+  .fls-i-ns { flex-shrink: inherit; }
+
+}
+
+@include break(medium) {
+  .fls-1 { flex-shrink: 1; }
+  .fls-2 { flex-shrink: 2; }
+  .fls-3 { flex-shrink: 3; }
+  .fls-4 { flex-shrink: 4; }
+  .fls-i { flex-shrink: inherit; }
+}
+
+@include break(large) {
+  .fls-1 { flex-shrink: 1; }
+  .fls-2 { flex-shrink: 2; }
+  .fls-3 { flex-shrink: 3; }
+  .fls-4 { flex-shrink: 4; }
+  .fls-i { flex-shrink: inherit; }
+}
+

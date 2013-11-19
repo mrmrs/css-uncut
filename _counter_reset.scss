@@ -8,26 +8,23 @@
 .cr-i {     counter-reset: inherit; }
 
 @include break(not-small) {
-.cr {       counter-reset: count; }
-.cr-minus { counter-reset: count -1; }
-.cr-none {  counter-reset: none; }
-.cr-i {     counter-reset: inherit; }
-
+  .cr-ns {       counter-reset: count; }
+  .cr-minus-ns { counter-reset: count -1; }
+  .cr-none-ns {  counter-reset: none; }
+  .cr-i-ns {     counter-reset: inherit; }
 }
 
 @include break(medium) {
-.cr {       counter-reset: count; }
-.cr-minus { counter-reset: count -1; }
-.cr-none {  counter-reset: none; }
-.cr-i {     counter-reset: inherit; }
-
+  .cr-m {       counter-reset: count; }
+  .cr-minus-m { counter-reset: count -1; }
+  .cr-none-m {  counter-reset: none; }
+  .cr-i-m {     counter-reset: inherit; }
 }
 
 @include break(large) {
-.cr {       counter-reset: count; }
-.cr-minus { counter-reset: count -1; }
-.cr-none {  counter-reset: none; }
-.cr-i {     counter-reset: inherit; }
-
+  .cr-l {       counter-reset: count; }
+  .cr-minus-l { counter-reset: count -1; }
+  .cr-none-l {  counter-reset: none; }
+  .cr-i-l {     counter-reset: inherit; }
 }
 

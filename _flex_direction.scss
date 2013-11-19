@@ -1,0 +1,34 @@
+/* ==========================================================================
+   FLEXBOX - FLEX DIRECTION
+   ========================================================================== */
+
+.fd-row {     flex-direction: row; }
+.fd-rev {     flex-direction: row-reverse; }
+.fd-col {     flex-direction: column; }
+.fd-colrev {  flex-direction: column-reverse; }
+.fd-i {       flex-direction: inherit; }
+
+@include break(not-small) {
+  .fd-row-ns {     flex-direction: row; }
+  .fd-rev-ns {     flex-direction: row-reverse; }
+  .fd-col-ns {     flex-direction: column; }
+  .fd-colrev-ns {  flex-direction: column-reverse; }
+  .fd-i-ns {       flex-direction: inherit; }
+}
+
+@include break(medium) {
+  .fd-row-m {     flex-direction: row; }
+  .fd-rev-m {     flex-direction: row-reverse; }
+  .fd-col-m {     flex-direction: column; }
+  .fd-colrev-m {  flex-direction: column-reverse; }
+  .fd-i-m {       flex-direction: inherit; }
+}
+
+@include break(large) {
+  .fd-row-l {     flex-direction: row; }
+  .fd-rev-l {     flex-direction: row-reverse; }
+  .fd-col-l {     flex-direction: column; }
+  .fd-colrev-l {  flex-direction: column-reverse; }
+  .fd-i-l {       flex-direction: inherit; }
+}
+

@@ -11,13 +11,13 @@
 .sepia-6 { filter: sepia(150%); }
 
 @include break(not-small) {
-.sepia-0-ns { filter: sepia(0); }
-.sepia-1-ns { filter: sepia(25%); }
-.sepia-2-ns { filter: sepia(50%); }
-.sepia-3-ns { filter: sepia(75%); }
-.sepia-4-ns { filter: sepia(100%); }
-.sepia-5-ns { filter: sepia(125%); }
-.sepia-6-ns { filter: sepia(150%); }
+  .sepia-0-ns { filter: sepia(0); }
+  .sepia-1-ns { filter: sepia(25%); }
+  .sepia-2-ns { filter: sepia(50%); }
+  .sepia-3-ns { filter: sepia(75%); }
+  .sepia-4-ns { filter: sepia(100%); }
+  .sepia-5-ns { filter: sepia(125%); }
+  .sepia-6-ns { filter: sepia(150%); }
 }
 
 @include break(medium) {

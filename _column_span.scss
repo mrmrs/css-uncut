@@ -7,20 +7,20 @@
 .cs-span {  column-span: inherit; }
 
 @include break(not-small) {
-  .cs-non {   column-span: none; }
-  .cs-all {   column-span: all; }
-  .cs-span {  column-span: inherit; }
+  .cs-non-ns  { column-span: none; }
+  .cs-all-ns  { column-span: all; }
+  .cs-span-ns { column-span: inherit; }
 }
 
 @include break(medium) {
-  .cs-non {   column-span: none; }
-  .cs-all {   column-span: all; }
-  .cs-span {  column-span: inherit; }
+  .cs-non-m  { column-span: none; }
+  .cs-all-m  { column-span: all; }
+  .cs-span-m { column-span: inherit; }
 }
 
 @include break(large) {
-  .cs-non {   column-span: none; }
-  .cs-all {   column-span: all; }
-  .cs-span {  column-span: inherit; }
+  .cs-non-l  { column-span: none; }
+  .cs-all-l  { column-span: all; }
+  .cs-span-l { column-span: inherit; }
 }
 
