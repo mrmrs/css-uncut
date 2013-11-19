@@ -27,6 +27,7 @@
            list-style-type: none;
            > li {   display: inline-block; }
 }
+
 @include break(not-small) {
   .disc-ns {         list-style-type: disc; }
   .circle-ns {       list-style-type: circle; }

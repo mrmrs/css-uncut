@@ -1,1 +1,18 @@
+/* ==========================================================================
+   FLEXBOX - FLEX BASIS
+   ========================================================================== */
+
 .fb-i { flex-basis: inherit; }
+
+@include break(not-small) {
+  .fb-i-ns { flex-basis: inherit; }
+}
+
+@include break(medium) {
+  .fb-i-m { flex-basis: inherit; }
+}
+
+@include break(large) {
+  .fb-i-l { flex-basis: inherit; }
+}
+

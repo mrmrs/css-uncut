@@ -10,3 +10,33 @@
 .as-s {  align-self: stretch; }
 .as-i {  align-self: inherit; }
 
+@include break(not-small) {
+  .as-a-ns {  align-self: auto; }
+  .as-fs-ns { align-self: flex-start; }
+  .as-fe-ns { align-self: flex-end; }
+  .as-c-ns {  align-self: center; }
+  .as-b-ns {  align-self: baseline; }
+  .as-s-ns {  align-self: stretch; }
+  .as-i-ns {  align-self: inherit; }
+}
+
+@include break(medium) {
+  .as-a-m {  align-self: auto; }
+  .as-fs-m { align-self: flex-start; }
+  .as-fe-m { align-self: flex-end; }
+  .as-c-m {  align-self: center; }
+  .as-b-m {  align-self: baseline; }
+  .as-s-m {  align-self: stretch; }
+  .as-i-m {  align-self: inherit; }
+}
+
+@include break(large) {
+  .as-a-l {  align-self: auto; }
+  .as-fs-l { align-self: flex-start; }
+  .as-fe-l { align-self: flex-end; }
+  .as-c-l {  align-self: center; }
+  .as-b-l {  align-self: baseline; }
+  .as-s-l {  align-self: stretch; }
+  .as-i-l {  align-self: inherit; }
+}
+

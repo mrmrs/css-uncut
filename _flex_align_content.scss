@@ -10,3 +10,33 @@
 .ac-s {  align-content: stretch; }
 .ac-i {  align-content: inherit; }
 
+@include break(not-small) {
+  .ac-fs-ns { align-content: flex-start; }
+  .ac-fe-ns { align-content: flex-end; }
+  .ac-c-ns {  align-content: center; }
+  .ac-sb-ns { align-content: space-between; }
+  .ac-sa-ns { align-content: space-around; }
+  .ac-s-ns {  align-content: stretch; }
+  .ac-i-ns {  align-content: inherit; }
+}
+
+@include break(medium) {
+  .ac-fs-m { align-content: flex-start; }
+  .ac-fe-m { align-content: flex-end; }
+  .ac-c-m {  align-content: center; }
+  .ac-sb-m { align-content: space-between; }
+  .ac-sa-m { align-content: space-around; }
+  .ac-s-m {  align-content: stretch; }
+  .ac-i-m {  align-content: inherit; }
+}
+
+@include break(large) {
+  .ac-fs-l { align-content: flex-start; }
+  .ac-fe-l { align-content: flex-end; }
+  .ac-c-l {  align-content: center; }
+  .ac-sb-l { align-content: space-between; }
+  .ac-sa-l { align-content: space-around; }
+  .ac-s-l {  align-content: stretch; }
+  .ac-i-l {  align-content: inherit; }
+}
+

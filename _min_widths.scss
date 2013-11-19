@@ -24,74 +24,71 @@
 .mn-wi-fill { min-width: fill-available; }
 
 @include break(not-small) {
-.mn-wi-100  { min-width: 100%; }
-.mn-wi-75   { min-width: 75%; }
-.mn-wi-50   { min-width: 50%; }
-.mn-wi-25   { min-width: 25%; }
+  .mn-wi-100-ns  { min-width: 100%; }
+  .mn-wi-75-ns   { min-width: 75%; }
+  .mn-wi-50-ns   { min-width: 50%; }
+  .mn-wi-25-ns   { min-width: 25%; }
 
-.mn-wi1  {  min-width: 1rem; }
-.mn-wi2  {  min-width: 2rem; }
-.mn-wi3  {  min-width: 4rem; }
-.mn-wi4  {  min-width: 8rem; }
-.mn-wi5  {  min-width: 16rem; }
-.mn-wi6  {  min-width: 32rem; }
-.mn-wi7  {  min-width: 48rem; }
-.mn-wi8  {  min-width: 64rem; }
-.mn-wi9  {  min-width: 96rem; }
-.mn-wi10 {  min-width: 128rem; }
+  .mn-wi1-ns  {  min-width: 1rem; }
+  .mn-wi2-ns  {  min-width: 2rem; }
+  .mn-wi3-ns  {  min-width: 4rem; }
+  .mn-wi4-ns  {  min-width: 8rem; }
+  .mn-wi5-ns  {  min-width: 16rem; }
+  .mn-wi6-ns  {  min-width: 32rem; }
+  .mn-wi7-ns  {  min-width: 48rem; }
+  .mn-wi8-ns  {  min-width: 64rem; }
+  .mn-wi9-ns  {  min-width: 96rem; }
+  .mn-wi10-ns {  min-width: 128rem; }
 
-.mn-wi-max  { min-width: max-content; }
-.mn-wi-min  { min-width: min-content; }
-.mn-wi-fit  { min-width: fit-content; }
-.mn-wi-fill { min-width: fill-available; }
-
+  .mn-wi-max-ns  { min-width: max-content; }
+  .mn-wi-min-ns  { min-width: min-content; }
+  .mn-wi-fit-ns  { min-width: fit-content; }
+  .mn-wi-fill-ns { min-width: fill-available; }
 }
 
 @include break(medium) {
-.mn-wi-100  { min-width: 100%; }
-.mn-wi-75   { min-width: 75%; }
-.mn-wi-50   { min-width: 50%; }
-.mn-wi-25   { min-width: 25%; }
+  .mn-wi-100-m  { min-width: 100%; }
+  .mn-wi-75-m   { min-width: 75%; }
+  .mn-wi-50-m   { min-width: 50%; }
+  .mn-wi-25-m   { min-width: 25%; }
 
-.mn-wi1  {  min-width: 1rem; }
-.mn-wi2  {  min-width: 2rem; }
-.mn-wi3  {  min-width: 4rem; }
-.mn-wi4  {  min-width: 8rem; }
-.mn-wi5  {  min-width: 16rem; }
-.mn-wi6  {  min-width: 32rem; }
-.mn-wi7  {  min-width: 48rem; }
-.mn-wi8  {  min-width: 64rem; }
-.mn-wi9  {  min-width: 96rem; }
-.mn-wi10 {  min-width: 128rem; }
+  .mn-wi1-m  {  min-width: 1rem; }
+  .mn-wi2-m  {  min-width: 2rem; }
+  .mn-wi3-m  {  min-width: 4rem; }
+  .mn-wi4-m  {  min-width: 8rem; }
+  .mn-wi5-m  {  min-width: 16rem; }
+  .mn-wi6-m  {  min-width: 32rem; }
+  .mn-wi7-m  {  min-width: 48rem; }
+  .mn-wi8-m  {  min-width: 64rem; }
+  .mn-wi9-m  {  min-width: 96rem; }
+  .mn-wi10-m {  min-width: 128rem; }
 
-.mn-wi-max  { min-width: max-content; }
-.mn-wi-min  { min-width: min-content; }
-.mn-wi-fit  { min-width: fit-content; }
-.mn-wi-fill { min-width: fill-available; }
-
+  .mn-wi-max-m  { min-width: max-content; }
+  .mn-wi-min-m  { min-width: min-content; }
+  .mn-wi-fit-m  { min-width: fit-content; }
+  .mn-wi-fill-m { min-width: fill-available; }
 }
 
 @include break(large) {
-.mn-wi-100  { min-width: 100%; }
-.mn-wi-75   { min-width: 75%; }
-.mn-wi-50   { min-width: 50%; }
-.mn-wi-25   { min-width: 25%; }
+  .mn-wi-100-l  { min-width: 100%; }
+  .mn-wi-75-l   { min-width: 75%; }
+  .mn-wi-50-l   { min-width: 50%; }
+  .mn-wi-25-l   { min-width: 25%; }
 
-.mn-wi1  {  min-width: 1rem; }
-.mn-wi2  {  min-width: 2rem; }
-.mn-wi3  {  min-width: 4rem; }
-.mn-wi4  {  min-width: 8rem; }
-.mn-wi5  {  min-width: 16rem; }
-.mn-wi6  {  min-width: 32rem; }
-.mn-wi7  {  min-width: 48rem; }
-.mn-wi8  {  min-width: 64rem; }
-.mn-wi9  {  min-width: 96rem; }
-.mn-wi10 {  min-width: 128rem; }
+  .mn-wi1-l  {  min-width: 1rem; }
+  .mn-wi2-l  {  min-width: 2rem; }
+  .mn-wi3-l  {  min-width: 4rem; }
+  .mn-wi4-l  {  min-width: 8rem; }
+  .mn-wi5-l  {  min-width: 16rem; }
+  .mn-wi6-l  {  min-width: 32rem; }
+  .mn-wi7-l  {  min-width: 48rem; }
+  .mn-wi8-l  {  min-width: 64rem; }
+  .mn-wi9-l  {  min-width: 96rem; }
+  .mn-wi10-l {  min-width: 128rem; }
 
-.mn-wi-max  { min-width: max-content; }
-.mn-wi-min  { min-width: min-content; }
-.mn-wi-fit  { min-width: fit-content; }
-.mn-wi-fill { min-width: fill-available; }
-
+  .mn-wi-max-l  { min-width: max-content; }
+  .mn-wi-min-l  { min-width: min-content; }
+  .mn-wi-fit-l  { min-width: fit-content; }
+  .mn-wi-fill-l { min-width: fill-available; }
 }
 

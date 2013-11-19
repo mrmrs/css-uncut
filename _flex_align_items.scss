@@ -9,3 +9,30 @@
 .ai-s {  align-items: stretch; }
 .ai-i {  align-items: inherit; }
 
+@include break(not-small) {
+  .ai-fs-ns { align-items: flex-start; }
+  .ai-fe-ns { align-items: flex-end; }
+  .ai-c-ns {  align-items: center; }
+  .ai-b-ns {  align-items: baseline; }
+  .ai-s-ns {  align-items: stretch; }
+  .ai-i-ns {  align-items: inherit; }
+}
+
+@include break(medium) {
+  .ai-fs-m { align-items: flex-start; }
+  .ai-fe-m { align-items: flex-end; }
+  .ai-c-m {  align-items: center; }
+  .ai-b-m {  align-items: baseline; }
+  .ai-s-m {  align-items: stretch; }
+  .ai-i-m {  align-items: inherit; }
+}
+
+@include break(large) {
+  .ai-fs-l { align-items: flex-start; }
+  .ai-fe-l { align-items: flex-end; }
+  .ai-c-l {  align-items: center; }
+  .ai-b-l {  align-items: baseline; }
+  .ai-s-l {  align-items: stretch; }
+  .ai-i-l {  align-items: inherit; }
+}
+
