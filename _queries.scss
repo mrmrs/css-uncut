@@ -5,7 +5,9 @@
 /*
  * Mixing for mobile first queries.
  * Two breakpoints.
- * Use like @include break(medium) { ***Styles*** }
+ * Use like @include break(medium) {
+ *  ***Styles***
+ * }
  *
  */
 
@@ -26,3 +28,4 @@
     }
   }
 }
+

@@ -7,26 +7,28 @@
 .f3    { font-size: 1.2rem; }
 .f4    { font-size: 1.2rem; }
 .f5    { font-size: 1rem; }
-.f6    { font-size: .85rem; }
-
+.f6,
 .small { font-size: .85rem; }
 
+
 @include break(not-small){
- .f1-ns { font-size: 2rem; }
- .f2-ns { font-size: 1.5rem; }
- .f3-ns { font-size: 1.2rem; }
- .f4-ns { font-size: 1.2rem; }
- .f5-ns { font-size: 1rem; }
- .f6-ns { font-size: .85rem; }
+ .mega-ns { font-size: 3rem; }
+ .f1-ns {   font-size: 2rem; }
+ .f2-ns {   font-size: 1.5rem; }
+ .f3-ns {   font-size: 1.2rem; }
+ .f4-ns {   font-size: 1.2rem; }
+ .f5-ns {   font-size: 1rem; }
+ .f6-ns {   font-size: .85rem; }
 }
 
 @include break(medium) {
- .f1-m { font-size: 2rem; }
- .f2-m { font-size: 1.5rem; }
- .f3-m { font-size: 1.2rem; }
- .f4-m { font-size: 1.2rem; }
- .f5-m { font-size: 1rem; }
- .f6-m { font-size: .85rem; }
+ .mega-m { font-size: 3rem; }
+ .f1-m {   font-size: 2rem; }
+ .f2-m {   font-size: 1.5rem; }
+ .f3-m {   font-size: 1.2rem; }
+ .f4-m {   font-size: 1.2rem; }
+ .f5-m {   font-size: 1rem; }
+ .f6-m {   font-size: .85rem; }
 }
 
 @include break(large) {

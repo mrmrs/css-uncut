@@ -6,8 +6,9 @@
 .vis          { visibility: visible; }
 .vis-hidden   { visibility: hidden; }
 .vis-collapse { visibility: collapse; }
-.vis-bf-vis { backface-visibility: visible; }
-.vis-bf-hid { backface-visibility: hidden; }
+
+.vis-bf-vis {   backface-visibility: visible; }
+.vis-bf-hid {   backface-visibility: hidden; }
 
 /*
     Text that is hidden but accessible

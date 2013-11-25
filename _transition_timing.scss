@@ -2,53 +2,53 @@
    TRANSITIONS TIMING FUNCTIONS
    ========================================================================== */
 
-.ttf-e { transition-timing-function: ease; }
-.ttf-ei { transition-timing-function: ease-in; }
-.ttf-eo { transition-timing-function: ease-out; }
-.ttf-eio { transition-timing-function: ease-in-out; }
-.ttf-lin { transition-timing-function: linear; }
-.ttf-cb { transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
-.ttf-ss { transition-timing-function: step-start; }
-.ttf-se  { transition-timing-function: step-end; }
+.ttf-e {     transition-timing-function: ease; }
+.ttf-ei {    transition-timing-function: ease-in; }
+.ttf-eo {    transition-timing-function: ease-out; }
+.ttf-eio {   transition-timing-function: ease-in-out; }
+.ttf-lin {   transition-timing-function: linear; }
+.ttf-cb {    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+.ttf-ss {    transition-timing-function: step-start; }
+.ttf-se  {   transition-timing-function: step-end; }
 .ttf-steps { transition-timing-function: steps(4, end); }
-.ttf-i { transition-timing-function: inherit; }
+.ttf-i {     transition-timing-function: inherit; }
 
 @include break(not-small) {
-  .ttf-e-ns { transition-timing-function: ease; }
-  .ttf-ei-ns { transition-timing-function: ease-in; }
-  .ttf-eo-ns { transition-timing-function: ease-out; }
-  .ttf-eio-ns { transition-timing-function: ease-in-out; }
-  .ttf-nsin-ns { transition-timing-function: linear; }
-  .ttf-cb-ns { transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
-  .ttf-ss-ns { transition-timing-function: step-start; }
-  .ttf-se-ns  { transition-timing-function: step-end; }
+  .ttf-e-ns { 	  transition-timing-function: ease; }
+  .ttf-ei-ns {    transition-timing-function: ease-in; }
+  .ttf-eo-ns {    transition-timing-function: ease-out; }
+  .ttf-eio-ns {   transition-timing-function: ease-in-out; }
+  .ttf-nsin-ns {  transition-timing-function: linear; }
+  .ttf-cb-ns {    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+  .ttf-ss-ns {    transition-timing-function: step-start; }
+  .ttf-se-ns  {   transition-timing-function: step-end; }
   .ttf-steps-ns { transition-timing-function: steps(4, end); }
-  .ttf-i-ns { transition-timing-function: inherit; }
+  .ttf-i-ns {     transition-timing-function: inherit; }
 }
 
 @include break(medium) {
-  .ttf-e-m { transition-timing-function: ease; }
-  .ttf-ei-m { transition-timing-function: ease-in; }
-  .ttf-eo-m { transition-timing-function: ease-out; }
-  .ttf-eio-m { transition-timing-function: ease-in-out; }
-  .ttf-min-m { transition-timing-function: linear; }
-  .ttf-cb-m { transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
-  .ttf-ss-m { transition-timing-function: step-start; }
-  .ttf-se-m  { transition-timing-function: step-end; }
-  .ttf-steps-m { transition-timing-function: steps(4, end); }
-  .ttf-i-m { transition-timing-function: inherit; }
+  .ttf-e-m {      transition-timing-function: ease; }
+  .ttf-ei-m {     transition-timing-function: ease-in; }
+  .ttf-eo-m {     transition-timing-function: ease-out; }
+  .ttf-eio-m {    transition-timing-function: ease-in-out; }
+  .ttf-min-m {    transition-timing-function: linear; }
+  .ttf-cb-m {     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+  .ttf-ss-m {     transition-timing-function: step-start; }
+  .ttf-se-m  {    transition-timing-function: step-end; }
+  .ttf-steps-m {  transition-timing-function: steps(4, end); }
+  .ttf-i-m {      transition-timing-function: inherit; }
 }
 
 @include break(large) {
-  .ttf-e-l { transition-timing-function: ease; }
-  .ttf-ei-l { transition-timing-function: ease-in; }
-  .ttf-eo-l { transition-timing-function: ease-out; }
-  .ttf-eio-l { transition-timing-function: ease-in-out; }
-  .ttf-lin-l { transition-timing-function: linear; }
-  .ttf-cb-l { transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
-  .ttf-ss-l { transition-timing-function: step-start; }
-  .ttf-se-l  { transition-timing-function: step-end; }
-  .ttf-steps-l { transition-timing-function: steps(4, end); }
-  .ttf-i-l { transition-timing-function: inherit; }
+  .ttf-e-l {      transition-timing-function: ease; }
+  .ttf-ei-l {     transition-timing-function: ease-in; }
+  .ttf-eo-l {     transition-timing-function: ease-out; }
+  .ttf-eio-l {    transition-timing-function: ease-in-out; }
+  .ttf-lin-l {    transition-timing-function: linear; }
+  .ttf-cb-l {     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+  .ttf-ss-l {     transition-timing-function: step-start; }
+  .ttf-se-l  {    transition-timing-function: step-end; }
+  .ttf-steps-l {  transition-timing-function: steps(4, end); }
+  .ttf-i-l {      transition-timing-function: inherit; }
 }
 

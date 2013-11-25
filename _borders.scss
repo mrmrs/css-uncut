@@ -16,7 +16,6 @@
   .br-ns { border-style: solid; border-right-width: 1px; }
   .bb-ns { border-style: solid; border-bottom: 1px; }
   .bl-ns { border-style: solid; border-left-width: 1px; }
-
 }
 
 @include break(medium) {

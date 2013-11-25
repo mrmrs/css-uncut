@@ -2,31 +2,19 @@
    DIMENSION UTILITIES
    ========================================================================== */
 
-/*
-  Make an element shrink wrap its content.  Should be combined with a float class .fl or .fr
-*/
-
-.shrink {
+.auto-wrap {
   display: block;
   width: auto !important;
 }
 
-/*
-  Make an element fill the remaining space.  N.B. This will hide overflow.
-*/
-
-.fill {
+.auto-fill {
   display: block;
   overflow: hidden;
   width: auto !important;
 }
 
-/*
-
-Make an element the width of its parent.
-*/
-
-.db-full {
+.dbf {
   display: block;
   width: 100%;
 }
+
