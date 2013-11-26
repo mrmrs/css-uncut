@@ -2,22 +2,26 @@
    WIDTHS
    ========================================================================== */
 
-.wi-10   { width: 10%; }
-.wi-25   { width: 25%; }
-.wi-50   { width: 50%; }
-.wi-75   { width: 75%; }
+.wi-10 {   width: 10%; }
+.wi-12_5 { width: 12.5%; }
+.wi-20 {   width: 20%; }
+.wi-25 {   width: 25%; }
+.wi-40 {   width: 40%; }
+.wi-50 {   width: 50%; }
+.wi-75 {   width: 75%; }
+.wi-80 {   width: 80%; }
 .wi-full { width: 100%; }
 
-.wi1   { width: 1rem; }
-.wi2   { width: 2rem; }
-.wi3   { width: 4rem; }
-.wi4   { width: 8rem; }
-.wi5   { width: 16rem; }
-.wi6   { width: 32rem; }
-.wi7   { width: 48rem; }
-.wi8   { width: 64rem; }
-.wi9   { width: 96rem; }
-.wi10  { width: 128rem; }
+.wi1 {  width: 1rem; }
+.wi2 {  width: 2rem; }
+.wi3 {  width: 4rem; }
+.wi4 {  width: 8rem; }
+.wi5 {  width: 16rem; }
+.wi6 {  width: 32rem; }
+.wi7 {  width: 48rem; }
+.wi8 {  width: 64rem; }
+.wi9 {  width: 96rem; }
+.wi10 { width: 128rem; }
 
 .wi-bb { width: border-box; }
 .wi-cb { width: content-box; }
@@ -26,39 +30,47 @@
 .wi-av { width: available; }
 .wi-fc { width: fit-content; }
 .wi-at { width: auto; }
-.wi-i  { width: inherit; }
+.wi-i {  width: inherit; }
 
 @include break(not-small) {
-  .wi-10-ns   { width: 10%; }
-  .wi-25-ns   { width: 25%; }
-  .wi-50-ns   { width: 50%; }
-  .wi-75-ns   { width: 75%; }
+  .wi-10-ns {   width: 10%; }
+  .wi-12_5-ns { width: 12.5%; }
+  .wi-20-ns {   width: 20%; }
+  .wi-25-ns {   width: 25%; }
+  .wi-40-ns {   width: 40%; }
+  .wi-50-ns {   width: 50%; }
+  .wi-75-ns {   width: 75%; }
+  .wi-80-ns {   width: 80%; }
   .wi-full-ns { width: 100%; }
-  .wi1-ns   { width: 1rem; }
-  .wi2-ns   { width: 2rem; }
-  .wi3-ns   { width: 4rem; }
-  .wi4-ns   { width: 8rem; }
-  .wi5-ns   { width: 16rem; }
-  .wi6-ns   { width: 32rem; }
-  .wi7-ns   { width: 48rem; }
-  .wi8-ns   { width: 64rem; }
-  .wi9-ns   { width: 96rem; }
-  .wi10-ns  { width: 128rem; }
-  .wi-bb-ns { width: border-box; }
-  .wi-cb-ns { width: content-box; }
-  .wi-mx-ns { width: max-content; }
-  .wi-mn-ns { width: min-content; }
-  .wi-av-ns { width: available; }
-  .wi-fc-ns { width: fit-content; }
-  .wi-at-ns { width: auto; }
-  .wi-i-ns  { width: inherit; }
+  .wi1-ns {     width: 1rem; }
+  .wi2-ns {     width: 2rem; }
+  .wi3-ns {     width: 4rem; }
+  .wi4-ns {     width: 8rem; }
+  .wi5-ns {     width: 16rem; }
+  .wi6-ns {     width: 32rem; }
+  .wi7-ns {     width: 48rem; }
+  .wi8-ns {     width: 64rem; }
+  .wi9-ns {     width: 96rem; }
+  .wi10-ns {    width: 128rem; }
+  .wi-bb-ns {   width: border-box; }
+  .wi-cb-ns {   width: content-box; }
+  .wi-mx-ns {   width: max-content; }
+  .wi-mn-ns {   width: min-content; }
+  .wi-av-ns {   width: available; }
+  .wi-fc-ns {   width: fit-content; }
+  .wi-at-ns {   width: auto; }
+  .wi-i-ns  {   width: inherit; }
 }
 
 @include break(medium) {
-  .wi-10-m   { width: 10%; }
-  .wi-25-m   { width: 25%; }
-  .wi-50-m   { width: 50%; }
-  .wi-75-m   { width: 75%; }
+  .wi-10-m {   width: 10%; }
+  .wi-12_5-m { width: 12.5%; }
+  .wi-20-m {   width: 20%; }
+  .wi-25-m {   width: 25%; }
+  .wi-40-m {   width: 40%; }
+  .wi-50-m {   width: 50%; }
+  .wi-75-m {   width: 75%; }
+  .wi-80-m {   width: 80%; }
   .wi-full-m { width: 100%; }
   .wi1-m   { width: 1rem; }
   .wi2-m   { width: 2rem; }
@@ -81,21 +93,25 @@
 }
 
 @include break(large) {
-  .wi-10-l   { width: 10%; }
-  .wi-25-l   { width: 25%; }
-  .wi-50-l   { width: 50%; }
-  .wi-75-l   { width: 75%; }
+  .wi-10-l {   width: 10%; }
+  .wi-12_5-l { width: 12.5%; }
+  .wi-20-l {   width: 20%; }
+  .wi-25-l {   width: 25%; }
+  .wi-40-l {   width: 40%; }
+  .wi-50-l {   width: 50%; }
+  .wi-75-l {   width: 75%; }
+  .wi-80-l {   width: 80%; }
   .wi-full-l { width: 100%; }
-  .wi1-l   { width: 1rem; }
-  .wi2-l   { width: 2rem; }
-  .wi3-l   { width: 4rem; }
-  .wi4-l   { width: 8rem; }
-  .wi5-l   { width: 16rem; }
-  .wi6-l   { width: 32rem; }
-  .wi7-l   { width: 48rem; }
-  .wi8-l   { width: 64rem; }
-  .wi9-l   { width: 96rem; }
-  .wi10-l  { width: 128rem; }
+  .wi1-l {     width: 1rem; }
+  .wi2-l {     width: 2rem; }
+  .wi3-l {     width: 4rem; }
+  .wi4-l {     width: 8rem; }
+  .wi5-l {     width: 16rem; }
+  .wi6-l {     width: 32rem; }
+  .wi7-l {     width: 48rem; }
+  .wi8-l {     width: 64rem; }
+  .wi9-l {     width: 96rem; }
+  .wi10-l {    width: 128rem; }
   .wi-bb-l { width: border-box; }
   .wi-cb-l { width: content-box; }
   .wi-mx-l { width: max-content; }
