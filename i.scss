@@ -11,6 +11,7 @@
 
 /* SCSS/CSS */
 
+
 @import "animation_delay";
 @import "animation_directions";
 @import "animation_duration";
@@ -56,6 +57,15 @@
 @import "filter_invert";
 @import "filter_saturate";
 @import "filter_sepia";
+@import "flex_align_content";
+@import "flex_align_items";
+@import "flex_align_self";
+@import "flex_basis";
+@import "flex_direction";
+@import "flex_grow";
+@import "flex_justify_content";
+@import "flex_shrink";
+@import "flex_wrap";
 @import "floats";
 @import "font_family";
 @import "font_style";
@@ -99,6 +109,7 @@
 @import "transition_properties";
 @import "transition_timing";
 @import "type_scale";
+@import "unicode_bidi";
 @import "unicode_range";
 @import "utilities";
 @import "vertical_align";
@@ -111,4 +122,3 @@
 @import "word_wrap";
 @import "writing_mode";
 @import "z_index";
-
