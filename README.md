@@ -16,7 +16,8 @@ but figured it would be appropriate to be less concise for the purposes of this 
 I'm still adding things, but I'd say that I've got a pretty comprehensive covering of the language here at this point.
 Below is the current file size:
 
-* 17kb total (minified and gzipped)
+* 163kb (minified)
+* 17kb  (minified and gzipped)
 
 ## Why i.css?
 
