@@ -1,6 +1,6 @@
 # SINK CSS
 
-WTF is this?
+## WTF is this?
 
 First, it's an experiment.
 Second - it is an answer to a question I started asking myself after
@@ -8,12 +8,21 @@ I noticed some websites serving up more than a megabyte of css.
 
 "How big is the entire css language? I mean the ENTIRE thing. Is it bigger or smaller than 1MB?"
 
-So this is the entire css language - put into single purpose classes at multiple breakpoints.
-For properties that take integers as values instead of strings i.e margin and padding - I have
-created a 10 step scale. Which is more verbose than I need - but figured I'd air on the side
-of making this as big as possible. Turns out all of css * 4 isn't all that big.
+So this is the entire css language - put into single purpose classes at multiple breakpoints (well, three to be exact.)
+For properties that take integers as values instead of strings i.e margin and padding - I
+create a 10 step scale (with a few exceptions.) A 10 step scale is generally more verbose than I need -
+but figured it would be appropriate to be less concise for the purposes of this experiment.
+
+I'm still adding things, but I'd say that I've got a pretty comprehensive covering of the language here at this point.
+Below is the current file size:
 
 * 17kb total (minified and gzipped)
+
+## Why i.css?
+
+Well, primarily because I'm lazy. 99% of the things I do only include one css file per page (gasp!)
+so there generally isn't too much confusion about where the site styles are. I save keystrokes and
+my users have to download fewer characters. I chose the letter i because.
 
 
 # License
