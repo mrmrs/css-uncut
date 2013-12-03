@@ -2,12 +2,12 @@
    ANIMATION DELAY
    ========================================================================== */
 
-.a-delay-1 { animation-delay: .5s; }
-.a-delay-2 { animation-delay: 1s; }
-.a-delay-3 { animation-delay: 2s; }
-.a-delay-4 { animation-delay: 4s; }
-.a-delay-5 { animation-delay: 8s; }
-.a-delay-6 { animation-delay: 16s; }
+  .a-delay-1 { animation-delay: .5s; }
+  .a-delay-2 { animation-delay: 1s; }
+  .a-delay-3 { animation-delay: 2s; }
+  .a-delay-4 { animation-delay: 4s; }
+  .a-delay-5 { animation-delay: 8s; }
+  .a-delay-6 { animation-delay: 16s; }
 
 @include break(not-small) {
   .a-delay-1-ns { animation-delay: .5s; }

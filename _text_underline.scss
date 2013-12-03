@@ -3,12 +3,12 @@
    ========================================================================== */
 
 .tup-auto { text-underline-position: auto; }
-.tup-u    { text-underline-position: under; }
-.tup-l    { text-underline-position: left; }
-.tup-r    { text-underline-position: right; }
-.tup-ul   { text-underline-position: under left; }
-.tup-ru   { text-underline-position: right under; }
-.tup-i    { text-underline-position: inherit; }
+.tup-u {    text-underline-position: under; }
+.tup-l {    text-underline-position: left; }
+.tup-r {    text-underline-position: right; }
+.tup-ul {   text-underline-position: under left; }
+.tup-ru {   text-underline-position: right under; }
+.tup-i {    text-underline-position: inherit; }
 
 @include break(not-small) {
   .tup-auto-ns { text-underline-position: auto; }
@@ -39,3 +39,4 @@
   .tup-ru-l   { text-underline-position: right under; }
   .tup-i-l    { text-underline-position: inherit; }
 }
+

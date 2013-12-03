@@ -2,19 +2,19 @@
    ANIMATION DURATION
    ========================================================================== */
 
-.a-dur0  { animation-duration: 0; }
-.a-dur1  { animation-duration: .1s; }
-.a-dur2  { animation-duration: .2s; }
-.a-dur3  { animation-duration: .4s; }
-.a-dur4  { animation-duration: .5s; }
-.a-dur5  { animation-duration: .7s; }
-.a-dur6  { animation-duration: 1s;  }
-.a-dur7  { animation-duration: 1.5s; }
-.a-dur8  { animation-duration: 2s; }
-.a-dur9  { animation-duration: 2.5s; }
-.a-dur10  { animation-duration: 4s;  }
-.a-dur11  { animation-duration: 8s;  }
-.a-dur12 { animation-duration: 12s;  }
+  .a-dur0  { animation-duration: 0; }
+  .a-dur1  { animation-duration: .1s; }
+  .a-dur2  { animation-duration: .2s; }
+  .a-dur3  { animation-duration: .4s; }
+  .a-dur4  { animation-duration: .5s; }
+  .a-dur5  { animation-duration: .7s; }
+  .a-dur6  { animation-duration: 1s;  }
+  .a-dur7  { animation-duration: 1.5s; }
+  .a-dur8  { animation-duration: 2s; }
+  .a-dur9  { animation-duration: 2.5s; }
+  .a-dur10 { animation-duration: 4s;  }
+  .a-dur11 { animation-duration: 8s;  }
+  .a-dur12 { animation-duration: 12s;  }
 
 @include break(not-small) {
   .a-dur0-ns   { animation-duration: 0; }

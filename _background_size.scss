@@ -2,13 +2,13 @@
    BACKGROUND SIZE
    ========================================================================== */
 
-.bg-cv  {             background-size: cover; }
-.bg-cn  {             background-size: contain; }
-.bg-quarter {         background-size: 25%; }
-.bg-half {            background-size: 50%; }
-.bg-three-quarters {  background-size: 75%; }
-.bg-full {            background-size: 100%; }
-.bg-auto {            background-size: auto; }
+  .bg-cv  {             background-size: cover; }
+  .bg-cn  {             background-size: contain; }
+  .bg-quarter {         background-size: 25%; }
+  .bg-half {            background-size: 50%; }
+  .bg-three-quarters {  background-size: 75%; }
+  .bg-full {            background-size: 100%; }
+  .bg-auto {            background-size: auto; }
 
 @include break(not-small) {
   .bg-cv-ns {             background-size: cover; }

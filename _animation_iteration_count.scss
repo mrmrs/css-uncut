@@ -2,13 +2,13 @@
    ANIMATION ITERATION COUNT
    ========================================================================== */
 
-.a-cnt0    { animation-iteration-count: 0; }
-.a-cnt1    { animation-iteration-count: 1; }
-.a-cnt2    { animation-iteration-count: 2; }
-.a-cnt3    { animation-iteration-count: 4; }
-.a-cnt3    { animation-iteration-count: 5; }
-.a-cnt4    { animation-iteration-count: 10; }
-.a-cnt-inf { animation-iteration-count: infinite; }
+  .a-cnt0    { animation-iteration-count: 0; }
+  .a-cnt1    { animation-iteration-count: 1; }
+  .a-cnt2    { animation-iteration-count: 2; }
+  .a-cnt3    { animation-iteration-count: 4; }
+  .a-cnt3    { animation-iteration-count: 5; }
+  .a-cnt4    { animation-iteration-count: 10; }
+  .a-cnt-inf { animation-iteration-count: infinite; }
 
 @include break(not-small) {
   .a-cnt0-ns    { animation-iteration-count: 0; }

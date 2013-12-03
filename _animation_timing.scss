@@ -2,14 +2,14 @@
    ANIMATION TIMING FUNCTION
    ========================================================================== */
 
-.a-ease {      animation-timing-function: ease; }
-.a-easein {    animation-timing-function: ease-in; }
-.a-easeout {   animation-timing-function: ease-out; }
-.a-easeinout { animation-timing-function: ease-in-out; }
-.a-linear {    animation-timing-function: linear; }
-.a-bezier {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
-.a-start {     animation-timing-function: step-start; }
-.a-stop {      animation-timing-function: step-stop; }
+  .a-ease {      animation-timing-function: ease; }
+  .a-easein {    animation-timing-function: ease-in; }
+  .a-easeout {   animation-timing-function: ease-out; }
+  .a-easeinout { animation-timing-function: ease-in-out; }
+  .a-linear {    animation-timing-function: linear; }
+  .a-bezier {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .a-start {     animation-timing-function: step-start; }
+  .a-stop {      animation-timing-function: step-stop; }
 
 
 @include break(not-small) {

@@ -12,10 +12,10 @@
 
 /*
     Text that is hidden but accessible
-    From: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+    Ref: http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 */
 
-.clipped {
+.clip {
   position: fixed !important;
   _position: absolute !important;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -28,7 +28,7 @@
   .vis-collapse-ns { visibility: collapse; }
   .vis-bf-vis-ns {   backface-visibility: visible; }
   .vis-bf-hid-ns {   backface-visibility: hidden; }
-  .clipped-ns {
+  .clip-ns {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -42,7 +42,7 @@
   .vis-collapse-m { visibility: collapse; }
   .vis-bf-vis-m { backface-visibility: visible; }
   .vis-bf-hid-m { backface-visibility: hidden; }
-  .clipped-m {
+  .clip-m {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
@@ -56,7 +56,7 @@
   .vis-collapse-l { visibility: collapse; }
   .vis-bf-vis-l { backface-visibility: visible; }
   .vis-bf-hid-l { backface-visibility: hidden; }
-  .clipped-l {
+  .clip-l {
     position: fixed !important;
     _position: absolute !important;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */

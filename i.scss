@@ -1,5 +1,15 @@
+/*
+ *
+ *      SINK - All of css. Seriously. All of it.
+ *
+ */
+
+/* Variables and Mixins */
+
 @import "colors";
 @import "queries";
+
+/* SCSS/CSS */
 
 @import "animation_delay";
 @import "animation_directions";
@@ -88,7 +98,6 @@
 @import "transition_duration";
 @import "transition_properties";
 @import "transition_timing";
-@import "transitions";
 @import "type_scale";
 @import "unicode_range";
 @import "utilities";
@@ -102,3 +111,4 @@
 @import "word_wrap";
 @import "writing_mode";
 @import "z_index";
+

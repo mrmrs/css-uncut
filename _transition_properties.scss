@@ -43,7 +43,6 @@
   .tp-t-m   { transition-property: top; }
   .tp-b-m   { transition-property: bottom; }
   .tp-o-m   { transition-property: opacity; }
-
 }
 
 @include break(large) {

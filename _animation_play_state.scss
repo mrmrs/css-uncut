@@ -2,8 +2,8 @@
    ANIMATION PLAY STATE
    ========================================================================== */
 
-.a-running { animation-play-state: running; }
-.a-paused { animation-play-state: paused; }
+  .a-running    { animation-play-state: running; }
+  .a-paused     { animation-play-state: paused; }
 
 @include break(not-small) {
   .a-running-ns { animation-play-state: running; }

@@ -2,13 +2,11 @@
    BORDER BASE
    ========================================================================== */
 
-/* Border base */
-
-.ba { border-style: solid; border-width: 1px; }
-.bt { border-style: solid; border-left-width: 1px; }
-.br { border-style: solid; border-right-width: 1px; }
-.bb { border-style: solid; border-bottom: 1px; }
-.bl { border-style: solid; border-left-width: 1px; }
+  .ba { border-style: solid; border-width: 1px; }
+  .bt { border-style: solid; border-left-width: 1px; }
+  .br { border-style: solid; border-right-width: 1px; }
+  .bb { border-style: solid; border-bottom: 1px; }
+  .bl { border-style: solid; border-left-width: 1px; }
 
 @include break(not-small) {
   .ba-ns { border-style: solid; border-width: 1px; }

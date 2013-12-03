@@ -2,40 +2,40 @@
    BORDER WIDTHS
    ========================================================================== */
 
-.baw0 { border-width: 0; }
-.baw1 { border-width: .125rem; }
-.baw2 { border-width: .25rem; }
-.baw3 { border-width: .5rem; }
-.baw4 { border-width: .75rem; }
-.baw5 { border-width: 1rem; }
+  .baw0 { border-width: 0; }
+  .baw1 { border-width: .125rem; }
+  .baw2 { border-width: .25rem; }
+  .baw3 { border-width: .5rem; }
+  .baw4 { border-width: .75rem; }
+  .baw5 { border-width: 1rem; }
 
-.btw0 { border-top-width: 0; }
-.btw1 { border-top-width: .125rem; }
-.btw2 { border-top-width: .25rem; }
-.btw3 { border-top-width: .5rem; }
-.btw4 { border-top-width: .75rem; }
-.btw5 { border-top-width: 1rem; }
+  .btw0 { border-top-width: 0; }
+  .btw1 { border-top-width: .125rem; }
+  .btw2 { border-top-width: .25rem; }
+  .btw3 { border-top-width: .5rem; }
+  .btw4 { border-top-width: .75rem; }
+  .btw5 { border-top-width: 1rem; }
 
-.bbw0 { border-bottom-width: 0; }
-.bbw1 { border-bottom-width: .125rem; }
-.bbw2 { border-bottom-width: .25rem; }
-.bbw3 { border-bottom-width: .5rem; }
-.bbw4 { border-bottom-width: .75rem; }
-.bbw5 { border-bottom-width: 1rem; }
+  .bbw0 { border-bottom-width: 0; }
+  .bbw1 { border-bottom-width: .125rem; }
+  .bbw2 { border-bottom-width: .25rem; }
+  .bbw3 { border-bottom-width: .5rem; }
+  .bbw4 { border-bottom-width: .75rem; }
+  .bbw5 { border-bottom-width: 1rem; }
 
-.blw0 { border-left-width: 0; }
-.blw1 { border-left-width: .125rem; }
-.blw2 { border-left-width: .25rem; }
-.blw3 { border-left-width: .5rem; }
-.blw4 { border-left-width: .75rem; }
-.blw5 { border-left-width: 1rem; }
+  .blw0 { border-left-width: 0; }
+  .blw1 { border-left-width: .125rem; }
+  .blw2 { border-left-width: .25rem; }
+  .blw3 { border-left-width: .5rem; }
+  .blw4 { border-left-width: .75rem; }
+  .blw5 { border-left-width: 1rem; }
 
-.brw0 { border-right-width: 0; }
-.brw1 { border-right-width: .125rem; }
-.brw2 { border-right-width: .25rem; }
-.brw3 { border-right-width: .5rem; }
-.brw4 { border-right-width: .75rem; }
-.brw5 { border-right-width: 1rem; }
+  .brw0 { border-right-width: 0; }
+  .brw1 { border-right-width: .125rem; }
+  .brw2 { border-right-width: .25rem; }
+  .brw3 { border-right-width: .5rem; }
+  .brw4 { border-right-width: .75rem; }
+  .brw5 { border-right-width: 1rem; }
 
 @include break(not-small) {
   .baw0-ns { border-width: 0; }
