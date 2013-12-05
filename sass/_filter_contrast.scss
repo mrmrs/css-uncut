@@ -2,39 +2,39 @@
    FILTERS - CONTRAST
    ========================================================================== */
 
-.contrast-0 { filter: contrast(0); }
-.contrast-1 { filter: contrast(50%); }
-.contrast-2 { filter: contrast(75%); }
-.contrast-3 { filter: contrast(100%); }
-.contrast-4 { filter: contrast(150%); }
-.contrast-5 { filter: contrast(200%); }
+.contrast0 { filter: contrast(0); }
+.contrast1 { filter: contrast(50%); }
+.contrast2 { filter: contrast(75%); }
+.contrast3 { filter: contrast(100%); }
+.contrast4 { filter: contrast(150%); }
+.contrast5 { filter: contrast(200%); }
 
 @include break(not-small) {
-  .contrast-0-ns { filter: contrast(0); }
-  .contrast-1-ns { filter: contrast(50%); }
-  .contrast-2-ns { filter: contrast(75%); }
-  .contrast-3-ns { filter: contrast(100%); }
-  .contrast-4-ns { filter: contrast(150%); }
-  .contrast-5-ns { filter: contrast(200%); }
+  .contrast0-ns { filter: contrast(0); }
+  .contrast1-ns { filter: contrast(50%); }
+  .contrast2-ns { filter: contrast(75%); }
+  .contrast3-ns { filter: contrast(100%); }
+  .contrast4-ns { filter: contrast(150%); }
+  .contrast5-ns { filter: contrast(200%); }
 
 }
 
 @include break(medium) {
-  .contrast-0-m { filter: contrast(0); }
-  .contrast-1-m { filter: contrast(50%); }
-  .contrast-2-m { filter: contrast(75%); }
-  .contrast-3-m { filter: contrast(100%); }
-  .contrast-4-m { filter: contrast(150%); }
-  .contrast-5-m { filter: contrast(200%); }
+  .contrast0-m { filter: contrast(0); }
+  .contrast1-m { filter: contrast(50%); }
+  .contrast2-m { filter: contrast(75%); }
+  .contrast3-m { filter: contrast(100%); }
+  .contrast4-m { filter: contrast(150%); }
+  .contrast5-m { filter: contrast(200%); }
 
 }
 
 @include break(large) {
-  .contrast-0-l { filter: contrast(0); }
-  .contrast-1-l { filter: contrast(50%); }
-  .contrast-2-l { filter: contrast(75%); }
-  .contrast-3-l { filter: contrast(100%); }
-  .contrast-4-l { filter: contrast(150%); }
-  .contrast-5-l { filter: contrast(200%); }
+  .contrast0-l { filter: contrast(0); }
+  .contrast1-l { filter: contrast(50%); }
+  .contrast2-l { filter: contrast(75%); }
+  .contrast3-l { filter: contrast(100%); }
+  .contrast4-l { filter: contrast(150%); }
+  .contrast5-l { filter: contrast(200%); }
 }
 

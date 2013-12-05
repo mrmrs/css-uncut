@@ -2,45 +2,45 @@
    FILTERS - HUE ROTATE
    ========================================================================== */
 
-.hue-rotate-1 { filter: hue-rotate(45deg); }
-.hue-rotate-2 { filter: hue-rotate(90deg); }
-.hue-rotate-3 { filter: hue-rotate(135deg); }
-.hue-rotate-4 { filter: hue-rotate(180deg); }
-.hue-rotate-5 { filter: hue-rotate(225deg); }
-.hue-rotate-6 { filter: hue-rotate(270deg); }
-.hue-rotate-7 { filter: hue-rotate(315deg); }
-.hue-rotate-8 { filter: hue-rotate(360deg); }
+.hue-rotate1 { filter: hue-rotate(45deg); }
+.hue-rotate2 { filter: hue-rotate(90deg); }
+.hue-rotate3 { filter: hue-rotate(135deg); }
+.hue-rotate4 { filter: hue-rotate(180deg); }
+.hue-rotate5 { filter: hue-rotate(225deg); }
+.hue-rotate6 { filter: hue-rotate(270deg); }
+.hue-rotate7 { filter: hue-rotate(315deg); }
+.hue-rotate8 { filter: hue-rotate(360deg); }
 
 @include break(not-small) {
-  .hue-rotate-1-ns { filter: hue-rotate(45deg); }
-  .hue-rotate-2-ns { filter: hue-rotate(90deg); }
-  .hue-rotate-3-ns { filter: hue-rotate(135deg); }
-  .hue-rotate-4-ns { filter: hue-rotate(180deg); }
-  .hue-rotate-5-ns { filter: hue-rotate(225deg); }
-  .hue-rotate-6-ns { filter: hue-rotate(270deg); }
-  .hue-rotate-7-ns { filter: hue-rotate(315deg); }
-  .hue-rotate-8-ns { filter: hue-rotate(360deg); }
+  .hue-rotate1-ns { filter: hue-rotate(45deg); }
+  .hue-rotate2-ns { filter: hue-rotate(90deg); }
+  .hue-rotate3-ns { filter: hue-rotate(135deg); }
+  .hue-rotate4-ns { filter: hue-rotate(180deg); }
+  .hue-rotate5-ns { filter: hue-rotate(225deg); }
+  .hue-rotate6-ns { filter: hue-rotate(270deg); }
+  .hue-rotate7-ns { filter: hue-rotate(315deg); }
+  .hue-rotate8-ns { filter: hue-rotate(360deg); }
 }
 
 @include break(medium) {
-  .hue-rotate-1-m { filter: hue-rotate(45deg); }
-  .hue-rotate-2-m { filter: hue-rotate(90deg); }
-  .hue-rotate-3-m { filter: hue-rotate(135deg); }
-  .hue-rotate-4-m { filter: hue-rotate(180deg); }
-  .hue-rotate-5-m { filter: hue-rotate(225deg); }
-  .hue-rotate-6-m { filter: hue-rotate(270deg); }
-  .hue-rotate-7-m { filter: hue-rotate(315deg); }
-  .hue-rotate-8-m { filter: hue-rotate(360deg); }
+  .hue-rotate1-m { filter: hue-rotate(45deg); }
+  .hue-rotate2-m { filter: hue-rotate(90deg); }
+  .hue-rotate3-m { filter: hue-rotate(135deg); }
+  .hue-rotate4-m { filter: hue-rotate(180deg); }
+  .hue-rotate5-m { filter: hue-rotate(225deg); }
+  .hue-rotate6-m { filter: hue-rotate(270deg); }
+  .hue-rotate7-m { filter: hue-rotate(315deg); }
+  .hue-rotate8-m { filter: hue-rotate(360deg); }
 }
 
 @include break(large) {
-  .hue-rotate-1-l { filter: hue-rotate(45deg); }
-  .hue-rotate-2-l { filter: hue-rotate(90deg); }
-  .hue-rotate-3-l { filter: hue-rotate(135deg); }
-  .hue-rotate-4-l { filter: hue-rotate(180deg); }
-  .hue-rotate-5-l { filter: hue-rotate(225deg); }
-  .hue-rotate-6-l { filter: hue-rotate(270deg); }
-  .hue-rotate-7-l { filter: hue-rotate(315deg); }
-  .hue-rotate-8-l { filter: hue-rotate(360deg); }
+  .hue-rotate1-l { filter: hue-rotate(45deg); }
+  .hue-rotate2-l { filter: hue-rotate(90deg); }
+  .hue-rotate3-l { filter: hue-rotate(135deg); }
+  .hue-rotate4-l { filter: hue-rotate(180deg); }
+  .hue-rotate5-l { filter: hue-rotate(225deg); }
+  .hue-rotate6-l { filter: hue-rotate(270deg); }
+  .hue-rotate7-l { filter: hue-rotate(315deg); }
+  .hue-rotate8-l { filter: hue-rotate(360deg); }
 }
 
