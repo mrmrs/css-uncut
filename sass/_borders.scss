@@ -5,14 +5,14 @@
   .ba { border-style: solid; border-width: 1px; }
   .bt { border-style: solid; border-left-width: 1px; }
   .br { border-style: solid; border-right-width: 1px; }
-  .bb { border-style: solid; border-bottom: 1px; }
+  .bb { border-style: solid; border-bottom-width: 1px; }
   .bl { border-style: solid; border-left-width: 1px; }
 
 @include break(not-small) {
   .ba-ns { border-style: solid; border-width: 1px; }
   .bt-ns { border-style: solid; border-left-width: 1px; }
   .br-ns { border-style: solid; border-right-width: 1px; }
-  .bb-ns { border-style: solid; border-bottom: 1px; }
+  .bb-ns { border-style: solid; border-bottom-width: 1px; }
   .bl-ns { border-style: solid; border-left-width: 1px; }
 }
 
@@ -20,7 +20,7 @@
   .ba-m { border-style: solid; border-width: 1px; }
   .bt-m { border-style: solid; border-left-width: 1px; }
   .br-m { border-style: solid; border-right-width: 1px; }
-  .bb-m { border-style: solid; border-bottom: 1px; }
+  .bb-m { border-style: solid; border-bottom-width: 1px; }
   .bl-m { border-style: solid; border-left-width: 1px; }
 }
 
@@ -28,7 +28,7 @@
   .ba-l { border-style: solid; border-width: 1px; }
   .bt-l { border-style: solid; border-left-width: 1px; }
   .br-l { border-style: solid; border-right-width: 1px; }
-  .bb-l { border-style: solid; border-bottom: 1px; }
+  .bb-l { border-style: solid; border-bottom-width: 1px; }
   .bl-l { border-style: solid; border-left-width: 1px; }
 }
 

@@ -3,7 +3,7 @@
    ========================================================================== */
 
   .brn {     border-radius: 0; }
-  .br  {     border-radius: .125rem; }
+  .br {      border-radius: .125rem; }
   .br2 {     border-radius: .25rem; }
   .br3 {     border-radius: .5rem; }
   .br4 {     border-radius: 1rem; }
@@ -13,7 +13,7 @@
 
 @include break(not-small) {
   .brn-ns {     border-radius: 0; }
-  .br-ns  {     border-radius: .125rem; }
+  .br-ns {      border-radius: .125rem; }
   .br2-ns {     border-radius: .25rem; }
   .br3-ns {     border-radius: .5rem; }
   .br4-ns {     border-radius: 1rem; }
