@@ -3098,6 +3098,21 @@
     border-right-style: outset; } }
 /* ==========================================================================
    BORDER WIDTHS
+
+   LEGEND
+
+   b = border
+
+   a = all
+   t = top
+   b = bottom
+   l = left
+   r = right
+
+   w = width
+
+   0-5 = step in sizing scale
+
    ========================================================================== */
 .baw0 {
   border-width: 0; }
@@ -3476,7 +3491,7 @@
 
 .bb {
   border-style: solid;
-  border-bottom: 1px; }
+  border-bottom-width: 1px; }
 
 .bl {
   border-style: solid;
@@ -3497,7 +3512,7 @@
 
   .bb-ns {
     border-style: solid;
-    border-bottom: 1px; }
+    border-bottom-width: 1px; }
 
   .bl-ns {
     border-style: solid;
@@ -3517,7 +3532,7 @@
 
   .bb-m {
     border-style: solid;
-    border-bottom: 1px; }
+    border-bottom-width: 1px; }
 
   .bl-m {
     border-style: solid;
@@ -3537,7 +3552,7 @@
 
   .bb-l {
     border-style: solid;
-    border-bottom: 1px; }
+    border-bottom-width: 1px; }
 
   .bl-l {
     border-style: solid;
@@ -14416,6 +14431,31 @@ table {
 
 /* ==========================================================================
    SPACING
+
+   An eight step powers of two scale ranging from 0 to 16rem.
+
+   Legend:
+
+   p = padding
+   m = margin
+
+   a = all
+   h = horizontal
+   v = vertical
+   t = top
+   r = right
+   b = bottom
+   l = left
+
+   n = none
+   xs = extra small
+   s = small
+   m = medium
+   l = large
+   x = extra
+   xl = extra large
+   xxl = extra extra large
+
    ========================================================================== */
 .pan {
   padding: 0; }
@@ -14438,6 +14478,9 @@ table {
 .paxl {
   padding: 8rem; }
 
+.paxxl {
+  padding: 16rem; }
+
 .pln {
   padding-left: 0; }
 
@@ -14458,6 +14501,9 @@ table {
 
 .plxl {
   padding-left: 8rem; }
+
+.plxxl {
+  padding-left: 16rem; }
 
 .prn {
   padding-right: 0; }
@@ -14480,6 +14526,9 @@ table {
 .prxl {
   padding-right: 8rem; }
 
+.prxxl {
+  padding-right: 16rem; }
+
 .pbn {
   padding-bottom: 0; }
 
@@ -14501,6 +14550,9 @@ table {
 .pbxl {
   padding-bottom: 8rem; }
 
+.pbxxl {
+  padding-bottom: 16rem; }
+
 .ptn {
   padding-top: 0; }
 
@@ -14521,6 +14573,9 @@ table {
 
 .ptxl {
   padding-top: 8rem; }
+
+.ptxxl {
+  padding-top: 16rem; }
 
 .pvn {
   padding-top: 0;
@@ -14550,6 +14605,10 @@ table {
   padding-top: 8rem;
   padding-bottom: 8rem; }
 
+.pvxxl {
+  padding-top: 16rem;
+  padding-bottom: 16rem; }
+
 .phn {
   padding-left: 0;
   padding-right: 0; }
@@ -14578,6 +14637,10 @@ table {
   padding-left: 8rem;
   padding-right: 8rem; }
 
+.phxxl {
+  padding-left: 16rem;
+  padding-right: 16rem; }
+
 .man {
   margin: 0; }
 
@@ -14598,6 +14661,9 @@ table {
 
 .maxl {
   margin: 8rem; }
+
+.maxxl {
+  margin: 16rem; }
 
 .mln {
   margin-left: 0; }
@@ -14620,6 +14686,9 @@ table {
 .mlxl {
   margin-left: 8rem; }
 
+.mlxxl {
+  margin-left: 16rem; }
+
 .mrn {
   margin-right: 0; }
 
@@ -14640,6 +14709,9 @@ table {
 
 .mrxl {
   margin-right: 8rem; }
+
+.mrxxl {
+  margin-right: 16rem; }
 
 .mbn {
   margin-bottom: 0; }
@@ -14662,6 +14734,9 @@ table {
 .mbxl {
   margin-bottom: 8rem; }
 
+.mbxxl {
+  margin-bottom: 16rem; }
+
 .mtn {
   margin-top: 0; }
 
@@ -14682,6 +14757,9 @@ table {
 
 .mtxl {
   margin-top: 8rem; }
+
+.mtxxl {
+  margin-top: 16rem; }
 
 .mvn {
   margin-top: 0;
@@ -14711,6 +14789,10 @@ table {
   margin-top: 8rem;
   margin-bottom: 8rem; }
 
+.mvxl {
+  margin-top: 16rem;
+  margin-bottom: 16rem; }
+
 .mhn {
   margin-left: 0;
   margin-right: 0; }
@@ -14735,6 +14817,10 @@ table {
   margin-left: 8rem;
   margin-right: 8rem; }
 
+.mhxxl {
+  margin-left: 16rem;
+  margin-right: 16rem; }
+
 @media screen and (min-width: 48em) {
   .pan-ns {
     padding: 0; }
@@ -14757,6 +14843,9 @@ table {
   .paxl-ns {
     padding: 8rem; }
 
+  .paxxl-ns {
+    padding: 16rem; }
+
   .pln-ns {
     padding-left: 0; }
 
@@ -14777,6 +14866,9 @@ table {
 
   .plxl-ns {
     padding-left: 8rem; }
+
+  .plxxl-ns {
+    padding-left: 16rem; }
 
   .prn-ns {
     padding-right: 0; }
@@ -14799,6 +14891,9 @@ table {
   .prxl-ns {
     padding-right: 8rem; }
 
+  .prxxl-ns {
+    padding-right: 16rem; }
+
   .pbn-ns {
     padding-bottom: 0; }
 
@@ -14820,6 +14915,9 @@ table {
   .pbxl-ns {
     padding-bottom: 8rem; }
 
+  .pbxxl-ns {
+    padding-bottom: 16rem; }
+
   .ptn-ns {
     padding-top: 0; }
 
@@ -14840,6 +14938,9 @@ table {
 
   .ptxl-ns {
     padding-top: 8rem; }
+
+  .ptxxl-ns {
+    padding-top: 16rem; }
 
   .pvn-ns {
     padding-top: 0;
@@ -14869,6 +14970,10 @@ table {
     padding-top: 8rem;
     padding-bottom: 8rem; }
 
+  .pvxxl-ns {
+    padding-top: 16rem;
+    padding-bottom: 16rem; }
+
   .phn-ns {
     padding-left: 0;
     padding-right: 0; }
@@ -14897,6 +15002,10 @@ table {
     padding-left: 8rem;
     padding-right: 8rem; }
 
+  .phxxl-ns {
+    padding-left: 16rem;
+    padding-right: 16rem; }
+
   .man-ns {
     margin: 0; }
 
@@ -14917,6 +15026,9 @@ table {
 
   .maxl-ns {
     margin: 8rem; }
+
+  .maxxl-ns {
+    margin: 16rem; }
 
   .mln-ns {
     margin-left: 0; }
@@ -14939,6 +15051,9 @@ table {
   .mlxl-ns {
     margin-left: 8rem; }
 
+  .mlxxl-ns {
+    margin-left: 16rem; }
+
   .mrn-ns {
     margin-right: 0; }
 
@@ -14959,6 +15074,9 @@ table {
 
   .mrxl-ns {
     margin-right: 8rem; }
+
+  .mrxxl-ns {
+    margin-right: 16rem; }
 
   .mbn-ns {
     margin-bottom: 0; }
@@ -14981,6 +15099,9 @@ table {
   .mbxl-ns {
     margin-bottom: 8rem; }
 
+  .mbxxl-ns {
+    margin-bottom: 16rem; }
+
   .mtn-ns {
     margin-top: 0; }
 
@@ -15001,6 +15122,9 @@ table {
 
   .mtxl-ns {
     margin-top: 8rem; }
+
+  .mtxxl-ns {
+    margin-top: 16rem; }
 
   .mvn-ns {
     margin-top: 0;
@@ -15030,6 +15154,10 @@ table {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
+  .mvxxl-ns {
+    margin-top: 16rem;
+    margin-bottom: 16rem; }
+
   .mhn-ns {
     margin-left: 0;
     margin-right: 0; }
@@ -15052,7 +15180,11 @@ table {
 
   .mhxl-ns {
     margin-left: 8rem;
-    margin-right: 8rem; } }
+    margin-right: 8rem; }
+
+  .mhxxl-ns {
+    margin-left: 16rem;
+    margin-right: 16rem; } }
 @media screen and (min-width: 48em) and (max-width: 64em) {
   .pan-m {
     padding: 0; }
@@ -15075,6 +15207,9 @@ table {
   .paxl-m {
     padding: 8rem; }
 
+  .paxxl-m {
+    padding: 16rem; }
+
   .pln-m {
     padding-left: 0; }
 
@@ -15095,6 +15230,9 @@ table {
 
   .plxl-m {
     padding-left: 8rem; }
+
+  .plxxl-m {
+    padding-left: 16rem; }
 
   .prn-m {
     padding-right: 0; }
@@ -15117,6 +15255,9 @@ table {
   .prxl-m {
     padding-right: 8rem; }
 
+  .prxxl-m {
+    padding-right: 16rem; }
+
   .pbn-m {
     padding-bottom: 0; }
 
@@ -15138,6 +15279,9 @@ table {
   .pbxl-m {
     padding-bottom: 8rem; }
 
+  .pbxxl-m {
+    padding-bottom: 16rem; }
+
   .ptn-m {
     padding-top: 0; }
 
@@ -15158,6 +15302,9 @@ table {
 
   .ptxl-m {
     padding-top: 8rem; }
+
+  .ptxxl-m {
+    padding-top: 16rem; }
 
   .pvn-m {
     padding-top: 0;
@@ -15187,6 +15334,10 @@ table {
     padding-top: 8rem;
     padding-bottom: 8rem; }
 
+  .pvxxl-m {
+    padding-top: 16rem;
+    padding-bottom: 16rem; }
+
   .phn-m {
     padding-left: 0;
     padding-right: 0; }
@@ -15215,6 +15366,10 @@ table {
     padding-left: 8rem;
     padding-right: 8rem; }
 
+  .phxxl-m {
+    padding-left: 16rem;
+    padding-right: 16rem; }
+
   .man-m {
     margin: 0; }
 
@@ -15235,6 +15390,9 @@ table {
 
   .maxl-m {
     margin: 8rem; }
+
+  .maxxl-m {
+    margin: 16rem; }
 
   .mln-m {
     margin-left: 0; }
@@ -15257,6 +15415,9 @@ table {
   .mlxl-m {
     margin-left: 8rem; }
 
+  .mlxxl-m {
+    margin-left: 16rem; }
+
   .mrn-m {
     margin-right: 0; }
 
@@ -15277,6 +15438,9 @@ table {
 
   .mrxl-m {
     margin-right: 8rem; }
+
+  .mrxxl-m {
+    margin-right: 16rem; }
 
   .mbn-m {
     margin-bottom: 0; }
@@ -15299,6 +15463,9 @@ table {
   .mbxl-m {
     margin-bottom: 8rem; }
 
+  .mbxxl-m {
+    margin-bottom: 16rem; }
+
   .mtn-m {
     margin-top: 0; }
 
@@ -15319,6 +15486,9 @@ table {
 
   .mtxl-m {
     margin-top: 8rem; }
+
+  .mtxxl-m {
+    margin-top: 16rem; }
 
   .mvn-m {
     margin-top: 0;
@@ -15348,6 +15518,10 @@ table {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
+  .mvxxl-m {
+    margin-top: 16rem;
+    margin-bottom: 16rem; }
+
   .mhn-m {
     margin-left: 0;
     margin-right: 0; }
@@ -15374,7 +15548,11 @@ table {
 
   .mhxl {
     margin-left: 8rem;
-    margin-right: 8rem; } }
+    margin-right: 8rem; }
+
+  .mhxxl {
+    margin-left: 16rem;
+    margin-right: 16rem; } }
 @media screen and (min-width: 64em) {
   .pan-l {
     padding: 0; }
@@ -15397,6 +15575,9 @@ table {
   .paxl-l {
     padding: 8rem; }
 
+  .paxxl-l {
+    padding: 16rem; }
+
   .pln-l {
     padding-left: 0; }
 
@@ -15417,6 +15598,9 @@ table {
 
   .plxl-l {
     padding-left: 8rem; }
+
+  .plxxl-l {
+    padding-left: 16rem; }
 
   .prn-l {
     padding-right: 0; }
@@ -15439,6 +15623,9 @@ table {
   .prxl-l {
     padding-right: 8rem; }
 
+  .prxxl-l {
+    padding-right: 16rem; }
+
   .pbn-l {
     padding-bottom: 0; }
 
@@ -15460,6 +15647,9 @@ table {
   .pbxl-l {
     padding-bottom: 8rem; }
 
+  .pbxxl-l {
+    padding-bottom: 16rem; }
+
   .ptn-l {
     padding-top: 0; }
 
@@ -15480,6 +15670,9 @@ table {
 
   .ptxl-l {
     padding-top: 8rem; }
+
+  .ptxxl-l {
+    padding-top: 16rem; }
 
   .pvn-l {
     padding-top: 0;
@@ -15509,6 +15702,10 @@ table {
     padding-top: 8rem;
     padding-bottom: 8rem; }
 
+  .pvxxl-l {
+    padding-top: 16rem;
+    padding-bottom: 16rem; }
+
   .phn-l {
     padding-left: 0;
     padding-right: 0; }
@@ -15537,6 +15734,10 @@ table {
     padding-left: 8rem;
     padding-right: 8rem; }
 
+  .phxxl-l {
+    padding-left: 16rem;
+    padding-right: 16rem; }
+
   .man-l {
     margin: 0; }
 
@@ -15557,6 +15758,9 @@ table {
 
   .maxl-l {
     margin: 8rem; }
+
+  .maxxl-l {
+    margin: 16rem; }
 
   .mln-l {
     margin-left: 0; }
@@ -15579,6 +15783,9 @@ table {
   .mlxl-l {
     margin-left: 8rem; }
 
+  .mlxxl-l {
+    margin-left: 16rem; }
+
   .mrn-l {
     margin-right: 0; }
 
@@ -15599,6 +15806,9 @@ table {
 
   .mrxl-l {
     margin-right: 8rem; }
+
+  .mrxxl-l {
+    margin-right: 16rem; }
 
   .mbn-l {
     margin-bottom: 0; }
@@ -15621,6 +15831,9 @@ table {
   .mbxl-l {
     margin-bottom: 8rem; }
 
+  .mbxxl-l {
+    margin-bottom: 16rem; }
+
   .mtn-l {
     margin-top: 0; }
 
@@ -15641,6 +15854,9 @@ table {
 
   .mtxl-l {
     margin-top: 8rem; }
+
+  .mtxxl-l {
+    margin-top: 16rem; }
 
   .mvn-l {
     margin-top: 0;
@@ -15670,6 +15886,10 @@ table {
     margin-top: 8rem;
     margin-bottom: 8rem; }
 
+  .mvxxl-l {
+    margin-top: 16rem;
+    margin-bottom: 16rem; }
+
   .mhn-l {
     margin-left: 0;
     margin-right: 0; }
@@ -15696,7 +15916,11 @@ table {
 
   .mhxl-l {
     margin-left: 8rem;
-    margin-right: 8rem; } }
+    margin-right: 8rem; }
+
+  .mhxxl-l {
+    margin-left: 16rem;
+    margin-right: 16rem; } }
 /* ==========================================================================
    SQUARES
    ========================================================================== */
