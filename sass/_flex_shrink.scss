@@ -19,18 +19,18 @@
 }
 
 @include break(medium) {
-  .fls-1 { flex-shrink: 1; }
-  .fls-2 { flex-shrink: 2; }
-  .fls-3 { flex-shrink: 3; }
-  .fls-4 { flex-shrink: 4; }
-  .fls-i { flex-shrink: inherit; }
+  .fls-1-m { flex-shrink: 1; }
+  .fls-2-m { flex-shrink: 2; }
+  .fls-3-m { flex-shrink: 3; }
+  .fls-4-m { flex-shrink: 4; }
+  .fls-i-m { flex-shrink: inherit; }
 }
 
 @include break(large) {
-  .fls-1 { flex-shrink: 1; }
-  .fls-2 { flex-shrink: 2; }
-  .fls-3 { flex-shrink: 3; }
-  .fls-4 { flex-shrink: 4; }
-  .fls-i { flex-shrink: inherit; }
+  .fls-1-l { flex-shrink: 1; }
+  .fls-2-l { flex-shrink: 2; }
+  .fls-3-l { flex-shrink: 3; }
+  .fls-4-l { flex-shrink: 4; }
+  .fls-i-l { flex-shrink: inherit; }
 }
 

@@ -2,6 +2,12 @@
    PAGED MEDIA
    ========================================================================== */
 
+/*
+ * I don't think we need screen-width based media queries for these
+ * print styles.
+ *
+ */
+
 .page-ba-auto {   page-break-after: auto; }
 .page-ba-always { page-break-after: always; }
 .page-ba-avoid {  page-break-after: avoid; }

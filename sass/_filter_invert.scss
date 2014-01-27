@@ -2,15 +2,15 @@
    FILTERS - INVERT
    ========================================================================== */
 
-.invert-1 { filter: invert(1%); }
-.invert-2 { filter: invert(2%); }
-.invert-3 { filter: invert(3%); }
-.invert-4 { filter: invert(4%); }
-.invert-5 { filter: invert(5%); }
-.invert-6 { filter: invert(6%); }
-.invert-7 { filter: invert(7%); }
-.invert-8 { filter: invert(8%); }
-.invert-9 { filter: invert(9%); }
+.invert-1 {  filter: invert(1%); }
+.invert-2 {  filter: invert(2%); }
+.invert-3 {  filter: invert(3%); }
+.invert-4 {  filter: invert(4%); }
+.invert-5 {  filter: invert(5%); }
+.invert-6 {  filter: invert(6%); }
+.invert-7 {  filter: invert(7%); }
+.invert-8 {  filter: invert(8%); }
+.invert-9 {  filter: invert(9%); }
 .invert-10 { filter: invert(10%); }
 .invert-11 { filter: invert(11%); }
 .invert-12 { filter: invert(12%); }
@@ -308,8 +308,6 @@
   .invert-99-m { filter: invert(99%); }
   .invert-100-m { filter: invert(100%); }
 }
-
-
 
 @include break(large) {
   .invert-1-l { filter: invert(1%); }

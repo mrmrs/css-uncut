@@ -2,59 +2,59 @@
    FILTERS - SATURATE
    ========================================================================== */
 
-.saturate-1 { filter: saturate(10%); }
-.saturate-2 { filter: saturate(20%); }
-.saturate-3 { filter: saturate(30%); }
-.saturate-4 { filter: saturate(40%); }
-.saturate-5 { filter: saturate(50%); }
-.saturate-6 { filter: saturate(60%); }
-.saturate-7 { filter: saturate(70%); }
-.saturate-8 { filter: saturate(80%); }
-.saturate-9 { filter: saturate(90%); }
+.saturate-1 {  filter: saturate(10%); }
+.saturate-2 {  filter: saturate(20%); }
+.saturate-3 {  filter: saturate(30%); }
+.saturate-4 {  filter: saturate(40%); }
+.saturate-5 {  filter: saturate(50%); }
+.saturate-6 {  filter: saturate(60%); }
+.saturate-7 {  filter: saturate(70%); }
+.saturate-8 {  filter: saturate(80%); }
+.saturate-9 {  filter: saturate(90%); }
 .saturate-10 { filter: saturate(100%); }
 .saturate-11 { filter: saturate(125%); }
 .saturate-12 { filter: saturate(150%); }
 
 @include break(not-small) {
-  .saturate-1-ns { filter: saturate(10%); }
-  .saturate-2-ns { filter: saturate(20%); }
-  .saturate-3-ns { filter: saturate(30%); }
-  .saturate-4-ns { filter: saturate(40%); }
-  .saturate-5-ns { filter: saturate(50%); }
-  .saturate-6-ns { filter: saturate(60%); }
-  .saturate-7-ns { filter: saturate(70%); }
-  .saturate-8-ns { filter: saturate(80%); }
-  .saturate-9-ns { filter: saturate(90%); }
+  .saturate-1-ns {  filter: saturate(10%); }
+  .saturate-2-ns {  filter: saturate(20%); }
+  .saturate-3-ns {  filter: saturate(30%); }
+  .saturate-4-ns {  filter: saturate(40%); }
+  .saturate-5-ns {  filter: saturate(50%); }
+  .saturate-6-ns {  filter: saturate(60%); }
+  .saturate-7-ns {  filter: saturate(70%); }
+  .saturate-8-ns {  filter: saturate(80%); }
+  .saturate-9-ns {  filter: saturate(90%); }
   .saturate-10-ns { filter: saturate(100%); }
   .saturate-11-ns { filter: saturate(125%); }
   .saturate-12-ns { filter: saturate(150%); }
 }
 
 @include break(medium) {
-  .saturate-1-m { filter: saturate(10%); }
-  .saturate-2-m { filter: saturate(20%); }
-  .saturate-3-m { filter: saturate(30%); }
-  .saturate-4-m { filter: saturate(40%); }
-  .saturate-5-m { filter: saturate(50%); }
-  .saturate-6-m { filter: saturate(60%); }
-  .saturate-7-m { filter: saturate(70%); }
-  .saturate-8-m { filter: saturate(80%); }
-  .saturate-9-m { filter: saturate(90%); }
+  .saturate-1-m {  filter: saturate(10%); }
+  .saturate-2-m {  filter: saturate(20%); }
+  .saturate-3-m {  filter: saturate(30%); }
+  .saturate-4-m {  filter: saturate(40%); }
+  .saturate-5-m {  filter: saturate(50%); }
+  .saturate-6-m {  filter: saturate(60%); }
+  .saturate-7-m {  filter: saturate(70%); }
+  .saturate-8-m {  filter: saturate(80%); }
+  .saturate-9-m {  filter: saturate(90%); }
   .saturate-10-m { filter: saturate(100%); }
   .saturate-11-m { filter: saturate(125%); }
   .saturate-12-m { filter: saturate(150%); }
 }
 
 @include break(large) {
-  .saturate-1-l { filter: saturate(10%); }
-  .saturate-2-l { filter: saturate(20%); }
-  .saturate-3-l { filter: saturate(30%); }
-  .saturate-4-l { filter: saturate(40%); }
-  .saturate-5-l { filter: saturate(50%); }
-  .saturate-6-l { filter: saturate(60%); }
-  .saturate-7-l { filter: saturate(70%); }
-  .saturate-8-l { filter: saturate(80%); }
-  .saturate-9-l { filter: saturate(90%); }
+  .saturate-1-l {  filter: saturate(10%); }
+  .saturate-2-l {  filter: saturate(20%); }
+  .saturate-3-l {  filter: saturate(30%); }
+  .saturate-4-l {  filter: saturate(40%); }
+  .saturate-5-l {  filter: saturate(50%); }
+  .saturate-6-l {  filter: saturate(60%); }
+  .saturate-7-l {  filter: saturate(70%); }
+  .saturate-8-l {  filter: saturate(80%); }
+  .saturate-9-l {  filter: saturate(90%); }
   .saturate-10-l { filter: saturate(100%); }
   .saturate-11-l { filter: saturate(125%); }
   .saturate-12-l { filter: saturate(150%); }
