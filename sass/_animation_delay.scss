@@ -1,7 +1,6 @@
-/* ==========================================================================
-   ANIMATION DELAY
-   ========================================================================== */
+/***** ANIMATION DELAY *****/
 
+  /* Mobile-first styles */
   .a-delay-1 { animation-delay: .5s; }
   .a-delay-2 { animation-delay: 1s; }
   .a-delay-3 { animation-delay: 2s; }
@@ -9,6 +8,8 @@
   .a-delay-5 { animation-delay: 8s; }
   .a-delay-6 { animation-delay: 16s; }
 
+
+  /* First breakpoint and larger */
 @include break(not-small) {
   .a-delay-1-ns { animation-delay: .5s; }
   .a-delay-2-ns { animation-delay: 1s; }
@@ -18,6 +19,7 @@
   .a-delay-6-ns { animation-delay: 16s; }
 }
 
+  /* Second breakpoint */
 @include break(medium) {
   .a-delay-1-m { animation-delay: .5s; }
   .a-delay-2-m { animation-delay: 1s; }
@@ -27,6 +29,7 @@
   .a-delay-6-m { animation-delay: 16s; }
 }
 
+  /* Third breakpoint */
 @include break(large) {
   .a-delay-1-l { animation-delay: .5s; }
   .a-delay-2-l { animation-delay: 1s; }
