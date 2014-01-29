@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
-    sass = require('gulp-sass'),
+    sass = require('gulp-ruby-sass'),
     csslint = require('gulp-csslint');
 
 
@@ -40,7 +40,7 @@ gulp.task('csslint', function(){
 gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
-        return files.pipe(sass({includePaths: ['./sass/']}))
+        return files.pipe(sass({loadPath: ['./sass/'], style: "compact"}))
           .pipe(prefix())
           .pipe(gulp.dest('./css/'))
           .pipe(livereload(server));
