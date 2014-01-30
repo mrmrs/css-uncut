@@ -28,7 +28,9 @@ gulp.task('csslint', function(){
   gulp.src('./css/*.css')
     .pipe(csslint({
           'compatible-vendor-prefixes': false,
-          'box-sizing': false
+          'box-sizing': false,
+          'important': false,
+          'known-properties': false
         }))
     .pipe(csslint.reporter());
 
@@ -38,7 +40,7 @@ gulp.task('csslint', function(){
 // Task that compiles scss files down to good old css
 
 gulp.task('pre-process', function(){
-  gulp.src('./sass/*.scss')
+  gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
         return files.pipe(sass({loadPath: ['./sass/'], style: "compact"}))
           .pipe(prefix())
