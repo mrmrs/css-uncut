@@ -1,6 +1,10 @@
-/***** ANIMATION DELAY *****/
+/*
+   ANIMATION DELAY
+   Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay
+*/
 
   /* Mobile-first styles */
+
   .a-delay-1 { animation-delay: .5s; }
   .a-delay-2 { animation-delay: 1s; }
   .a-delay-3 { animation-delay: 2s; }
@@ -10,6 +14,7 @@
 
 
   /* First breakpoint and larger */
+
 @include break(not-small) {
   .a-delay-1-ns { animation-delay: .5s; }
   .a-delay-2-ns { animation-delay: 1s; }
@@ -20,6 +25,7 @@
 }
 
   /* Second breakpoint */
+
 @include break(medium) {
   .a-delay-1-m { animation-delay: .5s; }
   .a-delay-2-m { animation-delay: 1s; }
@@ -30,6 +36,7 @@
 }
 
   /* Third breakpoint */
+
 @include break(large) {
   .a-delay-1-l { animation-delay: .5s; }
   .a-delay-2-l { animation-delay: 1s; }
