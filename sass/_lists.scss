@@ -18,16 +18,6 @@
 .upper-alpha {  list-style-type: upper-alpha; }
 .list {         list-style-type: none; }
 
-
-/* Horizontal list: can be used on ol or ul */
-
-.list {         list-style: none; }
-
-.list--h {
-           list-style-type: none;
-           > li {   display: inline-block; }
-}
-
 @include break(not-small) {
   .disc-ns {         list-style-type: disc; }
   .circle-ns {       list-style-type: circle; }
@@ -41,11 +31,6 @@
   .upper-latin-ns {  list-style-type: upper-latin; }
   .lower-alpha-ns {  list-style-type: lower-alpha; }
   .upper-alpha-ns {  list-style-type: upper-alpha; }
-  .list-ns {         list-style-type: none; }
-  .list--h-ns {
-             list-style-type: none;
-             > li {   display: inline-block; }
-  }
 }
 
 @include break(medium) {
@@ -62,11 +47,6 @@
   .lower-alpha-m {  list-style-type: lower-alpha; }
   .upper-alpha-m {  list-style-type: upper-alpha; }
   .list-m {         list-style-type: none; }
-  .list-m {         list-style: none; }
-  .list--h-m {
-             list-style-type: none;
-             > li {   display: inline-block; }
-  }
 }
 
 @include break(large) {
@@ -83,10 +63,5 @@
   .lower-alpha-l {  list-style-type: lower-alpha; }
   .upper-alpha-l {  list-style-type: upper-alpha; }
   .list-l {         list-style-type: none; }
-  .list-l {         list-style: none; }
-  .list--h-l {
-             list-style-type: none;
-             > li {   display: inline-block; }
-  }
 }
 
