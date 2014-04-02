@@ -167,7 +167,7 @@
   .br-outset-m { border-right-style: outset; }
 }
 
-@include break(lage) {
+@include break(large) {
   .ba-none-l {   border-style: none; }
   .ba-hidden-l { border-style: hidden; }
   .ba-dotted-l { border-style: dotted; }

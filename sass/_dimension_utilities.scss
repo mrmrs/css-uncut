@@ -2,15 +2,15 @@
    DIMENSION UTILITIES
 */
 
-.auto-wrap {
+.wrap {
   display: block;
-  width: auto !important;
+  width: auto;
 }
 
-.auto-fill {
+.fill {
   display: block;
   overflow: hidden;
-  width: auto !important;
+  width: auto;
 }
 
 .dbf {

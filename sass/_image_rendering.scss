@@ -1,0 +1,27 @@
+/*
+   IMAGE RENDERING
+*/
+
+
+.render-auto { image-rendering: auto; }
+.render-auto { image-rendering: crisp-edges; }
+.render-auto { image-rendering: pixelated; }
+
+@include break(not-small) {
+  .render-auto-ns {  image-rendering: auto; }
+  .render-auto-ns {  image-rendering: crisp-edges; }
+  .render-auto-ns {  image-rendering: pixelated; }
+}
+
+@include break(medium) {
+  .render-auto-m {  image-rendering: auto; }
+  .render-auto-m {  image-rendering: crisp-edges; }
+  .render-auto-m {  image-rendering: pixelated; }
+}
+
+@include break(large) {
+  .render-auto-l {  image-rendering: auto; }
+  .render-auto-l {  image-rendering: crisp-edges; }
+  .render-auto-l {  image-rendering: pixelated; }
+}
+

@@ -1,0 +1,18 @@
+/*
+   HEIGHT - KEYWORDS
+*/
+
+.ht-auto { height: auto; }
+
+@include break(not-small) {
+  .ht-auto-ns { height: auto; }
+}
+
+@include break(medium) {
+  .ht-auto-m { height: auto; }
+}
+
+@include break(large) {
+  .ht-auto-l { height: auto; }
+}
+
