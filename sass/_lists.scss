@@ -1,8 +1,7 @@
 /*
-   LISTS
+   LIST STYLE TYPES
 */
 
-/* List Style Types */
 
 .disc {         list-style-type: disc; }
 .circle {       list-style-type: circle; }
@@ -31,6 +30,7 @@
   .upper-latin-ns {  list-style-type: upper-latin; }
   .lower-alpha-ns {  list-style-type: lower-alpha; }
   .upper-alpha-ns {  list-style-type: upper-alpha; }
+  .list-ns {         list-style-type: none; }
 }
 
 @include break(medium) {
