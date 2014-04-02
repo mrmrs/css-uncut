@@ -1,0 +1,56 @@
+/*
+   WIDTHS
+*/
+
+/* Width Percentages */
+
+.wi1 {  width: 1rem; }
+.wi2 {  width: 2rem; }
+.wi3 {  width: 4rem; }
+.wi4 {  width: 8rem; }
+.wi5 {  width: 16rem; }
+.wi6 {  width: 32rem; }
+.wi7 {  width: 48rem; }
+.wi8 {  width: 64rem; }
+.wi9 {  width: 96rem; }
+.wi10 { width: 128rem; }
+
+@include break(not-small) {
+  .wi1-ns {  width: 1rem; }
+  .wi2-ns {  width: 2rem; }
+  .wi3-ns {  width: 4rem; }
+  .wi4-ns {  width: 8rem; }
+  .wi5-ns {  width: 16rem; }
+  .wi6-ns {  width: 32rem; }
+  .wi7-ns {  width: 48rem; }
+  .wi8-ns {  width: 64rem; }
+  .wi9-ns {  width: 96rem; }
+  .wi10-ns { width: 128rem; }
+}
+
+@include break(medium) {
+  .wi1-m {      width: 1rem; }
+  .wi2-m {      width: 2rem; }
+  .wi3-m {      width: 4rem; }
+  .wi4-m {      width: 8rem; }
+  .wi5-m {      width: 16rem; }
+  .wi6-m {      width: 32rem; }
+  .wi7-m {      width: 48rem; }
+  .wi8-m {      width: 64rem; }
+  .wi9-m {      width: 96rem; }
+  .wi10-m {     width: 128rem; }
+}
+
+@include break(large) {
+  .wi1-l {      width: 1rem; }
+  .wi2-l {      width: 2rem; }
+  .wi3-l {      width: 4rem; }
+  .wi4-l {      width: 8rem; }
+  .wi5-l {      width: 16rem; }
+  .wi6-l {      width: 32rem; }
+  .wi7-l {      width: 48rem; }
+  .wi8-l {      width: 64rem; }
+  .wi9-l {      width: 96rem; }
+  .wi10-l {     width: 128rem; }
+}
+
