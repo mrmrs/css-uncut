@@ -9,12 +9,13 @@ var gulp = require('gulp'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
     sass = require('gulp-ruby-sass'),
-    csslint = require('gulp-csslint');
+    csslint = require('gulp-csslint'),
+    uncss = require('gulp-uncss');
 
 
 // Task to minify all css files in the css directory
 
-gulp.task('minify-css', function(){
+gulp.task('minify', function(){
   gulp.src('./css/*.css')
     .pipe(minifyCSS({keepSpecialComments: 0}))
     .pipe(gulp.dest('./css/'));
@@ -47,6 +48,14 @@ gulp.task('pre-process', function(){
           .pipe(gulp.dest('./css/'))
           .pipe(livereload(server));
       }));
+});
+
+gulp.task('uncss', function() {
+    gulp.src('css/i.css')
+        .pipe(uncss({
+            html: ['*.html']
+        }))
+        .pipe(gulp.dest('./css'));
 });
 
 
