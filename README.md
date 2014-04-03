@@ -1,36 +1,60 @@
-# SINK CSS
+# CSS UNCUT
 
 ## WTF is this?
 
 First, it's an experiment.
 Second - it is an answer to a question I started asking myself after
-I noticed some websites serving up more than a megabyte of css.
+I started auditing the css of many top websites and finding that there are quite a few that serve up
+more than 500kb of css. Which seems bad. But how bad is it?
 
-"How big is the entire css language? I mean the ENTIRE thing. Is it bigger or smaller than 1MB?"
+## The Question
 
-So this is the entire css language - put into single purpose classes at multiple breakpoints (well, three to be exact.)
-For properties that take integers as values instead of strings i.e margin and padding - I
-create a 10 step scale (with a few exceptions.) A 10 step scale is generally more verbose than I need -
-but figured it would be appropriate to be less concise for the purposes of this experiment.
+> "How big is the entire css language? Is it bigger or smaller than 500kb?"
 
-I'm still adding things, but I'd say that I've got a pretty comprehensive covering of the language here at this point.
-Below is the current file size:
+So this is an attempt to put the entire css language in one file.
+For the most part it's a bunch of single purpose classes at multiple breakpoints. Three to be exact.
 
-* 163kb (minified)
-* 17kb  (minified and gzipped)
+Plus a few other things like a clearfix solution for good measure.
 
-## Why i.css?
+## The Answer
 
-Well, primarily because I'm lazy. 99% of the things I do only include one css file per page (gasp!)
-so there generally isn't too much confusion about where the site styles are. I save keystrokes and
-my users have to download fewer characters. I chose the letter i because.
+So how big is it? Here it is.
 
+* 480K - i.css        (uncompresed)
+* 390K - i.min.css    (minified)
+*  47K - i.min.css.gz (minified & gzipped)
+
+This gives in an interesting baseline to compare against a sites css.
+
+## What entails 'everything'?
+Some things would be almost impossible to represent in totality. Like gradient combinations.
+But most things are pretty easy.
+
+### Dimensions
+For each of the dimension properties
+```
+width, max-width, min-width, height, max-height, min-height
+```
+There are classes for:
+* A ten point scale (rems) based off powers of two
+* Each percentage value (0-100%);
+* Each keyword option i.e max-content, min-content, fit-content, fill-available.
+
+## What needs work
+
+Naming conventions. There are some nice grockable consistent patterns, but some of them aren't that
+well thought out to be honest. Particularly things like flexbox, animation, and transitions.
+
+Selector count. I wouldn't advise dropping this into your next project in totality.
+There are more than 4096 selectors and that means certain versions of ie won't parse
+the whole style sheet. If you want to drop the selector count though you can use something like un-css
+to clean up any unused classes.
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2013 @mrmrs
+Copyright (c) 2014 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
