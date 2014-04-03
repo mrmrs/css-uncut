@@ -5,40 +5,49 @@
 First, it's an experiment.
 Second - it is an answer to a question I started asking myself after
 I started auditing the css of many top websites and finding that there are quite a few that serve up
-more than 500kb of css. Which seems bad. But how bad is it?
+more than 500kb of css. Which seems bad. But how bad is it though?
 
 ## The Question
 
 > "How big is the entire css language? Is it bigger or smaller than 500kb?"
 
 So this is an attempt to put the entire css language in one file.
-For the most part it's a bunch of single purpose classes at multiple breakpoints. Three to be exact.
+For the most part it's a bunch of single purpose classes name spaced to three different breakpoints.
 
 Plus a few other things like a clearfix solution for good measure.
 
 ## The Answer
 
-So how big is it? Here it is.
+So how big is it?
 
-* 480K - i.css        (uncompresed)
-* 390K - i.min.css    (minified)
-*  47K - i.min.css.gz (minified & gzipped)
+* *480K* - i.css        (uncompresed)
+* *390K* - i.min.css    (minified)
+*  *47K* - i.min.css.gz (minified & gzipped)
 
-This gives in an interesting baseline to compare against a sites css.
+This gives in an interesting baseline to compare against a sites css I think.
+It should be noted that gzip loves single purpose classes as it places many
+common words next to each other. If you randomize the order of class declaration in i.css,
+it minifies and gzips down to *54kb*
 
-## What entails 'everything'?
+## So what entails 'everything'?
+
 Some things would be almost impossible to represent in totality. Like gradient combinations.
 But most things are pretty easy.
 
 ### Dimensions
-For each of the dimension properties
+
+For each of the dimension properties i.e
 ```
 width, max-width, min-width, height, max-height, min-height
 ```
 There are classes for:
-* A ten point scale (rems) based off powers of two
+* A ten point rem scale based off powers of two
 * Each percentage value (0-100%);
 * Each keyword option i.e max-content, min-content, fit-content, fill-available.
+
+### Colors
+
+Skin classes for each of the 140 color names defined in the css/html spec.
 
 ## What needs work
 
@@ -49,6 +58,11 @@ Selector count. I wouldn't advise dropping this into your next project in totali
 There are more than 4096 selectors and that means certain versions of ie won't parse
 the whole style sheet. If you want to drop the selector count though you can use something like un-css
 to clean up any unused classes.
+
+Documentation.
+
+## Reference
+http://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-in-chrome
 
 # License
 
