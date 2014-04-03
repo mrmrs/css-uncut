@@ -31,6 +31,8 @@ works best when common words are close together.
 If you randomize the order of class declaration in i.css,
 it minifies and gzips down to *54kb* which turns out to be a delta of about 7kb.
 
+#### Note documentation is work in progress
+
 ## So what do you mean 'all' of css
 
 Some things would be almost impossible to represent in totality. Like gradient combinations for instance.
@@ -41,7 +43,8 @@ Some things are a bit trickier though. How many different border-widths should b
 border-colors? I tried to err on the side of being more verbose than I thought any feasible ui would need.
 In this case I chose to include 140 different border colors for congruency with the provided skin classes.
 
-#### Note documentation is work in progress
+If it's in the spec, it's probably in here. If you notice anything missing. Please open an issue or file a pull
+request.
 
 ### Dimensions
 
@@ -58,6 +61,13 @@ There are classes for:
 
 Skin classes for each of the 140 color names defined in the css/html spec.
 
+### Spacing
+
+Eight step scale for both margins and padding.
+Single purpose classes to target: all, top, right, bottom, and left sides as well
+as utilities to space horizontally  and vertically. It's easy to extend if you need more or less
+steps.
+
 ## What needs work
 
 Naming conventions. There are some nice grockable consistent patterns, but some of them aren't that
@@ -70,8 +80,7 @@ to clean up any unused classes.
 
 Documentation. Definitely needs more documentation.
 
-
-## Reference
+## Big styles
 
 How much css do websites serve up to users?
 
