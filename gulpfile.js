@@ -46,8 +46,8 @@ gulp.task('pre-process', function(){
         return files.pipe(sass({loadPath: ['./sass/']}))
           .pipe(prefix())
           .pipe(gulp.dest('./css/'))
-          .pipe(minifycss())
-          .pipe(gulp.dest('./css/i.min.css'))
+          .pipe(minifyCSS())
+          .pipe(gulp.dest('./css/min'))
           .pipe(livereload(server));
       }));
 });
