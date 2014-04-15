@@ -43,12 +43,15 @@ gulp.task('csslint', function(){
 gulp.task('pre-process', function(){
   gulp.src('./sass/i.scss')
       .pipe(watch(function(files) {
-        return files.pipe(sass({loadPath: ['./sass/'], style: "compact"}))
+        return files.pipe(sass({loadPath: ['./sass/']}))
           .pipe(prefix())
           .pipe(gulp.dest('./css/'))
+          .pipe(minifycss())
+          .pipe(gulp.dest('./css/i.min.css'))
           .pipe(livereload(server));
       }));
 });
+
 
 gulp.task('uncss', function() {
     gulp.src('css/i.css')
