@@ -8,7 +8,7 @@
 
 ## The Question
 
-> "How big is the entire css language? Is it bigger or smaller than 500kb?"
+> "How big is the entire css language? Is it bigger or smaller than 500K?"
 
 So, what is css uncut? It is an attempt to put the entire css language in one file.
 For the most part it's a bunch of single purpose classes name spaced to three different breakpoints.
@@ -25,11 +25,11 @@ The file sizes:
   47K - i.min.css.gz (minified & gzipped)
 ```
 
-47kb minified and gzipped. This gives in an interesting baseline to compare 500kb+ css files to.
+47K minified and gzipped. This gives in an interesting baseline to compare 500K+ css files to.
 It should be noted that gzip loves single purpose classes as it's compression algorithm
 works best when common words are close together.
 If you randomize the order of class declaration in i.css,
-it minifies and gzips down to *54kb* which turns out to be a delta of about 7kb.
+it minifies and gzips down to *54K* which turns out to be a delta of about 7K.
 
 #### Note documentation is work in progress
 
@@ -85,12 +85,12 @@ Documentation. Definitely needs more documentation.
 How much css do websites serve up to users?
 
 ```
-ESPN          322kb
-Kickstarter   844kb
+ESPN          322K
+Kickstarter   844K
 Salesforce    1.02M
-Macaw         593kb
-Adobe         503kb
-Apple Store   440kb
+Macaw         593K
+Adobe         503K
+Apple Store   440K
 ```
 
 ## Reference
