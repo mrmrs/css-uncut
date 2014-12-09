@@ -95,3 +95,24 @@
   .dri-l {    display: run-in; }
 }
 
+@include break(extra-large) {
+  .dn-xl {     display: none; }
+  .di-xl {     display: inline; }
+  .db-xl {     display: block; }
+  .dib-xl {    display: inline-block; }
+  .dli-xl {    display: list-item; }
+  .dit-xl {    display: inline-table; }
+  .dt-xl {     display: table; }
+  .dtc-xl {    display: table-cell; }
+  .dtcol-xl {  display: table-column; }
+  .dtcolg-xl { display: table-column-group; }
+  .dtfg-xl {   display: table-footer-group; }
+  .dthg-xl {   display: table-header-group; }
+  .dtr-xl {    display: table-row; }
+  .dtrg-xl {   display: table-row-group; }
+  .df-xl {     display: flex; }
+  .dif-xl {    display: inline-flex; }
+  .dg-xl {     display: grid; }
+  .dig-xl {    display: inline-grid; }
+  .dri-xl {    display: run-in; }
+}
