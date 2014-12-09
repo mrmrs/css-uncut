@@ -36,3 +36,11 @@
   .jc-i-l {   justify-content: inherit; }
 }
 
+@include break(extra-large) {
+  .jc-fs-xl {  justify-content: flex-start; }
+  .jc-f3-xl {  justify-content: flex-end; }
+  .jc-c-xl {   justify-content: center; }
+  .jc-sb-xl {  justify-content: space-between; }
+  .jc-sa-xl {  justify-content: space-around; }
+  .jc-i-xl {   justify-content: inherit; }
+}
