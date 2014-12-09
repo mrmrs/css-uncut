@@ -40,3 +40,12 @@
   .as-i-l {  align-self: inherit; }
 }
 
+@include break(extra-large) {
+  .as-a-xl {  align-self: auto; }
+  .as-fs-xl { align-self: flex-start; }
+  .as-fe-xl { align-self: flex-end; }
+  .as-c-xl {  align-self: center; }
+  .as-b-xl {  align-self: baseline; }
+  .as-s-xl {  align-self: stretch; }
+  .as-i-xl {  align-self: inherit; }
+}
