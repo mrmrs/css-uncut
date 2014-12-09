@@ -52,3 +52,15 @@
   .mx-wi10-l {    max-width: 128rem; }
 }
 
+@include break(extra-large) {
+  .mx-wi1-xl  {    max-width: 1rem; }
+  .mx-wi2-xl  {    max-width: 2rem; }
+  .mx-wi3-xl  {    max-width: 4rem; }
+  .mx-wi4-xl  {    max-width: 8rem; }
+  .mx-wi5-xl  {    max-width: 16rem; }
+  .mx-wi6-xl  {    max-width: 32rem; }
+  .mx-wi7-xl  {    max-width: 48rem; }
+  .mx-wi8-xl  {    max-width: 64rem; }
+  .mx-wi9-xl  {    max-width: 96rem; }
+  .mx-wi10-xl {    max-width: 128rem; }
+}
