@@ -24,3 +24,8 @@
   .empty-inherit-l {  empty-cells: inherit; }
 }
 
+@include break(extra-large) {
+  .empty-show-xl {     empty-cells: show; }
+  .empty-hide-xl {     empty-cells: hide; }
+  .empty-inherit-xl {  empty-cells: inherit; }
+}
