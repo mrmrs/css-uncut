@@ -52,3 +52,15 @@
   .o-full-l { opacity: 1; }
 }
 
+@include break(extra-large) {
+  .o-10-xl { opacity: .1; }
+  .o-20-xl { opacity: .2; }
+  .o-30-xl { opacity: .3; }
+  .o-40-xl { opacity: .4; }
+  .o-50-xl { opacity: .5; }
+  .o-60-xl { opacity: .6; }
+  .o-70-xl { opacity: .7; }
+  .o-80-xl { opacity: .8; }
+  .o-90-xl { opacity: .9; }
+  .o-full-xl { opacity: 1; }
+}
