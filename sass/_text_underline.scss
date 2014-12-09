@@ -40,3 +40,12 @@
   .tup-i-l    { text-underline-position: inherit; }
 }
 
+@include break(extra-large) {
+  .tup-auto-xl { text-underline-position: auto; }
+  .tup-u-xl    { text-underline-position: under; }
+  .tup-l-xl    { text-underline-position: left; }
+  .tup-r-xl    { text-underline-position: right; }
+  .tup-ul-xl   { text-underline-position: under left; }
+  .tup-ru-xl   { text-underline-position: right under; }
+  .tup-i-xl    { text-underline-position: inherit; }
+}
