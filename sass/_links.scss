@@ -16,3 +16,6 @@
   .link-l { text-decoration: none; }
 }
 
+@include break(extra-large) {
+  .link-xl { text-decoration: none; }
+}
