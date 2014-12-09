@@ -49,3 +49,14 @@
   .tdl-i-l { transition-delay: initial; }
 }
 
+@include break(extra-large) {
+  .tdl0-xl  { transition-delay: 0; }
+  .tdl1-xl  { transition-delay: 1s; }
+  .tdl2-xl  { transition-delay: 2s; }
+  .tdl3-xl  { transition-delay: 3s; }
+  .tdl4-xl  { transition-delay: 4s; }
+  .tdl5-xl  { transition-delay: 8s; }
+  .tdl6-xl  { transition-delay: 16s; }
+  .tdl7-xl  { transition-delay: 32s; }
+  .tdl-i-xl { transition-delay: initial; }
+}
