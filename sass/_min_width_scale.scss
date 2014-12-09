@@ -52,3 +52,15 @@
   .mn-wi10-l {  min-width: 128rem; }
 }
 
+@include break(extra-large) {
+  .mn-wi1-xl  {  min-width: 1rem; }
+  .mn-wi2-xl  {  min-width: 2rem; }
+  .mn-wi3-xl  {  min-width: 4rem; }
+  .mn-wi4-xl  {  min-width: 8rem; }
+  .mn-wi5-xl  {  min-width: 16rem; }
+  .mn-wi6-xl  {  min-width: 32rem; }
+  .mn-wi7-xl  {  min-width: 48rem; }
+  .mn-wi8-xl  {  min-width: 64rem; }
+  .mn-wi9-xl  {  min-width: 96rem; }
+  .mn-wi10-xl {  min-width: 128rem; }
+}
