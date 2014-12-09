@@ -20,3 +20,7 @@
   .a-paused-l  { animation-play-state: paused; }
 }
 
+@include break(extra-large) {
+  .a-running-xl { animation-play-state: running; }
+  .a-paused-xl  { animation-play-state: paused; }
+}
