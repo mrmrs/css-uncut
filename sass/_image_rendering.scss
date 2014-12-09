@@ -25,3 +25,8 @@
   .render-auto-l {  image-rendering: pixelated; }
 }
 
+@include break(extra-large) {
+  .render-auto-xl {  image-rendering: auto; }
+  .render-auto-xl {  image-rendering: crisp-edges; }
+  .render-auto-xl {  image-rendering: pixelated; }
+}
