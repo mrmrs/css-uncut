@@ -34,3 +34,10 @@
   .fls-i-l { flex-shrink: inherit; }
 }
 
+@include break(extra-large) {
+  .fls-1-xl { flex-shrink: 1; }
+  .fls-2-xl { flex-shrink: 2; }
+  .fls-3-xl { flex-shrink: 3; }
+  .fls-4-xl { flex-shrink: 4; }
+  .fls-i-xl { flex-shrink: inherit; }
+}
