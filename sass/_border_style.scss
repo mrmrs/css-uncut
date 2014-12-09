@@ -220,3 +220,55 @@
   .br-outset-l { border-right-style: outset; }
 }
 
+@include break(extra-large) {
+  .ba-none-xl {   border-style: none; }
+  .ba-hidden-xl { border-style: hidden; }
+  .ba-dotted-xl { border-style: dotted; }
+  .ba-dashed-xl { border-style: dashed; }
+  .ba-solid-xl {  border-style: solid; }
+  .ba-double-xl { border-style: double; }
+  .ba-groove-xl { border-style: groove; }
+  .ba-ridge-xl {  border-style: ridge; }
+  .ba-inset-xl {  border-style: inset; }
+  .ba-outset-xl { border-style: outset; }
+  .bt-none-xl {   border-top-style: none; }
+  .bt-hidden-xl { border-top-style: hidden; }
+  .bt-dotted-xl { border-top-style: dotted; }
+  .bt-dashed-xl { border-top-style: dashed; }
+  .bt-solid-xl {  border-top-style: solid; }
+  .bt-double-xl { border-top-style: double; }
+  .bt-groove-xl { border-top-style: groove; }
+  .bt-ridge-xl {  border-top-style: ridge; }
+  .bt-inset-xl {  border-top-style: inset; }
+  .bt-outset-xl { border-top-style: outset; }
+  .bb-none-xl {   border-bottom-style: none; }
+  .bb-hidden-xl { border-bottom-style: hidden; }
+  .bb-dotted-xl { border-bottom-style: dotted; }
+  .bb-dashed-xl { border-bottom-style: dashed; }
+  .bb-solid-xl {  border-bottom-style: solid; }
+  .bb-double-xl { border-bottom-style: double; }
+  .bb-groove-xl { border-bottom-style: groove; }
+  .bb-ridge-xl {  border-bottom-style: ridge; }
+  .bb-inset-xl {  border-bottom-style: inset; }
+  .bb-outset-xl { border-bottom-style: outset; }
+  .bl-none-xl {   border-left-style: none; }
+  .bl-hidden-xl { border-left-style: hidden; }
+  .bl-dotted-xl { border-left-style: dotted; }
+  .bl-dashed-xl { border-left-style: dashed; }
+  .bl-solid-xl {  border-left-style: solid; }
+  .bl-double-xl { border-left-style: double; }
+  .bl-groove-xl { border-left-style: groove; }
+  .bl-ridge-xl {  border-left-style: ridge; }
+  .bl-inset-xl {  border-left-style: inset; }
+  .bl-outset-xl { border-left-style: outset; }
+  .br-none-xl {   border-right-style: none; }
+  .br-hidden-xl { border-right-style: hidden; }
+  .br-dotted-xl { border-right-style: dotted; }
+  .br-dashed-xl { border-right-style: dashed; }
+  .br-solid-xl {  border-right-style: solid; }
+  .br-double-xl { border-right-style: double; }
+  .br-groove-xl { border-right-style: groove; }
+  .br-ridge-xl {  border-right-style: ridge; }
+  .br-inset-xl {  border-right-style: inset; }
+  .br-outset-xl { border-right-style: outset; }
+}
