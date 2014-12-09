@@ -48,3 +48,14 @@
   .sq9-l { width: 96rem; height: 96rem; }
 }
 
+@include break(extra-large) {
+  .sq1-xl { width: 1rem;  height: 1rem; }
+  .sq2-xl { width: 2rem;  height: 2rem; }
+  .sq3-xl { width: 4rem;  height: 4rem; }
+  .sq4-xl { width: 8rem;  height: 8rem; }
+  .sq5-xl { width: 16rem; height: 16rem; }
+  .sq6-xl { width: 32rem; height: 32rem; }
+  .sq7-xl { width: 48rem; height: 48rem; }
+  .sq8-xl { width: 64rem; height: 64rem; }
+  .sq9-xl { width: 96rem; height: 96rem; }
+}
