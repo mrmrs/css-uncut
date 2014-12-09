@@ -54,3 +54,15 @@
   .wi10-l {     width: 128rem; }
 }
 
+@include break(extra-large) {
+  .wi1-xl {      width: 1rem; }
+  .wi2-xl {      width: 2rem; }
+  .wi3-xl {      width: 4rem; }
+  .wi4-xl {      width: 8rem; }
+  .wi5-xl {      width: 16rem; }
+  .wi6-xl {      width: 32rem; }
+  .wi7-xl {      width: 48rem; }
+  .wi8-xl {      width: 64rem; }
+  .wi9-xl {      width: 96rem; }
+  .wi10-xl {     width: 128rem; }
+}
