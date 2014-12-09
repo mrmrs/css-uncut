@@ -23,3 +23,9 @@
   .bg-clip-pb-l { background-clip: padding-box; }
   .bg-clip-cb-l { background-clip: content-box; }
 }
+
+@include break(extra-large) {
+  .bg-clip-bb-xl { background-clip: border-box; }
+  .bg-clip-pb-xl { background-clip: padding-box; }
+  .bg-clip-cb-xl { background-clip: content-box; }
+}

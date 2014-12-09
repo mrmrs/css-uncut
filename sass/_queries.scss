@@ -27,5 +27,10 @@
       @content;
     }
   }
+  @else if $point == extra-large {
+    @media screen and (min-width: 96em)  {
+      @content;
+    }
+  }
 }
 

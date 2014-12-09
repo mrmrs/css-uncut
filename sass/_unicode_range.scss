@@ -33,4 +33,5 @@
   .ur-1-xl { unicode-range: U+0025-00FF; }        /* codepoint_range */
   .ur-2-xl { unicode-range: U+400; }              /* wildcard_range */
   .ur-3-xl { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
+
 }

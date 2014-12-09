@@ -1,5 +1,6 @@
 {
   "name": "css-uncut",
+  "style": "
   "version": "0.0.0",
   "description": "The entire css language. Uncut.",
   "main": "index.html",
