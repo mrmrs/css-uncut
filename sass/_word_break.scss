@@ -28,3 +28,9 @@
   .wb-i-l {   word-break: inherit; }
 }
 
+@include break(extra-large) {
+  .wb-nor-xl { word-break: normal; }
+  .wb-ba-xl {  word-break: break-all; }
+  .wb-ka-xl {  word-break: keep-all; }
+  .wb-i-xl {   word-break: inherit; }
+}
