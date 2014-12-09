@@ -45,3 +45,13 @@
 }
 
 
+@include break(extra-large) {
+  .cw-auto-xl {    column-width: auto; }
+  .cw-xxs-xl {     column-width: 4rem; }
+  .cw-xs-xl {      column-width: 8rem; }
+  .cw-s-xl {       column-width: 16rem; }
+  .cw-m-xl {       column-width: 32rem; }
+  .cw-l-xl {       column-width: 48rem; }
+  .cw-xl-xl {      column-width: 64rem; }
+  .cw-i-xl {       column-width: inherit; }
+}
