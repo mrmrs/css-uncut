@@ -32,3 +32,10 @@
   .mxhi-fill-l { max-height: fill-available; }
 }
 
+@include break(extra-large) {
+  .mxhi-none-xl { max-height: none; }
+  .mxhi-max-xl {  max-height: max-content; }
+  .mxhi-min-xl {  max-height: min-content; }
+  .mxhi-fit-xl {  max-height: fit-content; }
+  .mxhi-fill-xl { max-height: fill-available; }
+}
