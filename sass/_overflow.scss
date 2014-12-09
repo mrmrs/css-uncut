@@ -60,3 +60,17 @@
   .ofy-aut-l { overflow-y: auto; }
 }
 
+@include break(extra-large) {
+  .of-vis-xl { overflow: visible; }
+  .of-hid-xl { overflow: hidden; }
+  .of-scr-xl { overflow: scroll; }
+  .of-aut-xl { overflow: auto; }
+  .ofx-vis-xl { overflow-x: visible; }
+  .ofx-hid-xl { overflow-x: hidden; }
+  .ofx-scr-xl { overflow-x: scroll; }
+  .ofx-aut-xl { overflow-x: auto; }
+  .ofy-vis-xl { overflow-y: visible; }
+  .ofy-hid-xl { overflow-y: hidden; }
+  .ofy-scr-xl { overflow-y: scroll; }
+  .ofy-aut-xl { overflow-y: auto; }
+}
