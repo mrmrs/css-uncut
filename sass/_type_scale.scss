@@ -41,3 +41,12 @@
  .f6-l   { font-size: 1rem; }
 }
 
+@include break(extra-large) {
+ .mega-xl { font-size: 4rem; }
+ .f1-xl   { font-size: 3rem; }
+ .f2-xl   { font-size: 2rem; }
+ .f3-xl   { font-size: 1.5rem; }
+ .f4-xl   { font-size: 1.2rem; }
+ .f5-xl   { font-size: 1rem; }
+ .f6-xl   { font-size: 1rem; }
+}
