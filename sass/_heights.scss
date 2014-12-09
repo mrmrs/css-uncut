@@ -16,3 +16,6 @@
   .ht-auto-l { height: auto; }
 }
 
+@include break(extra-large) {
+  .ht-auto-xl { height: auto; }
+}
