@@ -32,3 +32,10 @@
   .blur5-l { filter: blur(1rem); }
 }
 
+@include break(extra-large) {
+  .blur1-xl { filter: blur(1px); }
+  .blur2-xl { filter: blur(.125rem); }
+  .blur3-xl { filter: blur(.25rem); }
+  .blur4-xl { filter: blur(.5rem); }
+  .blur5-xl { filter: blur(1rem); }
+}
