@@ -28,3 +28,9 @@
   .cr-i-l {     counter-reset: inherit; }
 }
 
+@include break(extra-large) {
+  .cr-xl {       counter-reset: count; }
+  .cr-minus-xl { counter-reset: count -1; }
+  .cr-none-xl {  counter-reset: none; }
+  .cr-i-xl {     counter-reset: inherit; }
+}
