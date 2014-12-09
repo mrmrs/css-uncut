@@ -40,3 +40,12 @@
   .a-cnt-inf-l { animation-iteration-count: infinite; }
 }
 
+@include break(extra-large) {
+  .a-cnt0-xl    { animation-iteration-count: 0; }
+  .a-cnt1-xl    { animation-iteration-count: 1; }
+  .a-cnt2-xl    { animation-iteration-count: 2; }
+  .a-cnt3-xl    { animation-iteration-count: 4; }
+  .a-cnt3-xl    { animation-iteration-count: 5; }
+  .a-cnt4-xl    { animation-iteration-count: 10; }
+  .a-cnt-inf-xl { animation-iteration-count: infinite; }
+}
