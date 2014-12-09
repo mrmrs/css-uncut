@@ -36,3 +36,11 @@
   .ai-i-l {  align-items: inherit; }
 }
 
+@include break(extra-large) {
+  .ai-fs-xl { align-items: flex-start; }
+  .ai-fe-xl { align-items: flex-end; }
+  .ai-c-xl {  align-items: center; }
+  .ai-b-xl {  align-items: baseline; }
+  .ai-s-xl {  align-items: stretch; }
+  .ai-i-xl {  align-items: inherit; }
+}
