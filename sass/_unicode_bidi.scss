@@ -40,3 +40,12 @@
   .ub-i-l {             unicode-bidi: inherit; }
 }
 
+@include break(extra-large) {
+  .ub-norm-xl {          unicode-bidi: normal; }
+  .ub-embed-xl {         unicode-bidi: embed; }
+  .ub-iso-xl {           unicode-bidi: isolate; }
+  .ub-bidi-override-xl { unicode-bidi: bidi-override; }
+  .ub-iso-override-xl {  unicode-bidi: isolate-override; }
+  .ub-pt-xl {            unicode-bidi: plaintext; }
+  .ub-i-xl {             unicode-bidi: inherit; }
+}
