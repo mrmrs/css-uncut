@@ -56,3 +56,16 @@
   .crs-i-l {      column-rule-style: inherit; }
 }
 
+@include break(extra-large) {
+  .crs-n-xl {      column-rule-style: none; }
+  .crs-hid-xl {    column-rule-style: hidden; }
+  .crs-dot-xl {    column-rule-style: dotted; }
+  .crs-dash-xl {   column-rule-style: dashed; }
+  .crs-solid-xl {  column-rule-style: solid; }
+  .crs-double-xl { column-rule-style: double; }
+  .crs-groove-xl { column-rule-style: groove; }
+  .crs-ridge-xl {  column-rule-style: ridge; }
+  .crs-inset-xl {  column-rule-style: inset; }
+  .crs-outset-xl { column-rule-style: outset; }
+  .crs-i-xl {      column-rule-style: inherit; }
+}
