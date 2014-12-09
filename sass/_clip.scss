@@ -22,3 +22,7 @@
   .clip-i-l {     clip: inherit; }
 }
 
+@include break(extra-large) {
+  .clip-auto-xl {  clip: auto; }
+  .clip-i-xl {     clip: inherit; }
+}
