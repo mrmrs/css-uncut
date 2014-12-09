@@ -44,3 +44,13 @@
   .img-turn-360-l { image-orientation: 360deg; }
 }
 
+@include break(extra-large) {
+  .img-turn-45-xl  { image-orientation: 45deg;  }
+  .img-turn-90-xl  { image-orientation: 90deg;  }
+  .img-turn-135-xl { image-orientation: 135deg; }
+  .img-turn-180-xl { image-orientation: 180deg; }
+  .img-turn-225-xl { image-orientation: 225deg; }
+  .img-turn-270-xl { image-orientation: 270deg; }
+  .img-turn-315-xl { image-orientation: 315deg; }
+  .img-turn-360-xl { image-orientation: 360deg; }
+}
