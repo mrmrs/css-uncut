@@ -28,3 +28,9 @@
   .tabs-large-l   { tab-size: 8; }
 }
 
+@include break(extra-large) {
+  .tabs-none-xl    { tab-size: 0; }
+  .tabs-2-xl       { tab-size: 2; }
+  .tabs-default-xl { tab-size: 4; }
+  .tabs-large-xl   { tab-size: 8; }
+}
