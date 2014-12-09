@@ -25,3 +25,8 @@
   .hyphen-auto-l    {  hyphens: auto; }
 }
 
+@include break(extra-large) {
+  .hyphen-none-xl    {  hyphens: none; }
+  .hyphen-manual-xl  {  hyphens: manual; }
+  .hyphen-auto-xl    {  hyphens: auto; }
+}
