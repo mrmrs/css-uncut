@@ -32,3 +32,10 @@
   .font-mono-l    { font-family: monospace; }
 }
 
+@include break(extra-large) {
+  .serif-xl        { font-family: georgia, serif; }
+  .sans-serif-xl   { font-family: avenir, 'avenir next', helvetica, arial, sans-serif; }
+  .font-fantasy-xl { font-family: fantasy; }
+  .font-cursive-xl { font-family: cursive; }
+  .font-mono-xl    { font-family: monospace; }
+}
