@@ -25,3 +25,8 @@
   .crc-i-l {            column-rule-color: inherit; }
 }
 
+@include break(extra-large) {
+  .crc-drkgry-xl {       column-rule-color: $dark-gray; }
+  .crc-transparent-xl {  column-rule-color: transparent; }
+  .crc-i-xl {            column-rule-color: inherit; }
+}
