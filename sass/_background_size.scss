@@ -40,3 +40,12 @@
   .bg-auto-l {            background-size: auto; }
 }
 
+@include break(extra-large) {
+  .bg-cv-xl {             background-size: cover; }
+  .bg-cn-xl {             background-size: contain; }
+  .bg-quarter-xl {         background-size: 25%; }
+  .bg-half-xl {            background-size: 50%; }
+  .bg-three-quarters-xl {  background-size: 75%; }
+  .bg-full-xl {            background-size: 100%; }
+  .bg-auto-xl {            background-size: auto; }
+}
