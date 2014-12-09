@@ -29,3 +29,9 @@
   .widowi-l { widows: inherit; }
 }
 
+@include break(extra-large) {
+  .widow0-xl { widows: 0; }
+  .widow2-xl { widows: 2; }
+  .widow3-xl { widows: 3; }
+  .widowi-xl { widows: inherit; }
+}
