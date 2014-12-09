@@ -81,3 +81,23 @@
 
 }
 
+@include break(extra-large) {
+  .cc-1-xl {      column-count: 1; }
+  .cc-2-xl {      column-count: 2; }
+  .cc-3-xl {      column-count: 3; }
+  .cc-4-xl {      column-count: 4; }
+  .cc-5-xl {      column-count: 5; }
+  .cc-6-xl {      column-count: 6; }
+  .cc-7-xl {      column-count: 7; }
+  .cc-8-xl {      column-count: 8; }
+  .cc-9-xl {      column-count: 9; }
+  .cc-10-xl {     column-count: 10; }
+  .cc-11-xl {     column-count: 11; }
+  .cc-12-xl {     column-count: 12; }
+  .cc-13-xl {     column-count: 13; }
+  .cc-14-xl {     column-count: 14; }
+  .cc-15-xl {     column-count: 15; }
+  .cc-16-xl {     column-count: 16; }
+  .cc-auto-xl {   column-count: auto; }
+
+}
