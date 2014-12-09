@@ -24,3 +24,8 @@
   .bc-i-l {         border-collapse: inherit; }
 }
 
+@include break(extra-large) {
+  .bc-collapse-xl {  border-collapse: collapse; }
+  .bc-separate-xl {  border-collapse: separate; }
+  .bc-i-xl {         border-collapse: inherit; }
+}
