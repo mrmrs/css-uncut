@@ -24,3 +24,8 @@
   .ts-i-l {     transform-style: inherit; }
 }
 
+@include break(extra-large) {
+  .ts-p3d-xl {   transform-style: preserve-3d; }
+  .ts-flat-xl {  transform-style: flat; }
+  .ts-i-xl {     transform-style: inherit; }
+}
