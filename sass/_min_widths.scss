@@ -28,3 +28,9 @@
   .mn-wi-fill-l { min-width: fill-available; }
 }
 
+@include break(extra-large) {
+  .mn-wi-max-xl  { min-width: max-content; }
+  .mn-wi-min-xl  { min-width: min-content; }
+  .mn-wi-fit-xl  { min-width: fit-content; }
+  .mn-wi-fill-xl { min-width: fill-available; }
+}
