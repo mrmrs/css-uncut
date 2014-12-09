@@ -60,3 +60,17 @@
   .tp-o-l   { transition-property: opacity; }
 }
 
+@include break(extra-large) {
+  .tp-n-xl   { transition-property: none; }
+  .tp-all-xl { transition-property: all; }
+  .tp-i-xl   { transition-property: inherit; }
+  .tp-c-xl   { transition-property: color; }
+  .tp-bc-xl  { transition-property: background-color; }
+  .tp-w-xl   { transition-property: width; }
+  .tp-h-xl   { transition-property: height; }
+  .tp-l-xl   { transition-property: left; }
+  .tp-r-xl   { transition-property: right; }
+  .tp-t-xl   { transition-property: top; }
+  .tp-b-xl   { transition-property: bottom; }
+  .tp-o-xl   { transition-property: opacity; }
+}
