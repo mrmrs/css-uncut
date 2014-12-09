@@ -56,3 +56,16 @@
   .z-999-l  { z-index: 999; }
 }
 
+@include break(extra-large) {
+  .z-1-xl    { z-index: 1; }
+  .z-100-xl  { z-index: 100; }
+  .z-200-xl  { z-index: 200; }
+  .z-300-xl  { z-index: 300; }
+  .z-400-xl  { z-index: 400; }
+  .z-500-xl  { z-index: 500; }
+  .z-600-xl  { z-index: 600; }
+  .z-700-xl  { z-index: 700; }
+  .z-800-xl  { z-index: 800; }
+  .z-900-xl  { z-index: 900; }
+  .z-999-xl  { z-index: 999; }
+}
