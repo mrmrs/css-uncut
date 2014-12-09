@@ -28,3 +28,9 @@
   .fw-i-l {       flex-wrap: inherit; }
 }
 
+@include break(extra-large) {
+  .fw-no-xl {      flex-wrap: nowrap; }
+  .fw-wrap-xl {    flex-wrap: wrap; }
+  .fw-wraprev-xl { flex-wrap: wrap-reverse; }
+  .fw-i-xl {       flex-wrap: inherit; }
+}
