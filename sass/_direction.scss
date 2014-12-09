@@ -20,3 +20,7 @@
   .rtl-l { direction: rtl; }
 }
 
+@include break(extra-large) {
+  .ltr-xl { direction: ltr; }
+  .rtl-xl { direction: rtl; }
+}
