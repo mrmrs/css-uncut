@@ -24,3 +24,8 @@
   .mega-tracked-l  { letter-spacing:  .2em; }
 }
 
+@include break(extra-large) {
+  .tracked-xl       { letter-spacing:  .1em; }
+  .tracked-tight-xl { letter-spacing: -.1em; }
+  .mega-tracked-xl  { letter-spacing:  .2em; }
+}
