@@ -54,3 +54,15 @@
   .gray-100-l { filter: grayscale(100%); }
 }
 
+@include break(extra-large) {
+  .gray-10-xl  { filter: grayscale(10%); }
+  .gray-20-xl  { filter: grayscale(20%); }
+  .gray-30-xl  { filter: grayscale(30%); }
+  .gray-40-xl  { filter: grayscale(40%); }
+  .gray-50-xl  { filter: grayscale(50%); }
+  .gray-60-xl  { filter: grayscale(60%); }
+  .gray-70-xl  { filter: grayscale(70%); }
+  .gray-80-xl  { filter: grayscale(80%); }
+  .gray-90-xl  { filter: grayscale(90%); }
+  .gray-100-xl { filter: grayscale(100%); }
+}
