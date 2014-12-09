@@ -40,3 +40,12 @@
   .ac-i-l {  align-content: inherit; }
 }
 
+@include break(extra-large) {
+  .ac-fs-xl { align-content: flex-start; }
+  .ac-fe-xl { align-content: flex-end; }
+  .ac-c-xl {  align-content: center; }
+  .ac-sb-xl { align-content: space-between; }
+  .ac-sa-xl { align-content: space-around; }
+  .ac-s-xl {  align-content: stretch; }
+  .ac-i-xl {  align-content: inherit; }
+}
