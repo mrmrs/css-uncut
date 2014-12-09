@@ -41,3 +41,11 @@
   .a-delay-6-l { animation-delay: 16s; }
 }
 
+@include break(extra-large) {
+  .a-delay-1-xl { animation-delay: .5s; }
+  .a-delay-2-xl { animation-delay: 1s; }
+  .a-delay-3-xl { animation-delay: 2s; }
+  .a-delay-4-xl { animation-delay: 4s; }
+  .a-delay-5-xl { animation-delay: 8s; }
+  .a-delay-6-xl { animation-delay: 16s; }
+}
