@@ -52,3 +52,15 @@
   .ttf-i-l {      transition-timing-function: inherit; }
 }
 
+@include break(extra-large) {
+  .ttf-e-xl {      transition-timing-function: ease; }
+  .ttf-ei-xl {     transition-timing-function: ease-in; }
+  .ttf-eo-xl {     transition-timing-function: ease-out; }
+  .ttf-eio-xl {    transition-timing-function: ease-in-out; }
+  .ttf-lin-xl {    transition-timing-function: linear; }
+  .ttf-cb-xl {     transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1); }
+  .ttf-ss-xl {     transition-timing-function: step-start; }
+  .ttf-se-xl  {    transition-timing-function: step-end; }
+  .ttf-steps-xl {  transition-timing-function: steps(4, end); }
+  .ttf-i-xl {      transition-timing-function: inherit; }
+}
