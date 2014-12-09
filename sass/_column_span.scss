@@ -24,3 +24,8 @@
   .cs-span-l { column-span: inherit; }
 }
 
+@include break(extra-large) {
+  .cs-non-xl  { column-span: none; }
+  .cs-all-xl  { column-span: all; }
+  .cs-span-xl { column-span: inherit; }
+}
