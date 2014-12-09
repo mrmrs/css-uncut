@@ -148,3 +148,39 @@
   .cursor-zoom-out-l {      cursor: zoom-out; }
 }
 
+@include break(extra-large) {
+  .cursor-auto-xl {          cursor: auto; }
+  .cursor-default-xl {       cursor: default; }
+  .cursor-none-xl {          cursor: none; }
+  .cursor-context-menu-xl {  cursor: context-menu; }
+  .cursor-help-xl {          cursor: help; }
+  .cursor-pointer-xl {       cursor: pointer; }
+  .cursor-progress-xl {      cursor: progress; }
+  .cursor-wait-xl {          cursor: wait; }
+  .cursor-cell-xl {          cursor: cell; }
+  .cursor-crosshair-xl {     cursor: crosshair; }
+  .cursor-text-xl {          cursor: text; }
+  .cursor-vertical-text-xl { cursor: vertical-text; }
+  .cursor-alias-xl {         cursor: alias; }
+  .cursor-copy-xl {          cursor: copy; }
+  .cursor-move-xl {          cursor: move; }
+  .cursor-no-drop-xl {       cursor: no-drop; }
+  .cursor-not-allowed-xl {   cursor: not-allowed; }
+  .cursor-e-resize-xl {      cursor: e-resize; }
+  .cursor-n-resize-xl {      cursor: n-resize; }
+  .cursor-ne-resize-xl {     cursor: ne-resize; }
+  .cursor-nw-resize-xl {     cursor: nw-resize; }
+  .cursor-s-resize-xl {      cursor: s-resize; }
+  .cursor-se-resize-xl {     cursor: se-resize; }
+  .cursor-sw-resize-xl {     cursor: sw-resize; }
+  .cursor-w-resize-xl {      cursor: w-resize; }
+  .cursor-ew-resize-xl {     cursor: ew-resize; }
+  .cursor-ns-resize-xl {     cursor: ns-resize; }
+  .cursor-nesw-resize-xl {   cursor: nesw-resize; }
+  .cursor-nwse-resize-xl {   cursor: nwse-resize; }
+  .cursor-col-resize-xl {    cursor: col-resize; }
+  .cursor-row-resize-xl {    cursor: row-resize; }
+  .cursor-all-scroll-xl {    cursor: all-scroll; }
+  .cursor-zoom-in-xl {       cursor: zoom-in; }
+  .cursor-zoom-out-xl {      cursor: zoom-out; }
+}
