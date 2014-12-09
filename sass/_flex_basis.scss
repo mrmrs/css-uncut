@@ -16,3 +16,6 @@
   .fb-i-l { flex-basis: inherit; }
 }
 
+@include break(extra-large) {
+  .fb-i-xl { flex-basis: inherit; }
+}
