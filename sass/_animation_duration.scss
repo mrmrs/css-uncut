@@ -63,3 +63,19 @@
   .a-dur11-l  { animation-duration: 8s;  }
   .a-dur12-l  { animation-duration: 12s;  }
 }
+
+@include break(extra-large) {
+  .a-dur0-xl   { animation-duration: 0; }
+  .a-dur1-xl   { animation-duration: .1s; }
+  .a-dur2-xl   { animation-duration: .2s; }
+  .a-dur3-xl   { animation-duration: .4s; }
+  .a-dur4-xl   { animation-duration: .5s; }
+  .a-dur5-xl   { animation-duration: .7s; }
+  .a-dur6-xl   { animation-duration: 1s;  }
+  .a-dur7-xl   { animation-duration: 1.5s; }
+  .a-dur8-xl   { animation-duration: 2s; }
+  .a-dur9-xl   { animation-duration: 2.5s; }
+  .a-dur10-xl  { animation-duration: 4s;  }
+  .a-dur11-xl  { animation-duration: 8s;  }
+  .a-dur12-xl  { animation-duration: 12s;  }
+}
