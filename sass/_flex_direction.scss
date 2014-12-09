@@ -32,3 +32,10 @@
   .fd-i-l {       flex-direction: inherit; }
 }
 
+@include break(extra-large) {
+  .fd-row-xl {     flex-direction: row; }
+  .fd-rev-xl {     flex-direction: row-reverse; }
+  .fd-col-xl {     flex-direction: column; }
+  .fd-colrev-xl {  flex-direction: column-reverse; }
+  .fd-i-xl {       flex-direction: inherit; }
+}
