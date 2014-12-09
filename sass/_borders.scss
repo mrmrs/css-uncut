@@ -32,3 +32,10 @@
   .bl-l { border-left-style: solid;     border-left-width: 1px; }
 }
 
+@include break(extra-large) {
+  .ba-xl { border-style: solid;          border-width: 1px; }
+  .bt-xl { border-left-style: solid;     border-left-width: 1px; }
+  .br-xl { border-right-style: solid;    border-right-width: 1px; }
+  .bb-xl { border-bottom-style: solid;   border-bottom-width: 1px; }
+  .bl-xl { border-left-style: solid;     border-left-width: 1px; }
+}
