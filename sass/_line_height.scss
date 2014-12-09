@@ -32,3 +32,10 @@
   .lh-3-l     { line-height: 3; }
 }
 
+@include break(extra-large) {
+  .lh-xl       { line-height: 1; }
+  .lh-title-xl { line-height: 1.3; }
+  .lh-copy-xl  { line-height: 1.5; }
+  .lh-2-xl     { line-height: 2; }
+  .lh-3-xl     { line-height: 3; }
+}
