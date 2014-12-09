@@ -31,3 +31,11 @@
   .txtr-precise-l   { text-rendering: geometricPrecision; }
   .txtr-i-l         { text-rendering: inherit; }
 }
+
+@include break(extra-large) {
+  .txtr-auto-l      { text-rendering: auto; }
+  .txtr-speed-l     { text-rendering: optimizeSpeed; }
+  .txtr-legibile-l  { text-rendering: optimizeLegibility; }
+  .txtr-precise-l   { text-rendering: geometricPrecision; }
+  .txtr-i-l         { text-rendering: inherit; }
+}
