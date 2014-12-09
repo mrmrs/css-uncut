@@ -36,3 +36,11 @@
   .bg-rnd-l {    background-repeat: round; }
 }
 
+@include break(extra-large) {
+  .bg-norep-xl {  background-repeat: no-repeat; }
+  .bg-x-xl {      background-repeat: repeat-x; }
+  .bg-y-xl {      background-repeat: repeat-y; }
+  .bg-rep-xl {    background-repeat: repeat; }
+  .bg-spc-xl {    background-repeat: space; }
+  .bg-rnd-xl {    background-repeat: round; }
+}
