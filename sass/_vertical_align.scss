@@ -44,3 +44,13 @@
   .v-btm-l      { vertical-align: bottom; }
 }
 
+@include break(extra-large) {
+  .v-base-xl     { vertical-align: baseline; }
+  .v-sub-xl      { vertical-align: sub; }
+  .v-sup-xl      { vertical-align: super; }
+  .v-txt-top-xl  { vertical-align: text-top; }
+  .v-txt-btm-xl  { vertical-align: text-bottom; }
+  .v-mid-xl      { vertical-align: middle; }
+  .v-top-xl      { vertical-align: top; }
+  .v-btm-xl      { vertical-align: bottom; }
+}
