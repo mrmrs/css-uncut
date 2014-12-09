@@ -40,3 +40,11 @@
   .t-i-l { text-overflow: inherit; }
 }
 
+@include break(extra-large) {
+  .t-clip-xl { text-overflow: clip; }
+  .t-ellipsis-xl { text-overflow: ellipsis; }
+  .t-dots-xl { text-overflow: "…"; }
+  .t-clip-ellipsis-xl { text-overflow: clip ellipsis; }
+  .t-double-xl { text-overflow: "…" "…"; }
+  .t-i-xl { text-overflow: inherit; }
+}
