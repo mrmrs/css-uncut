@@ -28,3 +28,9 @@
   .fv-i-l       { font-variant: inherit; }
 }
 
+@include break(extra-large) {
+  .fv-norm-xl    { font-variant: normal; }
+  .fv-sc-l,
+  .small-caps-xl { font-variant: small-caps; }
+  .fv-i-xl       { font-variant: inherit; }
+}
