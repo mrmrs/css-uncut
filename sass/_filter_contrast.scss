@@ -38,3 +38,11 @@
   .contrast5-l { filter: contrast(200%); }
 }
 
+@include break(extra-large) {
+  .contrast0-xl { filter: contrast(0); }
+  .contrast1-xl { filter: contrast(50%); }
+  .contrast2-xl { filter: contrast(75%); }
+  .contrast3-xl { filter: contrast(100%); }
+  .contrast4-xl { filter: contrast(150%); }
+  .contrast5-xl { filter: contrast(200%); }
+}
