@@ -33,3 +33,10 @@
   .ws-preline-l { white-space: pre-line; }
 }
 
+@include break(extra-large) {
+  .ws-norm-xl    { white-space: normal; }
+  .ws-nowrap-xl  { white-space: nowrap; }
+  .ws-pre-xl     { white-space: pre; }
+  .ws-prewrap-xl { white-space: pre-wrap; }
+  .ws-preline-xl { white-space: pre-line; }
+}
