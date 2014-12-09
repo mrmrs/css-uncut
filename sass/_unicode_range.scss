@@ -28,3 +28,9 @@
   .ur-3-l { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
 }
 
+@include break(extra-large) {
+  .ur-xl {   unicode-range: U+26; }         /* single_codepoint */
+  .ur-1-xl { unicode-range: U+0025-00FF; }        /* codepoint_range */
+  .ur-2-xl { unicode-range: U+400; }              /* wildcard_range */
+  .ur-3-xl { unicode-range: U+0025-00FF, U+400; } /* multiple values can be separated by commas */
+}
