@@ -30,3 +30,9 @@
   .mn-hi-fill-l { min-height: fill-available; }
 }
 
+@include break(extra-large) {
+  .mn-hi-max-xl  { min-height: max-content; }
+  .mn-hi-min-xl  { min-height: min-content; }
+  .mn-hi-fit-xl  { min-height: fit-content; }
+  .mn-hi-fill-xl { min-height: fill-available; }
+}
