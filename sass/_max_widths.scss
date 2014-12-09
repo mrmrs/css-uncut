@@ -32,3 +32,10 @@
   .mx-wi-fill-l { max-width: fill-available; }
 }
 
+@include break(extra-large) {
+  .mx-wi-none-xl { max-width: none; }
+  .mx-wi-max-xl  { max-width: max-content; }
+  .mx-wi-min-xl  { max-width: min-content; }
+  .mx-wi-fit-xl  { max-width: fit-content; }
+  .mx-wi-fill-xl { max-width: fill-available; }
+}
