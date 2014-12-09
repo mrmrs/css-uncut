@@ -45,3 +45,13 @@
   .a-stop-l {      animation-timing-function: step-stop; }
 }
 
+@include break(extra-large) {
+  .a-ease-xl {      animation-timing-function: ease; }
+  .a-easein-xl {    animation-timing-function: ease-in; }
+  .a-easeout-xl {   animation-timing-function: ease-out; }
+  .a-easeinout-xl { animation-timing-function: ease-in-out; }
+  .a-linear-xl {    animation-timing-function: linear; }
+  .a-bezier-xl {    animation-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1); }
+  .a-start-xl {     animation-timing-function: step-start; }
+  .a-stop-xl {      animation-timing-function: step-stop; }
+}
