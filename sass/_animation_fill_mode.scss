@@ -28,3 +28,9 @@
   .a-fil-bth-l { animation-fill-mode: both; }
 }
 
+@include break(extra-large) {
+  .a-fil-non-xl { animation-fill-mode: none; }
+  .a-fil-frw-xl { animation-fill-mode: forwards; }
+  .a-fil-bck-xl { animation-fill-mode: backwards; }
+  .a-fil-bth-xl { animation-fill-mode: both; }
+}
