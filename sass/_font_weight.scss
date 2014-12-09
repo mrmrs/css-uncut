@@ -67,3 +67,18 @@
   .fw9-l { font-weight: 900; }
 }
 
+@include break(extra-large) {
+  .fwn-xl { font-weight: normal; }
+  .b-xl  { font-weight: bold; }
+  .fw-light-xl  { font-weight: lighter; }
+  .fw-bolder-xl { font-weight: bolder; }
+  .fw1-xl { font-weight: 100; }
+  .fw2-xl { font-weight: 200; }
+  .fw3-xl { font-weight: 300; }
+  .fw4-xl { font-weight: 400; }
+  .fw5-xl { font-weight: 500; }
+  .fw6-xl { font-weight: 600; }
+  .fw7-xl { font-weight: 700; }
+  .fw8-xl { font-weight: 800; }
+  .fw9-xl { font-weight: 900; }
+}
