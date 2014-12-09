@@ -44,3 +44,13 @@
   .hue-rotate8-l { filter: hue-rotate(360deg); }
 }
 
+@include break(extra-large) {
+  .hue-rotate1-xl { filter: hue-rotate(45deg); }
+  .hue-rotate2-xl { filter: hue-rotate(90deg); }
+  .hue-rotate3-xl { filter: hue-rotate(135deg); }
+  .hue-rotate4-xl { filter: hue-rotate(180deg); }
+  .hue-rotate5-xl { filter: hue-rotate(225deg); }
+  .hue-rotate6-xl { filter: hue-rotate(270deg); }
+  .hue-rotate7-xl { filter: hue-rotate(315deg); }
+  .hue-rotate8-xl { filter: hue-rotate(360deg); }
+}
