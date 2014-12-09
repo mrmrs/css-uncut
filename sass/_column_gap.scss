@@ -32,3 +32,10 @@
   .cg-i-l { column-gap: inherit; }
 }
 
+@include break(extra-large) {
+  .cg-1-xl { column-gap: 1rem; }
+  .cg-2-xl { column-gap: 2rem; }
+  .cg-3-xl { column-gap: 4rem; }
+  .cg-n-xl { column-gap: normal; }
+  .cg-i-xl { column-gap: inherit; }
+}
