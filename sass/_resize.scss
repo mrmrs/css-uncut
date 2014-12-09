@@ -28,3 +28,9 @@
   .resize-ver-l  { resize: vertical; }
 }
 
+@include break(extra-large) {
+  .resize-none-xl { resize: none; }
+  .resize-both-xl { resize: both; }
+  .resize-hor-xl  { resize: horizontal; }
+  .resize-ver-xl  { resize: vertical; }
+}
