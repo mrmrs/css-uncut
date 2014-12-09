@@ -45,3 +45,13 @@
   .wm-rl-bt-l {         writing-mode: rl-bt; }
 }
 
+@include break(extra-large) {
+  .wm-horizontal-tb-xl { writing-mode: horizontal-tb; }
+  .wm-rl-tb-xl {         writing-mode: rl-tb; }
+  .wm-vertical-lr-xl {   writing-mode: vertical-lr; }
+  .wm-vertical-rl-xl {   writing-mode: vertical-rl;}
+  .wm-bt-rl-xl {         writing-mode: bt-rl; }
+  .wm-bt-lr-xl {         writing-mode: bt-lr; }
+  .wm-lr-bt-xl {         writing-mode: lr-bt; }
+  .wm-rl-bt-xl {         writing-mode: rl-bt; }
+}
