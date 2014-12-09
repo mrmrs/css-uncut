@@ -28,3 +28,9 @@
   .ci-i-l {     counter-increment: inherit; }
 }
 
+@include break(extra-large) {
+  .ci-plus-xl {  counter-increment: count; }
+  .ci-minus-xl { counter-increment: count -1; }
+  .ci-none-xl {  counter-increment: none; }
+  .ci-i-xl {     counter-increment: inherit; }
+}
