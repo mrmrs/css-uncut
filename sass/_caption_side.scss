@@ -24,3 +24,8 @@
   .csi-l { caption-side: inherit; }
 }
 
+@include break(extra-large) {
+  .cst-xl { caption-side: top; }
+  .csb-xl { caption-side: bottom; }
+  .csi-xl { caption-side: inherit; }
+}
