@@ -48,3 +48,13 @@
   .cf-l {       *zoom: 1; }
 }
 
+@include break(extra-large) {
+  .cn-xl { clear: none; }
+  .cl-xl { clear: left; }
+  .cr-xl { clear: right; }
+  .cb-xl { clear: both; }
+  .cf-l:before,
+  .cf-l:after { content: " "; display: table; }
+  .cf-l:after { clear: both; }
+  .cf-xl {       *zoom: 1; }
+}
