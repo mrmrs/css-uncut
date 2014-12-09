@@ -36,3 +36,11 @@
   .td-i-l { transition-duration: inherit; }
 }
 
+@include break(extra-large) {
+  .td-1-xl { transition-duration: 120ms; }
+  .td-2-xl { transition-duration: .3s; }
+  .td-3-xl { transition-duration: .6s; }
+  .td-4-xl { transition-duration: 1s; }
+  .td-5-xl { transition-duration: 5s; }
+  .td-i-xl { transition-duration: inherit; }
+}
