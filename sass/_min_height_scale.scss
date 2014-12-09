@@ -53,3 +53,15 @@
   .mn-hi10-l  { min-height: 128rem; }
 }
 
+@include break(extra-large) {
+  .mn-hi1-xl   { min-height: 1rem; }
+  .mn-hi2-xl   { min-height: 2rem; }
+  .mn-hi3-xl   { min-height: 4rem; }
+  .mn-hi4-xl   { min-height: 8rem; }
+  .mn-hi5-xl   { min-height: 16rem; }
+  .mn-hi6-xl   { min-height: 32rem; }
+  .mn-hi7-xl   { min-height: 48rem; }
+  .mn-hi8-xl   { min-height: 64rem; }
+  .mn-hi9-xl   { min-height: 96rem; }
+  .mn-hi10-xl  { min-height: 128rem; }
+}
