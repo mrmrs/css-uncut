@@ -44,3 +44,13 @@
   .br-100-l {  border-radius: 100%; }
 }
 
+@include break(extra-large) {
+  .brn-xl {     border-radius: 0; }
+  .br-xl {      border-radius: .125rem; }
+  .br2-xl {     border-radius: .25rem; }
+  .br3-xl {     border-radius: .5rem; }
+  .br4-xl {     border-radius: 1rem; }
+  .br5-xl {     border-radius: 2rem; }
+  .br-circ-xl { border-radius: 9999px; }
+  .br-100-xl {  border-radius: 100%; }
+}
