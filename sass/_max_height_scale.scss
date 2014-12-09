@@ -54,3 +54,15 @@
   .mxhi10-l {  max-height: 128rem; }
 }
 
+@include break(extra-large) {
+  .mxhi1-xl  {  max-height: 1rem; }
+  .mxhi2-xl  {  max-height: 2rem; }
+  .mxhi3-xl  {  max-height: 4rem; }
+  .mxhi4-xl  {  max-height: 8rem; }
+  .mxhi5-xl  {  max-height: 16rem; }
+  .mxhi6-xl  {  max-height: 32rem; }
+  .mxhi7-xl  {  max-height: 48rem; }
+  .mxhi8-xl  {  max-height: 64rem; }
+  .mxhi9-xl  {  max-height: 96rem; }
+  .mxhi10-xl {  max-height: 128rem; }
+}
