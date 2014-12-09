@@ -28,3 +28,9 @@
   .a-dir-alt-rev-l {  animation-direction: alternate-reverse; }
 }
 
+@include break(extra-large) {
+  .a-dir-norm-xl {     animation-direction: normal; }
+  .a-dir-rev-xl {      animation-direction: reverse; }
+  .a-dir-alt-xl {      animation-direction: alternate; }
+  .a-dir-alt-rev-xl {  animation-direction: alternate-reverse; }
+}
