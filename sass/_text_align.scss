@@ -56,3 +56,16 @@
   .tpe-l { text-align: "." end; }
 }
 
+@include break(extra-large) {
+  .tl-xl  { text-align: left; }
+  .tr-xl  { text-align: right; }
+  .tc-xl  { text-align: center; }
+  .tj-xl  { text-align: justify; }
+  .ts-xl  { text-align: start; }
+  .te-xl  { text-align: end; }
+  .tmp-xl { text-align: match-parent; }
+  .tse-xl { text-align: start end; }
+  .tp-xl  { text-align: "."; }
+  .tsp-xl { text-align: start "."; }
+  .tpe-xl { text-align: "." end; }
+}
