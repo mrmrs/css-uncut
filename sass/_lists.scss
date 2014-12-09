@@ -65,3 +65,18 @@
   .list-l {         list-style-type: none; }
 }
 
+@include break(extra-large) {
+  .disc-xl {         list-style-type: disc; }
+  .circle-xl {       list-style-type: circle; }
+  .square-xl {       list-style-type: square; }
+  .decimal-xl {      list-style-type: decimal; }
+  .leading-zero-xl { list-style-type: decimal-leading-zero; }
+  .lower-roman-xl {  list-style-type: lower-roman; }
+  .upper-roman-xl {  list-style-type: upper-roman; }
+  .lower-greek-xl {  list-style-type: lower-greek; }
+  .lower-latin-xl {  list-style-type: lower-latin; }
+  .upper-latin-xl {  list-style-type: upper-latin; }
+  .lower-alpha-xl {  list-style-type: lower-alpha; }
+  .upper-alpha-xl {  list-style-type: upper-alpha; }
+  .list-xl {         list-style-type: none; }
+}
