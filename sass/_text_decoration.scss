@@ -33,3 +33,10 @@
   .none-l   { text-decoration: none; }
 }
 
+@include break(extra-large) {
+  .under-xl  { text-decoration: underline; }
+  .over-xl   { text-decoration: overline; }
+  .strike-xl { text-decoration: line-through; }
+  .blink-xl  { text-decoration: blink; }
+  .none-xl   { text-decoration: none; }
+}
