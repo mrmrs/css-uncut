@@ -32,3 +32,10 @@
   .ttf-l { text-transform: full-width; }
 }
 
+@include break(extra-large) {
+  .ttc-xl { text-transform: capitalize; }
+  .ttu-xl { text-transform: uppercase; }
+  .ttl-xl { text-transform: lowercase; }
+  .ttn-xl { text-transform: none; }
+  .ttf-xl { text-transform: full-width; }
+}
