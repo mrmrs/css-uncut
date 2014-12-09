@@ -24,3 +24,8 @@
   .oblique-l { font-style: oblique; }
 }
 
+@include break(extra-large) {
+  .fsn-xl      { font-style: normal; }
+  .i-xl        {  font-style: italic; }
+  .oblique-xl { font-style: oblique; }
+}
