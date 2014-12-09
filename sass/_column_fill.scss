@@ -25,3 +25,8 @@
   .cf-i-l       { column-fill: inherit; }
 }
 
+@include break(extra-large) {
+  .cf-auto-xl    { column-fill: auto; }
+  .cf-balance-xl { column-fill: balance; }
+  .cf-i-xl       { column-fill: inherit; }
+}
