@@ -53,3 +53,15 @@
   .ht10-l  { height: 128rem; }
 }
 
+@include break(extra-large) {
+  .ht1-xl   { height: 1rem; }
+  .ht2-xl   { height: 2rem; }
+  .ht3-xl   { height: 4rem; }
+  .ht4-xl   { height: 8rem; }
+  .ht5-xl   { height: 16rem; }
+  .ht6-xl   { height: 32rem; }
+  .ht7-xl   { height: 48rem; }
+  .ht8-xl   { height: 64rem; }
+  .ht9-xl   { height: 96rem; }
+  .ht10-xl  { height: 128rem; }
+}
