@@ -58,3 +58,16 @@
   .crw-i-l {      column-rule-width: inherit; }
 }
 
+@include break(extra-large) {
+  .crw-thin-xl {   column-rule-width: thin; }
+  .crw-med-xl {    column-rule-width: medium; }
+  .crw-thick-xl {  column-rule-width: thick; }
+  .crw-1-xl {      column-rule-width: 1px; }
+  .crw-2-xl {      column-rule-width: 2px; }
+  .crw-3-xl {      column-rule-width: 3px; }
+  .crw-4-xl {      column-rule-width: 4px; }
+  .crw-5-xl {      column-rule-width: 5px; }
+  .crw-10-xl {     column-rule-width: 10px; }
+  .crw-20-xl {     column-rule-width: 20px; }
+  .crw-i-xl {      column-rule-width: inherit; }
+}
