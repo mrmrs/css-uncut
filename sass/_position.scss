@@ -155,3 +155,38 @@
   .center-l { margin: 0 auto; }
 }
 
+@include break(extra-large) {
+  .pos-stat-xl { position: static; }
+  .pos-rel-xl  { position: relative; }
+  .pos-abs-xl  { position: absolute; }
+  .pos-fix-xl  { position: fixed; }
+  .top-0-xl    { top:   0; }
+  .left-0-xl   { left:  0; }
+  .right-0-xl  { right: 0; }
+  .bottom-0-xl { bottom: 0; }
+  .top-1-xl    { top:   1rem; }
+  .left-1-xl   { left:  1rem; }
+  .right-1-xl  { right: 1rem; }
+  .bottom-1-xl { bottom: 1rem; }
+  .top-2-xl    { top:   2rem; }
+  .left-2-xl   { left:  2rem; }
+  .right-2-xl  { right: 2rem; }
+  .bottom-2-xl { bottom: 2rem; }
+  .top-4-xl    { top:   4rem; }
+  .left-4-xl   { left:  4rem; }
+  .right-4-xl  { right: 4rem; }
+  .bottom-4-xl { bottom: 4rem; }
+  .top-10-xl  { top: 10%; }
+  .top-20-xl  { top: 20%; }
+  .top-30-xl  { top: 30%; }
+  .top-40-xl  { top: 40%; }
+  .top-50-xl  { top: 50%; }
+  .top-60-xl  { top: 60%; }
+  .top-70-xl  { top: 70%; }
+  .top-80-xl  { top: 80%; }
+  .top-90-xl  { top: 90%; }
+  .top-100-xl { top: 100%; }
+  .top-auto-xl { top: auto; }
+  .top-i-xl { top: inherit; ;}
+  .center-xl { margin: 0 auto; }
+}
