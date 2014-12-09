@@ -33,3 +33,10 @@
 }
 
 
+@include break(extra-large) {
+  .bright-1-xl { filter: brightness(0.25); }
+  .bright-2-xl { filter: brightness(0.5); }
+  .bright-3-xl { filter: brightness(.75); }
+  .bright-4-xl { filter: brightness(1); }
+  .bright-5-xl { filter: brightness(2); }
+}
