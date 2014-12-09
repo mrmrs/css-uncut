@@ -25,3 +25,8 @@
   .wwi-l {  word-wrap: inherit; }
 }
 
+@include break(extra-large) {
+  .wwn-xl {  word-wrap: normal; }
+  .wwbw-xl { word-wrap: break-word; }
+  .wwi-xl {  word-wrap: inherit; }
+}
