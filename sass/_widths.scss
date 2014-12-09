@@ -44,3 +44,13 @@
   .wi-i-l {     width: inherit; }
 }
 
+@include break(extra-large) {
+  .wi-bb-xl {    width: border-box; }
+  .wi-cb-xl {    width: content-box; }
+  .wi-mx-xl {    width: max-content; }
+  .wi-mn-xl {    width: min-content; }
+  .wi-av-xl {    width: available; }
+  .wi-fc-xl {    width: fit-content; }
+  .wi-at-xl {    width: auto; }
+  .wi-i-xl {     width: inherit; }
+}
