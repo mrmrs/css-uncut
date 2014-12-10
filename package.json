@@ -1,6 +1,6 @@
 {
   "name": "css-uncut",
-  "style": "
+  "style": "css/uncut.css",
   "version": "0.0.0",
   "description": "The entire css language. Uncut.",
   "main": "index.html",
@@ -38,5 +38,8 @@
     "gulp-watch": "^0.6.8",
     "imagemin-pngcrush": "^0.1.0",
     "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "start": "gulp"
   }
 }
