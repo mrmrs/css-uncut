@@ -27,3 +27,4 @@ Session.vim
 
 # Node
 node_modules/*
+.sass-cache/*
