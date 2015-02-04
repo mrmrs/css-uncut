@@ -1,10 +1,9 @@
 # CSS UNCUT
 
-## WTF is this?
+## What is this?
 
 1. An experiment.
-2. The answer to a question I started to ask myself after I noticed my company serving
-   up more than 1 megabyte of css.
+2. The answer to a question I started to ask after noticing websites serve up 200kb - 1MB+ css files.
 
 ## The Question
 
@@ -103,7 +102,7 @@ http://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
