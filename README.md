@@ -21,6 +21,7 @@ The file sizes:
 ```
 npm install --save-dev css-uncut
 ```
+```
  480K - i.css        (uncompresed)
  390K - i.min.css    (minified)
   47K - i.min.css.gz (minified & gzipped)
