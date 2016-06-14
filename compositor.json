@@ -72,19 +72,6 @@
   },
   "content": [
     {
-      "component": "nav/AbsoluteNav",
-      "links": [
-        {
-          "href": "https://github.com/mrmrs/css-uncut",
-          "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/css-uncut",
-          "text": "npm"
-        }
-      ]
-    },
-    {
       "component": "header/BannerHeader",
       "heading": "css-uncut",
       "subhead": "WIP: All of css as single purpose classes",
