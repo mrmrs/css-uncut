@@ -20,9 +20,9 @@
     "url": "https://github.com/mrmrs/css-uncut/issues"
   },
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   }
 }
