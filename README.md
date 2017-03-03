@@ -78,7 +78,7 @@ well thought out to be honest. Particularly things like flexbox, animation, and 
 
 Selector count. I wouldn't advise dropping this into your next project in totality.
 There are more than 4096 selectors and that means certain versions of ie won't parse
-the whole style sheet. If you want to drop the selector count though you can use something like un-css
+the whole style sheet. If you want to drop the selector count though you can use something like [un-css](https://github.com/giakki/uncss)
 to clean up any unused classes.
 
 Documentation. Definitely needs more documentation.
@@ -123,4 +123,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
