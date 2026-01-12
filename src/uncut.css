@@ -49,6 +49,9 @@
 @import "css/_grid.css";
 @import "css/_place-items.css";
 
+/* Multi-Column Layout */
+@import "css/_columns.css";
+
 /* Container Queries */
 @import "css/_container.css";
 
@@ -68,6 +71,7 @@
 @import "css/_white-space.css";
 @import "css/_word-break.css";
 @import "css/_vertical-align.css";
+@import "css/_writing-mode.css";
 
 /* Colors */
 @import "css/_colors.css";
@@ -85,6 +89,7 @@
 @import "css/_borders.css";
 @import "css/_border-radius.css";
 @import "css/_outline.css";
+@import "css/_outline-offset.css";
 
 /* Effects */
 @import "css/_opacity.css";
@@ -93,6 +98,8 @@
 @import "css/_backdrop-filter.css";
 @import "css/_mix-blend-mode.css";
 @import "css/_isolation.css";
+@import "css/_clip-path.css";
+@import "css/_mask.css";
 
 /* Transforms */
 @import "css/_transform-origin.css";
@@ -106,6 +113,7 @@
 @import "css/_transition-property.css";
 @import "css/_transition-duration.css";
 @import "css/_transition-timing.css";
+@import "css/_transition-delay.css";
 @import "css/_animation-duration.css";
 @import "css/_animation-timing.css";
 @import "css/_animation-delay.css";
@@ -132,6 +140,7 @@
 /* Media */
 @import "css/_object-fit.css";
 @import "css/_object-position.css";
+@import "css/_shape-outside.css";
 
 /* Forms */
 @import "css/_appearance.css";
@@ -141,6 +150,9 @@
 /* Modern CSS */
 @import "css/_content-visibility.css";
 @import "css/_contain.css";
+
+/* SVG & Advanced */
+@import "css/_paint-order.css";
 
 /* Utilities (last for override capability) */
 @import "css/_utilities.css";

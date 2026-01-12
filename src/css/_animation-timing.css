@@ -2,11 +2,55 @@
   ANIMATION TIMING FUNCTION
 */
 
+/* Standard Easings */
 .animate-ease-linear { animation-timing-function: linear; }
 .animate-ease-in     { animation-timing-function: ease-in; }
 .animate-ease-out    { animation-timing-function: ease-out; }
 .animate-ease-in-out { animation-timing-function: ease-in-out; }
 .animate-ease        { animation-timing-function: ease; }
+
+/* Cubic Bezier - Smooth */
+.animate-ease-smooth     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+.animate-ease-smooth-in  { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+.animate-ease-smooth-out { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+
+/* Material Design Easings */
+.animate-ease-standard     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+.animate-ease-emphasized   { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+.animate-ease-decelerate   { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+.animate-ease-accelerate   { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+
+/* iOS Easings */
+.animate-ease-ios          { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+
+/* Spring-like */
+.animate-ease-spring       { animation-timing-function: cubic-bezier(0.5, 1.5, 0.5, 1); }
+.animate-ease-bounce       { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+/* Power Curves */
+.animate-ease-power-1-in   { animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+.animate-ease-power-1-out  { animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.animate-ease-power-2-in   { animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+.animate-ease-power-2-out  { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+.animate-ease-power-3-in   { animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+.animate-ease-power-3-out  { animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+.animate-ease-power-4-in   { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
+.animate-ease-power-4-out  { animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+
+/* Expo */
+.animate-ease-expo-in      { animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
+.animate-ease-expo-out     { animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+.animate-ease-expo-in-out  { animation-timing-function: cubic-bezier(1, 0, 0, 1); }
+
+/* Circ */
+.animate-ease-circ-in      { animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+.animate-ease-circ-out     { animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+.animate-ease-circ-in-out  { animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+
+/* Back */
+.animate-ease-back-in      { animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+.animate-ease-back-out     { animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+.animate-ease-back-in-out  { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
 @media (--small) {
   .animate-ease-linear-s { animation-timing-function: linear; }
@@ -14,6 +58,33 @@
   .animate-ease-out-s    { animation-timing-function: ease-out; }
   .animate-ease-in-out-s { animation-timing-function: ease-in-out; }
   .animate-ease-s        { animation-timing-function: ease; }
+  .animate-ease-smooth-s     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-smooth-in-s  { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-smooth-out-s { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-standard-s   { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-emphasized-s { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-decelerate-s { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-accelerate-s { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-ios-s        { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-spring-s     { animation-timing-function: cubic-bezier(0.5, 1.5, 0.5, 1); }
+  .animate-ease-bounce-s     { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .animate-ease-power-1-in-s  { animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .animate-ease-power-1-out-s { animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .animate-ease-power-2-in-s  { animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .animate-ease-power-2-out-s { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .animate-ease-power-3-in-s  { animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+  .animate-ease-power-3-out-s { animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .animate-ease-power-4-in-s  { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
+  .animate-ease-power-4-out-s { animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+  .animate-ease-expo-in-s     { animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
+  .animate-ease-expo-out-s    { animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+  .animate-ease-expo-in-out-s { animation-timing-function: cubic-bezier(1, 0, 0, 1); }
+  .animate-ease-circ-in-s     { animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+  .animate-ease-circ-out-s    { animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .animate-ease-circ-in-out-s { animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  .animate-ease-back-in-s     { animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+  .animate-ease-back-out-s    { animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .animate-ease-back-in-out-s { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 }
 
 @media (--medium) {
@@ -22,6 +93,33 @@
   .animate-ease-out-m    { animation-timing-function: ease-out; }
   .animate-ease-in-out-m { animation-timing-function: ease-in-out; }
   .animate-ease-m        { animation-timing-function: ease; }
+  .animate-ease-smooth-m     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-smooth-in-m  { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-smooth-out-m { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-standard-m   { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-emphasized-m { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-decelerate-m { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-accelerate-m { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-ios-m        { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-spring-m     { animation-timing-function: cubic-bezier(0.5, 1.5, 0.5, 1); }
+  .animate-ease-bounce-m     { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .animate-ease-power-1-in-m  { animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .animate-ease-power-1-out-m { animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .animate-ease-power-2-in-m  { animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .animate-ease-power-2-out-m { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .animate-ease-power-3-in-m  { animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+  .animate-ease-power-3-out-m { animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .animate-ease-power-4-in-m  { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
+  .animate-ease-power-4-out-m { animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+  .animate-ease-expo-in-m     { animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
+  .animate-ease-expo-out-m    { animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+  .animate-ease-expo-in-out-m { animation-timing-function: cubic-bezier(1, 0, 0, 1); }
+  .animate-ease-circ-in-m     { animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+  .animate-ease-circ-out-m    { animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .animate-ease-circ-in-out-m { animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  .animate-ease-back-in-m     { animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+  .animate-ease-back-out-m    { animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .animate-ease-back-in-out-m { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 }
 
 @media (--large) {
@@ -30,6 +128,33 @@
   .animate-ease-out-l    { animation-timing-function: ease-out; }
   .animate-ease-in-out-l { animation-timing-function: ease-in-out; }
   .animate-ease-l        { animation-timing-function: ease; }
+  .animate-ease-smooth-l     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-smooth-in-l  { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-smooth-out-l { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-standard-l   { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-emphasized-l { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-decelerate-l { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-accelerate-l { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-ios-l        { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-spring-l     { animation-timing-function: cubic-bezier(0.5, 1.5, 0.5, 1); }
+  .animate-ease-bounce-l     { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .animate-ease-power-1-in-l  { animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .animate-ease-power-1-out-l { animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .animate-ease-power-2-in-l  { animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .animate-ease-power-2-out-l { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .animate-ease-power-3-in-l  { animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+  .animate-ease-power-3-out-l { animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .animate-ease-power-4-in-l  { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
+  .animate-ease-power-4-out-l { animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+  .animate-ease-expo-in-l     { animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
+  .animate-ease-expo-out-l    { animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+  .animate-ease-expo-in-out-l { animation-timing-function: cubic-bezier(1, 0, 0, 1); }
+  .animate-ease-circ-in-l     { animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+  .animate-ease-circ-out-l    { animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .animate-ease-circ-in-out-l { animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  .animate-ease-back-in-l     { animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+  .animate-ease-back-out-l    { animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .animate-ease-back-in-out-l { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 }
 
 @media (--extra-large) {
@@ -38,4 +163,31 @@
   .animate-ease-out-xl    { animation-timing-function: ease-out; }
   .animate-ease-in-out-xl { animation-timing-function: ease-in-out; }
   .animate-ease-xl        { animation-timing-function: ease; }
+  .animate-ease-smooth-xl     { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-smooth-in-xl  { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-smooth-out-xl { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-standard-xl   { animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); }
+  .animate-ease-emphasized-xl { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-decelerate-xl { animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1); }
+  .animate-ease-accelerate-xl { animation-timing-function: cubic-bezier(0.4, 0.0, 1, 1); }
+  .animate-ease-ios-xl        { animation-timing-function: cubic-bezier(0.4, 0.0, 0.6, 1); }
+  .animate-ease-spring-xl     { animation-timing-function: cubic-bezier(0.5, 1.5, 0.5, 1); }
+  .animate-ease-bounce-xl     { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .animate-ease-power-1-in-xl  { animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .animate-ease-power-1-out-xl { animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .animate-ease-power-2-in-xl  { animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .animate-ease-power-2-out-xl { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .animate-ease-power-3-in-xl  { animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+  .animate-ease-power-3-out-xl { animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); }
+  .animate-ease-power-4-in-xl  { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06); }
+  .animate-ease-power-4-out-xl { animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1); }
+  .animate-ease-expo-in-xl     { animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035); }
+  .animate-ease-expo-out-xl    { animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+  .animate-ease-expo-in-out-xl { animation-timing-function: cubic-bezier(1, 0, 0, 1); }
+  .animate-ease-circ-in-xl     { animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+  .animate-ease-circ-out-xl    { animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); }
+  .animate-ease-circ-in-out-xl { animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  .animate-ease-back-in-xl     { animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+  .animate-ease-back-out-xl    { animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .animate-ease-back-in-out-xl { animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 }

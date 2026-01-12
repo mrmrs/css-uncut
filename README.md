@@ -31,7 +31,7 @@ Or use the CDN:
 
 ```html
 <div class="df flex-wrap gap-3 pa4 bg-near-white br3">
-  <div class="w-100 w-50-ns w-33-l pa3 bg-blue white br2">
+  <div class="w-100 w-50-s w-33-l pa3 bg-blue white br2">
     Responsive column
   </div>
 </div>
@@ -44,10 +44,10 @@ Mobile-first responsive design with four breakpoints:
 | Suffix | Breakpoint | Description |
 |--------|------------|-------------|
 | (none) | All | Base styles |
-| `-ns`  | ≥ 30em (480px) | Not small |
-| `-m`   | 30em – 60em | Medium only |
-| `-l`   | ≥ 60em (960px) | Large |
-| `-xl`  | ≥ 90em (1440px) | Extra large |
+| `-s`   | ≥ 30em (480px) | Small screens and up |
+| `-m`   | ≥ 48em (768px) | Medium screens and up |
+| `-l`   | ≥ 60em (960px) | Large screens and up |
+| `-xl`  | ≥ 90em (1440px) | Extra large screens and up |
 
 ## CSS Properties Covered
 
@@ -175,8 +175,8 @@ The build process reads `src/uncut.css`, processes all `@import` statements, han
 The library uses custom media queries internally:
 
 ```css
-@custom-media --not-small (min-width: 30em);
-@custom-media --medium (min-width: 30em) and (max-width: 60em);
+@custom-media --small (min-width: 30em);
+@custom-media --medium (min-width: 48em);
 @custom-media --large (min-width: 60em);
 @custom-media --extra-large (min-width: 90em);
 ```

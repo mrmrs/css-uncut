@@ -1,0 +1,73 @@
+/*
+  CLIP PATH
+
+  Clip elements to basic shapes.
+*/
+
+.clip-none         { clip-path: none; }
+.clip-circle       { clip-path: circle(50%); }
+.clip-ellipse      { clip-path: ellipse(50% 50%); }
+.clip-inset        { clip-path: inset(0); }
+.clip-inset-sm     { clip-path: inset(10%); }
+.clip-inset-md     { clip-path: inset(20%); }
+.clip-inset-lg     { clip-path: inset(30%); }
+.clip-triangle     { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+.clip-diamond      { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+.clip-pentagon     { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+.clip-hexagon      { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+
+@media (--small) {
+  .clip-none-s         { clip-path: none; }
+  .clip-circle-s       { clip-path: circle(50%); }
+  .clip-ellipse-s      { clip-path: ellipse(50% 50%); }
+  .clip-inset-s        { clip-path: inset(0); }
+  .clip-inset-sm-s     { clip-path: inset(10%); }
+  .clip-inset-md-s     { clip-path: inset(20%); }
+  .clip-inset-lg-s     { clip-path: inset(30%); }
+  .clip-triangle-s     { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .clip-diamond-s      { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .clip-pentagon-s     { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+  .clip-hexagon-s      { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+}
+
+@media (--medium) {
+  .clip-none-m         { clip-path: none; }
+  .clip-circle-m       { clip-path: circle(50%); }
+  .clip-ellipse-m      { clip-path: ellipse(50% 50%); }
+  .clip-inset-m        { clip-path: inset(0); }
+  .clip-inset-sm-m     { clip-path: inset(10%); }
+  .clip-inset-md-m     { clip-path: inset(20%); }
+  .clip-inset-lg-m     { clip-path: inset(30%); }
+  .clip-triangle-m     { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .clip-diamond-m      { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .clip-pentagon-m     { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+  .clip-hexagon-m      { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+}
+
+@media (--large) {
+  .clip-none-l         { clip-path: none; }
+  .clip-circle-l       { clip-path: circle(50%); }
+  .clip-ellipse-l      { clip-path: ellipse(50% 50%); }
+  .clip-inset-l        { clip-path: inset(0); }
+  .clip-inset-sm-l     { clip-path: inset(10%); }
+  .clip-inset-md-l     { clip-path: inset(20%); }
+  .clip-inset-lg-l     { clip-path: inset(30%); }
+  .clip-triangle-l     { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .clip-diamond-l      { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .clip-pentagon-l     { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+  .clip-hexagon-l      { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+}
+
+@media (--extra-large) {
+  .clip-none-xl         { clip-path: none; }
+  .clip-circle-xl       { clip-path: circle(50%); }
+  .clip-ellipse-xl      { clip-path: ellipse(50% 50%); }
+  .clip-inset-xl        { clip-path: inset(0); }
+  .clip-inset-sm-xl     { clip-path: inset(10%); }
+  .clip-inset-md-xl     { clip-path: inset(20%); }
+  .clip-inset-lg-xl     { clip-path: inset(30%); }
+  .clip-triangle-xl     { clip-path: polygon(50% 0%, 0% 100%, 100% 100%); }
+  .clip-diamond-xl      { clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+  .clip-pentagon-xl     { clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); }
+  .clip-hexagon-xl      { clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); }
+}

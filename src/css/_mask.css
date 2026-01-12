@@ -1,0 +1,78 @@
+/*
+  MASK
+
+  CSS masking properties.
+*/
+
+/* Mask Composite */
+.mask-composite-add       { mask-composite: add; }
+.mask-composite-subtract  { mask-composite: subtract; }
+.mask-composite-intersect { mask-composite: intersect; }
+.mask-composite-exclude   { mask-composite: exclude; }
+
+/* Mask Mode */
+.mask-mode-match-source { mask-mode: match-source; }
+.mask-mode-luminance    { mask-mode: luminance; }
+.mask-mode-alpha        { mask-mode: alpha; }
+
+/* Mask Repeat */
+.mask-repeat    { mask-repeat: repeat; }
+.mask-no-repeat { mask-repeat: no-repeat; }
+.mask-repeat-x  { mask-repeat: repeat-x; }
+.mask-repeat-y  { mask-repeat: repeat-y; }
+
+/* Mask Size */
+.mask-auto    { mask-size: auto; }
+.mask-cover   { mask-size: cover; }
+.mask-contain { mask-size: contain; }
+
+/* Mask Position */
+.mask-center { mask-position: center; }
+.mask-top    { mask-position: top; }
+.mask-right  { mask-position: right; }
+.mask-bottom { mask-position: bottom; }
+.mask-left   { mask-position: left; }
+
+@media (--small) {
+  .mask-auto-s    { mask-size: auto; }
+  .mask-cover-s   { mask-size: cover; }
+  .mask-contain-s { mask-size: contain; }
+  .mask-center-s { mask-position: center; }
+  .mask-top-s    { mask-position: top; }
+  .mask-right-s  { mask-position: right; }
+  .mask-bottom-s { mask-position: bottom; }
+  .mask-left-s   { mask-position: left; }
+}
+
+@media (--medium) {
+  .mask-auto-m    { mask-size: auto; }
+  .mask-cover-m   { mask-size: cover; }
+  .mask-contain-m { mask-size: contain; }
+  .mask-center-m { mask-position: center; }
+  .mask-top-m    { mask-position: top; }
+  .mask-right-m  { mask-position: right; }
+  .mask-bottom-m { mask-position: bottom; }
+  .mask-left-m   { mask-position: left; }
+}
+
+@media (--large) {
+  .mask-auto-l    { mask-size: auto; }
+  .mask-cover-l   { mask-size: cover; }
+  .mask-contain-l { mask-size: contain; }
+  .mask-center-l { mask-position: center; }
+  .mask-top-l    { mask-position: top; }
+  .mask-right-l  { mask-position: right; }
+  .mask-bottom-l { mask-position: bottom; }
+  .mask-left-l   { mask-position: left; }
+}
+
+@media (--extra-large) {
+  .mask-auto-xl    { mask-size: auto; }
+  .mask-cover-xl   { mask-size: cover; }
+  .mask-contain-xl { mask-size: contain; }
+  .mask-center-xl { mask-position: center; }
+  .mask-top-xl    { mask-position: top; }
+  .mask-right-xl  { mask-position: right; }
+  .mask-bottom-xl { mask-position: bottom; }
+  .mask-left-xl   { mask-position: left; }
+}

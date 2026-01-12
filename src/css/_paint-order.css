@@ -1,0 +1,48 @@
+/*
+  PAINT ORDER
+
+  Control the rendering order of fill, stroke, and markers in SVG and text.
+*/
+
+.paint-order-normal { paint-order: normal; }
+.paint-order-fill   { paint-order: fill; }
+.paint-order-stroke { paint-order: stroke; }
+.paint-order-markers { paint-order: markers; }
+.paint-order-fill-stroke { paint-order: fill stroke; }
+.paint-order-stroke-fill { paint-order: stroke fill; }
+
+@media (--small) {
+  .paint-order-normal-s { paint-order: normal; }
+  .paint-order-fill-s   { paint-order: fill; }
+  .paint-order-stroke-s { paint-order: stroke; }
+  .paint-order-markers-s { paint-order: markers; }
+  .paint-order-fill-stroke-s { paint-order: fill stroke; }
+  .paint-order-stroke-fill-s { paint-order: stroke fill; }
+}
+
+@media (--medium) {
+  .paint-order-normal-m { paint-order: normal; }
+  .paint-order-fill-m   { paint-order: fill; }
+  .paint-order-stroke-m { paint-order: stroke; }
+  .paint-order-markers-m { paint-order: markers; }
+  .paint-order-fill-stroke-m { paint-order: fill stroke; }
+  .paint-order-stroke-fill-m { paint-order: stroke fill; }
+}
+
+@media (--large) {
+  .paint-order-normal-l { paint-order: normal; }
+  .paint-order-fill-l   { paint-order: fill; }
+  .paint-order-stroke-l { paint-order: stroke; }
+  .paint-order-markers-l { paint-order: markers; }
+  .paint-order-fill-stroke-l { paint-order: fill stroke; }
+  .paint-order-stroke-fill-l { paint-order: stroke fill; }
+}
+
+@media (--extra-large) {
+  .paint-order-normal-xl { paint-order: normal; }
+  .paint-order-fill-xl   { paint-order: fill; }
+  .paint-order-stroke-xl { paint-order: stroke; }
+  .paint-order-markers-xl { paint-order: markers; }
+  .paint-order-fill-stroke-xl { paint-order: fill stroke; }
+  .paint-order-stroke-fill-xl { paint-order: stroke fill; }
+}

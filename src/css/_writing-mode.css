@@ -1,0 +1,69 @@
+/*
+  WRITING MODE
+
+  Control text direction and orientation.
+*/
+
+/* Writing Mode */
+.writing-mode-horizontal-tb { writing-mode: horizontal-tb; }
+.writing-mode-vertical-rl   { writing-mode: vertical-rl; }
+.writing-mode-vertical-lr   { writing-mode: vertical-lr; }
+
+/* Text Orientation */
+.text-orientation-mixed    { text-orientation: mixed; }
+.text-orientation-upright  { text-orientation: upright; }
+.text-orientation-sideways { text-orientation: sideways; }
+
+/* Direction */
+.direction-ltr { direction: ltr; }
+.direction-rtl { direction: rtl; }
+
+/* Unicode Bidi */
+.unicode-bidi-normal   { unicode-bidi: normal; }
+.unicode-bidi-embed    { unicode-bidi: embed; }
+.unicode-bidi-isolate  { unicode-bidi: isolate; }
+.unicode-bidi-override { unicode-bidi: bidi-override; }
+
+@media (--small) {
+  .writing-mode-horizontal-tb-s { writing-mode: horizontal-tb; }
+  .writing-mode-vertical-rl-s   { writing-mode: vertical-rl; }
+  .writing-mode-vertical-lr-s   { writing-mode: vertical-lr; }
+  .text-orientation-mixed-s    { text-orientation: mixed; }
+  .text-orientation-upright-s  { text-orientation: upright; }
+  .text-orientation-sideways-s { text-orientation: sideways; }
+  .direction-ltr-s { direction: ltr; }
+  .direction-rtl-s { direction: rtl; }
+}
+
+@media (--medium) {
+  .writing-mode-horizontal-tb-m { writing-mode: horizontal-tb; }
+  .writing-mode-vertical-rl-m   { writing-mode: vertical-rl; }
+  .writing-mode-vertical-lr-m   { writing-mode: vertical-lr; }
+  .text-orientation-mixed-m    { text-orientation: mixed; }
+  .text-orientation-upright-m  { text-orientation: upright; }
+  .text-orientation-sideways-m { text-orientation: sideways; }
+  .direction-ltr-m { direction: ltr; }
+  .direction-rtl-m { direction: rtl; }
+}
+
+@media (--large) {
+  .writing-mode-horizontal-tb-l { writing-mode: horizontal-tb; }
+  .writing-mode-vertical-rl-l   { writing-mode: vertical-rl; }
+  .writing-mode-vertical-lr-l   { writing-mode: vertical-lr; }
+  .text-orientation-mixed-l    { text-orientation: mixed; }
+  .text-orientation-upright-l  { text-orientation: upright; }
+  .text-orientation-sideways-l { text-orientation: sideways; }
+  .direction-ltr-l { direction: ltr; }
+  .direction-rtl-l { direction: rtl; }
+}
+
+@media (--extra-large) {
+  .writing-mode-horizontal-tb-xl { writing-mode: horizontal-tb; }
+  .writing-mode-vertical-rl-xl   { writing-mode: vertical-rl; }
+  .writing-mode-vertical-lr-xl   { writing-mode: vertical-lr; }
+  .text-orientation-mixed-xl    { text-orientation: mixed; }
+  .text-orientation-upright-xl  { text-orientation: upright; }
+  .text-orientation-sideways-xl { text-orientation: sideways; }
+  .direction-ltr-xl { direction: ltr; }
+  .direction-rtl-xl { direction: rtl; }
+}

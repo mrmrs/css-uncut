@@ -75,3 +75,223 @@
 
 /* Filter none */
 .filter-none { filter: none; }
+
+@media (--small) {
+  .blur-none-s { filter: blur(0); }
+  .blur-sm-s   { filter: blur(4px); }
+  .blur-s      { filter: blur(8px); }
+  .blur-md-s   { filter: blur(12px); }
+  .blur-lg-s   { filter: blur(16px); }
+  .blur-xl-s   { filter: blur(24px); }
+  .blur-2xl-s  { filter: blur(40px); }
+  .blur-3xl-s  { filter: blur(64px); }
+  .brightness-0-s   { filter: brightness(0); }
+  .brightness-50-s  { filter: brightness(.5); }
+  .brightness-75-s  { filter: brightness(.75); }
+  .brightness-90-s  { filter: brightness(.9); }
+  .brightness-95-s  { filter: brightness(.95); }
+  .brightness-100-s { filter: brightness(1); }
+  .brightness-105-s { filter: brightness(1.05); }
+  .brightness-110-s { filter: brightness(1.1); }
+  .brightness-125-s { filter: brightness(1.25); }
+  .brightness-150-s { filter: brightness(1.5); }
+  .brightness-200-s { filter: brightness(2); }
+  .contrast-0-s   { filter: contrast(0); }
+  .contrast-50-s  { filter: contrast(.5); }
+  .contrast-75-s  { filter: contrast(.75); }
+  .contrast-100-s { filter: contrast(1); }
+  .contrast-125-s { filter: contrast(1.25); }
+  .contrast-150-s { filter: contrast(1.5); }
+  .contrast-200-s { filter: contrast(2); }
+  .grayscale-0-s   { filter: grayscale(0); }
+  .grayscale-s     { filter: grayscale(100%); }
+  .grayscale-50-s  { filter: grayscale(50%); }
+  .hue-rotate-0-s   { filter: hue-rotate(0deg); }
+  .hue-rotate-15-s  { filter: hue-rotate(15deg); }
+  .hue-rotate-30-s  { filter: hue-rotate(30deg); }
+  .hue-rotate-60-s  { filter: hue-rotate(60deg); }
+  .hue-rotate-90-s  { filter: hue-rotate(90deg); }
+  .hue-rotate-180-s { filter: hue-rotate(180deg); }
+  .invert-0-s { filter: invert(0); }
+  .invert-s   { filter: invert(100%); }
+  .saturate-0-s   { filter: saturate(0); }
+  .saturate-50-s  { filter: saturate(.5); }
+  .saturate-100-s { filter: saturate(1); }
+  .saturate-150-s { filter: saturate(1.5); }
+  .saturate-200-s { filter: saturate(2); }
+  .sepia-0-s { filter: sepia(0); }
+  .sepia-s   { filter: sepia(100%); }
+  .drop-shadow-sm-s   { filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+  .drop-shadow-s      { filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-md-s   { filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-lg-s   { filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1)); }
+  .drop-shadow-xl-s   { filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); }
+  .drop-shadow-2xl-s  { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+  .drop-shadow-none-s { filter: drop-shadow(0 0 #0000); }
+  .filter-none-s { filter: none; }
+}
+
+@media (--medium) {
+  .blur-none-m { filter: blur(0); }
+  .blur-sm-m   { filter: blur(4px); }
+  .blur-m      { filter: blur(8px); }
+  .blur-md-m   { filter: blur(12px); }
+  .blur-lg-m   { filter: blur(16px); }
+  .blur-xl-m   { filter: blur(24px); }
+  .blur-2xl-m  { filter: blur(40px); }
+  .blur-3xl-m  { filter: blur(64px); }
+  .brightness-0-m   { filter: brightness(0); }
+  .brightness-50-m  { filter: brightness(.5); }
+  .brightness-75-m  { filter: brightness(.75); }
+  .brightness-90-m  { filter: brightness(.9); }
+  .brightness-95-m  { filter: brightness(.95); }
+  .brightness-100-m { filter: brightness(1); }
+  .brightness-105-m { filter: brightness(1.05); }
+  .brightness-110-m { filter: brightness(1.1); }
+  .brightness-125-m { filter: brightness(1.25); }
+  .brightness-150-m { filter: brightness(1.5); }
+  .brightness-200-m { filter: brightness(2); }
+  .contrast-0-m   { filter: contrast(0); }
+  .contrast-50-m  { filter: contrast(.5); }
+  .contrast-75-m  { filter: contrast(.75); }
+  .contrast-100-m { filter: contrast(1); }
+  .contrast-125-m { filter: contrast(1.25); }
+  .contrast-150-m { filter: contrast(1.5); }
+  .contrast-200-m { filter: contrast(2); }
+  .grayscale-0-m   { filter: grayscale(0); }
+  .grayscale-m     { filter: grayscale(100%); }
+  .grayscale-50-m  { filter: grayscale(50%); }
+  .hue-rotate-0-m   { filter: hue-rotate(0deg); }
+  .hue-rotate-15-m  { filter: hue-rotate(15deg); }
+  .hue-rotate-30-m  { filter: hue-rotate(30deg); }
+  .hue-rotate-60-m  { filter: hue-rotate(60deg); }
+  .hue-rotate-90-m  { filter: hue-rotate(90deg); }
+  .hue-rotate-180-m { filter: hue-rotate(180deg); }
+  .invert-0-m { filter: invert(0); }
+  .invert-m   { filter: invert(100%); }
+  .saturate-0-m   { filter: saturate(0); }
+  .saturate-50-m  { filter: saturate(.5); }
+  .saturate-100-m { filter: saturate(1); }
+  .saturate-150-m { filter: saturate(1.5); }
+  .saturate-200-m { filter: saturate(2); }
+  .sepia-0-m { filter: sepia(0); }
+  .sepia-m   { filter: sepia(100%); }
+  .drop-shadow-sm-m   { filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+  .drop-shadow-m      { filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-md-m   { filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-lg-m   { filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1)); }
+  .drop-shadow-xl-m   { filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); }
+  .drop-shadow-2xl-m  { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+  .drop-shadow-none-m { filter: drop-shadow(0 0 #0000); }
+  .filter-none-m { filter: none; }
+}
+
+@media (--large) {
+  .blur-none-l { filter: blur(0); }
+  .blur-sm-l   { filter: blur(4px); }
+  .blur-l      { filter: blur(8px); }
+  .blur-md-l   { filter: blur(12px); }
+  .blur-lg-l   { filter: blur(16px); }
+  .blur-xl-l   { filter: blur(24px); }
+  .blur-2xl-l  { filter: blur(40px); }
+  .blur-3xl-l  { filter: blur(64px); }
+  .brightness-0-l   { filter: brightness(0); }
+  .brightness-50-l  { filter: brightness(.5); }
+  .brightness-75-l  { filter: brightness(.75); }
+  .brightness-90-l  { filter: brightness(.9); }
+  .brightness-95-l  { filter: brightness(.95); }
+  .brightness-100-l { filter: brightness(1); }
+  .brightness-105-l { filter: brightness(1.05); }
+  .brightness-110-l { filter: brightness(1.1); }
+  .brightness-125-l { filter: brightness(1.25); }
+  .brightness-150-l { filter: brightness(1.5); }
+  .brightness-200-l { filter: brightness(2); }
+  .contrast-0-l   { filter: contrast(0); }
+  .contrast-50-l  { filter: contrast(.5); }
+  .contrast-75-l  { filter: contrast(.75); }
+  .contrast-100-l { filter: contrast(1); }
+  .contrast-125-l { filter: contrast(1.25); }
+  .contrast-150-l { filter: contrast(1.5); }
+  .contrast-200-l { filter: contrast(2); }
+  .grayscale-0-l   { filter: grayscale(0); }
+  .grayscale-l     { filter: grayscale(100%); }
+  .grayscale-50-l  { filter: grayscale(50%); }
+  .hue-rotate-0-l   { filter: hue-rotate(0deg); }
+  .hue-rotate-15-l  { filter: hue-rotate(15deg); }
+  .hue-rotate-30-l  { filter: hue-rotate(30deg); }
+  .hue-rotate-60-l  { filter: hue-rotate(60deg); }
+  .hue-rotate-90-l  { filter: hue-rotate(90deg); }
+  .hue-rotate-180-l { filter: hue-rotate(180deg); }
+  .invert-0-l { filter: invert(0); }
+  .invert-l   { filter: invert(100%); }
+  .saturate-0-l   { filter: saturate(0); }
+  .saturate-50-l  { filter: saturate(.5); }
+  .saturate-100-l { filter: saturate(1); }
+  .saturate-150-l { filter: saturate(1.5); }
+  .saturate-200-l { filter: saturate(2); }
+  .sepia-0-l { filter: sepia(0); }
+  .sepia-l   { filter: sepia(100%); }
+  .drop-shadow-sm-l   { filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+  .drop-shadow-l      { filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-md-l   { filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-lg-l   { filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1)); }
+  .drop-shadow-xl-l   { filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); }
+  .drop-shadow-2xl-l  { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+  .drop-shadow-none-l { filter: drop-shadow(0 0 #0000); }
+  .filter-none-l { filter: none; }
+}
+
+@media (--extra-large) {
+  .blur-none-xl { filter: blur(0); }
+  .blur-sm-xl   { filter: blur(4px); }
+  .blur-xl      { filter: blur(8px); }
+  .blur-md-xl   { filter: blur(12px); }
+  .blur-lg-xl   { filter: blur(16px); }
+  .blur-xl-xl   { filter: blur(24px); }
+  .blur-2xl-xl  { filter: blur(40px); }
+  .blur-3xl-xl  { filter: blur(64px); }
+  .brightness-0-xl   { filter: brightness(0); }
+  .brightness-50-xl  { filter: brightness(.5); }
+  .brightness-75-xl  { filter: brightness(.75); }
+  .brightness-90-xl  { filter: brightness(.9); }
+  .brightness-95-xl  { filter: brightness(.95); }
+  .brightness-100-xl { filter: brightness(1); }
+  .brightness-105-xl { filter: brightness(1.05); }
+  .brightness-110-xl { filter: brightness(1.1); }
+  .brightness-125-xl { filter: brightness(1.25); }
+  .brightness-150-xl { filter: brightness(1.5); }
+  .brightness-200-xl { filter: brightness(2); }
+  .contrast-0-xl   { filter: contrast(0); }
+  .contrast-50-xl  { filter: contrast(.5); }
+  .contrast-75-xl  { filter: contrast(.75); }
+  .contrast-100-xl { filter: contrast(1); }
+  .contrast-125-xl { filter: contrast(1.25); }
+  .contrast-150-xl { filter: contrast(1.5); }
+  .contrast-200-xl { filter: contrast(2); }
+  .grayscale-0-xl   { filter: grayscale(0); }
+  .grayscale-xl     { filter: grayscale(100%); }
+  .grayscale-50-xl  { filter: grayscale(50%); }
+  .hue-rotate-0-xl   { filter: hue-rotate(0deg); }
+  .hue-rotate-15-xl  { filter: hue-rotate(15deg); }
+  .hue-rotate-30-xl  { filter: hue-rotate(30deg); }
+  .hue-rotate-60-xl  { filter: hue-rotate(60deg); }
+  .hue-rotate-90-xl  { filter: hue-rotate(90deg); }
+  .hue-rotate-180-xl { filter: hue-rotate(180deg); }
+  .invert-0-xl { filter: invert(0); }
+  .invert-xl   { filter: invert(100%); }
+  .saturate-0-xl   { filter: saturate(0); }
+  .saturate-50-xl  { filter: saturate(.5); }
+  .saturate-100-xl { filter: saturate(1); }
+  .saturate-150-xl { filter: saturate(1.5); }
+  .saturate-200-xl { filter: saturate(2); }
+  .sepia-0-xl { filter: sepia(0); }
+  .sepia-xl   { filter: sepia(100%); }
+  .drop-shadow-sm-xl   { filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+  .drop-shadow-xl      { filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-md-xl   { filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06)); }
+  .drop-shadow-lg-xl   { filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1)); }
+  .drop-shadow-xl-xl   { filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); }
+  .drop-shadow-2xl-xl  { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+  .drop-shadow-none-xl { filter: drop-shadow(0 0 #0000); }
+  .filter-none-xl { filter: none; }
+}

@@ -46,3 +46,155 @@
 .backdrop-contrast-200 { backdrop-filter: contrast(200%); }
 
 .backdrop-none { backdrop-filter: none; }
+
+@media (--small) {
+  .backdrop-blur-none-s { backdrop-filter: blur(0); }
+  .backdrop-blur-sm-s   { backdrop-filter: blur(4px); }
+  .backdrop-blur-s      { backdrop-filter: blur(8px); }
+  .backdrop-blur-md-s   { backdrop-filter: blur(12px); }
+  .backdrop-blur-lg-s   { backdrop-filter: blur(16px); }
+  .backdrop-blur-xl-s   { backdrop-filter: blur(24px); }
+  .backdrop-blur-2xl-s  { backdrop-filter: blur(40px); }
+  .backdrop-blur-3xl-s  { backdrop-filter: blur(64px); }
+  .backdrop-grayscale-0-s   { backdrop-filter: grayscale(0); }
+  .backdrop-grayscale-s     { backdrop-filter: grayscale(100%); }
+  .backdrop-grayscale-50-s  { backdrop-filter: grayscale(50%); }
+  .backdrop-invert-0-s  { backdrop-filter: invert(0); }
+  .backdrop-invert-s    { backdrop-filter: invert(100%); }
+  .backdrop-sepia-0-s   { backdrop-filter: sepia(0); }
+  .backdrop-sepia-s     { backdrop-filter: sepia(100%); }
+  .backdrop-saturate-0-s   { backdrop-filter: saturate(0); }
+  .backdrop-saturate-50-s  { backdrop-filter: saturate(50%); }
+  .backdrop-saturate-100-s { backdrop-filter: saturate(100%); }
+  .backdrop-saturate-150-s { backdrop-filter: saturate(150%); }
+  .backdrop-saturate-200-s { backdrop-filter: saturate(200%); }
+  .backdrop-brightness-0-s   { backdrop-filter: brightness(0); }
+  .backdrop-brightness-50-s  { backdrop-filter: brightness(50%); }
+  .backdrop-brightness-75-s  { backdrop-filter: brightness(75%); }
+  .backdrop-brightness-100-s { backdrop-filter: brightness(100%); }
+  .backdrop-brightness-125-s { backdrop-filter: brightness(125%); }
+  .backdrop-brightness-150-s { backdrop-filter: brightness(150%); }
+  .backdrop-brightness-200-s { backdrop-filter: brightness(200%); }
+  .backdrop-contrast-0-s   { backdrop-filter: contrast(0); }
+  .backdrop-contrast-50-s  { backdrop-filter: contrast(50%); }
+  .backdrop-contrast-75-s  { backdrop-filter: contrast(75%); }
+  .backdrop-contrast-100-s { backdrop-filter: contrast(100%); }
+  .backdrop-contrast-125-s { backdrop-filter: contrast(125%); }
+  .backdrop-contrast-150-s { backdrop-filter: contrast(150%); }
+  .backdrop-contrast-200-s { backdrop-filter: contrast(200%); }
+  .backdrop-none-s { backdrop-filter: none; }
+}
+
+@media (--medium) {
+  .backdrop-blur-none-m { backdrop-filter: blur(0); }
+  .backdrop-blur-sm-m   { backdrop-filter: blur(4px); }
+  .backdrop-blur-m      { backdrop-filter: blur(8px); }
+  .backdrop-blur-md-m   { backdrop-filter: blur(12px); }
+  .backdrop-blur-lg-m   { backdrop-filter: blur(16px); }
+  .backdrop-blur-xl-m   { backdrop-filter: blur(24px); }
+  .backdrop-blur-2xl-m  { backdrop-filter: blur(40px); }
+  .backdrop-blur-3xl-m  { backdrop-filter: blur(64px); }
+  .backdrop-grayscale-0-m   { backdrop-filter: grayscale(0); }
+  .backdrop-grayscale-m     { backdrop-filter: grayscale(100%); }
+  .backdrop-grayscale-50-m  { backdrop-filter: grayscale(50%); }
+  .backdrop-invert-0-m  { backdrop-filter: invert(0); }
+  .backdrop-invert-m    { backdrop-filter: invert(100%); }
+  .backdrop-sepia-0-m   { backdrop-filter: sepia(0); }
+  .backdrop-sepia-m     { backdrop-filter: sepia(100%); }
+  .backdrop-saturate-0-m   { backdrop-filter: saturate(0); }
+  .backdrop-saturate-50-m  { backdrop-filter: saturate(50%); }
+  .backdrop-saturate-100-m { backdrop-filter: saturate(100%); }
+  .backdrop-saturate-150-m { backdrop-filter: saturate(150%); }
+  .backdrop-saturate-200-m { backdrop-filter: saturate(200%); }
+  .backdrop-brightness-0-m   { backdrop-filter: brightness(0); }
+  .backdrop-brightness-50-m  { backdrop-filter: brightness(50%); }
+  .backdrop-brightness-75-m  { backdrop-filter: brightness(75%); }
+  .backdrop-brightness-100-m { backdrop-filter: brightness(100%); }
+  .backdrop-brightness-125-m { backdrop-filter: brightness(125%); }
+  .backdrop-brightness-150-m { backdrop-filter: brightness(150%); }
+  .backdrop-brightness-200-m { backdrop-filter: brightness(200%); }
+  .backdrop-contrast-0-m   { backdrop-filter: contrast(0); }
+  .backdrop-contrast-50-m  { backdrop-filter: contrast(50%); }
+  .backdrop-contrast-75-m  { backdrop-filter: contrast(75%); }
+  .backdrop-contrast-100-m { backdrop-filter: contrast(100%); }
+  .backdrop-contrast-125-m { backdrop-filter: contrast(125%); }
+  .backdrop-contrast-150-m { backdrop-filter: contrast(150%); }
+  .backdrop-contrast-200-m { backdrop-filter: contrast(200%); }
+  .backdrop-none-m { backdrop-filter: none; }
+}
+
+@media (--large) {
+  .backdrop-blur-none-l { backdrop-filter: blur(0); }
+  .backdrop-blur-sm-l   { backdrop-filter: blur(4px); }
+  .backdrop-blur-l      { backdrop-filter: blur(8px); }
+  .backdrop-blur-md-l   { backdrop-filter: blur(12px); }
+  .backdrop-blur-lg-l   { backdrop-filter: blur(16px); }
+  .backdrop-blur-xl-l   { backdrop-filter: blur(24px); }
+  .backdrop-blur-2xl-l  { backdrop-filter: blur(40px); }
+  .backdrop-blur-3xl-l  { backdrop-filter: blur(64px); }
+  .backdrop-grayscale-0-l   { backdrop-filter: grayscale(0); }
+  .backdrop-grayscale-l     { backdrop-filter: grayscale(100%); }
+  .backdrop-grayscale-50-l  { backdrop-filter: grayscale(50%); }
+  .backdrop-invert-0-l  { backdrop-filter: invert(0); }
+  .backdrop-invert-l    { backdrop-filter: invert(100%); }
+  .backdrop-sepia-0-l   { backdrop-filter: sepia(0); }
+  .backdrop-sepia-l     { backdrop-filter: sepia(100%); }
+  .backdrop-saturate-0-l   { backdrop-filter: saturate(0); }
+  .backdrop-saturate-50-l  { backdrop-filter: saturate(50%); }
+  .backdrop-saturate-100-l { backdrop-filter: saturate(100%); }
+  .backdrop-saturate-150-l { backdrop-filter: saturate(150%); }
+  .backdrop-saturate-200-l { backdrop-filter: saturate(200%); }
+  .backdrop-brightness-0-l   { backdrop-filter: brightness(0); }
+  .backdrop-brightness-50-l  { backdrop-filter: brightness(50%); }
+  .backdrop-brightness-75-l  { backdrop-filter: brightness(75%); }
+  .backdrop-brightness-100-l { backdrop-filter: brightness(100%); }
+  .backdrop-brightness-125-l { backdrop-filter: brightness(125%); }
+  .backdrop-brightness-150-l { backdrop-filter: brightness(150%); }
+  .backdrop-brightness-200-l { backdrop-filter: brightness(200%); }
+  .backdrop-contrast-0-l   { backdrop-filter: contrast(0); }
+  .backdrop-contrast-50-l  { backdrop-filter: contrast(50%); }
+  .backdrop-contrast-75-l  { backdrop-filter: contrast(75%); }
+  .backdrop-contrast-100-l { backdrop-filter: contrast(100%); }
+  .backdrop-contrast-125-l { backdrop-filter: contrast(125%); }
+  .backdrop-contrast-150-l { backdrop-filter: contrast(150%); }
+  .backdrop-contrast-200-l { backdrop-filter: contrast(200%); }
+  .backdrop-none-l { backdrop-filter: none; }
+}
+
+@media (--extra-large) {
+  .backdrop-blur-none-xl { backdrop-filter: blur(0); }
+  .backdrop-blur-sm-xl   { backdrop-filter: blur(4px); }
+  .backdrop-blur-xl      { backdrop-filter: blur(8px); }
+  .backdrop-blur-md-xl   { backdrop-filter: blur(12px); }
+  .backdrop-blur-lg-xl   { backdrop-filter: blur(16px); }
+  .backdrop-blur-xl-xl   { backdrop-filter: blur(24px); }
+  .backdrop-blur-2xl-xl  { backdrop-filter: blur(40px); }
+  .backdrop-blur-3xl-xl  { backdrop-filter: blur(64px); }
+  .backdrop-grayscale-0-xl   { backdrop-filter: grayscale(0); }
+  .backdrop-grayscale-xl     { backdrop-filter: grayscale(100%); }
+  .backdrop-grayscale-50-xl  { backdrop-filter: grayscale(50%); }
+  .backdrop-invert-0-xl  { backdrop-filter: invert(0); }
+  .backdrop-invert-xl    { backdrop-filter: invert(100%); }
+  .backdrop-sepia-0-xl   { backdrop-filter: sepia(0); }
+  .backdrop-sepia-xl     { backdrop-filter: sepia(100%); }
+  .backdrop-saturate-0-xl   { backdrop-filter: saturate(0); }
+  .backdrop-saturate-50-xl  { backdrop-filter: saturate(50%); }
+  .backdrop-saturate-100-xl { backdrop-filter: saturate(100%); }
+  .backdrop-saturate-150-xl { backdrop-filter: saturate(150%); }
+  .backdrop-saturate-200-xl { backdrop-filter: saturate(200%); }
+  .backdrop-brightness-0-xl   { backdrop-filter: brightness(0); }
+  .backdrop-brightness-50-xl  { backdrop-filter: brightness(50%); }
+  .backdrop-brightness-75-xl  { backdrop-filter: brightness(75%); }
+  .backdrop-brightness-100-xl { backdrop-filter: brightness(100%); }
+  .backdrop-brightness-125-xl { backdrop-filter: brightness(125%); }
+  .backdrop-brightness-150-xl { backdrop-filter: brightness(150%); }
+  .backdrop-brightness-200-xl { backdrop-filter: brightness(200%); }
+  .backdrop-contrast-0-xl   { backdrop-filter: contrast(0); }
+  .backdrop-contrast-50-xl  { backdrop-filter: contrast(50%); }
+  .backdrop-contrast-75-xl  { backdrop-filter: contrast(75%); }
+  .backdrop-contrast-100-xl { backdrop-filter: contrast(100%); }
+  .backdrop-contrast-125-xl { backdrop-filter: contrast(125%); }
+  .backdrop-contrast-150-xl { backdrop-filter: contrast(150%); }
+  .backdrop-contrast-200-xl { backdrop-filter: contrast(200%); }
+  .backdrop-none-xl { backdrop-filter: none; }
+}

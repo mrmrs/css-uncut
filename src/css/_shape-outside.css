@@ -1,0 +1,85 @@
+/*
+  SHAPE OUTSIDE
+
+  Define shapes for text to flow around floated elements.
+*/
+
+.shape-none         { shape-outside: none; }
+.shape-circle       { shape-outside: circle(50%); }
+.shape-ellipse      { shape-outside: ellipse(50% 50%); }
+.shape-inset        { shape-outside: inset(10%); }
+.shape-margin-box   { shape-outside: margin-box; }
+.shape-border-box   { shape-outside: border-box; }
+.shape-padding-box  { shape-outside: padding-box; }
+.shape-content-box  { shape-outside: content-box; }
+
+/* Shape Margin */
+.shape-margin-0  { shape-margin: 0; }
+.shape-margin-1  { shape-margin: .25rem; }
+.shape-margin-2  { shape-margin: .5rem; }
+.shape-margin-3  { shape-margin: 1rem; }
+.shape-margin-4  { shape-margin: 2rem; }
+
+@media (--small) {
+  .shape-none-s         { shape-outside: none; }
+  .shape-circle-s       { shape-outside: circle(50%); }
+  .shape-ellipse-s      { shape-outside: ellipse(50% 50%); }
+  .shape-inset-s        { shape-outside: inset(10%); }
+  .shape-margin-box-s   { shape-outside: margin-box; }
+  .shape-border-box-s   { shape-outside: border-box; }
+  .shape-padding-box-s  { shape-outside: padding-box; }
+  .shape-content-box-s  { shape-outside: content-box; }
+  .shape-margin-0-s  { shape-margin: 0; }
+  .shape-margin-1-s  { shape-margin: .25rem; }
+  .shape-margin-2-s  { shape-margin: .5rem; }
+  .shape-margin-3-s  { shape-margin: 1rem; }
+  .shape-margin-4-s  { shape-margin: 2rem; }
+}
+
+@media (--medium) {
+  .shape-none-m         { shape-outside: none; }
+  .shape-circle-m       { shape-outside: circle(50%); }
+  .shape-ellipse-m      { shape-outside: ellipse(50% 50%); }
+  .shape-inset-m        { shape-outside: inset(10%); }
+  .shape-margin-box-m   { shape-outside: margin-box; }
+  .shape-border-box-m   { shape-outside: border-box; }
+  .shape-padding-box-m  { shape-outside: padding-box; }
+  .shape-content-box-m  { shape-outside: content-box; }
+  .shape-margin-0-m  { shape-margin: 0; }
+  .shape-margin-1-m  { shape-margin: .25rem; }
+  .shape-margin-2-m  { shape-margin: .5rem; }
+  .shape-margin-3-m  { shape-margin: 1rem; }
+  .shape-margin-4-m  { shape-margin: 2rem; }
+}
+
+@media (--large) {
+  .shape-none-l         { shape-outside: none; }
+  .shape-circle-l       { shape-outside: circle(50%); }
+  .shape-ellipse-l      { shape-outside: ellipse(50% 50%); }
+  .shape-inset-l        { shape-outside: inset(10%); }
+  .shape-margin-box-l   { shape-outside: margin-box; }
+  .shape-border-box-l   { shape-outside: border-box; }
+  .shape-padding-box-l  { shape-outside: padding-box; }
+  .shape-content-box-l  { shape-outside: content-box; }
+  .shape-margin-0-l  { shape-margin: 0; }
+  .shape-margin-1-l  { shape-margin: .25rem; }
+  .shape-margin-2-l  { shape-margin: .5rem; }
+  .shape-margin-3-l  { shape-margin: 1rem; }
+  .shape-margin-4-l  { shape-margin: 2rem; }
+}
+
+@media (--extra-large) {
+  .shape-none-xl         { shape-outside: none; }
+  .shape-circle-xl       { shape-outside: circle(50%); }
+  .shape-ellipse-xl      { shape-outside: ellipse(50% 50%); }
+  .shape-inset-xl        { shape-outside: inset(10%); }
+  .shape-margin-box-xl   { shape-outside: margin-box; }
+  .shape-border-box-xl   { shape-outside: border-box; }
+  .shape-padding-box-xl  { shape-outside: padding-box; }
+  .shape-content-box-xl  { shape-outside: content-box; }
+  .shape-margin-0-xl  { shape-margin: 0; }
+  .shape-margin-1-xl  { shape-margin: .25rem; }
+  .shape-margin-2-xl  { shape-margin: .5rem; }
+  .shape-margin-3-xl  { shape-margin: 1rem; }
+  .shape-margin-4-xl  { shape-margin: 2rem; }
+}
