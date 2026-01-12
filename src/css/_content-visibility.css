@@ -9,9 +9,9 @@
 .content-auto    { content-visibility: auto; }
 
 @media (--small) {
-  .content-visible-ns { content-visibility: visible; }
-  .content-hidden-ns  { content-visibility: hidden; }
-  .content-auto-ns    { content-visibility: auto; }
+  .content-visible-s { content-visibility: visible; }
+  .content-hidden-s  { content-visibility: hidden; }
+  .content-auto-s    { content-visibility: auto; }
 }
 
 @media (--medium) {

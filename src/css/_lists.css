@@ -19,11 +19,11 @@
 .list-outside { list-style-position: outside; }
 
 @media (--small) {
-  .list-none-ns    { list-style-type: none; }
-  .list-disc-ns    { list-style-type: disc; }
-  .list-decimal-ns { list-style-type: decimal; }
-  .list-inside-ns  { list-style-position: inside; }
-  .list-outside-ns { list-style-position: outside; }
+  .list-none-s    { list-style-type: none; }
+  .list-disc-s    { list-style-type: disc; }
+  .list-decimal-s { list-style-type: decimal; }
+  .list-inside-s  { list-style-position: inside; }
+  .list-outside-s { list-style-position: outside; }
 }
 
 @media (--medium) {

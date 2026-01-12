@@ -8,10 +8,10 @@
 .animate-fill-both      { animation-fill-mode: both; }
 
 @media (--small) {
-  .animate-fill-none-ns      { animation-fill-mode: none; }
-  .animate-fill-forwards-ns  { animation-fill-mode: forwards; }
-  .animate-fill-backwards-ns { animation-fill-mode: backwards; }
-  .animate-fill-both-ns      { animation-fill-mode: both; }
+  .animate-fill-none-s      { animation-fill-mode: none; }
+  .animate-fill-forwards-s  { animation-fill-mode: forwards; }
+  .animate-fill-backwards-s { animation-fill-mode: backwards; }
+  .animate-fill-both-s      { animation-fill-mode: both; }
 }
 
 @media (--medium) {

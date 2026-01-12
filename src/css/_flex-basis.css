@@ -13,12 +13,12 @@
 .flex-basis-3-4  { flex-basis: 75%; }
 
 @media (--small) {
-  .flex-basis-auto-ns { flex-basis: auto; }
-  .flex-basis-0-ns    { flex-basis: 0; }
-  .flex-basis-full-ns { flex-basis: 100%; }
-  .flex-basis-1-2-ns  { flex-basis: 50%; }
-  .flex-basis-1-3-ns  { flex-basis: 33.333333%; }
-  .flex-basis-2-3-ns  { flex-basis: 66.666667%; }
+  .flex-basis-auto-s { flex-basis: auto; }
+  .flex-basis-0-s    { flex-basis: 0; }
+  .flex-basis-full-s { flex-basis: 100%; }
+  .flex-basis-1-2-s  { flex-basis: 50%; }
+  .flex-basis-1-3-s  { flex-basis: 33.333333%; }
+  .flex-basis-2-3-s  { flex-basis: 66.666667%; }
 }
 
 @media (--medium) {

@@ -10,12 +10,12 @@
 .self-stretch  { align-self: stretch; }
 
 @media (--small) {
-  .self-auto-ns     { align-self: auto; }
-  .self-start-ns    { align-self: flex-start; }
-  .self-end-ns      { align-self: flex-end; }
-  .self-center-ns   { align-self: center; }
-  .self-baseline-ns { align-self: baseline; }
-  .self-stretch-ns  { align-self: stretch; }
+  .self-auto-s     { align-self: auto; }
+  .self-start-s    { align-self: flex-start; }
+  .self-end-s      { align-self: flex-end; }
+  .self-center-s   { align-self: center; }
+  .self-baseline-s { align-self: baseline; }
+  .self-stretch-s  { align-self: stretch; }
 }
 
 @media (--medium) {

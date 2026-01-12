@@ -10,12 +10,12 @@
 .bg-repeat-space { background-repeat: space; }
 
 @media (--small) {
-  .bg-repeat-ns       { background-repeat: repeat; }
-  .bg-no-repeat-ns    { background-repeat: no-repeat; }
-  .bg-repeat-x-ns     { background-repeat: repeat-x; }
-  .bg-repeat-y-ns     { background-repeat: repeat-y; }
-  .bg-repeat-round-ns { background-repeat: round; }
-  .bg-repeat-space-ns { background-repeat: space; }
+  .bg-repeat-s       { background-repeat: repeat; }
+  .bg-no-repeat-s    { background-repeat: no-repeat; }
+  .bg-repeat-x-s     { background-repeat: repeat-x; }
+  .bg-repeat-y-s     { background-repeat: repeat-y; }
+  .bg-repeat-round-s { background-repeat: round; }
+  .bg-repeat-space-s { background-repeat: space; }
 }
 
 @media (--medium) {

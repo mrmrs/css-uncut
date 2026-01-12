@@ -15,7 +15,7 @@
     top, right, bottom, left, inset
 
   Media Query Extensions:
-    -ns = small
+    -s = small
     -m  = medium
     -l  = large
     -xl = extra-large
@@ -100,36 +100,36 @@
 }
 
 @media (--small) {
-  .pos-stat-ns { position: static; }
-  .pos-rel-ns  { position: relative; }
-  .pos-abs-ns  { position: absolute; }
-  .pos-fix-ns  { position: fixed; }
-  .pos-stky-ns { position: sticky; }
-  .inset-0-ns  { inset: 0; }
-  .top-0-ns    { top: 0; }
-  .top-1-ns    { top: .25rem; }
-  .top-2-ns    { top: .5rem; }
-  .top-3-ns    { top: 1rem; }
-  .top-4-ns    { top: 2rem; }
-  .top-auto-ns { top: auto; }
-  .right-0-ns  { right: 0; }
-  .right-1-ns  { right: .25rem; }
-  .right-2-ns  { right: .5rem; }
-  .right-3-ns  { right: 1rem; }
-  .right-4-ns  { right: 2rem; }
-  .right-auto-ns { right: auto; }
-  .bottom-0-ns { bottom: 0; }
-  .bottom-1-ns { bottom: .25rem; }
-  .bottom-2-ns { bottom: .5rem; }
-  .bottom-3-ns { bottom: 1rem; }
-  .bottom-4-ns { bottom: 2rem; }
-  .bottom-auto-ns { bottom: auto; }
-  .left-0-ns   { left: 0; }
-  .left-1-ns   { left: .25rem; }
-  .left-2-ns   { left: .5rem; }
-  .left-3-ns   { left: 1rem; }
-  .left-4-ns   { left: 2rem; }
-  .left-auto-ns { left: auto; }
+  .pos-stat-s { position: static; }
+  .pos-rel-s  { position: relative; }
+  .pos-abs-s  { position: absolute; }
+  .pos-fix-s  { position: fixed; }
+  .pos-stky-s { position: sticky; }
+  .inset-0-s  { inset: 0; }
+  .top-0-s    { top: 0; }
+  .top-1-s    { top: .25rem; }
+  .top-2-s    { top: .5rem; }
+  .top-3-s    { top: 1rem; }
+  .top-4-s    { top: 2rem; }
+  .top-auto-s { top: auto; }
+  .right-0-s  { right: 0; }
+  .right-1-s  { right: .25rem; }
+  .right-2-s  { right: .5rem; }
+  .right-3-s  { right: 1rem; }
+  .right-4-s  { right: 2rem; }
+  .right-auto-s { right: auto; }
+  .bottom-0-s { bottom: 0; }
+  .bottom-1-s { bottom: .25rem; }
+  .bottom-2-s { bottom: .5rem; }
+  .bottom-3-s { bottom: 1rem; }
+  .bottom-4-s { bottom: 2rem; }
+  .bottom-auto-s { bottom: auto; }
+  .left-0-s   { left: 0; }
+  .left-1-s   { left: .25rem; }
+  .left-2-s   { left: .5rem; }
+  .left-3-s   { left: 1rem; }
+  .left-4-s   { left: 2rem; }
+  .left-auto-s { left: auto; }
 }
 
 @media (--medium) {

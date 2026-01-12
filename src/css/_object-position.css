@@ -13,15 +13,15 @@
 .object-top          { object-position: top; }
 
 @media (--small) {
-  .object-bottom-ns       { object-position: bottom; }
-  .object-center-ns       { object-position: center; }
-  .object-left-ns         { object-position: left; }
-  .object-left-bottom-ns  { object-position: left bottom; }
-  .object-left-top-ns     { object-position: left top; }
-  .object-right-ns        { object-position: right; }
-  .object-right-bottom-ns { object-position: right bottom; }
-  .object-right-top-ns    { object-position: right top; }
-  .object-top-ns          { object-position: top; }
+  .object-bottom-s       { object-position: bottom; }
+  .object-center-s       { object-position: center; }
+  .object-left-s         { object-position: left; }
+  .object-left-bottom-s  { object-position: left bottom; }
+  .object-left-top-s     { object-position: left top; }
+  .object-right-s        { object-position: right; }
+  .object-right-bottom-s { object-position: right bottom; }
+  .object-right-top-s    { object-position: right top; }
+  .object-top-s          { object-position: top; }
 }
 
 @media (--medium) {

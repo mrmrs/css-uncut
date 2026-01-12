@@ -22,21 +22,21 @@
 .z--1   { z-index: -1; }
 
 @media (--small) {
-  .z-0-ns    { z-index: 0; }
-  .z-1-ns    { z-index: 1; }
-  .z-2-ns    { z-index: 2; }
-  .z-3-ns    { z-index: 3; }
-  .z-4-ns    { z-index: 4; }
-  .z-5-ns    { z-index: 5; }
-  .z-10-ns   { z-index: 10; }
-  .z-20-ns   { z-index: 20; }
-  .z-30-ns   { z-index: 30; }
-  .z-40-ns   { z-index: 40; }
-  .z-50-ns   { z-index: 50; }
-  .z-100-ns  { z-index: 100; }
-  .z-max-ns  { z-index: 2147483647; }
-  .z-auto-ns { z-index: auto; }
-  .z--1-ns   { z-index: -1; }
+  .z-0-s    { z-index: 0; }
+  .z-1-s    { z-index: 1; }
+  .z-2-s    { z-index: 2; }
+  .z-3-s    { z-index: 3; }
+  .z-4-s    { z-index: 4; }
+  .z-5-s    { z-index: 5; }
+  .z-10-s   { z-index: 10; }
+  .z-20-s   { z-index: 20; }
+  .z-30-s   { z-index: 30; }
+  .z-40-s   { z-index: 40; }
+  .z-50-s   { z-index: 50; }
+  .z-100-s  { z-index: 100; }
+  .z-max-s  { z-index: 2147483647; }
+  .z-auto-s { z-index: auto; }
+  .z--1-s   { z-index: -1; }
 }
 
 @media (--medium) {

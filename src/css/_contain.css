@@ -13,13 +13,13 @@
 .contain-paint   { contain: paint; }
 
 @media (--small) {
-  .contain-none-ns    { contain: none; }
-  .contain-strict-ns  { contain: strict; }
-  .contain-content-ns { contain: content; }
-  .contain-size-ns    { contain: size; }
-  .contain-layout-ns  { contain: layout; }
-  .contain-style-ns   { contain: style; }
-  .contain-paint-ns   { contain: paint; }
+  .contain-none-s    { contain: none; }
+  .contain-strict-s  { contain: strict; }
+  .contain-content-s { contain: content; }
+  .contain-size-s    { contain: size; }
+  .contain-layout-s  { contain: layout; }
+  .contain-style-s   { contain: style; }
+  .contain-paint-s   { contain: paint; }
 }
 
 @media (--medium) {

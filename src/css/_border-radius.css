@@ -40,14 +40,14 @@
 .br-left-4 { border-top-left-radius: 1rem; border-bottom-left-radius: 1rem; }
 
 @media (--small) {
-  .br0-ns { border-radius: 0; }
-  .br1-ns { border-radius: .125rem; }
-  .br2-ns { border-radius: .25rem; }
-  .br3-ns { border-radius: .5rem; }
-  .br4-ns { border-radius: 1rem; }
-  .br5-ns { border-radius: 2rem; }
-  .br-100-ns { border-radius: 100%; }
-  .br-pill-ns { border-radius: 9999px; }
+  .br0-s { border-radius: 0; }
+  .br1-s { border-radius: .125rem; }
+  .br2-s { border-radius: .25rem; }
+  .br3-s { border-radius: .5rem; }
+  .br4-s { border-radius: 1rem; }
+  .br5-s { border-radius: 2rem; }
+  .br-100-s { border-radius: 100%; }
+  .br-pill-s { border-radius: 9999px; }
 }
 
 @media (--medium) {

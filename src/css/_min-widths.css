@@ -15,8 +15,8 @@
 .min-w5 { min-width: 16rem; }
 
 @media (--small) {
-  .min-w-0-ns    { min-width: 0; }
-  .min-w-full-ns { min-width: 100%; }
+  .min-w-0-s    { min-width: 0; }
+  .min-w-full-s { min-width: 100%; }
 }
 
 @media (--medium) {

@@ -7,9 +7,9 @@
 .animate-infinite { animation-iteration-count: infinite; }
 
 @media (--small) {
-  .animate-once-ns     { animation-iteration-count: 1; }
-  .animate-twice-ns    { animation-iteration-count: 2; }
-  .animate-infinite-ns { animation-iteration-count: infinite; }
+  .animate-once-s     { animation-iteration-count: 1; }
+  .animate-twice-s    { animation-iteration-count: 2; }
+  .animate-infinite-s { animation-iteration-count: infinite; }
 }
 
 @media (--medium) {

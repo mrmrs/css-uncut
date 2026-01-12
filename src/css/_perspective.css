@@ -26,26 +26,26 @@
 .perspective-origin-top-left     { perspective-origin: top left; }
 
 @media (--small) {
-  .perspective-none-ns { perspective: none; }
-  .perspective-1-ns    { perspective: 100px; }
-  .perspective-2-ns    { perspective: 200px; }
-  .perspective-3-ns    { perspective: 300px; }
-  .perspective-4-ns    { perspective: 400px; }
-  .perspective-5-ns    { perspective: 500px; }
-  .perspective-6-ns    { perspective: 600px; }
-  .perspective-7-ns    { perspective: 700px; }
-  .perspective-8-ns    { perspective: 800px; }
-  .perspective-9-ns    { perspective: 900px; }
-  .perspective-10-ns   { perspective: 1000px; }
-  .perspective-origin-center-ns       { perspective-origin: center; }
-  .perspective-origin-top-ns          { perspective-origin: top; }
-  .perspective-origin-top-right-ns    { perspective-origin: top right; }
-  .perspective-origin-right-ns        { perspective-origin: right; }
-  .perspective-origin-bottom-right-ns { perspective-origin: bottom right; }
-  .perspective-origin-bottom-ns       { perspective-origin: bottom; }
-  .perspective-origin-bottom-left-ns  { perspective-origin: bottom left; }
-  .perspective-origin-left-ns         { perspective-origin: left; }
-  .perspective-origin-top-left-ns     { perspective-origin: top left; }
+  .perspective-none-s { perspective: none; }
+  .perspective-1-s    { perspective: 100px; }
+  .perspective-2-s    { perspective: 200px; }
+  .perspective-3-s    { perspective: 300px; }
+  .perspective-4-s    { perspective: 400px; }
+  .perspective-5-s    { perspective: 500px; }
+  .perspective-6-s    { perspective: 600px; }
+  .perspective-7-s    { perspective: 700px; }
+  .perspective-8-s    { perspective: 800px; }
+  .perspective-9-s    { perspective: 900px; }
+  .perspective-10-s   { perspective: 1000px; }
+  .perspective-origin-center-s       { perspective-origin: center; }
+  .perspective-origin-top-s          { perspective-origin: top; }
+  .perspective-origin-top-right-s    { perspective-origin: top right; }
+  .perspective-origin-right-s        { perspective-origin: right; }
+  .perspective-origin-bottom-right-s { perspective-origin: bottom right; }
+  .perspective-origin-bottom-s       { perspective-origin: bottom; }
+  .perspective-origin-bottom-left-s  { perspective-origin: bottom left; }
+  .perspective-origin-left-s         { perspective-origin: left; }
+  .perspective-origin-top-left-s     { perspective-origin: top left; }
 }
 
 @media (--medium) {

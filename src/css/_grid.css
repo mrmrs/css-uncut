@@ -128,22 +128,22 @@
 .auto-rows-fr   { grid-auto-rows: minmax(0, 1fr); }
 
 @media (--small) {
-  .grid-cols-1-ns  { grid-template-columns: repeat(1, minmax(0, 1fr)); }
-  .grid-cols-2-ns  { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .grid-cols-3-ns  { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .grid-cols-4-ns  { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .grid-cols-5-ns  { grid-template-columns: repeat(5, minmax(0, 1fr)); }
-  .grid-cols-6-ns  { grid-template-columns: repeat(6, minmax(0, 1fr)); }
-  .grid-cols-12-ns { grid-template-columns: repeat(12, minmax(0, 1fr)); }
-  .col-span-1-ns   { grid-column: span 1 / span 1; }
-  .col-span-2-ns   { grid-column: span 2 / span 2; }
-  .col-span-3-ns   { grid-column: span 3 / span 3; }
-  .col-span-4-ns   { grid-column: span 4 / span 4; }
-  .col-span-5-ns   { grid-column: span 5 / span 5; }
-  .col-span-6-ns   { grid-column: span 6 / span 6; }
-  .col-span-full-ns { grid-column: 1 / -1; }
-  .grid-flow-row-ns { grid-auto-flow: row; }
-  .grid-flow-col-ns { grid-auto-flow: column; }
+  .grid-cols-1-s  { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+  .grid-cols-2-s  { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid-cols-3-s  { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid-cols-4-s  { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .grid-cols-5-s  { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .grid-cols-6-s  { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .grid-cols-12-s { grid-template-columns: repeat(12, minmax(0, 1fr)); }
+  .col-span-1-s   { grid-column: span 1 / span 1; }
+  .col-span-2-s   { grid-column: span 2 / span 2; }
+  .col-span-3-s   { grid-column: span 3 / span 3; }
+  .col-span-4-s   { grid-column: span 4 / span 4; }
+  .col-span-5-s   { grid-column: span 5 / span 5; }
+  .col-span-6-s   { grid-column: span 6 / span 6; }
+  .col-span-full-s { grid-column: 1 / -1; }
+  .grid-flow-row-s { grid-auto-flow: row; }
+  .grid-flow-col-s { grid-auto-flow: column; }
 }
 
 @media (--medium) {

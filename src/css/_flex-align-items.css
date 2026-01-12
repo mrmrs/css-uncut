@@ -9,11 +9,11 @@
 .items-stretch  { align-items: stretch; }
 
 @media (--small) {
-  .items-start-ns    { align-items: flex-start; }
-  .items-end-ns      { align-items: flex-end; }
-  .items-center-ns   { align-items: center; }
-  .items-baseline-ns { align-items: baseline; }
-  .items-stretch-ns  { align-items: stretch; }
+  .items-start-s    { align-items: flex-start; }
+  .items-end-s      { align-items: flex-end; }
+  .items-center-s   { align-items: center; }
+  .items-baseline-s { align-items: baseline; }
+  .items-stretch-s  { align-items: stretch; }
 }
 
 @media (--medium) {

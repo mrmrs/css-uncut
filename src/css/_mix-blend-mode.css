@@ -22,24 +22,24 @@
 .mix-blend-plus-lighter { mix-blend-mode: plus-lighter; }
 
 @media (--not-small) {
-  .mix-blend-normal-ns       { mix-blend-mode: normal; }
-  .mix-blend-multiply-ns     { mix-blend-mode: multiply; }
-  .mix-blend-screen-ns       { mix-blend-mode: screen; }
-  .mix-blend-overlay-ns      { mix-blend-mode: overlay; }
-  .mix-blend-darken-ns       { mix-blend-mode: darken; }
-  .mix-blend-lighten-ns      { mix-blend-mode: lighten; }
-  .mix-blend-color-dodge-ns  { mix-blend-mode: color-dodge; }
-  .mix-blend-color-burn-ns   { mix-blend-mode: color-burn; }
-  .mix-blend-hard-light-ns   { mix-blend-mode: hard-light; }
-  .mix-blend-soft-light-ns   { mix-blend-mode: soft-light; }
-  .mix-blend-difference-ns   { mix-blend-mode: difference; }
-  .mix-blend-exclusion-ns    { mix-blend-mode: exclusion; }
-  .mix-blend-hue-ns          { mix-blend-mode: hue; }
-  .mix-blend-saturation-ns   { mix-blend-mode: saturation; }
-  .mix-blend-color-ns        { mix-blend-mode: color; }
-  .mix-blend-luminosity-ns   { mix-blend-mode: luminosity; }
-  .mix-blend-plus-darker-ns  { mix-blend-mode: plus-darker; }
-  .mix-blend-plus-lighter-ns { mix-blend-mode: plus-lighter; }
+  .mix-blend-normal-s       { mix-blend-mode: normal; }
+  .mix-blend-multiply-s     { mix-blend-mode: multiply; }
+  .mix-blend-screen-s       { mix-blend-mode: screen; }
+  .mix-blend-overlay-s      { mix-blend-mode: overlay; }
+  .mix-blend-darken-s       { mix-blend-mode: darken; }
+  .mix-blend-lighten-s      { mix-blend-mode: lighten; }
+  .mix-blend-color-dodge-s  { mix-blend-mode: color-dodge; }
+  .mix-blend-color-burn-s   { mix-blend-mode: color-burn; }
+  .mix-blend-hard-light-s   { mix-blend-mode: hard-light; }
+  .mix-blend-soft-light-s   { mix-blend-mode: soft-light; }
+  .mix-blend-difference-s   { mix-blend-mode: difference; }
+  .mix-blend-exclusion-s    { mix-blend-mode: exclusion; }
+  .mix-blend-hue-s          { mix-blend-mode: hue; }
+  .mix-blend-saturation-s   { mix-blend-mode: saturation; }
+  .mix-blend-color-s        { mix-blend-mode: color; }
+  .mix-blend-luminosity-s   { mix-blend-mode: luminosity; }
+  .mix-blend-plus-darker-s  { mix-blend-mode: plus-darker; }
+  .mix-blend-plus-lighter-s { mix-blend-mode: plus-lighter; }
 }
 
 @media (--medium) {

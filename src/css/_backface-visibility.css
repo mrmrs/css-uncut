@@ -6,8 +6,8 @@
 .backface-hidden  { backface-visibility: hidden; }
 
 @media (--small) {
-  .backface-visible-ns { backface-visibility: visible; }
-  .backface-hidden-ns  { backface-visibility: hidden; }
+  .backface-visible-s { backface-visibility: visible; }
+  .backface-hidden-s  { backface-visibility: hidden; }
 }
 
 @media (--medium) {

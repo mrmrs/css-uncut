@@ -8,10 +8,10 @@
 .select-auto { user-select: auto; }
 
 @media (--small) {
-  .select-none-ns { user-select: none; }
-  .select-text-ns { user-select: text; }
-  .select-all-ns  { user-select: all; }
-  .select-auto-ns { user-select: auto; }
+  .select-none-s { user-select: none; }
+  .select-text-s { user-select: text; }
+  .select-all-s  { user-select: all; }
+  .select-auto-s { user-select: auto; }
 }
 
 @media (--medium) {

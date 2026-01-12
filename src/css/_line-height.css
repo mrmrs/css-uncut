@@ -14,9 +14,9 @@
 .lh-6   { line-height: 2; }
 
 @media (--small) {
-  .lh-solid-ns { line-height: 1; }
-  .lh-title-ns { line-height: 1.25; }
-  .lh-copy-ns  { line-height: 1.5; }
+  .lh-solid-s { line-height: 1; }
+  .lh-title-s { line-height: 1.25; }
+  .lh-copy-s  { line-height: 1.5; }
 }
 
 @media (--medium) {

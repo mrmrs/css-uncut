@@ -6,8 +6,8 @@
 .content-box { box-sizing: content-box; }
 
 @media (--small) {
-  .border-box-ns  { box-sizing: border-box; }
-  .content-box-ns { box-sizing: content-box; }
+  .border-box-s  { box-sizing: border-box; }
+  .content-box-s { box-sizing: content-box; }
 }
 
 @media (--medium) {

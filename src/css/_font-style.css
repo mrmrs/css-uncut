@@ -7,9 +7,9 @@
 .oblique    { font-style: oblique; }
 
 @media (--small) {
-  .italic-ns     { font-style: italic; }
-  .not-italic-ns { font-style: normal; }
-  .oblique-ns    { font-style: oblique; }
+  .italic-s     { font-style: italic; }
+  .not-italic-s { font-style: normal; }
+  .oblique-s    { font-style: oblique; }
 }
 
 @media (--medium) {

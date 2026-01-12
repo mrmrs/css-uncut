@@ -10,12 +10,12 @@
 .justify-evenly  { justify-content: space-evenly; }
 
 @media (--small) {
-  .justify-start-ns   { justify-content: flex-start; }
-  .justify-end-ns     { justify-content: flex-end; }
-  .justify-center-ns  { justify-content: center; }
-  .justify-between-ns { justify-content: space-between; }
-  .justify-around-ns  { justify-content: space-around; }
-  .justify-evenly-ns  { justify-content: space-evenly; }
+  .justify-start-s   { justify-content: flex-start; }
+  .justify-end-s     { justify-content: flex-end; }
+  .justify-center-s  { justify-content: center; }
+  .justify-between-s { justify-content: space-between; }
+  .justify-around-s  { justify-content: space-around; }
+  .justify-evenly-s  { justify-content: space-evenly; }
 }
 
 @media (--medium) {

@@ -8,10 +8,10 @@
 .normal-case { text-transform: none; }
 
 @media (--small) {
-  .uppercase-ns   { text-transform: uppercase; }
-  .lowercase-ns   { text-transform: lowercase; }
-  .capitalize-ns  { text-transform: capitalize; }
-  .normal-case-ns { text-transform: none; }
+  .uppercase-s   { text-transform: uppercase; }
+  .lowercase-s   { text-transform: lowercase; }
+  .capitalize-s  { text-transform: capitalize; }
+  .normal-case-s { text-transform: none; }
 }
 
 @media (--medium) {

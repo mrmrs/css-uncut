@@ -6,8 +6,8 @@
 .flex-grow-1 { flex-grow: 1; }
 
 @media (--small) {
-  .flex-grow-0-ns { flex-grow: 0; }
-  .flex-grow-1-ns { flex-grow: 1; }
+  .flex-grow-0-s { flex-grow: 0; }
+  .flex-grow-1-s { flex-grow: 1; }
 }
 
 @media (--medium) {

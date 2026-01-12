@@ -12,10 +12,10 @@
 .v-sup  { vertical-align: super; }
 
 @media (--small) {
-  .v-base-ns { vertical-align: baseline; }
-  .v-mid-ns  { vertical-align: middle; }
-  .v-top-ns  { vertical-align: top; }
-  .v-btm-ns  { vertical-align: bottom; }
+  .v-base-s { vertical-align: baseline; }
+  .v-mid-s  { vertical-align: middle; }
+  .v-top-s  { vertical-align: top; }
+  .v-btm-s  { vertical-align: bottom; }
 }
 
 @media (--medium) {

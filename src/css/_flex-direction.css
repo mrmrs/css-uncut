@@ -2,7 +2,7 @@
   FLEXBOX - DIRECTION
 
   Media Query Extensions:
-    -ns = small
+    -s = small
     -m  = medium
     -l  = large
     -xl = extra-large
@@ -14,10 +14,10 @@
 .flex-col-reverse { flex-direction: column-reverse; }
 
 @media (--small) {
-  .flex-row-ns         { flex-direction: row; }
-  .flex-row-reverse-ns { flex-direction: row-reverse; }
-  .flex-col-ns         { flex-direction: column; }
-  .flex-col-reverse-ns { flex-direction: column-reverse; }
+  .flex-row-s         { flex-direction: row; }
+  .flex-row-reverse-s { flex-direction: row-reverse; }
+  .flex-col-s         { flex-direction: column; }
+  .flex-col-reverse-s { flex-direction: column-reverse; }
 }
 
 @media (--medium) {

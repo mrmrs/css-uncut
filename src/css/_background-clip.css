@@ -8,10 +8,10 @@
 .bg-clip-text    { background-clip: text; }
 
 @media (--small) {
-  .bg-clip-border-ns  { background-clip: border-box; }
-  .bg-clip-padding-ns { background-clip: padding-box; }
-  .bg-clip-content-ns { background-clip: content-box; }
-  .bg-clip-text-ns    { background-clip: text; }
+  .bg-clip-border-s  { background-clip: border-box; }
+  .bg-clip-padding-s { background-clip: padding-box; }
+  .bg-clip-content-s { background-clip: content-box; }
+  .bg-clip-text-s    { background-clip: text; }
 }
 
 @media (--medium) {

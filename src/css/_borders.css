@@ -77,17 +77,17 @@
 .b-current     { border-color: currentColor; }
 
 @media (--small) {
-  .ba-ns { border-style: solid; border-width: 1px; }
-  .bt-ns { border-top-style: solid; border-top-width: 1px; }
-  .br-ns { border-right-style: solid; border-right-width: 1px; }
-  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
-  .bl-ns { border-left-style: solid; border-left-width: 1px; }
-  .bn-ns { border-style: none; border-width: 0; }
-  .bw0-ns { border-width: 0; }
-  .bw1-ns { border-width: .125rem; }
-  .bw2-ns { border-width: .25rem; }
-  .bw3-ns { border-width: .5rem; }
-  .bw4-ns { border-width: 1rem; }
+  .ba-s { border-style: solid; border-width: 1px; }
+  .bt-s { border-top-style: solid; border-top-width: 1px; }
+  .br-s { border-right-style: solid; border-right-width: 1px; }
+  .bb-s { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-s { border-left-style: solid; border-left-width: 1px; }
+  .bn-s { border-style: none; border-width: 0; }
+  .bw0-s { border-width: 0; }
+  .bw1-s { border-width: .125rem; }
+  .bw2-s { border-width: .25rem; }
+  .bw3-s { border-width: .5rem; }
+  .bw4-s { border-width: 1rem; }
 }
 
 @media (--medium) {

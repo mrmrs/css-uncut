@@ -22,22 +22,22 @@
 .normal-nums       { font-variant-numeric: normal; }
 
 @media (--small) {
-  .small-caps-ns        { font-variant: small-caps; }
-  .all-small-caps-ns    { font-variant: all-small-caps; }
-  .petite-caps-ns       { font-variant: petite-caps; }
-  .all-petite-caps-ns   { font-variant: all-petite-caps; }
-  .unicase-ns           { font-variant: unicase; }
-  .titling-caps-ns      { font-variant: titling-caps; }
-  .normal-caps-ns       { font-variant: normal; }
-  .ordinal-ns           { font-variant-numeric: ordinal; }
-  .slashed-zero-ns      { font-variant-numeric: slashed-zero; }
-  .lining-nums-ns       { font-variant-numeric: lining-nums; }
-  .oldstyle-nums-ns     { font-variant-numeric: oldstyle-nums; }
-  .proportional-nums-ns { font-variant-numeric: proportional-nums; }
-  .tabular-nums-ns      { font-variant-numeric: tabular-nums; }
-  .diagonal-fractions-ns { font-variant-numeric: diagonal-fractions; }
-  .stacked-fractions-ns { font-variant-numeric: stacked-fractions; }
-  .normal-nums-ns       { font-variant-numeric: normal; }
+  .small-caps-s        { font-variant: small-caps; }
+  .all-small-caps-s    { font-variant: all-small-caps; }
+  .petite-caps-s       { font-variant: petite-caps; }
+  .all-petite-caps-s   { font-variant: all-petite-caps; }
+  .unicase-s           { font-variant: unicase; }
+  .titling-caps-s      { font-variant: titling-caps; }
+  .normal-caps-s       { font-variant: normal; }
+  .ordinal-s           { font-variant-numeric: ordinal; }
+  .slashed-zero-s      { font-variant-numeric: slashed-zero; }
+  .lining-nums-s       { font-variant-numeric: lining-nums; }
+  .oldstyle-nums-s     { font-variant-numeric: oldstyle-nums; }
+  .proportional-nums-s { font-variant-numeric: proportional-nums; }
+  .tabular-nums-s      { font-variant-numeric: tabular-nums; }
+  .diagonal-fractions-s { font-variant-numeric: diagonal-fractions; }
+  .stacked-fractions-s { font-variant-numeric: stacked-fractions; }
+  .normal-nums-s       { font-variant-numeric: normal; }
 }
 
 @media (--medium) {

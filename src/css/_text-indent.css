@@ -11,13 +11,13 @@
 .indent-em { text-indent: 1em; }
 
 @media (--small) {
-  .indent-0-ns  { text-indent: 0; }
-  .indent-1-ns  { text-indent: .25rem; }
-  .indent-2-ns  { text-indent: .5rem; }
-  .indent-3-ns  { text-indent: 1rem; }
-  .indent-4-ns  { text-indent: 2rem; }
-  .indent-5-ns  { text-indent: 4rem; }
-  .indent-em-ns { text-indent: 1em; }
+  .indent-0-s  { text-indent: 0; }
+  .indent-1-s  { text-indent: .25rem; }
+  .indent-2-s  { text-indent: .5rem; }
+  .indent-3-s  { text-indent: 1rem; }
+  .indent-4-s  { text-indent: 2rem; }
+  .indent-5-s  { text-indent: 4rem; }
+  .indent-em-s { text-indent: 1em; }
 }
 
 @media (--medium) {

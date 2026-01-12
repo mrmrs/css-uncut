@@ -8,10 +8,10 @@
 .resize       { resize: both; }
 
 @media (--small) {
-  .resize-none-ns { resize: none; }
-  .resize-y-ns    { resize: vertical; }
-  .resize-x-ns    { resize: horizontal; }
-  .resize-ns      { resize: both; }
+  .resize-none-s { resize: none; }
+  .resize-y-s    { resize: vertical; }
+  .resize-x-s    { resize: horizontal; }
+  .resize-s      { resize: both; }
 }
 
 @media (--medium) {

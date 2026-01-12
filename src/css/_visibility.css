@@ -7,8 +7,8 @@
 .collapse { visibility: collapse; }
 
 @media (--small) {
-  .visible-ns  { visibility: visible; }
-  .invisible-ns { visibility: hidden; }
+  .visible-s  { visibility: visible; }
+  .invisible-s { visibility: hidden; }
 }
 
 @media (--medium) {

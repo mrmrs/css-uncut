@@ -11,11 +11,11 @@
 .object-scale-down { object-fit: scale-down; }
 
 @media (--small) {
-  .object-contain-ns    { object-fit: contain; }
-  .object-cover-ns      { object-fit: cover; }
-  .object-fill-ns       { object-fit: fill; }
-  .object-none-ns       { object-fit: none; }
-  .object-scale-down-ns { object-fit: scale-down; }
+  .object-contain-s    { object-fit: contain; }
+  .object-cover-s      { object-fit: cover; }
+  .object-fill-s       { object-fit: fill; }
+  .object-none-s       { object-fit: none; }
+  .object-scale-down-s { object-fit: scale-down; }
 }
 
 @media (--medium) {

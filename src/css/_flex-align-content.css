@@ -11,12 +11,12 @@
 .content-stretch { align-content: stretch; }
 
 @media (--small) {
-  .content-start-ns   { align-content: flex-start; }
-  .content-end-ns     { align-content: flex-end; }
-  .content-center-ns  { align-content: center; }
-  .content-between-ns { align-content: space-between; }
-  .content-around-ns  { align-content: space-around; }
-  .content-stretch-ns { align-content: stretch; }
+  .content-start-s   { align-content: flex-start; }
+  .content-end-s     { align-content: flex-end; }
+  .content-center-s  { align-content: center; }
+  .content-between-s { align-content: space-between; }
+  .content-around-s  { align-content: space-around; }
+  .content-stretch-s { align-content: stretch; }
 }
 
 @media (--medium) {

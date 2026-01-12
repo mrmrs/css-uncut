@@ -10,12 +10,12 @@
 .te { text-align: end; }
 
 @media (--small) {
-  .tl-ns { text-align: left; }
-  .tr-ns { text-align: right; }
-  .tc-ns { text-align: center; }
-  .tj-ns { text-align: justify; }
-  .ts-ns { text-align: start; }
-  .te-ns { text-align: end; }
+  .tl-s { text-align: left; }
+  .tr-s { text-align: right; }
+  .tc-s { text-align: center; }
+  .tj-s { text-align: justify; }
+  .ts-s { text-align: start; }
+  .te-s { text-align: end; }
 }
 
 @media (--medium) {

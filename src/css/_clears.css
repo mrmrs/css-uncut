@@ -10,10 +10,10 @@
 .clear-inline-end   { clear: inline-end; }
 
 @media (--small) {
-  .cl-ns { clear: left; }
-  .cr-ns { clear: right; }
-  .cb-ns { clear: both; }
-  .cn-ns { clear: none; }
+  .cl-s { clear: left; }
+  .cr-s { clear: right; }
+  .cb-s { clear: both; }
+  .cn-s { clear: none; }
 }
 
 @media (--medium) {

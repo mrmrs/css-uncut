@@ -6,8 +6,8 @@
 .pointer-events-auto { pointer-events: auto; }
 
 @media (--small) {
-  .pointer-events-none-ns { pointer-events: none; }
-  .pointer-events-auto-ns { pointer-events: auto; }
+  .pointer-events-none-s { pointer-events: none; }
+  .pointer-events-auto-s { pointer-events: auto; }
 }
 
 @media (--medium) {

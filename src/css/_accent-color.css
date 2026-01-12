@@ -20,22 +20,22 @@
 .accent-black      { accent-color: var(--black); }
 .accent-white      { accent-color: var(--white); }
 
-@media (--not-small) {
-  .accent-auto-ns       { accent-color: auto; }
-  .accent-inherit-ns    { accent-color: inherit; }
-  .accent-current-ns    { accent-color: currentColor; }
-  .accent-dark-red-ns   { accent-color: var(--dark-red); }
-  .accent-red-ns        { accent-color: var(--red); }
-  .accent-orange-ns     { accent-color: var(--orange); }
-  .accent-gold-ns       { accent-color: var(--gold); }
-  .accent-yellow-ns     { accent-color: var(--yellow); }
-  .accent-purple-ns     { accent-color: var(--purple); }
-  .accent-pink-ns       { accent-color: var(--pink); }
-  .accent-green-ns      { accent-color: var(--green); }
-  .accent-blue-ns       { accent-color: var(--blue); }
-  .accent-navy-ns       { accent-color: var(--navy); }
-  .accent-black-ns      { accent-color: var(--black); }
-  .accent-white-ns      { accent-color: var(--white); }
+@media (--small) {
+  .accent-auto-s       { accent-color: auto; }
+  .accent-inherit-s    { accent-color: inherit; }
+  .accent-current-s    { accent-color: currentColor; }
+  .accent-dark-red-s   { accent-color: var(--dark-red); }
+  .accent-red-s        { accent-color: var(--red); }
+  .accent-orange-s     { accent-color: var(--orange); }
+  .accent-gold-s       { accent-color: var(--gold); }
+  .accent-yellow-s     { accent-color: var(--yellow); }
+  .accent-purple-s     { accent-color: var(--purple); }
+  .accent-pink-s       { accent-color: var(--pink); }
+  .accent-green-s      { accent-color: var(--green); }
+  .accent-blue-s       { accent-color: var(--blue); }
+  .accent-navy-s       { accent-color: var(--navy); }
+  .accent-black-s      { accent-color: var(--black); }
+  .accent-white-s      { accent-color: var(--white); }
 }
 
 @media (--medium) {

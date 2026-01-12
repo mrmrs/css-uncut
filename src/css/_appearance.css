@@ -6,8 +6,8 @@
 .appearance-auto { appearance: auto; }
 
 @media (--small) {
-  .appearance-none-ns { appearance: none; }
-  .appearance-auto-ns { appearance: auto; }
+  .appearance-none-s { appearance: none; }
+  .appearance-auto-s { appearance: auto; }
 }
 
 @media (--medium) {

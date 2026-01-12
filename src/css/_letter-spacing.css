@@ -14,9 +14,9 @@
 .ls-widest  { letter-spacing: .1em; }
 
 @media (--small) {
-  .tracked-ns       { letter-spacing: .1em; }
-  .tracked-tight-ns { letter-spacing: -.05em; }
-  .tracked-mega-ns  { letter-spacing: .25em; }
+  .tracked-s       { letter-spacing: .1em; }
+  .tracked-tight-s { letter-spacing: -.05em; }
+  .tracked-mega-s  { letter-spacing: .25em; }
 }
 
 @media (--medium) {

@@ -21,18 +21,18 @@
 .snap-always { scroll-snap-stop: always; }
 
 @media (--not-small) {
-  .snap-none-ns   { scroll-snap-type: none; }
-  .snap-x-ns      { scroll-snap-type: x mandatory; }
-  .snap-y-ns      { scroll-snap-type: y mandatory; }
-  .snap-both-ns   { scroll-snap-type: both mandatory; }
-  .snap-x-prox-ns { scroll-snap-type: x proximity; }
-  .snap-y-prox-ns { scroll-snap-type: y proximity; }
-  .snap-start-ns      { scroll-snap-align: start; }
-  .snap-end-ns        { scroll-snap-align: end; }
-  .snap-center-ns     { scroll-snap-align: center; }
-  .snap-align-none-ns { scroll-snap-align: none; }
-  .snap-normal-ns { scroll-snap-stop: normal; }
-  .snap-always-ns { scroll-snap-stop: always; }
+  .snap-none-s   { scroll-snap-type: none; }
+  .snap-x-s      { scroll-snap-type: x mandatory; }
+  .snap-y-s      { scroll-snap-type: y mandatory; }
+  .snap-both-s   { scroll-snap-type: both mandatory; }
+  .snap-x-prox-s { scroll-snap-type: x proximity; }
+  .snap-y-prox-s { scroll-snap-type: y proximity; }
+  .snap-start-s      { scroll-snap-align: start; }
+  .snap-end-s        { scroll-snap-align: end; }
+  .snap-center-s     { scroll-snap-align: center; }
+  .snap-align-none-s { scroll-snap-align: none; }
+  .snap-normal-s { scroll-snap-stop: normal; }
+  .snap-always-s { scroll-snap-stop: always; }
 }
 
 @media (--medium) {

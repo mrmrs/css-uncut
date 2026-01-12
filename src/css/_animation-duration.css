@@ -13,15 +13,15 @@
 .animate-duration-1000 { animation-duration: 1000ms; }
 
 @media (--small) {
-  .animate-duration-0-ns    { animation-duration: 0ms; }
-  .animate-duration-75-ns   { animation-duration: 75ms; }
-  .animate-duration-100-ns  { animation-duration: 100ms; }
-  .animate-duration-150-ns  { animation-duration: 150ms; }
-  .animate-duration-200-ns  { animation-duration: 200ms; }
-  .animate-duration-300-ns  { animation-duration: 300ms; }
-  .animate-duration-500-ns  { animation-duration: 500ms; }
-  .animate-duration-700-ns  { animation-duration: 700ms; }
-  .animate-duration-1000-ns { animation-duration: 1000ms; }
+  .animate-duration-0-s    { animation-duration: 0ms; }
+  .animate-duration-75-s   { animation-duration: 75ms; }
+  .animate-duration-100-s  { animation-duration: 100ms; }
+  .animate-duration-150-s  { animation-duration: 150ms; }
+  .animate-duration-200-s  { animation-duration: 200ms; }
+  .animate-duration-300-s  { animation-duration: 300ms; }
+  .animate-duration-500-s  { animation-duration: 500ms; }
+  .animate-duration-700-s  { animation-duration: 700ms; }
+  .animate-duration-1000-s { animation-duration: 1000ms; }
 }
 
 @media (--medium) {

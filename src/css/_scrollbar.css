@@ -19,16 +19,16 @@
 .scrollbar-dark       { scrollbar-color: #555 #222; }
 .scrollbar-auto-color { scrollbar-color: auto; }
 
-@media (--not-small) {
-  .scrollbar-auto-ns { scrollbar-width: auto; }
-  .scrollbar-thin-ns { scrollbar-width: thin; }
-  .scrollbar-none-ns { scrollbar-width: none; }
-  .scrollbar-gutter-auto-ns   { scrollbar-gutter: auto; }
-  .scrollbar-gutter-stable-ns { scrollbar-gutter: stable; }
-  .scrollbar-gutter-both-ns   { scrollbar-gutter: stable both-edges; }
-  .scrollbar-light-ns      { scrollbar-color: #ccc #f5f5f5; }
-  .scrollbar-dark-ns       { scrollbar-color: #555 #222; }
-  .scrollbar-auto-color-ns { scrollbar-color: auto; }
+@media (--small) {
+  .scrollbar-auto-s { scrollbar-width: auto; }
+  .scrollbar-thin-s { scrollbar-width: thin; }
+  .scrollbar-none-s { scrollbar-width: none; }
+  .scrollbar-gutter-auto-s   { scrollbar-gutter: auto; }
+  .scrollbar-gutter-stable-s { scrollbar-gutter: stable; }
+  .scrollbar-gutter-both-s   { scrollbar-gutter: stable both-edges; }
+  .scrollbar-light-s      { scrollbar-color: #ccc #f5f5f5; }
+  .scrollbar-dark-s       { scrollbar-color: #555 #222; }
+  .scrollbar-auto-color-s { scrollbar-color: auto; }
 }
 
 @media (--medium) {

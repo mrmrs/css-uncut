@@ -7,9 +7,9 @@
 .flex-wrap-reverse { flex-wrap: wrap-reverse; }
 
 @media (--small) {
-  .flex-wrap-ns         { flex-wrap: wrap; }
-  .flex-nowrap-ns       { flex-wrap: nowrap; }
-  .flex-wrap-reverse-ns { flex-wrap: wrap-reverse; }
+  .flex-wrap-s         { flex-wrap: wrap; }
+  .flex-nowrap-s       { flex-wrap: nowrap; }
+  .flex-wrap-reverse-s { flex-wrap: wrap-reverse; }
 }
 
 @media (--medium) {

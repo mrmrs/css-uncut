@@ -7,9 +7,9 @@
 .bg-origin-content { background-origin: content-box; }
 
 @media (--small) {
-  .bg-origin-border-ns  { background-origin: border-box; }
-  .bg-origin-padding-ns { background-origin: padding-box; }
-  .bg-origin-content-ns { background-origin: content-box; }
+  .bg-origin-border-s  { background-origin: border-box; }
+  .bg-origin-padding-s { background-origin: padding-box; }
+  .bg-origin-content-s { background-origin: content-box; }
 }
 
 @media (--medium) {

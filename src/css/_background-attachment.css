@@ -7,9 +7,9 @@
 .bg-scroll { background-attachment: scroll; }
 
 @media (--small) {
-  .bg-fixed-ns  { background-attachment: fixed; }
-  .bg-local-ns  { background-attachment: local; }
-  .bg-scroll-ns { background-attachment: scroll; }
+  .bg-fixed-s  { background-attachment: fixed; }
+  .bg-local-s  { background-attachment: local; }
+  .bg-scroll-s { background-attachment: scroll; }
 }
 
 @media (--medium) {

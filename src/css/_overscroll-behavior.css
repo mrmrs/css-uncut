@@ -15,15 +15,15 @@
 .overscroll-x-none    { overscroll-behavior-x: none; }
 
 @media (--small) {
-  .overscroll-auto-ns    { overscroll-behavior: auto; }
-  .overscroll-contain-ns { overscroll-behavior: contain; }
-  .overscroll-none-ns    { overscroll-behavior: none; }
-  .overscroll-y-auto-ns    { overscroll-behavior-y: auto; }
-  .overscroll-y-contain-ns { overscroll-behavior-y: contain; }
-  .overscroll-y-none-ns    { overscroll-behavior-y: none; }
-  .overscroll-x-auto-ns    { overscroll-behavior-x: auto; }
-  .overscroll-x-contain-ns { overscroll-behavior-x: contain; }
-  .overscroll-x-none-ns    { overscroll-behavior-x: none; }
+  .overscroll-auto-s    { overscroll-behavior: auto; }
+  .overscroll-contain-s { overscroll-behavior: contain; }
+  .overscroll-none-s    { overscroll-behavior: none; }
+  .overscroll-y-auto-s    { overscroll-behavior-y: auto; }
+  .overscroll-y-contain-s { overscroll-behavior-y: contain; }
+  .overscroll-y-none-s    { overscroll-behavior-y: none; }
+  .overscroll-x-auto-s    { overscroll-behavior-x: auto; }
+  .overscroll-x-contain-s { overscroll-behavior-x: contain; }
+  .overscroll-x-none-s    { overscroll-behavior-x: none; }
 }
 
 @media (--medium) {

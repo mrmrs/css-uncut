@@ -19,9 +19,9 @@
 .min-h5 { min-height: 16rem; }
 
 @media (--small) {
-  .min-h-0-ns      { min-height: 0; }
-  .min-h-full-ns   { min-height: 100%; }
-  .min-h-screen-ns { min-height: 100vh; }
+  .min-h-0-s      { min-height: 0; }
+  .min-h-full-s   { min-height: 100%; }
+  .min-h-screen-s { min-height: 100vh; }
 }
 
 @media (--medium) {

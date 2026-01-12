@@ -13,15 +13,15 @@
 .bg-top          { background-position: top; }
 
 @media (--small) {
-  .bg-bottom-ns       { background-position: bottom; }
-  .bg-center-ns       { background-position: center; }
-  .bg-left-ns         { background-position: left; }
-  .bg-left-bottom-ns  { background-position: left bottom; }
-  .bg-left-top-ns     { background-position: left top; }
-  .bg-right-ns        { background-position: right; }
-  .bg-right-bottom-ns { background-position: right bottom; }
-  .bg-right-top-ns    { background-position: right top; }
-  .bg-top-ns          { background-position: top; }
+  .bg-bottom-s       { background-position: bottom; }
+  .bg-center-s       { background-position: center; }
+  .bg-left-s         { background-position: left; }
+  .bg-left-bottom-s  { background-position: left bottom; }
+  .bg-left-top-s     { background-position: left top; }
+  .bg-right-s        { background-position: right; }
+  .bg-right-bottom-s { background-position: right bottom; }
+  .bg-right-top-s    { background-position: right top; }
+  .bg-top-s          { background-position: top; }
 }
 
 @media (--medium) {

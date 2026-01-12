@@ -32,9 +32,9 @@
 .underline-offset-8    { text-underline-offset: 8px; }
 
 @media (--small) {
-  .underline-ns    { text-decoration: underline; }
-  .line-through-ns { text-decoration: line-through; }
-  .no-underline-ns { text-decoration: none; }
+  .underline-s    { text-decoration: underline; }
+  .line-through-s { text-decoration: line-through; }
+  .no-underline-s { text-decoration: none; }
 }
 
 @media (--medium) {

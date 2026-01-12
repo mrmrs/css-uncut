@@ -27,7 +27,7 @@
     fr    = flow-root
 
   Media Query Extensions:
-    -ns = small
+    -s = small
     -m  = medium
     -l  = large
     -xl = extra-large
@@ -55,26 +55,26 @@
 .dfr    { display: flow-root; }
 
 @media (--small) {
-  .dn-ns     { display: none; }
-  .di-ns     { display: inline; }
-  .db-ns     { display: block; }
-  .dib-ns    { display: inline-block; }
-  .dit-ns    { display: inline-table; }
-  .dt-ns     { display: table; }
-  .dtc-ns    { display: table-cell; }
-  .dtcol-ns  { display: table-column; }
-  .dtcolg-ns { display: table-column-group; }
-  .dthg-ns   { display: table-header-group; }
-  .dtr-ns    { display: table-row; }
-  .dtrg-ns   { display: table-row-group; }
-  .dtfg-ns   { display: table-footer-group; }
-  .df-ns     { display: flex; }
-  .dif-ns    { display: inline-flex; }
-  .dg-ns     { display: grid; }
-  .dig-ns    { display: inline-grid; }
-  .dli-ns    { display: list-item; }
-  .dc-ns     { display: contents; }
-  .dfr-ns    { display: flow-root; }
+  .dn-s     { display: none; }
+  .di-s     { display: inline; }
+  .db-s     { display: block; }
+  .dib-s    { display: inline-block; }
+  .dit-s    { display: inline-table; }
+  .dt-s     { display: table; }
+  .dtc-s    { display: table-cell; }
+  .dtcol-s  { display: table-column; }
+  .dtcolg-s { display: table-column-group; }
+  .dthg-s   { display: table-header-group; }
+  .dtr-s    { display: table-row; }
+  .dtrg-s   { display: table-row-group; }
+  .dtfg-s   { display: table-footer-group; }
+  .df-s     { display: flex; }
+  .dif-s    { display: inline-flex; }
+  .dg-s     { display: grid; }
+  .dig-s    { display: inline-grid; }
+  .dli-s    { display: list-item; }
+  .dc-s     { display: contents; }
+  .dfr-s    { display: flow-root; }
 }
 
 @media (--medium) {

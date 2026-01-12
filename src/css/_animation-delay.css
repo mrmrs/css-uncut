@@ -13,15 +13,15 @@
 .animate-delay-1000 { animation-delay: 1000ms; }
 
 @media (--small) {
-  .animate-delay-0-ns    { animation-delay: 0ms; }
-  .animate-delay-75-ns   { animation-delay: 75ms; }
-  .animate-delay-100-ns  { animation-delay: 100ms; }
-  .animate-delay-150-ns  { animation-delay: 150ms; }
-  .animate-delay-200-ns  { animation-delay: 200ms; }
-  .animate-delay-300-ns  { animation-delay: 300ms; }
-  .animate-delay-500-ns  { animation-delay: 500ms; }
-  .animate-delay-700-ns  { animation-delay: 700ms; }
-  .animate-delay-1000-ns { animation-delay: 1000ms; }
+  .animate-delay-0-s    { animation-delay: 0ms; }
+  .animate-delay-75-s   { animation-delay: 75ms; }
+  .animate-delay-100-s  { animation-delay: 100ms; }
+  .animate-delay-150-s  { animation-delay: 150ms; }
+  .animate-delay-200-s  { animation-delay: 200ms; }
+  .animate-delay-300-s  { animation-delay: 300ms; }
+  .animate-delay-500-s  { animation-delay: 500ms; }
+  .animate-delay-700-s  { animation-delay: 700ms; }
+  .animate-delay-1000-s { animation-delay: 1000ms; }
 }
 
 @media (--medium) {

@@ -22,14 +22,14 @@
 .order-none  { order: 0; }
 
 @media (--small) {
-  .order-0-ns     { order: 0; }
-  .order-1-ns     { order: 1; }
-  .order-2-ns     { order: 2; }
-  .order-3-ns     { order: 3; }
-  .order-4-ns     { order: 4; }
-  .order-5-ns     { order: 5; }
-  .order-first-ns { order: -9999; }
-  .order-last-ns  { order: 9999; }
+  .order-0-s     { order: 0; }
+  .order-1-s     { order: 1; }
+  .order-2-s     { order: 2; }
+  .order-3-s     { order: 3; }
+  .order-4-s     { order: 4; }
+  .order-5-s     { order: 5; }
+  .order-first-s { order: -9999; }
+  .order-last-s  { order: 9999; }
 }
 
 @media (--medium) {

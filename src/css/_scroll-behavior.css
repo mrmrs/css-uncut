@@ -6,8 +6,8 @@
 .scroll-smooth { scroll-behavior: smooth; }
 
 @media (--small) {
-  .scroll-auto-ns   { scroll-behavior: auto; }
-  .scroll-smooth-ns { scroll-behavior: smooth; }
+  .scroll-auto-s   { scroll-behavior: auto; }
+  .scroll-smooth-s { scroll-behavior: smooth; }
 }
 
 @media (--medium) {

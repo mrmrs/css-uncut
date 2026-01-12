@@ -13,15 +13,15 @@
 .origin-top-left     { transform-origin: top left; }
 
 @media (--small) {
-  .origin-center-ns       { transform-origin: center; }
-  .origin-top-ns          { transform-origin: top; }
-  .origin-top-right-ns    { transform-origin: top right; }
-  .origin-right-ns        { transform-origin: right; }
-  .origin-bottom-right-ns { transform-origin: bottom right; }
-  .origin-bottom-ns       { transform-origin: bottom; }
-  .origin-bottom-left-ns  { transform-origin: bottom left; }
-  .origin-left-ns         { transform-origin: left; }
-  .origin-top-left-ns     { transform-origin: top left; }
+  .origin-center-s       { transform-origin: center; }
+  .origin-top-s          { transform-origin: top; }
+  .origin-top-right-s    { transform-origin: top right; }
+  .origin-right-s        { transform-origin: right; }
+  .origin-bottom-right-s { transform-origin: bottom right; }
+  .origin-bottom-s       { transform-origin: bottom; }
+  .origin-bottom-left-s  { transform-origin: bottom left; }
+  .origin-left-s         { transform-origin: left; }
+  .origin-top-left-s     { transform-origin: top left; }
 }
 
 @media (--medium) {

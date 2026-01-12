@@ -13,15 +13,15 @@
 .fw9, .black      { font-weight: 900; }
 
 @media (--small) {
-  .fw1-ns { font-weight: 100; }
-  .fw2-ns { font-weight: 200; }
-  .fw3-ns { font-weight: 300; }
-  .fw4-ns { font-weight: 400; }
-  .fw5-ns { font-weight: 500; }
-  .fw6-ns { font-weight: 600; }
-  .fw7-ns { font-weight: 700; }
-  .fw8-ns { font-weight: 800; }
-  .fw9-ns { font-weight: 900; }
+  .fw1-s { font-weight: 100; }
+  .fw2-s { font-weight: 200; }
+  .fw3-s { font-weight: 300; }
+  .fw4-s { font-weight: 400; }
+  .fw5-s { font-weight: 500; }
+  .fw6-s { font-weight: 600; }
+  .fw7-s { font-weight: 700; }
+  .fw8-s { font-weight: 800; }
+  .fw9-s { font-weight: 900; }
 }
 
 @media (--medium) {

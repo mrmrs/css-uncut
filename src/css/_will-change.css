@@ -11,11 +11,11 @@
 .will-change-opacity   { will-change: opacity; }
 
 @media (--small) {
-  .will-change-auto-ns      { will-change: auto; }
-  .will-change-scroll-ns    { will-change: scroll-position; }
-  .will-change-contents-ns  { will-change: contents; }
-  .will-change-transform-ns { will-change: transform; }
-  .will-change-opacity-ns   { will-change: opacity; }
+  .will-change-auto-s      { will-change: auto; }
+  .will-change-scroll-s    { will-change: scroll-position; }
+  .will-change-contents-s  { will-change: contents; }
+  .will-change-transform-s { will-change: transform; }
+  .will-change-opacity-s   { will-change: opacity; }
 }
 
 @media (--medium) {

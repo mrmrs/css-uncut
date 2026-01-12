@@ -8,10 +8,10 @@
 .animate-alternate-reverse { animation-direction: alternate-reverse; }
 
 @media (--small) {
-  .animate-normal-ns            { animation-direction: normal; }
-  .animate-reverse-ns           { animation-direction: reverse; }
-  .animate-alternate-ns         { animation-direction: alternate; }
-  .animate-alternate-reverse-ns { animation-direction: alternate-reverse; }
+  .animate-normal-s            { animation-direction: normal; }
+  .animate-reverse-s           { animation-direction: reverse; }
+  .animate-alternate-s         { animation-direction: alternate; }
+  .animate-alternate-reverse-s { animation-direction: alternate-reverse; }
 }
 
 @media (--medium) {

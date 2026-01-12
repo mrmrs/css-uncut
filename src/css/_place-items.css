@@ -40,14 +40,14 @@
 .justify-self-stretch { justify-self: stretch; }
 
 @media (--small) {
-  .place-items-start-ns   { place-items: start; }
-  .place-items-end-ns     { place-items: end; }
-  .place-items-center-ns  { place-items: center; }
-  .place-items-stretch-ns { place-items: stretch; }
-  .place-content-start-ns   { place-content: start; }
-  .place-content-end-ns     { place-content: end; }
-  .place-content-center-ns  { place-content: center; }
-  .place-content-between-ns { place-content: space-between; }
+  .place-items-start-s   { place-items: start; }
+  .place-items-end-s     { place-items: end; }
+  .place-items-center-s  { place-items: center; }
+  .place-items-stretch-s { place-items: stretch; }
+  .place-content-start-s   { place-content: start; }
+  .place-content-end-s     { place-content: end; }
+  .place-content-center-s  { place-content: center; }
+  .place-content-between-s { place-content: space-between; }
 }
 
 @media (--medium) {

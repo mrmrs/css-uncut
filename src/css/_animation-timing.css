@@ -9,11 +9,11 @@
 .animate-ease        { animation-timing-function: ease; }
 
 @media (--small) {
-  .animate-ease-linear-ns { animation-timing-function: linear; }
-  .animate-ease-in-ns     { animation-timing-function: ease-in; }
-  .animate-ease-out-ns    { animation-timing-function: ease-out; }
-  .animate-ease-in-out-ns { animation-timing-function: ease-in-out; }
-  .animate-ease-ns        { animation-timing-function: ease; }
+  .animate-ease-linear-s { animation-timing-function: linear; }
+  .animate-ease-in-s     { animation-timing-function: ease-in; }
+  .animate-ease-out-s    { animation-timing-function: ease-out; }
+  .animate-ease-in-out-s { animation-timing-function: ease-in-out; }
+  .animate-ease-s        { animation-timing-function: ease; }
 }
 
 @media (--medium) {

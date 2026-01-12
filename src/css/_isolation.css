@@ -6,8 +6,8 @@
 .isolation-auto { isolation: auto; }
 
 @media (--small) {
-  .isolate-ns        { isolation: isolate; }
-  .isolation-auto-ns { isolation: auto; }
+  .isolate-s        { isolation: isolate; }
+  .isolation-auto-s { isolation: auto; }
 }
 
 @media (--medium) {

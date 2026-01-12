@@ -14,16 +14,16 @@
 .caret-blue        { caret-color: var(--blue); }
 .caret-green       { caret-color: var(--green); }
 
-@media (--not-small) {
-  .caret-auto-ns        { caret-color: auto; }
-  .caret-inherit-ns     { caret-color: inherit; }
-  .caret-current-ns     { caret-color: currentColor; }
-  .caret-transparent-ns { caret-color: transparent; }
-  .caret-black-ns       { caret-color: var(--black); }
-  .caret-white-ns       { caret-color: var(--white); }
-  .caret-red-ns         { caret-color: var(--red); }
-  .caret-blue-ns        { caret-color: var(--blue); }
-  .caret-green-ns       { caret-color: var(--green); }
+@media (--small) {
+  .caret-auto-s        { caret-color: auto; }
+  .caret-inherit-s     { caret-color: inherit; }
+  .caret-current-s     { caret-color: currentColor; }
+  .caret-transparent-s { caret-color: transparent; }
+  .caret-black-s       { caret-color: var(--black); }
+  .caret-white-s       { caret-color: var(--white); }
+  .caret-red-s         { caret-color: var(--red); }
+  .caret-blue-s        { caret-color: var(--blue); }
+  .caret-green-s       { caret-color: var(--green); }
 }
 
 @media (--medium) {

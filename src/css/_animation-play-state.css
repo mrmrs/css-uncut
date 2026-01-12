@@ -5,9 +5,9 @@
 .animate-running { animation-play-state: running; }
 .animate-paused  { animation-play-state: paused; }
 
-@media (--not-small) {
-  .animate-running-ns { animation-play-state: running; }
-  .animate-paused-ns  { animation-play-state: paused; }
+@media (--small) {
+  .animate-running-s { animation-play-state: running; }
+  .animate-paused-s  { animation-play-state: paused; }
 }
 
 @media (--medium) {

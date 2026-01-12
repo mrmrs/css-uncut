@@ -14,16 +14,16 @@
 .touch-manipulation { touch-action: manipulation; }
 
 @media (--small) {
-  .touch-auto-ns         { touch-action: auto; }
-  .touch-none-ns         { touch-action: none; }
-  .touch-pan-x-ns        { touch-action: pan-x; }
-  .touch-pan-left-ns     { touch-action: pan-left; }
-  .touch-pan-right-ns    { touch-action: pan-right; }
-  .touch-pan-y-ns        { touch-action: pan-y; }
-  .touch-pan-up-ns       { touch-action: pan-up; }
-  .touch-pan-down-ns     { touch-action: pan-down; }
-  .touch-pinch-zoom-ns   { touch-action: pinch-zoom; }
-  .touch-manipulation-ns { touch-action: manipulation; }
+  .touch-auto-s         { touch-action: auto; }
+  .touch-none-s         { touch-action: none; }
+  .touch-pan-x-s        { touch-action: pan-x; }
+  .touch-pan-left-s     { touch-action: pan-left; }
+  .touch-pan-right-s    { touch-action: pan-right; }
+  .touch-pan-y-s        { touch-action: pan-y; }
+  .touch-pan-up-s       { touch-action: pan-up; }
+  .touch-pan-down-s     { touch-action: pan-down; }
+  .touch-pinch-zoom-s   { touch-action: pinch-zoom; }
+  .touch-manipulation-s { touch-action: manipulation; }
 }
 
 @media (--medium) {
