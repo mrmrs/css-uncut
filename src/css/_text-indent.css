@@ -1,0 +1,51 @@
+/*
+  TEXT INDENT
+*/
+
+.indent-0  { text-indent: 0; }
+.indent-1  { text-indent: .25rem; }
+.indent-2  { text-indent: .5rem; }
+.indent-3  { text-indent: 1rem; }
+.indent-4  { text-indent: 2rem; }
+.indent-5  { text-indent: 4rem; }
+.indent-em { text-indent: 1em; }
+
+@media (--small) {
+  .indent-0-ns  { text-indent: 0; }
+  .indent-1-ns  { text-indent: .25rem; }
+  .indent-2-ns  { text-indent: .5rem; }
+  .indent-3-ns  { text-indent: 1rem; }
+  .indent-4-ns  { text-indent: 2rem; }
+  .indent-5-ns  { text-indent: 4rem; }
+  .indent-em-ns { text-indent: 1em; }
+}
+
+@media (--medium) {
+  .indent-0-m  { text-indent: 0; }
+  .indent-1-m  { text-indent: .25rem; }
+  .indent-2-m  { text-indent: .5rem; }
+  .indent-3-m  { text-indent: 1rem; }
+  .indent-4-m  { text-indent: 2rem; }
+  .indent-5-m  { text-indent: 4rem; }
+  .indent-em-m { text-indent: 1em; }
+}
+
+@media (--large) {
+  .indent-0-l  { text-indent: 0; }
+  .indent-1-l  { text-indent: .25rem; }
+  .indent-2-l  { text-indent: .5rem; }
+  .indent-3-l  { text-indent: 1rem; }
+  .indent-4-l  { text-indent: 2rem; }
+  .indent-5-l  { text-indent: 4rem; }
+  .indent-em-l { text-indent: 1em; }
+}
+
+@media (--extra-large) {
+  .indent-0-xl  { text-indent: 0; }
+  .indent-1-xl  { text-indent: .25rem; }
+  .indent-2-xl  { text-indent: .5rem; }
+  .indent-3-xl  { text-indent: 1rem; }
+  .indent-4-xl  { text-indent: 2rem; }
+  .indent-5-xl  { text-indent: 4rem; }
+  .indent-em-xl { text-indent: 1em; }
+}

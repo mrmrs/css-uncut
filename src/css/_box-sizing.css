@@ -1,0 +1,26 @@
+/*
+  BOX SIZING
+*/
+
+.border-box  { box-sizing: border-box; }
+.content-box { box-sizing: content-box; }
+
+@media (--small) {
+  .border-box-ns  { box-sizing: border-box; }
+  .content-box-ns { box-sizing: content-box; }
+}
+
+@media (--medium) {
+  .border-box-m  { box-sizing: border-box; }
+  .content-box-m { box-sizing: content-box; }
+}
+
+@media (--large) {
+  .border-box-l  { box-sizing: border-box; }
+  .content-box-l { box-sizing: content-box; }
+}
+
+@media (--extra-large) {
+  .border-box-xl  { box-sizing: border-box; }
+  .content-box-xl { box-sizing: content-box; }
+}

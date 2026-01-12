@@ -1,0 +1,66 @@
+/*
+  TOUCH ACTION
+*/
+
+.touch-auto         { touch-action: auto; }
+.touch-none         { touch-action: none; }
+.touch-pan-x        { touch-action: pan-x; }
+.touch-pan-left     { touch-action: pan-left; }
+.touch-pan-right    { touch-action: pan-right; }
+.touch-pan-y        { touch-action: pan-y; }
+.touch-pan-up       { touch-action: pan-up; }
+.touch-pan-down     { touch-action: pan-down; }
+.touch-pinch-zoom   { touch-action: pinch-zoom; }
+.touch-manipulation { touch-action: manipulation; }
+
+@media (--small) {
+  .touch-auto-ns         { touch-action: auto; }
+  .touch-none-ns         { touch-action: none; }
+  .touch-pan-x-ns        { touch-action: pan-x; }
+  .touch-pan-left-ns     { touch-action: pan-left; }
+  .touch-pan-right-ns    { touch-action: pan-right; }
+  .touch-pan-y-ns        { touch-action: pan-y; }
+  .touch-pan-up-ns       { touch-action: pan-up; }
+  .touch-pan-down-ns     { touch-action: pan-down; }
+  .touch-pinch-zoom-ns   { touch-action: pinch-zoom; }
+  .touch-manipulation-ns { touch-action: manipulation; }
+}
+
+@media (--medium) {
+  .touch-auto-m         { touch-action: auto; }
+  .touch-none-m         { touch-action: none; }
+  .touch-pan-x-m        { touch-action: pan-x; }
+  .touch-pan-left-m     { touch-action: pan-left; }
+  .touch-pan-right-m    { touch-action: pan-right; }
+  .touch-pan-y-m        { touch-action: pan-y; }
+  .touch-pan-up-m       { touch-action: pan-up; }
+  .touch-pan-down-m     { touch-action: pan-down; }
+  .touch-pinch-zoom-m   { touch-action: pinch-zoom; }
+  .touch-manipulation-m { touch-action: manipulation; }
+}
+
+@media (--large) {
+  .touch-auto-l         { touch-action: auto; }
+  .touch-none-l         { touch-action: none; }
+  .touch-pan-x-l        { touch-action: pan-x; }
+  .touch-pan-left-l     { touch-action: pan-left; }
+  .touch-pan-right-l    { touch-action: pan-right; }
+  .touch-pan-y-l        { touch-action: pan-y; }
+  .touch-pan-up-l       { touch-action: pan-up; }
+  .touch-pan-down-l     { touch-action: pan-down; }
+  .touch-pinch-zoom-l   { touch-action: pinch-zoom; }
+  .touch-manipulation-l { touch-action: manipulation; }
+}
+
+@media (--extra-large) {
+  .touch-auto-xl         { touch-action: auto; }
+  .touch-none-xl         { touch-action: none; }
+  .touch-pan-x-xl        { touch-action: pan-x; }
+  .touch-pan-left-xl     { touch-action: pan-left; }
+  .touch-pan-right-xl    { touch-action: pan-right; }
+  .touch-pan-y-xl        { touch-action: pan-y; }
+  .touch-pan-up-xl       { touch-action: pan-up; }
+  .touch-pan-down-xl     { touch-action: pan-down; }
+  .touch-pinch-zoom-xl   { touch-action: pinch-zoom; }
+  .touch-manipulation-xl { touch-action: manipulation; }
+}

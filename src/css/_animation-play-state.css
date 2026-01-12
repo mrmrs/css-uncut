@@ -1,0 +1,26 @@
+/*
+  ANIMATION PLAY STATE
+*/
+
+.animate-running { animation-play-state: running; }
+.animate-paused  { animation-play-state: paused; }
+
+@media (--not-small) {
+  .animate-running-ns { animation-play-state: running; }
+  .animate-paused-ns  { animation-play-state: paused; }
+}
+
+@media (--medium) {
+  .animate-running-m { animation-play-state: running; }
+  .animate-paused-m  { animation-play-state: paused; }
+}
+
+@media (--large) {
+  .animate-running-l { animation-play-state: running; }
+  .animate-paused-l  { animation-play-state: paused; }
+}
+
+@media (--extra-large) {
+  .animate-running-xl { animation-play-state: running; }
+  .animate-paused-xl  { animation-play-state: paused; }
+}

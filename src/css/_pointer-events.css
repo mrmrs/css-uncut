@@ -1,0 +1,26 @@
+/*
+  POINTER EVENTS
+*/
+
+.pointer-events-none { pointer-events: none; }
+.pointer-events-auto { pointer-events: auto; }
+
+@media (--small) {
+  .pointer-events-none-ns { pointer-events: none; }
+  .pointer-events-auto-ns { pointer-events: auto; }
+}
+
+@media (--medium) {
+  .pointer-events-none-m { pointer-events: none; }
+  .pointer-events-auto-m { pointer-events: auto; }
+}
+
+@media (--large) {
+  .pointer-events-none-l { pointer-events: none; }
+  .pointer-events-auto-l { pointer-events: auto; }
+}
+
+@media (--extra-large) {
+  .pointer-events-none-xl { pointer-events: none; }
+  .pointer-events-auto-xl { pointer-events: auto; }
+}

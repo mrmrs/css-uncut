@@ -1,0 +1,38 @@
+/*
+  CLEARS
+*/
+
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+.cn { clear: none; }
+.clear-inline-start { clear: inline-start; }
+.clear-inline-end   { clear: inline-end; }
+
+@media (--small) {
+  .cl-ns { clear: left; }
+  .cr-ns { clear: right; }
+  .cb-ns { clear: both; }
+  .cn-ns { clear: none; }
+}
+
+@media (--medium) {
+  .cl-m { clear: left; }
+  .cr-m { clear: right; }
+  .cb-m { clear: both; }
+  .cn-m { clear: none; }
+}
+
+@media (--large) {
+  .cl-l { clear: left; }
+  .cr-l { clear: right; }
+  .cb-l { clear: both; }
+  .cn-l { clear: none; }
+}
+
+@media (--extra-large) {
+  .cl-xl { clear: left; }
+  .cr-xl { clear: right; }
+  .cb-xl { clear: both; }
+  .cn-xl { clear: none; }
+}

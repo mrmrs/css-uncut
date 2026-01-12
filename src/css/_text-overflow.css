@@ -1,0 +1,26 @@
+/*
+  TEXT OVERFLOW
+*/
+
+.text-clip     { text-overflow: clip; }
+.text-ellipsis { text-overflow: ellipsis; }
+
+@media (--small) {
+  .text-clip-ns     { text-overflow: clip; }
+  .text-ellipsis-ns { text-overflow: ellipsis; }
+}
+
+@media (--medium) {
+  .text-clip-m     { text-overflow: clip; }
+  .text-ellipsis-m { text-overflow: ellipsis; }
+}
+
+@media (--large) {
+  .text-clip-l     { text-overflow: clip; }
+  .text-ellipsis-l { text-overflow: ellipsis; }
+}
+
+@media (--extra-large) {
+  .text-clip-xl     { text-overflow: clip; }
+  .text-ellipsis-xl { text-overflow: ellipsis; }
+}

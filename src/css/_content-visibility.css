@@ -1,0 +1,33 @@
+/*
+  CONTENT VISIBILITY
+
+  Skip rendering of off-screen content.
+*/
+
+.content-visible { content-visibility: visible; }
+.content-hidden  { content-visibility: hidden; }
+.content-auto    { content-visibility: auto; }
+
+@media (--small) {
+  .content-visible-ns { content-visibility: visible; }
+  .content-hidden-ns  { content-visibility: hidden; }
+  .content-auto-ns    { content-visibility: auto; }
+}
+
+@media (--medium) {
+  .content-visible-m { content-visibility: visible; }
+  .content-hidden-m  { content-visibility: hidden; }
+  .content-auto-m    { content-visibility: auto; }
+}
+
+@media (--large) {
+  .content-visible-l { content-visibility: visible; }
+  .content-hidden-l  { content-visibility: hidden; }
+  .content-auto-l    { content-visibility: auto; }
+}
+
+@media (--extra-large) {
+  .content-visible-xl { content-visibility: visible; }
+  .content-hidden-xl  { content-visibility: hidden; }
+  .content-auto-xl    { content-visibility: auto; }
+}

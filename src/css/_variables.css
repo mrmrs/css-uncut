@@ -1,0 +1,179 @@
+/*
+  VARIABLES
+  
+  CSS Custom Properties for consistent theming.
+  This file defines the design tokens used throughout the library.
+*/
+
+:root {
+  /* Spacing Scale (powers of 2) */
+  --space-0: 0;
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  --space-5: 4rem;
+  --space-6: 8rem;
+  --space-7: 16rem;
+
+  /* Type Scale */
+  --font-size-1: 3rem;
+  --font-size-2: 2.25rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 1.25rem;
+  --font-size-5: 1rem;
+  --font-size-6: .875rem;
+  --font-size-7: .75rem;
+
+  /* Line Heights */
+  --line-height-solid: 1;
+  --line-height-title: 1.25;
+  --line-height-copy: 1.5;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -.05em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-tracked: .1em;
+  --letter-spacing-mega: .25em;
+
+  /* Font Weights */
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  /* Border Radius */
+  --radius-0: 0;
+  --radius-1: .125rem;
+  --radius-2: .25rem;
+  --radius-3: .5rem;
+  --radius-4: 1rem;
+  --radius-pill: 9999px;
+  --radius-circle: 100%;
+
+  /* Border Widths */
+  --border-width-0: 0;
+  --border-width-1: 1px;
+  --border-width-2: 2px;
+  --border-width-3: 4px;
+  --border-width-4: 8px;
+
+  /* Shadows */
+  --shadow-1: 0 1px 2px rgba(0,0,0,0.1);
+  --shadow-2: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-3: 0 4px 8px rgba(0,0,0,0.1);
+  --shadow-4: 0 8px 16px rgba(0,0,0,0.1);
+  --shadow-5: 0 16px 32px rgba(0,0,0,0.1);
+
+  /* Transitions */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+  --duration-slower: 1000ms;
+
+  /* Z-Index Scale */
+  --z-0: 0;
+  --z-1: 100;
+  --z-2: 200;
+  --z-3: 300;
+  --z-4: 400;
+  --z-5: 500;
+  --z-max: 9999;
+
+  /* Width Scale */
+  --width-1: 1rem;
+  --width-2: 2rem;
+  --width-3: 4rem;
+  --width-4: 8rem;
+  --width-5: 16rem;
+
+  /* Max Width Scale */
+  --max-width-1: 1rem;
+  --max-width-2: 2rem;
+  --max-width-3: 4rem;
+  --max-width-4: 8rem;
+  --max-width-5: 16rem;
+  --max-width-6: 32rem;
+  --max-width-7: 48rem;
+  --max-width-8: 64rem;
+  --max-width-9: 96rem;
+
+  /* Height Scale */
+  --height-1: 1rem;
+  --height-2: 2rem;
+  --height-3: 4rem;
+  --height-4: 8rem;
+  --height-5: 16rem;
+
+  /* Grayscale Colors */
+  --near-black: #111;
+  --dark-gray: #333;
+  --mid-gray: #555;
+  --gray: #777;
+  --silver: #999;
+  --light-silver: #aaa;
+  --moon-gray: #ccc;
+  --light-gray: #eee;
+  --near-white: #f4f4f4;
+  --white: #fff;
+  --black: #000;
+
+  /* Named Colors */
+  --dark-red: #e7040f;
+  --red: #ff4136;
+  --light-red: #ff725c;
+  --orange: #ff6300;
+  --gold: #ffb700;
+  --yellow: #ffd700;
+  --light-yellow: #fbf1a9;
+  --purple: #5e2ca5;
+  --light-purple: #a463f2;
+  --dark-pink: #d5008f;
+  --hot-pink: #ff41b4;
+  --pink: #ff80cc;
+  --light-pink: #ffa3d7;
+  --dark-green: #137752;
+  --green: #19a974;
+  --light-green: #9eebcf;
+  --navy: #001b44;
+  --dark-blue: #00449e;
+  --blue: #357edd;
+  --light-blue: #96ccff;
+  --lightest-blue: #cdecff;
+  --washed-blue: #f6fffe;
+  --washed-green: #e8fdf5;
+  --washed-yellow: #fffceb;
+  --washed-red: #ffdfdf;
+  
+  /* Transparent Colors */
+  --black-90: rgba(0,0,0,.9);
+  --black-80: rgba(0,0,0,.8);
+  --black-70: rgba(0,0,0,.7);
+  --black-60: rgba(0,0,0,.6);
+  --black-50: rgba(0,0,0,.5);
+  --black-40: rgba(0,0,0,.4);
+  --black-30: rgba(0,0,0,.3);
+  --black-20: rgba(0,0,0,.2);
+  --black-10: rgba(0,0,0,.1);
+  --black-05: rgba(0,0,0,.05);
+  --black-025: rgba(0,0,0,.025);
+  --black-0125: rgba(0,0,0,.0125);
+
+  --white-90: rgba(255,255,255,.9);
+  --white-80: rgba(255,255,255,.8);
+  --white-70: rgba(255,255,255,.7);
+  --white-60: rgba(255,255,255,.6);
+  --white-50: rgba(255,255,255,.5);
+  --white-40: rgba(255,255,255,.4);
+  --white-30: rgba(255,255,255,.3);
+  --white-20: rgba(255,255,255,.2);
+  --white-10: rgba(255,255,255,.1);
+  --white-05: rgba(255,255,255,.05);
+  --white-025: rgba(255,255,255,.025);
+  --white-0125: rgba(255,255,255,.0125);
+}

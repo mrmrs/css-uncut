@@ -1,0 +1,36 @@
+/*
+  RESIZE
+*/
+
+.resize-none  { resize: none; }
+.resize-y     { resize: vertical; }
+.resize-x     { resize: horizontal; }
+.resize       { resize: both; }
+
+@media (--small) {
+  .resize-none-ns { resize: none; }
+  .resize-y-ns    { resize: vertical; }
+  .resize-x-ns    { resize: horizontal; }
+  .resize-ns      { resize: both; }
+}
+
+@media (--medium) {
+  .resize-none-m { resize: none; }
+  .resize-y-m    { resize: vertical; }
+  .resize-x-m    { resize: horizontal; }
+  .resize-m      { resize: both; }
+}
+
+@media (--large) {
+  .resize-none-l { resize: none; }
+  .resize-y-l    { resize: vertical; }
+  .resize-x-l    { resize: horizontal; }
+  .resize-l      { resize: both; }
+}
+
+@media (--extra-large) {
+  .resize-none-xl { resize: none; }
+  .resize-y-xl    { resize: vertical; }
+  .resize-x-xl    { resize: horizontal; }
+  .resize-xl      { resize: both; }
+}

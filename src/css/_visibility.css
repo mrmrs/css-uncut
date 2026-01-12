@@ -1,0 +1,27 @@
+/*
+  VISIBILITY
+*/
+
+.visible  { visibility: visible; }
+.invisible { visibility: hidden; }
+.collapse { visibility: collapse; }
+
+@media (--small) {
+  .visible-ns  { visibility: visible; }
+  .invisible-ns { visibility: hidden; }
+}
+
+@media (--medium) {
+  .visible-m  { visibility: visible; }
+  .invisible-m { visibility: hidden; }
+}
+
+@media (--large) {
+  .visible-l  { visibility: visible; }
+  .invisible-l { visibility: hidden; }
+}
+
+@media (--extra-large) {
+  .visible-xl  { visibility: visible; }
+  .invisible-xl { visibility: hidden; }
+}

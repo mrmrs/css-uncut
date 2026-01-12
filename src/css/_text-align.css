@@ -1,0 +1,46 @@
+/*
+  TEXT ALIGN
+*/
+
+.tl { text-align: left; }
+.tr { text-align: right; }
+.tc { text-align: center; }
+.tj { text-align: justify; }
+.ts { text-align: start; }
+.te { text-align: end; }
+
+@media (--small) {
+  .tl-ns { text-align: left; }
+  .tr-ns { text-align: right; }
+  .tc-ns { text-align: center; }
+  .tj-ns { text-align: justify; }
+  .ts-ns { text-align: start; }
+  .te-ns { text-align: end; }
+}
+
+@media (--medium) {
+  .tl-m { text-align: left; }
+  .tr-m { text-align: right; }
+  .tc-m { text-align: center; }
+  .tj-m { text-align: justify; }
+  .ts-m { text-align: start; }
+  .te-m { text-align: end; }
+}
+
+@media (--large) {
+  .tl-l { text-align: left; }
+  .tr-l { text-align: right; }
+  .tc-l { text-align: center; }
+  .tj-l { text-align: justify; }
+  .ts-l { text-align: start; }
+  .te-l { text-align: end; }
+}
+
+@media (--extra-large) {
+  .tl-xl { text-align: left; }
+  .tr-xl { text-align: right; }
+  .tc-xl { text-align: center; }
+  .tj-xl { text-align: justify; }
+  .ts-xl { text-align: start; }
+  .te-xl { text-align: end; }
+}

@@ -1,0 +1,51 @@
+/*
+  LISTS
+*/
+
+/* List Style Type */
+.list-none    { list-style-type: none; }
+.list-disc    { list-style-type: disc; }
+.list-circle  { list-style-type: circle; }
+.list-square  { list-style-type: square; }
+.list-decimal { list-style-type: decimal; }
+.list-decimal-lz { list-style-type: decimal-leading-zero; }
+.list-lower-roman { list-style-type: lower-roman; }
+.list-upper-roman { list-style-type: upper-roman; }
+.list-lower-alpha { list-style-type: lower-alpha; }
+.list-upper-alpha { list-style-type: upper-alpha; }
+
+/* List Style Position */
+.list-inside  { list-style-position: inside; }
+.list-outside { list-style-position: outside; }
+
+@media (--small) {
+  .list-none-ns    { list-style-type: none; }
+  .list-disc-ns    { list-style-type: disc; }
+  .list-decimal-ns { list-style-type: decimal; }
+  .list-inside-ns  { list-style-position: inside; }
+  .list-outside-ns { list-style-position: outside; }
+}
+
+@media (--medium) {
+  .list-none-m    { list-style-type: none; }
+  .list-disc-m    { list-style-type: disc; }
+  .list-decimal-m { list-style-type: decimal; }
+  .list-inside-m  { list-style-position: inside; }
+  .list-outside-m { list-style-position: outside; }
+}
+
+@media (--large) {
+  .list-none-l    { list-style-type: none; }
+  .list-disc-l    { list-style-type: disc; }
+  .list-decimal-l { list-style-type: decimal; }
+  .list-inside-l  { list-style-position: inside; }
+  .list-outside-l { list-style-position: outside; }
+}
+
+@media (--extra-large) {
+  .list-none-xl    { list-style-type: none; }
+  .list-disc-xl    { list-style-type: disc; }
+  .list-decimal-xl { list-style-type: decimal; }
+  .list-inside-xl  { list-style-position: inside; }
+  .list-outside-xl { list-style-position: outside; }
+}

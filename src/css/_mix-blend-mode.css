@@ -1,0 +1,106 @@
+/*
+  MIX BLEND MODE
+*/
+
+.mix-blend-normal       { mix-blend-mode: normal; }
+.mix-blend-multiply     { mix-blend-mode: multiply; }
+.mix-blend-screen       { mix-blend-mode: screen; }
+.mix-blend-overlay      { mix-blend-mode: overlay; }
+.mix-blend-darken       { mix-blend-mode: darken; }
+.mix-blend-lighten      { mix-blend-mode: lighten; }
+.mix-blend-color-dodge  { mix-blend-mode: color-dodge; }
+.mix-blend-color-burn   { mix-blend-mode: color-burn; }
+.mix-blend-hard-light   { mix-blend-mode: hard-light; }
+.mix-blend-soft-light   { mix-blend-mode: soft-light; }
+.mix-blend-difference   { mix-blend-mode: difference; }
+.mix-blend-exclusion    { mix-blend-mode: exclusion; }
+.mix-blend-hue          { mix-blend-mode: hue; }
+.mix-blend-saturation   { mix-blend-mode: saturation; }
+.mix-blend-color        { mix-blend-mode: color; }
+.mix-blend-luminosity   { mix-blend-mode: luminosity; }
+.mix-blend-plus-darker  { mix-blend-mode: plus-darker; }
+.mix-blend-plus-lighter { mix-blend-mode: plus-lighter; }
+
+@media (--not-small) {
+  .mix-blend-normal-ns       { mix-blend-mode: normal; }
+  .mix-blend-multiply-ns     { mix-blend-mode: multiply; }
+  .mix-blend-screen-ns       { mix-blend-mode: screen; }
+  .mix-blend-overlay-ns      { mix-blend-mode: overlay; }
+  .mix-blend-darken-ns       { mix-blend-mode: darken; }
+  .mix-blend-lighten-ns      { mix-blend-mode: lighten; }
+  .mix-blend-color-dodge-ns  { mix-blend-mode: color-dodge; }
+  .mix-blend-color-burn-ns   { mix-blend-mode: color-burn; }
+  .mix-blend-hard-light-ns   { mix-blend-mode: hard-light; }
+  .mix-blend-soft-light-ns   { mix-blend-mode: soft-light; }
+  .mix-blend-difference-ns   { mix-blend-mode: difference; }
+  .mix-blend-exclusion-ns    { mix-blend-mode: exclusion; }
+  .mix-blend-hue-ns          { mix-blend-mode: hue; }
+  .mix-blend-saturation-ns   { mix-blend-mode: saturation; }
+  .mix-blend-color-ns        { mix-blend-mode: color; }
+  .mix-blend-luminosity-ns   { mix-blend-mode: luminosity; }
+  .mix-blend-plus-darker-ns  { mix-blend-mode: plus-darker; }
+  .mix-blend-plus-lighter-ns { mix-blend-mode: plus-lighter; }
+}
+
+@media (--medium) {
+  .mix-blend-normal-m       { mix-blend-mode: normal; }
+  .mix-blend-multiply-m     { mix-blend-mode: multiply; }
+  .mix-blend-screen-m       { mix-blend-mode: screen; }
+  .mix-blend-overlay-m      { mix-blend-mode: overlay; }
+  .mix-blend-darken-m       { mix-blend-mode: darken; }
+  .mix-blend-lighten-m      { mix-blend-mode: lighten; }
+  .mix-blend-color-dodge-m  { mix-blend-mode: color-dodge; }
+  .mix-blend-color-burn-m   { mix-blend-mode: color-burn; }
+  .mix-blend-hard-light-m   { mix-blend-mode: hard-light; }
+  .mix-blend-soft-light-m   { mix-blend-mode: soft-light; }
+  .mix-blend-difference-m   { mix-blend-mode: difference; }
+  .mix-blend-exclusion-m    { mix-blend-mode: exclusion; }
+  .mix-blend-hue-m          { mix-blend-mode: hue; }
+  .mix-blend-saturation-m   { mix-blend-mode: saturation; }
+  .mix-blend-color-m        { mix-blend-mode: color; }
+  .mix-blend-luminosity-m   { mix-blend-mode: luminosity; }
+  .mix-blend-plus-darker-m  { mix-blend-mode: plus-darker; }
+  .mix-blend-plus-lighter-m { mix-blend-mode: plus-lighter; }
+}
+
+@media (--large) {
+  .mix-blend-normal-l       { mix-blend-mode: normal; }
+  .mix-blend-multiply-l     { mix-blend-mode: multiply; }
+  .mix-blend-screen-l       { mix-blend-mode: screen; }
+  .mix-blend-overlay-l      { mix-blend-mode: overlay; }
+  .mix-blend-darken-l       { mix-blend-mode: darken; }
+  .mix-blend-lighten-l      { mix-blend-mode: lighten; }
+  .mix-blend-color-dodge-l  { mix-blend-mode: color-dodge; }
+  .mix-blend-color-burn-l   { mix-blend-mode: color-burn; }
+  .mix-blend-hard-light-l   { mix-blend-mode: hard-light; }
+  .mix-blend-soft-light-l   { mix-blend-mode: soft-light; }
+  .mix-blend-difference-l   { mix-blend-mode: difference; }
+  .mix-blend-exclusion-l    { mix-blend-mode: exclusion; }
+  .mix-blend-hue-l          { mix-blend-mode: hue; }
+  .mix-blend-saturation-l   { mix-blend-mode: saturation; }
+  .mix-blend-color-l        { mix-blend-mode: color; }
+  .mix-blend-luminosity-l   { mix-blend-mode: luminosity; }
+  .mix-blend-plus-darker-l  { mix-blend-mode: plus-darker; }
+  .mix-blend-plus-lighter-l { mix-blend-mode: plus-lighter; }
+}
+
+@media (--extra-large) {
+  .mix-blend-normal-xl       { mix-blend-mode: normal; }
+  .mix-blend-multiply-xl     { mix-blend-mode: multiply; }
+  .mix-blend-screen-xl       { mix-blend-mode: screen; }
+  .mix-blend-overlay-xl      { mix-blend-mode: overlay; }
+  .mix-blend-darken-xl       { mix-blend-mode: darken; }
+  .mix-blend-lighten-xl      { mix-blend-mode: lighten; }
+  .mix-blend-color-dodge-xl  { mix-blend-mode: color-dodge; }
+  .mix-blend-color-burn-xl   { mix-blend-mode: color-burn; }
+  .mix-blend-hard-light-xl   { mix-blend-mode: hard-light; }
+  .mix-blend-soft-light-xl   { mix-blend-mode: soft-light; }
+  .mix-blend-difference-xl   { mix-blend-mode: difference; }
+  .mix-blend-exclusion-xl    { mix-blend-mode: exclusion; }
+  .mix-blend-hue-xl          { mix-blend-mode: hue; }
+  .mix-blend-saturation-xl   { mix-blend-mode: saturation; }
+  .mix-blend-color-xl        { mix-blend-mode: color; }
+  .mix-blend-luminosity-xl   { mix-blend-mode: luminosity; }
+  .mix-blend-plus-darker-xl  { mix-blend-mode: plus-darker; }
+  .mix-blend-plus-lighter-xl { mix-blend-mode: plus-lighter; }
+}

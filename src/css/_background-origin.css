@@ -1,0 +1,31 @@
+/*
+  BACKGROUND ORIGIN
+*/
+
+.bg-origin-border  { background-origin: border-box; }
+.bg-origin-padding { background-origin: padding-box; }
+.bg-origin-content { background-origin: content-box; }
+
+@media (--small) {
+  .bg-origin-border-ns  { background-origin: border-box; }
+  .bg-origin-padding-ns { background-origin: padding-box; }
+  .bg-origin-content-ns { background-origin: content-box; }
+}
+
+@media (--medium) {
+  .bg-origin-border-m  { background-origin: border-box; }
+  .bg-origin-padding-m { background-origin: padding-box; }
+  .bg-origin-content-m { background-origin: content-box; }
+}
+
+@media (--large) {
+  .bg-origin-border-l  { background-origin: border-box; }
+  .bg-origin-padding-l { background-origin: padding-box; }
+  .bg-origin-content-l { background-origin: content-box; }
+}
+
+@media (--extra-large) {
+  .bg-origin-border-xl  { background-origin: border-box; }
+  .bg-origin-padding-xl { background-origin: padding-box; }
+  .bg-origin-content-xl { background-origin: content-box; }
+}

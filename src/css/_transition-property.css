@@ -1,0 +1,11 @@
+/*
+  TRANSITION PROPERTY
+*/
+
+.transition-none      { transition-property: none; }
+.transition-all       { transition-property: all; }
+.transition           { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; }
+.transition-colors    { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; }
+.transition-opacity   { transition-property: opacity; }
+.transition-shadow    { transition-property: box-shadow; }
+.transition-transform { transition-property: transform; }

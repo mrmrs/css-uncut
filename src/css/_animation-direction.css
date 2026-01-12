@@ -1,0 +1,36 @@
+/*
+  ANIMATION DIRECTION
+*/
+
+.animate-normal            { animation-direction: normal; }
+.animate-reverse           { animation-direction: reverse; }
+.animate-alternate         { animation-direction: alternate; }
+.animate-alternate-reverse { animation-direction: alternate-reverse; }
+
+@media (--small) {
+  .animate-normal-ns            { animation-direction: normal; }
+  .animate-reverse-ns           { animation-direction: reverse; }
+  .animate-alternate-ns         { animation-direction: alternate; }
+  .animate-alternate-reverse-ns { animation-direction: alternate-reverse; }
+}
+
+@media (--medium) {
+  .animate-normal-m            { animation-direction: normal; }
+  .animate-reverse-m           { animation-direction: reverse; }
+  .animate-alternate-m         { animation-direction: alternate; }
+  .animate-alternate-reverse-m { animation-direction: alternate-reverse; }
+}
+
+@media (--large) {
+  .animate-normal-l            { animation-direction: normal; }
+  .animate-reverse-l           { animation-direction: reverse; }
+  .animate-alternate-l         { animation-direction: alternate; }
+  .animate-alternate-reverse-l { animation-direction: alternate-reverse; }
+}
+
+@media (--extra-large) {
+  .animate-normal-xl            { animation-direction: normal; }
+  .animate-reverse-xl           { animation-direction: reverse; }
+  .animate-alternate-xl         { animation-direction: alternate; }
+  .animate-alternate-reverse-xl { animation-direction: alternate-reverse; }
+}

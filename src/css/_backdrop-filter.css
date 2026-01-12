@@ -1,0 +1,48 @@
+/*
+  BACKDROP FILTER
+
+  Apply filters to the backdrop behind an element.
+*/
+
+.backdrop-blur-none { backdrop-filter: blur(0); }
+.backdrop-blur-sm   { backdrop-filter: blur(4px); }
+.backdrop-blur      { backdrop-filter: blur(8px); }
+.backdrop-blur-md   { backdrop-filter: blur(12px); }
+.backdrop-blur-lg   { backdrop-filter: blur(16px); }
+.backdrop-blur-xl   { backdrop-filter: blur(24px); }
+.backdrop-blur-2xl  { backdrop-filter: blur(40px); }
+.backdrop-blur-3xl  { backdrop-filter: blur(64px); }
+
+.backdrop-grayscale-0   { backdrop-filter: grayscale(0); }
+.backdrop-grayscale     { backdrop-filter: grayscale(100%); }
+.backdrop-grayscale-50  { backdrop-filter: grayscale(50%); }
+
+.backdrop-invert-0  { backdrop-filter: invert(0); }
+.backdrop-invert    { backdrop-filter: invert(100%); }
+
+.backdrop-sepia-0   { backdrop-filter: sepia(0); }
+.backdrop-sepia     { backdrop-filter: sepia(100%); }
+
+.backdrop-saturate-0   { backdrop-filter: saturate(0); }
+.backdrop-saturate-50  { backdrop-filter: saturate(50%); }
+.backdrop-saturate-100 { backdrop-filter: saturate(100%); }
+.backdrop-saturate-150 { backdrop-filter: saturate(150%); }
+.backdrop-saturate-200 { backdrop-filter: saturate(200%); }
+
+.backdrop-brightness-0   { backdrop-filter: brightness(0); }
+.backdrop-brightness-50  { backdrop-filter: brightness(50%); }
+.backdrop-brightness-75  { backdrop-filter: brightness(75%); }
+.backdrop-brightness-100 { backdrop-filter: brightness(100%); }
+.backdrop-brightness-125 { backdrop-filter: brightness(125%); }
+.backdrop-brightness-150 { backdrop-filter: brightness(150%); }
+.backdrop-brightness-200 { backdrop-filter: brightness(200%); }
+
+.backdrop-contrast-0   { backdrop-filter: contrast(0); }
+.backdrop-contrast-50  { backdrop-filter: contrast(50%); }
+.backdrop-contrast-75  { backdrop-filter: contrast(75%); }
+.backdrop-contrast-100 { backdrop-filter: contrast(100%); }
+.backdrop-contrast-125 { backdrop-filter: contrast(125%); }
+.backdrop-contrast-150 { backdrop-filter: contrast(150%); }
+.backdrop-contrast-200 { backdrop-filter: contrast(200%); }
+
+.backdrop-none { backdrop-filter: none; }

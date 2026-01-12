@@ -1,0 +1,43 @@
+/*
+  WILL CHANGE
+
+  Hint to browsers about expected changes.
+*/
+
+.will-change-auto      { will-change: auto; }
+.will-change-scroll    { will-change: scroll-position; }
+.will-change-contents  { will-change: contents; }
+.will-change-transform { will-change: transform; }
+.will-change-opacity   { will-change: opacity; }
+
+@media (--small) {
+  .will-change-auto-ns      { will-change: auto; }
+  .will-change-scroll-ns    { will-change: scroll-position; }
+  .will-change-contents-ns  { will-change: contents; }
+  .will-change-transform-ns { will-change: transform; }
+  .will-change-opacity-ns   { will-change: opacity; }
+}
+
+@media (--medium) {
+  .will-change-auto-m      { will-change: auto; }
+  .will-change-scroll-m    { will-change: scroll-position; }
+  .will-change-contents-m  { will-change: contents; }
+  .will-change-transform-m { will-change: transform; }
+  .will-change-opacity-m   { will-change: opacity; }
+}
+
+@media (--large) {
+  .will-change-auto-l      { will-change: auto; }
+  .will-change-scroll-l    { will-change: scroll-position; }
+  .will-change-contents-l  { will-change: contents; }
+  .will-change-transform-l { will-change: transform; }
+  .will-change-opacity-l   { will-change: opacity; }
+}
+
+@media (--extra-large) {
+  .will-change-auto-xl      { will-change: auto; }
+  .will-change-scroll-xl    { will-change: scroll-position; }
+  .will-change-contents-xl  { will-change: contents; }
+  .will-change-transform-xl { will-change: transform; }
+  .will-change-opacity-xl   { will-change: opacity; }
+}

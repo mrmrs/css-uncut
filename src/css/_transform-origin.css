@@ -1,0 +1,61 @@
+/*
+  TRANSFORM ORIGIN
+*/
+
+.origin-center       { transform-origin: center; }
+.origin-top          { transform-origin: top; }
+.origin-top-right    { transform-origin: top right; }
+.origin-right        { transform-origin: right; }
+.origin-bottom-right { transform-origin: bottom right; }
+.origin-bottom       { transform-origin: bottom; }
+.origin-bottom-left  { transform-origin: bottom left; }
+.origin-left         { transform-origin: left; }
+.origin-top-left     { transform-origin: top left; }
+
+@media (--small) {
+  .origin-center-ns       { transform-origin: center; }
+  .origin-top-ns          { transform-origin: top; }
+  .origin-top-right-ns    { transform-origin: top right; }
+  .origin-right-ns        { transform-origin: right; }
+  .origin-bottom-right-ns { transform-origin: bottom right; }
+  .origin-bottom-ns       { transform-origin: bottom; }
+  .origin-bottom-left-ns  { transform-origin: bottom left; }
+  .origin-left-ns         { transform-origin: left; }
+  .origin-top-left-ns     { transform-origin: top left; }
+}
+
+@media (--medium) {
+  .origin-center-m       { transform-origin: center; }
+  .origin-top-m          { transform-origin: top; }
+  .origin-top-right-m    { transform-origin: top right; }
+  .origin-right-m        { transform-origin: right; }
+  .origin-bottom-right-m { transform-origin: bottom right; }
+  .origin-bottom-m       { transform-origin: bottom; }
+  .origin-bottom-left-m  { transform-origin: bottom left; }
+  .origin-left-m         { transform-origin: left; }
+  .origin-top-left-m     { transform-origin: top left; }
+}
+
+@media (--large) {
+  .origin-center-l       { transform-origin: center; }
+  .origin-top-l          { transform-origin: top; }
+  .origin-top-right-l    { transform-origin: top right; }
+  .origin-right-l        { transform-origin: right; }
+  .origin-bottom-right-l { transform-origin: bottom right; }
+  .origin-bottom-l       { transform-origin: bottom; }
+  .origin-bottom-left-l  { transform-origin: bottom left; }
+  .origin-left-l         { transform-origin: left; }
+  .origin-top-left-l     { transform-origin: top left; }
+}
+
+@media (--extra-large) {
+  .origin-center-xl       { transform-origin: center; }
+  .origin-top-xl          { transform-origin: top; }
+  .origin-top-right-xl    { transform-origin: top right; }
+  .origin-right-xl        { transform-origin: right; }
+  .origin-bottom-right-xl { transform-origin: bottom right; }
+  .origin-bottom-xl       { transform-origin: bottom; }
+  .origin-bottom-left-xl  { transform-origin: bottom left; }
+  .origin-left-xl         { transform-origin: left; }
+  .origin-top-left-xl     { transform-origin: top left; }
+}

@@ -1,0 +1,54 @@
+/*
+  ASPECT RATIO
+
+  Modern CSS aspect-ratio property.
+*/
+
+.aspect-auto   { aspect-ratio: auto; }
+.aspect-square { aspect-ratio: 1 / 1; }
+.aspect-video  { aspect-ratio: 16 / 9; }
+.aspect-4-3    { aspect-ratio: 4 / 3; }
+.aspect-3-2    { aspect-ratio: 3 / 2; }
+.aspect-2-1    { aspect-ratio: 2 / 1; }
+.aspect-3-1    { aspect-ratio: 3 / 1; }
+.aspect-4-1    { aspect-ratio: 4 / 1; }
+.aspect-1-2    { aspect-ratio: 1 / 2; }
+.aspect-2-3    { aspect-ratio: 2 / 3; }
+.aspect-3-4    { aspect-ratio: 3 / 4; }
+.aspect-9-16   { aspect-ratio: 9 / 16; }
+
+@media (--small) {
+  .aspect-auto-ns   { aspect-ratio: auto; }
+  .aspect-square-ns { aspect-ratio: 1 / 1; }
+  .aspect-video-ns  { aspect-ratio: 16 / 9; }
+  .aspect-4-3-ns    { aspect-ratio: 4 / 3; }
+  .aspect-3-2-ns    { aspect-ratio: 3 / 2; }
+  .aspect-2-1-ns    { aspect-ratio: 2 / 1; }
+}
+
+@media (--medium) {
+  .aspect-auto-m   { aspect-ratio: auto; }
+  .aspect-square-m { aspect-ratio: 1 / 1; }
+  .aspect-video-m  { aspect-ratio: 16 / 9; }
+  .aspect-4-3-m    { aspect-ratio: 4 / 3; }
+  .aspect-3-2-m    { aspect-ratio: 3 / 2; }
+  .aspect-2-1-m    { aspect-ratio: 2 / 1; }
+}
+
+@media (--large) {
+  .aspect-auto-l   { aspect-ratio: auto; }
+  .aspect-square-l { aspect-ratio: 1 / 1; }
+  .aspect-video-l  { aspect-ratio: 16 / 9; }
+  .aspect-4-3-l    { aspect-ratio: 4 / 3; }
+  .aspect-3-2-l    { aspect-ratio: 3 / 2; }
+  .aspect-2-1-l    { aspect-ratio: 2 / 1; }
+}
+
+@media (--extra-large) {
+  .aspect-auto-xl   { aspect-ratio: auto; }
+  .aspect-square-xl { aspect-ratio: 1 / 1; }
+  .aspect-video-xl  { aspect-ratio: 16 / 9; }
+  .aspect-4-3-xl    { aspect-ratio: 4 / 3; }
+  .aspect-3-2-xl    { aspect-ratio: 3 / 2; }
+  .aspect-2-1-xl    { aspect-ratio: 2 / 1; }
+}

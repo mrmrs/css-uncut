@@ -1,0 +1,63 @@
+/*
+  CARET COLOR
+
+  Control the color of the text input cursor.
+*/
+
+.caret-auto        { caret-color: auto; }
+.caret-inherit     { caret-color: inherit; }
+.caret-current     { caret-color: currentColor; }
+.caret-transparent { caret-color: transparent; }
+.caret-black       { caret-color: var(--black); }
+.caret-white       { caret-color: var(--white); }
+.caret-red         { caret-color: var(--red); }
+.caret-blue        { caret-color: var(--blue); }
+.caret-green       { caret-color: var(--green); }
+
+@media (--not-small) {
+  .caret-auto-ns        { caret-color: auto; }
+  .caret-inherit-ns     { caret-color: inherit; }
+  .caret-current-ns     { caret-color: currentColor; }
+  .caret-transparent-ns { caret-color: transparent; }
+  .caret-black-ns       { caret-color: var(--black); }
+  .caret-white-ns       { caret-color: var(--white); }
+  .caret-red-ns         { caret-color: var(--red); }
+  .caret-blue-ns        { caret-color: var(--blue); }
+  .caret-green-ns       { caret-color: var(--green); }
+}
+
+@media (--medium) {
+  .caret-auto-m        { caret-color: auto; }
+  .caret-inherit-m     { caret-color: inherit; }
+  .caret-current-m     { caret-color: currentColor; }
+  .caret-transparent-m { caret-color: transparent; }
+  .caret-black-m       { caret-color: var(--black); }
+  .caret-white-m       { caret-color: var(--white); }
+  .caret-red-m         { caret-color: var(--red); }
+  .caret-blue-m        { caret-color: var(--blue); }
+  .caret-green-m       { caret-color: var(--green); }
+}
+
+@media (--large) {
+  .caret-auto-l        { caret-color: auto; }
+  .caret-inherit-l     { caret-color: inherit; }
+  .caret-current-l     { caret-color: currentColor; }
+  .caret-transparent-l { caret-color: transparent; }
+  .caret-black-l       { caret-color: var(--black); }
+  .caret-white-l       { caret-color: var(--white); }
+  .caret-red-l         { caret-color: var(--red); }
+  .caret-blue-l        { caret-color: var(--blue); }
+  .caret-green-l       { caret-color: var(--green); }
+}
+
+@media (--extra-large) {
+  .caret-auto-xl        { caret-color: auto; }
+  .caret-inherit-xl     { caret-color: inherit; }
+  .caret-current-xl     { caret-color: currentColor; }
+  .caret-transparent-xl { caret-color: transparent; }
+  .caret-black-xl       { caret-color: var(--black); }
+  .caret-white-xl       { caret-color: var(--white); }
+  .caret-red-xl         { caret-color: var(--red); }
+  .caret-blue-xl        { caret-color: var(--blue); }
+  .caret-green-xl       { caret-color: var(--green); }
+}

@@ -1,0 +1,33 @@
+/*
+  FLOATS
+*/
+
+.fl { float: left; }
+.fr { float: right; }
+.fn { float: none; }
+.float-inline-start { float: inline-start; }
+.float-inline-end   { float: inline-end; }
+
+@media (--small) {
+  .fl-ns { float: left; }
+  .fr-ns { float: right; }
+  .fn-ns { float: none; }
+}
+
+@media (--medium) {
+  .fl-m { float: left; }
+  .fr-m { float: right; }
+  .fn-m { float: none; }
+}
+
+@media (--large) {
+  .fl-l { float: left; }
+  .fr-l { float: right; }
+  .fn-l { float: none; }
+}
+
+@media (--extra-large) {
+  .fl-xl { float: left; }
+  .fr-xl { float: right; }
+  .fn-xl { float: none; }
+}

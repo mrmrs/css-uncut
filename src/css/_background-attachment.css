@@ -1,0 +1,31 @@
+/*
+  BACKGROUND ATTACHMENT
+*/
+
+.bg-fixed  { background-attachment: fixed; }
+.bg-local  { background-attachment: local; }
+.bg-scroll { background-attachment: scroll; }
+
+@media (--small) {
+  .bg-fixed-ns  { background-attachment: fixed; }
+  .bg-local-ns  { background-attachment: local; }
+  .bg-scroll-ns { background-attachment: scroll; }
+}
+
+@media (--medium) {
+  .bg-fixed-m  { background-attachment: fixed; }
+  .bg-local-m  { background-attachment: local; }
+  .bg-scroll-m { background-attachment: scroll; }
+}
+
+@media (--large) {
+  .bg-fixed-l  { background-attachment: fixed; }
+  .bg-local-l  { background-attachment: local; }
+  .bg-scroll-l { background-attachment: scroll; }
+}
+
+@media (--extra-large) {
+  .bg-fixed-xl  { background-attachment: fixed; }
+  .bg-local-xl  { background-attachment: local; }
+  .bg-scroll-xl { background-attachment: scroll; }
+}

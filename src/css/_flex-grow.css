@@ -1,0 +1,26 @@
+/*
+  FLEXBOX - GROW
+*/
+
+.flex-grow-0 { flex-grow: 0; }
+.flex-grow-1 { flex-grow: 1; }
+
+@media (--small) {
+  .flex-grow-0-ns { flex-grow: 0; }
+  .flex-grow-1-ns { flex-grow: 1; }
+}
+
+@media (--medium) {
+  .flex-grow-0-m { flex-grow: 0; }
+  .flex-grow-1-m { flex-grow: 1; }
+}
+
+@media (--large) {
+  .flex-grow-0-l { flex-grow: 0; }
+  .flex-grow-1-l { flex-grow: 1; }
+}
+
+@media (--extra-large) {
+  .flex-grow-0-xl { flex-grow: 0; }
+  .flex-grow-1-xl { flex-grow: 1; }
+}

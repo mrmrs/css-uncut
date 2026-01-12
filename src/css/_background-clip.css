@@ -1,0 +1,36 @@
+/*
+  BACKGROUND CLIP
+*/
+
+.bg-clip-border  { background-clip: border-box; }
+.bg-clip-padding { background-clip: padding-box; }
+.bg-clip-content { background-clip: content-box; }
+.bg-clip-text    { background-clip: text; }
+
+@media (--small) {
+  .bg-clip-border-ns  { background-clip: border-box; }
+  .bg-clip-padding-ns { background-clip: padding-box; }
+  .bg-clip-content-ns { background-clip: content-box; }
+  .bg-clip-text-ns    { background-clip: text; }
+}
+
+@media (--medium) {
+  .bg-clip-border-m  { background-clip: border-box; }
+  .bg-clip-padding-m { background-clip: padding-box; }
+  .bg-clip-content-m { background-clip: content-box; }
+  .bg-clip-text-m    { background-clip: text; }
+}
+
+@media (--large) {
+  .bg-clip-border-l  { background-clip: border-box; }
+  .bg-clip-padding-l { background-clip: padding-box; }
+  .bg-clip-content-l { background-clip: content-box; }
+  .bg-clip-text-l    { background-clip: text; }
+}
+
+@media (--extra-large) {
+  .bg-clip-border-xl  { background-clip: border-box; }
+  .bg-clip-padding-xl { background-clip: padding-box; }
+  .bg-clip-content-xl { background-clip: content-box; }
+  .bg-clip-text-xl    { background-clip: text; }
+}

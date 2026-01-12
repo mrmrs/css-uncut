@@ -1,0 +1,40 @@
+/*
+  VERTICAL ALIGN
+*/
+
+.v-base { vertical-align: baseline; }
+.v-mid  { vertical-align: middle; }
+.v-top  { vertical-align: top; }
+.v-btm  { vertical-align: bottom; }
+.v-txt-top { vertical-align: text-top; }
+.v-txt-btm { vertical-align: text-bottom; }
+.v-sub  { vertical-align: sub; }
+.v-sup  { vertical-align: super; }
+
+@media (--small) {
+  .v-base-ns { vertical-align: baseline; }
+  .v-mid-ns  { vertical-align: middle; }
+  .v-top-ns  { vertical-align: top; }
+  .v-btm-ns  { vertical-align: bottom; }
+}
+
+@media (--medium) {
+  .v-base-m { vertical-align: baseline; }
+  .v-mid-m  { vertical-align: middle; }
+  .v-top-m  { vertical-align: top; }
+  .v-btm-m  { vertical-align: bottom; }
+}
+
+@media (--large) {
+  .v-base-l { vertical-align: baseline; }
+  .v-mid-l  { vertical-align: middle; }
+  .v-top-l  { vertical-align: top; }
+  .v-btm-l  { vertical-align: bottom; }
+}
+
+@media (--extra-large) {
+  .v-base-xl { vertical-align: baseline; }
+  .v-mid-xl  { vertical-align: middle; }
+  .v-top-xl  { vertical-align: top; }
+  .v-btm-xl  { vertical-align: bottom; }
+}

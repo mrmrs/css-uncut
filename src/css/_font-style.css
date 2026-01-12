@@ -1,0 +1,31 @@
+/*
+  FONT STYLE
+*/
+
+.italic     { font-style: italic; }
+.not-italic { font-style: normal; }
+.oblique    { font-style: oblique; }
+
+@media (--small) {
+  .italic-ns     { font-style: italic; }
+  .not-italic-ns { font-style: normal; }
+  .oblique-ns    { font-style: oblique; }
+}
+
+@media (--medium) {
+  .italic-m     { font-style: italic; }
+  .not-italic-m { font-style: normal; }
+  .oblique-m    { font-style: oblique; }
+}
+
+@media (--large) {
+  .italic-l     { font-style: italic; }
+  .not-italic-l { font-style: normal; }
+  .oblique-l    { font-style: oblique; }
+}
+
+@media (--extra-large) {
+  .italic-xl     { font-style: italic; }
+  .not-italic-xl { font-style: normal; }
+  .oblique-xl    { font-style: oblique; }
+}

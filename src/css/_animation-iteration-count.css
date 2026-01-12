@@ -1,0 +1,31 @@
+/*
+  ANIMATION ITERATION COUNT
+*/
+
+.animate-once     { animation-iteration-count: 1; }
+.animate-twice    { animation-iteration-count: 2; }
+.animate-infinite { animation-iteration-count: infinite; }
+
+@media (--small) {
+  .animate-once-ns     { animation-iteration-count: 1; }
+  .animate-twice-ns    { animation-iteration-count: 2; }
+  .animate-infinite-ns { animation-iteration-count: infinite; }
+}
+
+@media (--medium) {
+  .animate-once-m     { animation-iteration-count: 1; }
+  .animate-twice-m    { animation-iteration-count: 2; }
+  .animate-infinite-m { animation-iteration-count: infinite; }
+}
+
+@media (--large) {
+  .animate-once-l     { animation-iteration-count: 1; }
+  .animate-twice-l    { animation-iteration-count: 2; }
+  .animate-infinite-l { animation-iteration-count: infinite; }
+}
+
+@media (--extra-large) {
+  .animate-once-xl     { animation-iteration-count: 1; }
+  .animate-twice-xl    { animation-iteration-count: 2; }
+  .animate-infinite-xl { animation-iteration-count: infinite; }
+}

@@ -1,0 +1,83 @@
+/*
+  OPACITY
+*/
+
+.o-0   { opacity: 0; }
+.o-5   { opacity: .05; }
+.o-10  { opacity: .1; }
+.o-20  { opacity: .2; }
+.o-25  { opacity: .25; }
+.o-30  { opacity: .3; }
+.o-40  { opacity: .4; }
+.o-50  { opacity: .5; }
+.o-60  { opacity: .6; }
+.o-70  { opacity: .7; }
+.o-75  { opacity: .75; }
+.o-80  { opacity: .8; }
+.o-90  { opacity: .9; }
+.o-95  { opacity: .95; }
+.o-100 { opacity: 1; }
+
+@media (--small) {
+  .o-0-ns   { opacity: 0; }
+  .o-10-ns  { opacity: .1; }
+  .o-20-ns  { opacity: .2; }
+  .o-25-ns  { opacity: .25; }
+  .o-30-ns  { opacity: .3; }
+  .o-40-ns  { opacity: .4; }
+  .o-50-ns  { opacity: .5; }
+  .o-60-ns  { opacity: .6; }
+  .o-70-ns  { opacity: .7; }
+  .o-75-ns  { opacity: .75; }
+  .o-80-ns  { opacity: .8; }
+  .o-90-ns  { opacity: .9; }
+  .o-100-ns { opacity: 1; }
+}
+
+@media (--medium) {
+  .o-0-m   { opacity: 0; }
+  .o-10-m  { opacity: .1; }
+  .o-20-m  { opacity: .2; }
+  .o-25-m  { opacity: .25; }
+  .o-30-m  { opacity: .3; }
+  .o-40-m  { opacity: .4; }
+  .o-50-m  { opacity: .5; }
+  .o-60-m  { opacity: .6; }
+  .o-70-m  { opacity: .7; }
+  .o-75-m  { opacity: .75; }
+  .o-80-m  { opacity: .8; }
+  .o-90-m  { opacity: .9; }
+  .o-100-m { opacity: 1; }
+}
+
+@media (--large) {
+  .o-0-l   { opacity: 0; }
+  .o-10-l  { opacity: .1; }
+  .o-20-l  { opacity: .2; }
+  .o-25-l  { opacity: .25; }
+  .o-30-l  { opacity: .3; }
+  .o-40-l  { opacity: .4; }
+  .o-50-l  { opacity: .5; }
+  .o-60-l  { opacity: .6; }
+  .o-70-l  { opacity: .7; }
+  .o-75-l  { opacity: .75; }
+  .o-80-l  { opacity: .8; }
+  .o-90-l  { opacity: .9; }
+  .o-100-l { opacity: 1; }
+}
+
+@media (--extra-large) {
+  .o-0-xl   { opacity: 0; }
+  .o-10-xl  { opacity: .1; }
+  .o-20-xl  { opacity: .2; }
+  .o-25-xl  { opacity: .25; }
+  .o-30-xl  { opacity: .3; }
+  .o-40-xl  { opacity: .4; }
+  .o-50-xl  { opacity: .5; }
+  .o-60-xl  { opacity: .6; }
+  .o-70-xl  { opacity: .7; }
+  .o-75-xl  { opacity: .75; }
+  .o-80-xl  { opacity: .8; }
+  .o-90-xl  { opacity: .9; }
+  .o-100-xl { opacity: 1; }
+}

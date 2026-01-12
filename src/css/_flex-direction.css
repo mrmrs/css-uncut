@@ -1,0 +1,42 @@
+/*
+  FLEXBOX - DIRECTION
+
+  Media Query Extensions:
+    -ns = small
+    -m  = medium
+    -l  = large
+    -xl = extra-large
+*/
+
+.flex-row         { flex-direction: row; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-col         { flex-direction: column; }
+.flex-col-reverse { flex-direction: column-reverse; }
+
+@media (--small) {
+  .flex-row-ns         { flex-direction: row; }
+  .flex-row-reverse-ns { flex-direction: row-reverse; }
+  .flex-col-ns         { flex-direction: column; }
+  .flex-col-reverse-ns { flex-direction: column-reverse; }
+}
+
+@media (--medium) {
+  .flex-row-m         { flex-direction: row; }
+  .flex-row-reverse-m { flex-direction: row-reverse; }
+  .flex-col-m         { flex-direction: column; }
+  .flex-col-reverse-m { flex-direction: column-reverse; }
+}
+
+@media (--large) {
+  .flex-row-l         { flex-direction: row; }
+  .flex-row-reverse-l { flex-direction: row-reverse; }
+  .flex-col-l         { flex-direction: column; }
+  .flex-col-reverse-l { flex-direction: column-reverse; }
+}
+
+@media (--extra-large) {
+  .flex-row-xl         { flex-direction: row; }
+  .flex-row-reverse-xl { flex-direction: row-reverse; }
+  .flex-col-xl         { flex-direction: column; }
+  .flex-col-reverse-xl { flex-direction: column-reverse; }
+}

@@ -1,0 +1,98 @@
+/*
+  FONT VARIANT
+*/
+
+.small-caps        { font-variant: small-caps; }
+.all-small-caps    { font-variant: all-small-caps; }
+.petite-caps       { font-variant: petite-caps; }
+.all-petite-caps   { font-variant: all-petite-caps; }
+.unicase           { font-variant: unicase; }
+.titling-caps      { font-variant: titling-caps; }
+.normal-caps       { font-variant: normal; }
+
+/* Font Variant Numeric */
+.ordinal           { font-variant-numeric: ordinal; }
+.slashed-zero      { font-variant-numeric: slashed-zero; }
+.lining-nums       { font-variant-numeric: lining-nums; }
+.oldstyle-nums     { font-variant-numeric: oldstyle-nums; }
+.proportional-nums { font-variant-numeric: proportional-nums; }
+.tabular-nums      { font-variant-numeric: tabular-nums; }
+.diagonal-fractions { font-variant-numeric: diagonal-fractions; }
+.stacked-fractions { font-variant-numeric: stacked-fractions; }
+.normal-nums       { font-variant-numeric: normal; }
+
+@media (--small) {
+  .small-caps-ns        { font-variant: small-caps; }
+  .all-small-caps-ns    { font-variant: all-small-caps; }
+  .petite-caps-ns       { font-variant: petite-caps; }
+  .all-petite-caps-ns   { font-variant: all-petite-caps; }
+  .unicase-ns           { font-variant: unicase; }
+  .titling-caps-ns      { font-variant: titling-caps; }
+  .normal-caps-ns       { font-variant: normal; }
+  .ordinal-ns           { font-variant-numeric: ordinal; }
+  .slashed-zero-ns      { font-variant-numeric: slashed-zero; }
+  .lining-nums-ns       { font-variant-numeric: lining-nums; }
+  .oldstyle-nums-ns     { font-variant-numeric: oldstyle-nums; }
+  .proportional-nums-ns { font-variant-numeric: proportional-nums; }
+  .tabular-nums-ns      { font-variant-numeric: tabular-nums; }
+  .diagonal-fractions-ns { font-variant-numeric: diagonal-fractions; }
+  .stacked-fractions-ns { font-variant-numeric: stacked-fractions; }
+  .normal-nums-ns       { font-variant-numeric: normal; }
+}
+
+@media (--medium) {
+  .small-caps-m        { font-variant: small-caps; }
+  .all-small-caps-m    { font-variant: all-small-caps; }
+  .petite-caps-m       { font-variant: petite-caps; }
+  .all-petite-caps-m   { font-variant: all-petite-caps; }
+  .unicase-m           { font-variant: unicase; }
+  .titling-caps-m      { font-variant: titling-caps; }
+  .normal-caps-m       { font-variant: normal; }
+  .ordinal-m           { font-variant-numeric: ordinal; }
+  .slashed-zero-m      { font-variant-numeric: slashed-zero; }
+  .lining-nums-m       { font-variant-numeric: lining-nums; }
+  .oldstyle-nums-m     { font-variant-numeric: oldstyle-nums; }
+  .proportional-nums-m { font-variant-numeric: proportional-nums; }
+  .tabular-nums-m      { font-variant-numeric: tabular-nums; }
+  .diagonal-fractions-m { font-variant-numeric: diagonal-fractions; }
+  .stacked-fractions-m { font-variant-numeric: stacked-fractions; }
+  .normal-nums-m       { font-variant-numeric: normal; }
+}
+
+@media (--large) {
+  .small-caps-l        { font-variant: small-caps; }
+  .all-small-caps-l    { font-variant: all-small-caps; }
+  .petite-caps-l       { font-variant: petite-caps; }
+  .all-petite-caps-l   { font-variant: all-petite-caps; }
+  .unicase-l           { font-variant: unicase; }
+  .titling-caps-l      { font-variant: titling-caps; }
+  .normal-caps-l       { font-variant: normal; }
+  .ordinal-l           { font-variant-numeric: ordinal; }
+  .slashed-zero-l      { font-variant-numeric: slashed-zero; }
+  .lining-nums-l       { font-variant-numeric: lining-nums; }
+  .oldstyle-nums-l     { font-variant-numeric: oldstyle-nums; }
+  .proportional-nums-l { font-variant-numeric: proportional-nums; }
+  .tabular-nums-l      { font-variant-numeric: tabular-nums; }
+  .diagonal-fractions-l { font-variant-numeric: diagonal-fractions; }
+  .stacked-fractions-l { font-variant-numeric: stacked-fractions; }
+  .normal-nums-l       { font-variant-numeric: normal; }
+}
+
+@media (--extra-large) {
+  .small-caps-xl        { font-variant: small-caps; }
+  .all-small-caps-xl    { font-variant: all-small-caps; }
+  .petite-caps-xl       { font-variant: petite-caps; }
+  .all-petite-caps-xl   { font-variant: all-petite-caps; }
+  .unicase-xl           { font-variant: unicase; }
+  .titling-caps-xl      { font-variant: titling-caps; }
+  .normal-caps-xl       { font-variant: normal; }
+  .ordinal-xl           { font-variant-numeric: ordinal; }
+  .slashed-zero-xl      { font-variant-numeric: slashed-zero; }
+  .lining-nums-xl       { font-variant-numeric: lining-nums; }
+  .oldstyle-nums-xl     { font-variant-numeric: oldstyle-nums; }
+  .proportional-nums-xl { font-variant-numeric: proportional-nums; }
+  .tabular-nums-xl      { font-variant-numeric: tabular-nums; }
+  .diagonal-fractions-xl { font-variant-numeric: diagonal-fractions; }
+  .stacked-fractions-xl { font-variant-numeric: stacked-fractions; }
+  .normal-nums-xl       { font-variant-numeric: normal; }
+}

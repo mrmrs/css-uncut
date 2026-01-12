@@ -1,0 +1,26 @@
+/*
+  BACKFACE VISIBILITY
+*/
+
+.backface-visible { backface-visibility: visible; }
+.backface-hidden  { backface-visibility: hidden; }
+
+@media (--small) {
+  .backface-visible-ns { backface-visibility: visible; }
+  .backface-hidden-ns  { backface-visibility: hidden; }
+}
+
+@media (--medium) {
+  .backface-visible-m { backface-visibility: visible; }
+  .backface-hidden-m  { backface-visibility: hidden; }
+}
+
+@media (--large) {
+  .backface-visible-l { backface-visibility: visible; }
+  .backface-hidden-l  { backface-visibility: hidden; }
+}
+
+@media (--extra-large) {
+  .backface-visible-xl { backface-visibility: visible; }
+  .backface-hidden-xl  { backface-visibility: hidden; }
+}

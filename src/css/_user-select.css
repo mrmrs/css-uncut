@@ -1,0 +1,36 @@
+/*
+  USER SELECT
+*/
+
+.select-none { user-select: none; }
+.select-text { user-select: text; }
+.select-all  { user-select: all; }
+.select-auto { user-select: auto; }
+
+@media (--small) {
+  .select-none-ns { user-select: none; }
+  .select-text-ns { user-select: text; }
+  .select-all-ns  { user-select: all; }
+  .select-auto-ns { user-select: auto; }
+}
+
+@media (--medium) {
+  .select-none-m { user-select: none; }
+  .select-text-m { user-select: text; }
+  .select-all-m  { user-select: all; }
+  .select-auto-m { user-select: auto; }
+}
+
+@media (--large) {
+  .select-none-l { user-select: none; }
+  .select-text-l { user-select: text; }
+  .select-all-l  { user-select: all; }
+  .select-auto-l { user-select: auto; }
+}
+
+@media (--extra-large) {
+  .select-none-xl { user-select: none; }
+  .select-text-xl { user-select: text; }
+  .select-all-xl  { user-select: all; }
+  .select-auto-xl { user-select: auto; }
+}

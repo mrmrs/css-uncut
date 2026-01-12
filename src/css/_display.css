@@ -1,0 +1,147 @@
+/*
+  DISPLAY
+
+  Base:
+    d = display
+
+  Modifiers:
+    n     = none
+    i     = inline
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    tcol  = table-column
+    tcolg = table-column-group
+    thg   = table-header-group
+    tr    = table-row
+    trg   = table-row-group
+    tfg   = table-footer-group
+    f     = flex
+    if    = inline-flex
+    g     = grid
+    ig    = inline-grid
+    li    = list-item
+    c     = contents
+    fr    = flow-root
+
+  Media Query Extensions:
+    -ns = small
+    -m  = medium
+    -l  = large
+    -xl = extra-large
+*/
+
+.dn     { display: none; }
+.di     { display: inline; }
+.db     { display: block; }
+.dib    { display: inline-block; }
+.dit    { display: inline-table; }
+.dt     { display: table; }
+.dtc    { display: table-cell; }
+.dtcol  { display: table-column; }
+.dtcolg { display: table-column-group; }
+.dthg   { display: table-header-group; }
+.dtr    { display: table-row; }
+.dtrg   { display: table-row-group; }
+.dtfg   { display: table-footer-group; }
+.df     { display: flex; }
+.dif    { display: inline-flex; }
+.dg     { display: grid; }
+.dig    { display: inline-grid; }
+.dli    { display: list-item; }
+.dc     { display: contents; }
+.dfr    { display: flow-root; }
+
+@media (--small) {
+  .dn-ns     { display: none; }
+  .di-ns     { display: inline; }
+  .db-ns     { display: block; }
+  .dib-ns    { display: inline-block; }
+  .dit-ns    { display: inline-table; }
+  .dt-ns     { display: table; }
+  .dtc-ns    { display: table-cell; }
+  .dtcol-ns  { display: table-column; }
+  .dtcolg-ns { display: table-column-group; }
+  .dthg-ns   { display: table-header-group; }
+  .dtr-ns    { display: table-row; }
+  .dtrg-ns   { display: table-row-group; }
+  .dtfg-ns   { display: table-footer-group; }
+  .df-ns     { display: flex; }
+  .dif-ns    { display: inline-flex; }
+  .dg-ns     { display: grid; }
+  .dig-ns    { display: inline-grid; }
+  .dli-ns    { display: list-item; }
+  .dc-ns     { display: contents; }
+  .dfr-ns    { display: flow-root; }
+}
+
+@media (--medium) {
+  .dn-m     { display: none; }
+  .di-m     { display: inline; }
+  .db-m     { display: block; }
+  .dib-m    { display: inline-block; }
+  .dit-m    { display: inline-table; }
+  .dt-m     { display: table; }
+  .dtc-m    { display: table-cell; }
+  .dtcol-m  { display: table-column; }
+  .dtcolg-m { display: table-column-group; }
+  .dthg-m   { display: table-header-group; }
+  .dtr-m    { display: table-row; }
+  .dtrg-m   { display: table-row-group; }
+  .dtfg-m   { display: table-footer-group; }
+  .df-m     { display: flex; }
+  .dif-m    { display: inline-flex; }
+  .dg-m     { display: grid; }
+  .dig-m    { display: inline-grid; }
+  .dli-m    { display: list-item; }
+  .dc-m     { display: contents; }
+  .dfr-m    { display: flow-root; }
+}
+
+@media (--large) {
+  .dn-l     { display: none; }
+  .di-l     { display: inline; }
+  .db-l     { display: block; }
+  .dib-l    { display: inline-block; }
+  .dit-l    { display: inline-table; }
+  .dt-l     { display: table; }
+  .dtc-l    { display: table-cell; }
+  .dtcol-l  { display: table-column; }
+  .dtcolg-l { display: table-column-group; }
+  .dthg-l   { display: table-header-group; }
+  .dtr-l    { display: table-row; }
+  .dtrg-l   { display: table-row-group; }
+  .dtfg-l   { display: table-footer-group; }
+  .df-l     { display: flex; }
+  .dif-l    { display: inline-flex; }
+  .dg-l     { display: grid; }
+  .dig-l    { display: inline-grid; }
+  .dli-l    { display: list-item; }
+  .dc-l     { display: contents; }
+  .dfr-l    { display: flow-root; }
+}
+
+@media (--extra-large) {
+  .dn-xl     { display: none; }
+  .di-xl     { display: inline; }
+  .db-xl     { display: block; }
+  .dib-xl    { display: inline-block; }
+  .dit-xl    { display: inline-table; }
+  .dt-xl     { display: table; }
+  .dtc-xl    { display: table-cell; }
+  .dtcol-xl  { display: table-column; }
+  .dtcolg-xl { display: table-column-group; }
+  .dthg-xl   { display: table-header-group; }
+  .dtr-xl    { display: table-row; }
+  .dtrg-xl   { display: table-row-group; }
+  .dtfg-xl   { display: table-footer-group; }
+  .df-xl     { display: flex; }
+  .dif-xl    { display: inline-flex; }
+  .dg-xl     { display: grid; }
+  .dig-xl    { display: inline-grid; }
+  .dli-xl    { display: list-item; }
+  .dc-xl     { display: contents; }
+  .dfr-xl    { display: flow-root; }
+}

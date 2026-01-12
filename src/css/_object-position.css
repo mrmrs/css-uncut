@@ -1,0 +1,61 @@
+/*
+  OBJECT POSITION
+*/
+
+.object-bottom       { object-position: bottom; }
+.object-center       { object-position: center; }
+.object-left         { object-position: left; }
+.object-left-bottom  { object-position: left bottom; }
+.object-left-top     { object-position: left top; }
+.object-right        { object-position: right; }
+.object-right-bottom { object-position: right bottom; }
+.object-right-top    { object-position: right top; }
+.object-top          { object-position: top; }
+
+@media (--small) {
+  .object-bottom-ns       { object-position: bottom; }
+  .object-center-ns       { object-position: center; }
+  .object-left-ns         { object-position: left; }
+  .object-left-bottom-ns  { object-position: left bottom; }
+  .object-left-top-ns     { object-position: left top; }
+  .object-right-ns        { object-position: right; }
+  .object-right-bottom-ns { object-position: right bottom; }
+  .object-right-top-ns    { object-position: right top; }
+  .object-top-ns          { object-position: top; }
+}
+
+@media (--medium) {
+  .object-bottom-m       { object-position: bottom; }
+  .object-center-m       { object-position: center; }
+  .object-left-m         { object-position: left; }
+  .object-left-bottom-m  { object-position: left bottom; }
+  .object-left-top-m     { object-position: left top; }
+  .object-right-m        { object-position: right; }
+  .object-right-bottom-m { object-position: right bottom; }
+  .object-right-top-m    { object-position: right top; }
+  .object-top-m          { object-position: top; }
+}
+
+@media (--large) {
+  .object-bottom-l       { object-position: bottom; }
+  .object-center-l       { object-position: center; }
+  .object-left-l         { object-position: left; }
+  .object-left-bottom-l  { object-position: left bottom; }
+  .object-left-top-l     { object-position: left top; }
+  .object-right-l        { object-position: right; }
+  .object-right-bottom-l { object-position: right bottom; }
+  .object-right-top-l    { object-position: right top; }
+  .object-top-l          { object-position: top; }
+}
+
+@media (--extra-large) {
+  .object-bottom-xl       { object-position: bottom; }
+  .object-center-xl       { object-position: center; }
+  .object-left-xl         { object-position: left; }
+  .object-left-bottom-xl  { object-position: left bottom; }
+  .object-left-top-xl     { object-position: left top; }
+  .object-right-xl        { object-position: right; }
+  .object-right-bottom-xl { object-position: right bottom; }
+  .object-right-top-xl    { object-position: right top; }
+  .object-top-xl          { object-position: top; }
+}

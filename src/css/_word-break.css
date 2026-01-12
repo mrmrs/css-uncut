@@ -1,0 +1,18 @@
+/*
+  WORD BREAK
+*/
+
+.break-normal { word-break: normal; overflow-wrap: normal; }
+.break-words  { overflow-wrap: break-word; }
+.break-all    { word-break: break-all; }
+.break-keep   { word-break: keep-all; }
+
+/* Overflow Wrap */
+.overflow-wrap-normal { overflow-wrap: normal; }
+.overflow-wrap-break  { overflow-wrap: break-word; }
+.overflow-wrap-anywhere { overflow-wrap: anywhere; }
+
+/* Hyphens */
+.hyphens-none   { hyphens: none; }
+.hyphens-manual { hyphens: manual; }
+.hyphens-auto   { hyphens: auto; }

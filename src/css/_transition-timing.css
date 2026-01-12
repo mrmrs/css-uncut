@@ -1,0 +1,11 @@
+/*
+  TRANSITION TIMING FUNCTION
+*/
+
+.ease-linear     { transition-timing-function: linear; }
+.ease-in         { transition-timing-function: ease-in; }
+.ease-out        { transition-timing-function: ease-out; }
+.ease-in-out     { transition-timing-function: ease-in-out; }
+.ease            { transition-timing-function: ease; }
+.ease-step-start { transition-timing-function: step-start; }
+.ease-step-end   { transition-timing-function: step-end; }

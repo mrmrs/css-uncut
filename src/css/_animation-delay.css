@@ -1,0 +1,61 @@
+/*
+  ANIMATION DELAY
+*/
+
+.animate-delay-0    { animation-delay: 0ms; }
+.animate-delay-75   { animation-delay: 75ms; }
+.animate-delay-100  { animation-delay: 100ms; }
+.animate-delay-150  { animation-delay: 150ms; }
+.animate-delay-200  { animation-delay: 200ms; }
+.animate-delay-300  { animation-delay: 300ms; }
+.animate-delay-500  { animation-delay: 500ms; }
+.animate-delay-700  { animation-delay: 700ms; }
+.animate-delay-1000 { animation-delay: 1000ms; }
+
+@media (--small) {
+  .animate-delay-0-ns    { animation-delay: 0ms; }
+  .animate-delay-75-ns   { animation-delay: 75ms; }
+  .animate-delay-100-ns  { animation-delay: 100ms; }
+  .animate-delay-150-ns  { animation-delay: 150ms; }
+  .animate-delay-200-ns  { animation-delay: 200ms; }
+  .animate-delay-300-ns  { animation-delay: 300ms; }
+  .animate-delay-500-ns  { animation-delay: 500ms; }
+  .animate-delay-700-ns  { animation-delay: 700ms; }
+  .animate-delay-1000-ns { animation-delay: 1000ms; }
+}
+
+@media (--medium) {
+  .animate-delay-0-m    { animation-delay: 0ms; }
+  .animate-delay-75-m   { animation-delay: 75ms; }
+  .animate-delay-100-m  { animation-delay: 100ms; }
+  .animate-delay-150-m  { animation-delay: 150ms; }
+  .animate-delay-200-m  { animation-delay: 200ms; }
+  .animate-delay-300-m  { animation-delay: 300ms; }
+  .animate-delay-500-m  { animation-delay: 500ms; }
+  .animate-delay-700-m  { animation-delay: 700ms; }
+  .animate-delay-1000-m { animation-delay: 1000ms; }
+}
+
+@media (--large) {
+  .animate-delay-0-l    { animation-delay: 0ms; }
+  .animate-delay-75-l   { animation-delay: 75ms; }
+  .animate-delay-100-l  { animation-delay: 100ms; }
+  .animate-delay-150-l  { animation-delay: 150ms; }
+  .animate-delay-200-l  { animation-delay: 200ms; }
+  .animate-delay-300-l  { animation-delay: 300ms; }
+  .animate-delay-500-l  { animation-delay: 500ms; }
+  .animate-delay-700-l  { animation-delay: 700ms; }
+  .animate-delay-1000-l { animation-delay: 1000ms; }
+}
+
+@media (--extra-large) {
+  .animate-delay-0-xl    { animation-delay: 0ms; }
+  .animate-delay-75-xl   { animation-delay: 75ms; }
+  .animate-delay-100-xl  { animation-delay: 100ms; }
+  .animate-delay-150-xl  { animation-delay: 150ms; }
+  .animate-delay-200-xl  { animation-delay: 200ms; }
+  .animate-delay-300-xl  { animation-delay: 300ms; }
+  .animate-delay-500-xl  { animation-delay: 500ms; }
+  .animate-delay-700-xl  { animation-delay: 700ms; }
+  .animate-delay-1000-xl { animation-delay: 1000ms; }
+}

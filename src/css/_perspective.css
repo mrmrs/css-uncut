@@ -1,0 +1,118 @@
+/*
+  PERSPECTIVE
+*/
+
+.perspective-none   { perspective: none; }
+.perspective-1      { perspective: 100px; }
+.perspective-2      { perspective: 200px; }
+.perspective-3      { perspective: 300px; }
+.perspective-4      { perspective: 400px; }
+.perspective-5      { perspective: 500px; }
+.perspective-6      { perspective: 600px; }
+.perspective-7      { perspective: 700px; }
+.perspective-8      { perspective: 800px; }
+.perspective-9      { perspective: 900px; }
+.perspective-10     { perspective: 1000px; }
+
+/* Perspective Origin */
+.perspective-origin-center       { perspective-origin: center; }
+.perspective-origin-top          { perspective-origin: top; }
+.perspective-origin-top-right    { perspective-origin: top right; }
+.perspective-origin-right        { perspective-origin: right; }
+.perspective-origin-bottom-right { perspective-origin: bottom right; }
+.perspective-origin-bottom       { perspective-origin: bottom; }
+.perspective-origin-bottom-left  { perspective-origin: bottom left; }
+.perspective-origin-left         { perspective-origin: left; }
+.perspective-origin-top-left     { perspective-origin: top left; }
+
+@media (--small) {
+  .perspective-none-ns { perspective: none; }
+  .perspective-1-ns    { perspective: 100px; }
+  .perspective-2-ns    { perspective: 200px; }
+  .perspective-3-ns    { perspective: 300px; }
+  .perspective-4-ns    { perspective: 400px; }
+  .perspective-5-ns    { perspective: 500px; }
+  .perspective-6-ns    { perspective: 600px; }
+  .perspective-7-ns    { perspective: 700px; }
+  .perspective-8-ns    { perspective: 800px; }
+  .perspective-9-ns    { perspective: 900px; }
+  .perspective-10-ns   { perspective: 1000px; }
+  .perspective-origin-center-ns       { perspective-origin: center; }
+  .perspective-origin-top-ns          { perspective-origin: top; }
+  .perspective-origin-top-right-ns    { perspective-origin: top right; }
+  .perspective-origin-right-ns        { perspective-origin: right; }
+  .perspective-origin-bottom-right-ns { perspective-origin: bottom right; }
+  .perspective-origin-bottom-ns       { perspective-origin: bottom; }
+  .perspective-origin-bottom-left-ns  { perspective-origin: bottom left; }
+  .perspective-origin-left-ns         { perspective-origin: left; }
+  .perspective-origin-top-left-ns     { perspective-origin: top left; }
+}
+
+@media (--medium) {
+  .perspective-none-m { perspective: none; }
+  .perspective-1-m    { perspective: 100px; }
+  .perspective-2-m    { perspective: 200px; }
+  .perspective-3-m    { perspective: 300px; }
+  .perspective-4-m    { perspective: 400px; }
+  .perspective-5-m    { perspective: 500px; }
+  .perspective-6-m    { perspective: 600px; }
+  .perspective-7-m    { perspective: 700px; }
+  .perspective-8-m    { perspective: 800px; }
+  .perspective-9-m    { perspective: 900px; }
+  .perspective-10-m   { perspective: 1000px; }
+  .perspective-origin-center-m       { perspective-origin: center; }
+  .perspective-origin-top-m          { perspective-origin: top; }
+  .perspective-origin-top-right-m    { perspective-origin: top right; }
+  .perspective-origin-right-m        { perspective-origin: right; }
+  .perspective-origin-bottom-right-m { perspective-origin: bottom right; }
+  .perspective-origin-bottom-m       { perspective-origin: bottom; }
+  .perspective-origin-bottom-left-m  { perspective-origin: bottom left; }
+  .perspective-origin-left-m         { perspective-origin: left; }
+  .perspective-origin-top-left-m     { perspective-origin: top left; }
+}
+
+@media (--large) {
+  .perspective-none-l { perspective: none; }
+  .perspective-1-l    { perspective: 100px; }
+  .perspective-2-l    { perspective: 200px; }
+  .perspective-3-l    { perspective: 300px; }
+  .perspective-4-l    { perspective: 400px; }
+  .perspective-5-l    { perspective: 500px; }
+  .perspective-6-l    { perspective: 600px; }
+  .perspective-7-l    { perspective: 700px; }
+  .perspective-8-l    { perspective: 800px; }
+  .perspective-9-l    { perspective: 900px; }
+  .perspective-10-l   { perspective: 1000px; }
+  .perspective-origin-center-l       { perspective-origin: center; }
+  .perspective-origin-top-l          { perspective-origin: top; }
+  .perspective-origin-top-right-l    { perspective-origin: top right; }
+  .perspective-origin-right-l        { perspective-origin: right; }
+  .perspective-origin-bottom-right-l { perspective-origin: bottom right; }
+  .perspective-origin-bottom-l       { perspective-origin: bottom; }
+  .perspective-origin-bottom-left-l  { perspective-origin: bottom left; }
+  .perspective-origin-left-l         { perspective-origin: left; }
+  .perspective-origin-top-left-l     { perspective-origin: top left; }
+}
+
+@media (--extra-large) {
+  .perspective-none-xl { perspective: none; }
+  .perspective-1-xl    { perspective: 100px; }
+  .perspective-2-xl    { perspective: 200px; }
+  .perspective-3-xl    { perspective: 300px; }
+  .perspective-4-xl    { perspective: 400px; }
+  .perspective-5-xl    { perspective: 500px; }
+  .perspective-6-xl    { perspective: 600px; }
+  .perspective-7-xl    { perspective: 700px; }
+  .perspective-8-xl    { perspective: 800px; }
+  .perspective-9-xl    { perspective: 900px; }
+  .perspective-10-xl   { perspective: 1000px; }
+  .perspective-origin-center-xl       { perspective-origin: center; }
+  .perspective-origin-top-xl          { perspective-origin: top; }
+  .perspective-origin-top-right-xl    { perspective-origin: top right; }
+  .perspective-origin-right-xl        { perspective-origin: right; }
+  .perspective-origin-bottom-right-xl { perspective-origin: bottom right; }
+  .perspective-origin-bottom-xl       { perspective-origin: bottom; }
+  .perspective-origin-bottom-left-xl  { perspective-origin: bottom left; }
+  .perspective-origin-left-xl         { perspective-origin: left; }
+  .perspective-origin-top-left-xl     { perspective-origin: top left; }
+}

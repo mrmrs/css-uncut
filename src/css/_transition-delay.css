@@ -1,0 +1,61 @@
+/*
+  TRANSITION DELAY
+*/
+
+.delay-0    { transition-delay: 0ms; }
+.delay-75   { transition-delay: 75ms; }
+.delay-100  { transition-delay: 100ms; }
+.delay-150  { transition-delay: 150ms; }
+.delay-200  { transition-delay: 200ms; }
+.delay-300  { transition-delay: 300ms; }
+.delay-500  { transition-delay: 500ms; }
+.delay-700  { transition-delay: 700ms; }
+.delay-1000 { transition-delay: 1000ms; }
+
+@media (--small) {
+  .delay-0-ns    { transition-delay: 0ms; }
+  .delay-75-ns   { transition-delay: 75ms; }
+  .delay-100-ns  { transition-delay: 100ms; }
+  .delay-150-ns  { transition-delay: 150ms; }
+  .delay-200-ns  { transition-delay: 200ms; }
+  .delay-300-ns  { transition-delay: 300ms; }
+  .delay-500-ns  { transition-delay: 500ms; }
+  .delay-700-ns  { transition-delay: 700ms; }
+  .delay-1000-ns { transition-delay: 1000ms; }
+}
+
+@media (--medium) {
+  .delay-0-m    { transition-delay: 0ms; }
+  .delay-75-m   { transition-delay: 75ms; }
+  .delay-100-m  { transition-delay: 100ms; }
+  .delay-150-m  { transition-delay: 150ms; }
+  .delay-200-m  { transition-delay: 200ms; }
+  .delay-300-m  { transition-delay: 300ms; }
+  .delay-500-m  { transition-delay: 500ms; }
+  .delay-700-m  { transition-delay: 700ms; }
+  .delay-1000-m { transition-delay: 1000ms; }
+}
+
+@media (--large) {
+  .delay-0-l    { transition-delay: 0ms; }
+  .delay-75-l   { transition-delay: 75ms; }
+  .delay-100-l  { transition-delay: 100ms; }
+  .delay-150-l  { transition-delay: 150ms; }
+  .delay-200-l  { transition-delay: 200ms; }
+  .delay-300-l  { transition-delay: 300ms; }
+  .delay-500-l  { transition-delay: 500ms; }
+  .delay-700-l  { transition-delay: 700ms; }
+  .delay-1000-l { transition-delay: 1000ms; }
+}
+
+@media (--extra-large) {
+  .delay-0-xl    { transition-delay: 0ms; }
+  .delay-75-xl   { transition-delay: 75ms; }
+  .delay-100-xl  { transition-delay: 100ms; }
+  .delay-150-xl  { transition-delay: 150ms; }
+  .delay-200-xl  { transition-delay: 200ms; }
+  .delay-300-xl  { transition-delay: 300ms; }
+  .delay-500-xl  { transition-delay: 500ms; }
+  .delay-700-xl  { transition-delay: 700ms; }
+  .delay-1000-xl { transition-delay: 1000ms; }
+}

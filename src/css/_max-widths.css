@@ -1,0 +1,83 @@
+/*
+  MAX WIDTHS
+*/
+
+.mw-none { max-width: none; }
+.mw-0    { max-width: 0; }
+.mw1     { max-width: 1rem; }
+.mw2     { max-width: 2rem; }
+.mw3     { max-width: 4rem; }
+.mw4     { max-width: 8rem; }
+.mw5     { max-width: 16rem; }
+.mw6     { max-width: 32rem; }
+.mw7     { max-width: 48rem; }
+.mw8     { max-width: 64rem; }
+.mw9     { max-width: 96rem; }
+
+.mw-25   { max-width: 25%; }
+.mw-50   { max-width: 50%; }
+.mw-75   { max-width: 75%; }
+.mw-100  { max-width: 100%; }
+
+.mw-full   { max-width: 100%; }
+.mw-screen { max-width: 100vw; }
+.mw-min    { max-width: min-content; }
+.mw-max    { max-width: max-content; }
+.mw-fit    { max-width: fit-content; }
+.mw-prose  { max-width: 65ch; }
+
+@media (--small) {
+  .mw-none-ns { max-width: none; }
+  .mw1-ns { max-width: 1rem; }
+  .mw2-ns { max-width: 2rem; }
+  .mw3-ns { max-width: 4rem; }
+  .mw4-ns { max-width: 8rem; }
+  .mw5-ns { max-width: 16rem; }
+  .mw6-ns { max-width: 32rem; }
+  .mw7-ns { max-width: 48rem; }
+  .mw8-ns { max-width: 64rem; }
+  .mw9-ns { max-width: 96rem; }
+  .mw-100-ns { max-width: 100%; }
+}
+
+@media (--medium) {
+  .mw-none-m { max-width: none; }
+  .mw1-m { max-width: 1rem; }
+  .mw2-m { max-width: 2rem; }
+  .mw3-m { max-width: 4rem; }
+  .mw4-m { max-width: 8rem; }
+  .mw5-m { max-width: 16rem; }
+  .mw6-m { max-width: 32rem; }
+  .mw7-m { max-width: 48rem; }
+  .mw8-m { max-width: 64rem; }
+  .mw9-m { max-width: 96rem; }
+  .mw-100-m { max-width: 100%; }
+}
+
+@media (--large) {
+  .mw-none-l { max-width: none; }
+  .mw1-l { max-width: 1rem; }
+  .mw2-l { max-width: 2rem; }
+  .mw3-l { max-width: 4rem; }
+  .mw4-l { max-width: 8rem; }
+  .mw5-l { max-width: 16rem; }
+  .mw6-l { max-width: 32rem; }
+  .mw7-l { max-width: 48rem; }
+  .mw8-l { max-width: 64rem; }
+  .mw9-l { max-width: 96rem; }
+  .mw-100-l { max-width: 100%; }
+}
+
+@media (--extra-large) {
+  .mw-none-xl { max-width: none; }
+  .mw1-xl { max-width: 1rem; }
+  .mw2-xl { max-width: 2rem; }
+  .mw3-xl { max-width: 4rem; }
+  .mw4-xl { max-width: 8rem; }
+  .mw5-xl { max-width: 16rem; }
+  .mw6-xl { max-width: 32rem; }
+  .mw7-xl { max-width: 48rem; }
+  .mw8-xl { max-width: 64rem; }
+  .mw9-xl { max-width: 96rem; }
+  .mw-100-xl { max-width: 100%; }
+}

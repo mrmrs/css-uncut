@@ -1,0 +1,26 @@
+/*
+  APPEARANCE
+*/
+
+.appearance-none { appearance: none; }
+.appearance-auto { appearance: auto; }
+
+@media (--small) {
+  .appearance-none-ns { appearance: none; }
+  .appearance-auto-ns { appearance: auto; }
+}
+
+@media (--medium) {
+  .appearance-none-m { appearance: none; }
+  .appearance-auto-m { appearance: auto; }
+}
+
+@media (--large) {
+  .appearance-none-l { appearance: none; }
+  .appearance-auto-l { appearance: auto; }
+}
+
+@media (--extra-large) {
+  .appearance-none-xl { appearance: none; }
+  .appearance-auto-xl { appearance: auto; }
+}

@@ -1,126 +1,196 @@
 # CSS UNCUT
 
-## What is this?
+> The entire CSS language. Uncut.
 
-1. An experiment.
-2. The answer to a question I started to ask after noticing websites serve up 200kb - 1MB+ css files.
+A comprehensive CSS utility library featuring single-purpose classes namespaced across multiple breakpoints. An experimental project exploring how much of CSS can reasonably fit into a single file.
 
-## The Question
-
-> "How big is the entire css language? Is it bigger or smaller than 500K?"
-
-So, what is css uncut? It is an attempt to put the entire css language in one file.
-For the most part it's a bunch of single purpose classes name spaced to three different breakpoints.
-
-Plus a few other things like a clearfix solution for good measure.
-
-## The Answer
-
-The file sizes:
+## Build Statistics
 
 ```
-npm install --save-dev css-uncut
+📦 Raw file size:           163.04 KB
+📦 Minified file size:      114.35 KB
+📦 Minified + Gzipped:       20.18 KB
+
+💾 Minification savings:    29.9%
+💾 Gzip savings:            87.6%
 ```
 
-```
- 480K - i.css        (uncompresed)
- 390K - i.min.css    (minified)
-  47K - i.min.css.gz (minified & gzipped)
-```
+## Installation
 
-47K minified and gzipped. This gives in an interesting baseline to compare 500K+ css files to.
-It should be noted that gzip loves single purpose classes as it's compression algorithm
-works best when common words are close together.
-If you randomize the order of class declaration in i.css,
-it minifies and gzips down to *54K* which turns out to be a delta of about 7K.
-
-#### Note documentation is work in progress
-
-## So what do you mean 'all' of css
-
-Some things would be almost impossible to represent in totality. Like gradient combinations for instance.
-But most things are pretty easy. Properties such as float, display, list-style-type, overflow etc.
-have a fairly small set of values. This has all of those things. Four times.
-
-Some things are a bit trickier though. How many different border-widths should be included? What about
-border-colors? I tried to err on the side of being more verbose than I thought any feasible ui would need.
-In this case I chose to include 140 different border colors for congruency with the provided skin classes.
-
-If it's in the spec, it's probably in here. If you notice anything missing. Please open an issue or file a pull
-request.
-
-### Dimensions
-
-For each of the dimension properties i.e
-```
-width, max-width, min-width, height, max-height, min-height
-```
-There are classes for:
-* A ten point rem scale based off powers of two
-* Each percentage value (0-100%);
-* Each keyword option i.e max-content, min-content, fit-content, fill-available.
-
-### Colors
-
-Skin classes for each of the 140 color names defined in the css/html spec.
-
-### Spacing
-
-Eight step scale for both margins and padding.
-Single purpose classes to target: all, top, right, bottom, and left sides as well
-as utilities to space horizontally  and vertically. It's easy to extend if you need more or less
-steps.
-
-## What needs work
-
-Naming conventions. There are some nice grockable consistent patterns, but some of them aren't that
-well thought out to be honest. Particularly things like flexbox, animation, and transitions.
-
-Selector count. I wouldn't advise dropping this into your next project in totality.
-There are more than 4096 selectors and that means certain versions of ie won't parse
-the whole style sheet. If you want to drop the selector count though you can use something like un-css
-to clean up any unused classes.
-
-Documentation. Definitely needs more documentation.
-
-## Big styles
-
-How much css do websites serve up to users?
-
-```
-ESPN          322K
-Kickstarter   844K
-Salesforce    1.02M
-Macaw         593K
-Adobe         503K
-Apple Store   440K
+```bash
+npm install css-uncut
 ```
 
-## Reference
+Or use the CDN:
 
-http://www.chromium.org/developers/design-documents/gpu-accelerated-compositing-in-chrome
+```html
+<link rel="stylesheet" href="https://unpkg.com/css-uncut/css/uncut.min.css">
+```
 
-# License
+## Usage
 
-The MIT License (MIT)
+```html
+<div class="df flex-wrap gap-3 pa4 bg-near-white br3">
+  <div class="w-100 w-50-ns w-33-l pa3 bg-blue white br2">
+    Responsive column
+  </div>
+</div>
+```
 
-Copyright (c) 2015 @mrmrs
+## Breakpoints
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Mobile-first responsive design with four breakpoints:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+| Suffix | Breakpoint | Description |
+|--------|------------|-------------|
+| (none) | All | Base styles |
+| `-ns`  | ≥ 30em (480px) | Not small |
+| `-m`   | 30em – 60em | Medium only |
+| `-l`   | ≥ 60em (960px) | Large |
+| `-xl`  | ≥ 90em (1440px) | Extra large |
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+## CSS Properties Covered
 
+This library includes **100+ CSS property partials** covering:
+
+### Layout
+- Display (flex, grid, block, inline, table, etc.)
+- Position (static, relative, absolute, fixed, sticky)
+- Float & Clear
+- Overflow
+- Visibility
+- Z-Index
+
+### Box Model
+- Spacing (margin, padding) with 8-step scale
+- Widths (fixed, percentage, viewport, intrinsic)
+- Heights (fixed, percentage, viewport, intrinsic)
+- Min/Max Width & Height
+- Box Sizing
+- Aspect Ratio
+
+### Flexbox
+- Direction, Wrap
+- Justify Content, Align Items, Align Content, Align Self
+- Flex Grow, Shrink, Basis
+- Order
+- Gap
+
+### Grid
+- Template Columns & Rows
+- Column & Row Span
+- Auto Flow
+- Place Items, Place Content, Place Self
+
+### Typography
+- Font Family, Size, Weight, Style, Variant
+- Line Height
+- Letter Spacing
+- Text Align, Transform, Decoration
+- White Space, Word Break
+- Text Overflow
+
+### Colors & Backgrounds
+- Text Colors
+- Background Colors
+- Background Size, Position, Repeat, Attachment
+- Background Clip, Origin
+- Background Blend Mode
+
+### Borders
+- Border Width, Style, Color, Radius
+- Outline
+
+### Effects
+- Opacity
+- Box Shadow
+- Filters (blur, brightness, contrast, grayscale, etc.)
+- Backdrop Filter
+- Mix Blend Mode
+- Isolation
+
+### Transforms
+- Scale, Rotate, Translate
+- Transform Origin
+- Perspective
+- Backface Visibility
+
+### Transitions & Animations
+- Transition Property, Duration, Timing, Delay
+- Animation Duration, Timing, Delay, Direction
+- Animation Iteration Count, Fill Mode, Play State
+- Will Change
+
+### Interactivity
+- Cursor
+- Pointer Events
+- User Select
+- Touch Action
+- Resize
+- Scroll Behavior, Snap
+- Overscroll Behavior
+
+### Modern CSS
+- Container Queries
+- Aspect Ratio
+- Logical Properties
+- Content Visibility
+- Contain
+- Scrollbar Styling
+- Accent Color
+- Caret Color
+
+## Building from Source
+
+```bash
+# Clone the repository
+git clone https://github.com/mrmrs/css-uncut.git
+cd css-uncut
+
+# Build
+npm run build
+
+# Watch for changes
+npm run watch
+```
+
+## Project Structure
+
+```
+css-uncut/
+├── src/
+│   ├── uncut.css      # Main entry file with @import statements
+│   └── css/           # Source partials (100+ files)
+├── css/
+│   ├── uncut.css      # Compiled CSS (output)
+│   └── uncut.min.css  # Minified CSS (output)
+├── build.js           # Build pipeline
+└── package.json
+```
+
+The build process reads `src/uncut.css`, processes all `@import` statements, handles `@custom-media` queries, and outputs the compiled files to the `css/` directory.
+
+## Custom Media Queries
+
+The library uses custom media queries internally:
+
+```css
+@custom-media --not-small (min-width: 30em);
+@custom-media --medium (min-width: 30em) and (max-width: 60em);
+@custom-media --large (min-width: 60em);
+@custom-media --extra-large (min-width: 90em);
+```
+
+## Philosophy
+
+CSS UNCUT embraces the atomic/functional CSS methodology:
+
+- **Single Purpose**: Each class does one thing
+- **Responsive**: Every utility available at every breakpoint
+- **Composable**: Build any design by combining classes
+- **Predictable**: Class names map directly to CSS properties
+- **Small**: ~20KB gzipped despite comprehensive coverage
+
+## License
+
+MIT © [mrmrs](https://github.com/mrmrs)

@@ -1,0 +1,61 @@
+/*
+  BACKGROUND POSITION
+*/
+
+.bg-bottom       { background-position: bottom; }
+.bg-center       { background-position: center; }
+.bg-left         { background-position: left; }
+.bg-left-bottom  { background-position: left bottom; }
+.bg-left-top     { background-position: left top; }
+.bg-right        { background-position: right; }
+.bg-right-bottom { background-position: right bottom; }
+.bg-right-top    { background-position: right top; }
+.bg-top          { background-position: top; }
+
+@media (--small) {
+  .bg-bottom-ns       { background-position: bottom; }
+  .bg-center-ns       { background-position: center; }
+  .bg-left-ns         { background-position: left; }
+  .bg-left-bottom-ns  { background-position: left bottom; }
+  .bg-left-top-ns     { background-position: left top; }
+  .bg-right-ns        { background-position: right; }
+  .bg-right-bottom-ns { background-position: right bottom; }
+  .bg-right-top-ns    { background-position: right top; }
+  .bg-top-ns          { background-position: top; }
+}
+
+@media (--medium) {
+  .bg-bottom-m       { background-position: bottom; }
+  .bg-center-m       { background-position: center; }
+  .bg-left-m         { background-position: left; }
+  .bg-left-bottom-m  { background-position: left bottom; }
+  .bg-left-top-m     { background-position: left top; }
+  .bg-right-m        { background-position: right; }
+  .bg-right-bottom-m { background-position: right bottom; }
+  .bg-right-top-m    { background-position: right top; }
+  .bg-top-m          { background-position: top; }
+}
+
+@media (--large) {
+  .bg-bottom-l       { background-position: bottom; }
+  .bg-center-l       { background-position: center; }
+  .bg-left-l         { background-position: left; }
+  .bg-left-bottom-l  { background-position: left bottom; }
+  .bg-left-top-l     { background-position: left top; }
+  .bg-right-l        { background-position: right; }
+  .bg-right-bottom-l { background-position: right bottom; }
+  .bg-right-top-l    { background-position: right top; }
+  .bg-top-l          { background-position: top; }
+}
+
+@media (--extra-large) {
+  .bg-bottom-xl       { background-position: bottom; }
+  .bg-center-xl       { background-position: center; }
+  .bg-left-xl         { background-position: left; }
+  .bg-left-bottom-xl  { background-position: left bottom; }
+  .bg-left-top-xl     { background-position: left top; }
+  .bg-right-xl        { background-position: right; }
+  .bg-right-bottom-xl { background-position: right bottom; }
+  .bg-right-top-xl    { background-position: right top; }
+  .bg-top-xl          { background-position: top; }
+}

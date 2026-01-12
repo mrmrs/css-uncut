@@ -1,0 +1,49 @@
+/*
+  FLEXBOX - BASIS
+*/
+
+.flex-basis-auto { flex-basis: auto; }
+.flex-basis-0    { flex-basis: 0; }
+.flex-basis-full { flex-basis: 100%; }
+.flex-basis-1-2  { flex-basis: 50%; }
+.flex-basis-1-3  { flex-basis: 33.333333%; }
+.flex-basis-2-3  { flex-basis: 66.666667%; }
+.flex-basis-1-4  { flex-basis: 25%; }
+.flex-basis-2-4  { flex-basis: 50%; }
+.flex-basis-3-4  { flex-basis: 75%; }
+
+@media (--small) {
+  .flex-basis-auto-ns { flex-basis: auto; }
+  .flex-basis-0-ns    { flex-basis: 0; }
+  .flex-basis-full-ns { flex-basis: 100%; }
+  .flex-basis-1-2-ns  { flex-basis: 50%; }
+  .flex-basis-1-3-ns  { flex-basis: 33.333333%; }
+  .flex-basis-2-3-ns  { flex-basis: 66.666667%; }
+}
+
+@media (--medium) {
+  .flex-basis-auto-m { flex-basis: auto; }
+  .flex-basis-0-m    { flex-basis: 0; }
+  .flex-basis-full-m { flex-basis: 100%; }
+  .flex-basis-1-2-m  { flex-basis: 50%; }
+  .flex-basis-1-3-m  { flex-basis: 33.333333%; }
+  .flex-basis-2-3-m  { flex-basis: 66.666667%; }
+}
+
+@media (--large) {
+  .flex-basis-auto-l { flex-basis: auto; }
+  .flex-basis-0-l    { flex-basis: 0; }
+  .flex-basis-full-l { flex-basis: 100%; }
+  .flex-basis-1-2-l  { flex-basis: 50%; }
+  .flex-basis-1-3-l  { flex-basis: 33.333333%; }
+  .flex-basis-2-3-l  { flex-basis: 66.666667%; }
+}
+
+@media (--extra-large) {
+  .flex-basis-auto-xl { flex-basis: auto; }
+  .flex-basis-0-xl    { flex-basis: 0; }
+  .flex-basis-full-xl { flex-basis: 100%; }
+  .flex-basis-1-2-xl  { flex-basis: 50%; }
+  .flex-basis-1-3-xl  { flex-basis: 33.333333%; }
+  .flex-basis-2-3-xl  { flex-basis: 66.666667%; }
+}

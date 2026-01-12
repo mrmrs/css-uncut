@@ -1,28 +1,38 @@
 {
   "name": "css-uncut",
+  "version": "1.0.0",
+  "description": "The entire CSS language. Uncut. A comprehensive CSS utility library with single-purpose classes namespaced across multiple breakpoints.",
+  "main": "css/uncut.css",
   "style": "css/uncut.css",
-  "version": "0.0.4",
-  "description": "The entire css language. Uncut.",
-  "main": "index.html",
+  "files": [
+    "css/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch",
+    "clean": "rm -rf css/uncut.css css/uncut.min.css",
+    "prebuild": "npm run clean"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/mrmrs/css-uncut.git"
   },
   "keywords": [
     "css",
-    "sass",
+    "utility",
+    "atomic",
+    "functional",
     "oocss",
-    "performance"
+    "performance",
+    "responsive",
+    "mobile-first"
   ],
   "author": "mrmrs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrmrs/css-uncut/issues"
   },
-  "devDependencies": {
-    "tachyons-cli": "^1.3.0"
-  },
-  "scripts": {
-    "tachyons-cli": "^1.3.0"
-  }
+  "homepage": "https://github.com/mrmrs/css-uncut#readme",
+  "devDependencies": {}
 }

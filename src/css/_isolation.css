@@ -1,0 +1,26 @@
+/*
+  ISOLATION
+*/
+
+.isolate        { isolation: isolate; }
+.isolation-auto { isolation: auto; }
+
+@media (--small) {
+  .isolate-ns        { isolation: isolate; }
+  .isolation-auto-ns { isolation: auto; }
+}
+
+@media (--medium) {
+  .isolate-m        { isolation: isolate; }
+  .isolation-auto-m { isolation: auto; }
+}
+
+@media (--large) {
+  .isolate-l        { isolation: isolate; }
+  .isolation-auto-l { isolation: auto; }
+}
+
+@media (--extra-large) {
+  .isolate-xl        { isolation: isolate; }
+  .isolation-auto-xl { isolation: auto; }
+}

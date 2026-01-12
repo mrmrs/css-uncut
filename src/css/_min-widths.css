@@ -1,0 +1,35 @@
+/*
+  MIN WIDTHS
+*/
+
+.min-w-0    { min-width: 0; }
+.min-w-full { min-width: 100%; }
+.min-w-min  { min-width: min-content; }
+.min-w-max  { min-width: max-content; }
+.min-w-fit  { min-width: fit-content; }
+
+.min-w1 { min-width: 1rem; }
+.min-w2 { min-width: 2rem; }
+.min-w3 { min-width: 4rem; }
+.min-w4 { min-width: 8rem; }
+.min-w5 { min-width: 16rem; }
+
+@media (--small) {
+  .min-w-0-ns    { min-width: 0; }
+  .min-w-full-ns { min-width: 100%; }
+}
+
+@media (--medium) {
+  .min-w-0-m    { min-width: 0; }
+  .min-w-full-m { min-width: 100%; }
+}
+
+@media (--large) {
+  .min-w-0-l    { min-width: 0; }
+  .min-w-full-l { min-width: 100%; }
+}
+
+@media (--extra-large) {
+  .min-w-0-xl    { min-width: 0; }
+  .min-w-full-xl { min-width: 100%; }
+}

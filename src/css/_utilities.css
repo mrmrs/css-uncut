@@ -1,0 +1,103 @@
+/*
+  UTILITIES
+
+  Common utility classes.
+*/
+
+/* Clearfix */
+.cf::before,
+.cf::after {
+  content: " ";
+  display: table;
+}
+.cf::after { clear: both; }
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.not-sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Center content */
+.center { margin-left: auto; margin-right: auto; }
+
+/* Truncate text */
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Line clamp */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-none {
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: horizontal;
+  overflow: visible;
+}
+
+/* Box sizing */
+.border-box { box-sizing: border-box; }
+.content-box { box-sizing: content-box; }
+
+/* Measure - paragraph widths */
+.measure       { max-width: 30em; }
+.measure-wide  { max-width: 34em; }
+.measure-narrow { max-width: 20em; }
+.indent        { text-indent: 1em; margin-top: 0; margin-bottom: 0; }
+.small-caps    { font-variant: small-caps; }
+
+/* Text shadow */
+.text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,.1); }
+
+/* Debug */
+.debug * { outline: 1px solid gold; }
+.debug-white * { outline: 1px solid white; }
+.debug-black * { outline: 1px solid black; }
+.debug-grid { background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVQYlWNgYGBgYGRl+f+fAQYAB4ID/bZB6vMAAAAASUVORK5CYII=) repeat top left; }

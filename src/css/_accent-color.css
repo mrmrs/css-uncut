@@ -1,0 +1,93 @@
+/*
+  ACCENT COLOR
+
+  Control the accent color of form controls.
+*/
+
+.accent-auto       { accent-color: auto; }
+.accent-inherit    { accent-color: inherit; }
+.accent-current    { accent-color: currentColor; }
+.accent-dark-red   { accent-color: var(--dark-red); }
+.accent-red        { accent-color: var(--red); }
+.accent-orange     { accent-color: var(--orange); }
+.accent-gold       { accent-color: var(--gold); }
+.accent-yellow     { accent-color: var(--yellow); }
+.accent-purple     { accent-color: var(--purple); }
+.accent-pink       { accent-color: var(--pink); }
+.accent-green      { accent-color: var(--green); }
+.accent-blue       { accent-color: var(--blue); }
+.accent-navy       { accent-color: var(--navy); }
+.accent-black      { accent-color: var(--black); }
+.accent-white      { accent-color: var(--white); }
+
+@media (--not-small) {
+  .accent-auto-ns       { accent-color: auto; }
+  .accent-inherit-ns    { accent-color: inherit; }
+  .accent-current-ns    { accent-color: currentColor; }
+  .accent-dark-red-ns   { accent-color: var(--dark-red); }
+  .accent-red-ns        { accent-color: var(--red); }
+  .accent-orange-ns     { accent-color: var(--orange); }
+  .accent-gold-ns       { accent-color: var(--gold); }
+  .accent-yellow-ns     { accent-color: var(--yellow); }
+  .accent-purple-ns     { accent-color: var(--purple); }
+  .accent-pink-ns       { accent-color: var(--pink); }
+  .accent-green-ns      { accent-color: var(--green); }
+  .accent-blue-ns       { accent-color: var(--blue); }
+  .accent-navy-ns       { accent-color: var(--navy); }
+  .accent-black-ns      { accent-color: var(--black); }
+  .accent-white-ns      { accent-color: var(--white); }
+}
+
+@media (--medium) {
+  .accent-auto-m       { accent-color: auto; }
+  .accent-inherit-m    { accent-color: inherit; }
+  .accent-current-m    { accent-color: currentColor; }
+  .accent-dark-red-m   { accent-color: var(--dark-red); }
+  .accent-red-m        { accent-color: var(--red); }
+  .accent-orange-m     { accent-color: var(--orange); }
+  .accent-gold-m       { accent-color: var(--gold); }
+  .accent-yellow-m     { accent-color: var(--yellow); }
+  .accent-purple-m     { accent-color: var(--purple); }
+  .accent-pink-m       { accent-color: var(--pink); }
+  .accent-green-m      { accent-color: var(--green); }
+  .accent-blue-m       { accent-color: var(--blue); }
+  .accent-navy-m       { accent-color: var(--navy); }
+  .accent-black-m      { accent-color: var(--black); }
+  .accent-white-m      { accent-color: var(--white); }
+}
+
+@media (--large) {
+  .accent-auto-l       { accent-color: auto; }
+  .accent-inherit-l    { accent-color: inherit; }
+  .accent-current-l    { accent-color: currentColor; }
+  .accent-dark-red-l   { accent-color: var(--dark-red); }
+  .accent-red-l        { accent-color: var(--red); }
+  .accent-orange-l     { accent-color: var(--orange); }
+  .accent-gold-l       { accent-color: var(--gold); }
+  .accent-yellow-l     { accent-color: var(--yellow); }
+  .accent-purple-l     { accent-color: var(--purple); }
+  .accent-pink-l       { accent-color: var(--pink); }
+  .accent-green-l      { accent-color: var(--green); }
+  .accent-blue-l       { accent-color: var(--blue); }
+  .accent-navy-l       { accent-color: var(--navy); }
+  .accent-black-l      { accent-color: var(--black); }
+  .accent-white-l      { accent-color: var(--white); }
+}
+
+@media (--extra-large) {
+  .accent-auto-xl       { accent-color: auto; }
+  .accent-inherit-xl    { accent-color: inherit; }
+  .accent-current-xl    { accent-color: currentColor; }
+  .accent-dark-red-xl   { accent-color: var(--dark-red); }
+  .accent-red-xl        { accent-color: var(--red); }
+  .accent-orange-xl     { accent-color: var(--orange); }
+  .accent-gold-xl       { accent-color: var(--gold); }
+  .accent-yellow-xl     { accent-color: var(--yellow); }
+  .accent-purple-xl     { accent-color: var(--purple); }
+  .accent-pink-xl       { accent-color: var(--pink); }
+  .accent-green-xl      { accent-color: var(--green); }
+  .accent-blue-xl       { accent-color: var(--blue); }
+  .accent-navy-xl       { accent-color: var(--navy); }
+  .accent-black-xl      { accent-color: var(--black); }
+  .accent-white-xl      { accent-color: var(--white); }
+}

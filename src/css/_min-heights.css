@@ -1,0 +1,43 @@
+/*
+  MIN HEIGHTS
+*/
+
+.min-h-0      { min-height: 0; }
+.min-h-full   { min-height: 100%; }
+.min-h-screen { min-height: 100vh; }
+.min-h-svh    { min-height: 100svh; }
+.min-h-lvh    { min-height: 100lvh; }
+.min-h-dvh    { min-height: 100dvh; }
+.min-h-min    { min-height: min-content; }
+.min-h-max    { min-height: max-content; }
+.min-h-fit    { min-height: fit-content; }
+
+.min-h1 { min-height: 1rem; }
+.min-h2 { min-height: 2rem; }
+.min-h3 { min-height: 4rem; }
+.min-h4 { min-height: 8rem; }
+.min-h5 { min-height: 16rem; }
+
+@media (--small) {
+  .min-h-0-ns      { min-height: 0; }
+  .min-h-full-ns   { min-height: 100%; }
+  .min-h-screen-ns { min-height: 100vh; }
+}
+
+@media (--medium) {
+  .min-h-0-m      { min-height: 0; }
+  .min-h-full-m   { min-height: 100%; }
+  .min-h-screen-m { min-height: 100vh; }
+}
+
+@media (--large) {
+  .min-h-0-l      { min-height: 0; }
+  .min-h-full-l   { min-height: 100%; }
+  .min-h-screen-l { min-height: 100vh; }
+}
+
+@media (--extra-large) {
+  .min-h-0-xl      { min-height: 0; }
+  .min-h-full-xl   { min-height: 100%; }
+  .min-h-screen-xl { min-height: 100vh; }
+}

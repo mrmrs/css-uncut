@@ -1,0 +1,94 @@
+/*
+  Z-INDEX
+*/
+
+.z-0    { z-index: 0; }
+.z-1    { z-index: 1; }
+.z-2    { z-index: 2; }
+.z-3    { z-index: 3; }
+.z-4    { z-index: 4; }
+.z-5    { z-index: 5; }
+.z-10   { z-index: 10; }
+.z-20   { z-index: 20; }
+.z-30   { z-index: 30; }
+.z-40   { z-index: 40; }
+.z-50   { z-index: 50; }
+.z-100  { z-index: 100; }
+.z-999  { z-index: 999; }
+.z-9999 { z-index: 9999; }
+.z-max  { z-index: 2147483647; }
+.z-auto { z-index: auto; }
+.z-inherit { z-index: inherit; }
+.z--1   { z-index: -1; }
+
+@media (--small) {
+  .z-0-ns    { z-index: 0; }
+  .z-1-ns    { z-index: 1; }
+  .z-2-ns    { z-index: 2; }
+  .z-3-ns    { z-index: 3; }
+  .z-4-ns    { z-index: 4; }
+  .z-5-ns    { z-index: 5; }
+  .z-10-ns   { z-index: 10; }
+  .z-20-ns   { z-index: 20; }
+  .z-30-ns   { z-index: 30; }
+  .z-40-ns   { z-index: 40; }
+  .z-50-ns   { z-index: 50; }
+  .z-100-ns  { z-index: 100; }
+  .z-max-ns  { z-index: 2147483647; }
+  .z-auto-ns { z-index: auto; }
+  .z--1-ns   { z-index: -1; }
+}
+
+@media (--medium) {
+  .z-0-m    { z-index: 0; }
+  .z-1-m    { z-index: 1; }
+  .z-2-m    { z-index: 2; }
+  .z-3-m    { z-index: 3; }
+  .z-4-m    { z-index: 4; }
+  .z-5-m    { z-index: 5; }
+  .z-10-m   { z-index: 10; }
+  .z-20-m   { z-index: 20; }
+  .z-30-m   { z-index: 30; }
+  .z-40-m   { z-index: 40; }
+  .z-50-m   { z-index: 50; }
+  .z-100-m  { z-index: 100; }
+  .z-max-m  { z-index: 2147483647; }
+  .z-auto-m { z-index: auto; }
+  .z--1-m   { z-index: -1; }
+}
+
+@media (--large) {
+  .z-0-l    { z-index: 0; }
+  .z-1-l    { z-index: 1; }
+  .z-2-l    { z-index: 2; }
+  .z-3-l    { z-index: 3; }
+  .z-4-l    { z-index: 4; }
+  .z-5-l    { z-index: 5; }
+  .z-10-l   { z-index: 10; }
+  .z-20-l   { z-index: 20; }
+  .z-30-l   { z-index: 30; }
+  .z-40-l   { z-index: 40; }
+  .z-50-l   { z-index: 50; }
+  .z-100-l  { z-index: 100; }
+  .z-max-l  { z-index: 2147483647; }
+  .z-auto-l { z-index: auto; }
+  .z--1-l   { z-index: -1; }
+}
+
+@media (--extra-large) {
+  .z-0-xl    { z-index: 0; }
+  .z-1-xl    { z-index: 1; }
+  .z-2-xl    { z-index: 2; }
+  .z-3-xl    { z-index: 3; }
+  .z-4-xl    { z-index: 4; }
+  .z-5-xl    { z-index: 5; }
+  .z-10-xl   { z-index: 10; }
+  .z-20-xl   { z-index: 20; }
+  .z-30-xl   { z-index: 30; }
+  .z-40-xl   { z-index: 40; }
+  .z-50-xl   { z-index: 50; }
+  .z-100-xl  { z-index: 100; }
+  .z-max-xl  { z-index: 2147483647; }
+  .z-auto-xl { z-index: auto; }
+  .z--1-xl   { z-index: -1; }
+}

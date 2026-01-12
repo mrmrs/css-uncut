@@ -1,0 +1,41 @@
+/*
+  BACKGROUND SIZE
+*/
+
+.bg-auto    { background-size: auto; }
+.bg-cover   { background-size: cover; }
+.bg-contain { background-size: contain; }
+.bg-100     { background-size: 100%; }
+.bg-100-100 { background-size: 100% 100%; }
+
+@media (--small) {
+  .bg-auto-ns    { background-size: auto; }
+  .bg-cover-ns   { background-size: cover; }
+  .bg-contain-ns { background-size: contain; }
+  .bg-100-ns     { background-size: 100%; }
+  .bg-100-100-ns { background-size: 100% 100%; }
+}
+
+@media (--medium) {
+  .bg-auto-m    { background-size: auto; }
+  .bg-cover-m   { background-size: cover; }
+  .bg-contain-m { background-size: contain; }
+  .bg-100-m     { background-size: 100%; }
+  .bg-100-100-m { background-size: 100% 100%; }
+}
+
+@media (--large) {
+  .bg-auto-l    { background-size: auto; }
+  .bg-cover-l   { background-size: cover; }
+  .bg-contain-l { background-size: contain; }
+  .bg-100-l     { background-size: 100%; }
+  .bg-100-100-l { background-size: 100% 100%; }
+}
+
+@media (--extra-large) {
+  .bg-auto-xl    { background-size: auto; }
+  .bg-cover-xl   { background-size: cover; }
+  .bg-contain-xl { background-size: contain; }
+  .bg-100-xl     { background-size: 100%; }
+  .bg-100-100-xl { background-size: 100% 100%; }
+}

@@ -1,0 +1,43 @@
+/*
+  OBJECT FIT
+
+  Modern CSS for controlling replaced elements.
+*/
+
+.object-contain    { object-fit: contain; }
+.object-cover      { object-fit: cover; }
+.object-fill       { object-fit: fill; }
+.object-none       { object-fit: none; }
+.object-scale-down { object-fit: scale-down; }
+
+@media (--small) {
+  .object-contain-ns    { object-fit: contain; }
+  .object-cover-ns      { object-fit: cover; }
+  .object-fill-ns       { object-fit: fill; }
+  .object-none-ns       { object-fit: none; }
+  .object-scale-down-ns { object-fit: scale-down; }
+}
+
+@media (--medium) {
+  .object-contain-m    { object-fit: contain; }
+  .object-cover-m      { object-fit: cover; }
+  .object-fill-m       { object-fit: fill; }
+  .object-none-m       { object-fit: none; }
+  .object-scale-down-m { object-fit: scale-down; }
+}
+
+@media (--large) {
+  .object-contain-l    { object-fit: contain; }
+  .object-cover-l      { object-fit: cover; }
+  .object-fill-l       { object-fit: fill; }
+  .object-none-l       { object-fit: none; }
+  .object-scale-down-l { object-fit: scale-down; }
+}
+
+@media (--extra-large) {
+  .object-contain-xl    { object-fit: contain; }
+  .object-cover-xl      { object-fit: cover; }
+  .object-fill-xl       { object-fit: fill; }
+  .object-none-xl       { object-fit: none; }
+  .object-scale-down-xl { object-fit: scale-down; }
+}

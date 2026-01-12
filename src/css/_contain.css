@@ -1,0 +1,53 @@
+/*
+  CONTAIN
+
+  CSS containment for performance optimization.
+*/
+
+.contain-none    { contain: none; }
+.contain-strict  { contain: strict; }
+.contain-content { contain: content; }
+.contain-size    { contain: size; }
+.contain-layout  { contain: layout; }
+.contain-style   { contain: style; }
+.contain-paint   { contain: paint; }
+
+@media (--small) {
+  .contain-none-ns    { contain: none; }
+  .contain-strict-ns  { contain: strict; }
+  .contain-content-ns { contain: content; }
+  .contain-size-ns    { contain: size; }
+  .contain-layout-ns  { contain: layout; }
+  .contain-style-ns   { contain: style; }
+  .contain-paint-ns   { contain: paint; }
+}
+
+@media (--medium) {
+  .contain-none-m    { contain: none; }
+  .contain-strict-m  { contain: strict; }
+  .contain-content-m { contain: content; }
+  .contain-size-m    { contain: size; }
+  .contain-layout-m  { contain: layout; }
+  .contain-style-m   { contain: style; }
+  .contain-paint-m   { contain: paint; }
+}
+
+@media (--large) {
+  .contain-none-l    { contain: none; }
+  .contain-strict-l  { contain: strict; }
+  .contain-content-l { contain: content; }
+  .contain-size-l    { contain: size; }
+  .contain-layout-l  { contain: layout; }
+  .contain-style-l   { contain: style; }
+  .contain-paint-l   { contain: paint; }
+}
+
+@media (--extra-large) {
+  .contain-none-xl    { contain: none; }
+  .contain-strict-xl  { contain: strict; }
+  .contain-content-xl { contain: content; }
+  .contain-size-xl    { contain: size; }
+  .contain-layout-xl  { contain: layout; }
+  .contain-style-xl   { contain: style; }
+  .contain-paint-xl   { contain: paint; }
+}

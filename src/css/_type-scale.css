@@ -1,0 +1,63 @@
+/*
+  TYPE SCALE
+*/
+
+.f1 { font-size: 3rem; }
+.f2 { font-size: 2.25rem; }
+.f3 { font-size: 1.5rem; }
+.f4 { font-size: 1.25rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: .875rem; }
+.f7 { font-size: .75rem; }
+
+/* Headlines */
+.f-headline { font-size: 6rem; }
+.f-subheadline { font-size: 5rem; }
+
+@media (--small) {
+  .f1-ns { font-size: 3rem; }
+  .f2-ns { font-size: 2.25rem; }
+  .f3-ns { font-size: 1.5rem; }
+  .f4-ns { font-size: 1.25rem; }
+  .f5-ns { font-size: 1rem; }
+  .f6-ns { font-size: .875rem; }
+  .f7-ns { font-size: .75rem; }
+  .f-headline-ns { font-size: 6rem; }
+  .f-subheadline-ns { font-size: 5rem; }
+}
+
+@media (--medium) {
+  .f1-m { font-size: 3rem; }
+  .f2-m { font-size: 2.25rem; }
+  .f3-m { font-size: 1.5rem; }
+  .f4-m { font-size: 1.25rem; }
+  .f5-m { font-size: 1rem; }
+  .f6-m { font-size: .875rem; }
+  .f7-m { font-size: .75rem; }
+  .f-headline-m { font-size: 6rem; }
+  .f-subheadline-m { font-size: 5rem; }
+}
+
+@media (--large) {
+  .f1-l { font-size: 3rem; }
+  .f2-l { font-size: 2.25rem; }
+  .f3-l { font-size: 1.5rem; }
+  .f4-l { font-size: 1.25rem; }
+  .f5-l { font-size: 1rem; }
+  .f6-l { font-size: .875rem; }
+  .f7-l { font-size: .75rem; }
+  .f-headline-l { font-size: 6rem; }
+  .f-subheadline-l { font-size: 5rem; }
+}
+
+@media (--extra-large) {
+  .f1-xl { font-size: 3rem; }
+  .f2-xl { font-size: 2.25rem; }
+  .f3-xl { font-size: 1.5rem; }
+  .f4-xl { font-size: 1.25rem; }
+  .f5-xl { font-size: 1rem; }
+  .f6-xl { font-size: .875rem; }
+  .f7-xl { font-size: .75rem; }
+  .f-headline-xl { font-size: 6rem; }
+  .f-subheadline-xl { font-size: 5rem; }
+}

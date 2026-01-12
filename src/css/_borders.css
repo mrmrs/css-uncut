@@ -1,0 +1,133 @@
+/*
+  BORDERS
+
+  Base:
+    b = border
+
+  Modifiers:
+    a = all
+    t = top
+    r = right
+    b = bottom
+    l = left
+    n = none
+*/
+
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
+
+/* Border widths */
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
+
+/* Border top widths */
+.bt-0 { border-top-width: 0; }
+.bt-1 { border-top-width: 1px; }
+.bt-2 { border-top-width: 2px; }
+.bt-3 { border-top-width: 4px; }
+.bt-4 { border-top-width: 8px; }
+
+/* Border right widths */
+.br-0 { border-right-width: 0; }
+.br-1 { border-right-width: 1px; }
+.br-2 { border-right-width: 2px; }
+.br-3 { border-right-width: 4px; }
+.br-4 { border-right-width: 8px; }
+
+/* Border bottom widths */
+.bb-0 { border-bottom-width: 0; }
+.bb-1 { border-bottom-width: 1px; }
+.bb-2 { border-bottom-width: 2px; }
+.bb-3 { border-bottom-width: 4px; }
+.bb-4 { border-bottom-width: 8px; }
+
+/* Border left widths */
+.bl-0 { border-left-width: 0; }
+.bl-1 { border-left-width: 1px; }
+.bl-2 { border-left-width: 2px; }
+.bl-3 { border-left-width: 4px; }
+.bl-4 { border-left-width: 8px; }
+
+/* Border styles */
+.b-solid  { border-style: solid; }
+.b-dotted { border-style: dotted; }
+.b-dashed { border-style: dashed; }
+.b-double { border-style: double; }
+.b-none   { border-style: none; }
+
+/* Border colors */
+.b-black       { border-color: var(--black); }
+.b-near-black  { border-color: var(--near-black); }
+.b-dark-gray   { border-color: var(--dark-gray); }
+.b-mid-gray    { border-color: var(--mid-gray); }
+.b-gray        { border-color: var(--gray); }
+.b-silver      { border-color: var(--silver); }
+.b-light-gray  { border-color: var(--light-gray); }
+.b-near-white  { border-color: var(--near-white); }
+.b-white       { border-color: var(--white); }
+.b-transparent { border-color: transparent; }
+.b-current     { border-color: currentColor; }
+
+@media (--small) {
+  .ba-ns { border-style: solid; border-width: 1px; }
+  .bt-ns { border-top-style: solid; border-top-width: 1px; }
+  .br-ns { border-right-style: solid; border-right-width: 1px; }
+  .bb-ns { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-ns { border-left-style: solid; border-left-width: 1px; }
+  .bn-ns { border-style: none; border-width: 0; }
+  .bw0-ns { border-width: 0; }
+  .bw1-ns { border-width: .125rem; }
+  .bw2-ns { border-width: .25rem; }
+  .bw3-ns { border-width: .5rem; }
+  .bw4-ns { border-width: 1rem; }
+}
+
+@media (--medium) {
+  .ba-m { border-style: solid; border-width: 1px; }
+  .bt-m { border-top-style: solid; border-top-width: 1px; }
+  .br-m { border-right-style: solid; border-right-width: 1px; }
+  .bb-m { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-m { border-left-style: solid; border-left-width: 1px; }
+  .bn-m { border-style: none; border-width: 0; }
+  .bw0-m { border-width: 0; }
+  .bw1-m { border-width: .125rem; }
+  .bw2-m { border-width: .25rem; }
+  .bw3-m { border-width: .5rem; }
+  .bw4-m { border-width: 1rem; }
+}
+
+@media (--large) {
+  .ba-l { border-style: solid; border-width: 1px; }
+  .bt-l { border-top-style: solid; border-top-width: 1px; }
+  .br-l { border-right-style: solid; border-right-width: 1px; }
+  .bb-l { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-l { border-left-style: solid; border-left-width: 1px; }
+  .bn-l { border-style: none; border-width: 0; }
+  .bw0-l { border-width: 0; }
+  .bw1-l { border-width: .125rem; }
+  .bw2-l { border-width: .25rem; }
+  .bw3-l { border-width: .5rem; }
+  .bw4-l { border-width: 1rem; }
+}
+
+@media (--extra-large) {
+  .ba-xl { border-style: solid; border-width: 1px; }
+  .bt-xl { border-top-style: solid; border-top-width: 1px; }
+  .br-xl { border-right-style: solid; border-right-width: 1px; }
+  .bb-xl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xl { border-left-style: solid; border-left-width: 1px; }
+  .bn-xl { border-style: none; border-width: 0; }
+  .bw0-xl { border-width: 0; }
+  .bw1-xl { border-width: .125rem; }
+  .bw2-xl { border-width: .25rem; }
+  .bw3-xl { border-width: .5rem; }
+  .bw4-xl { border-width: 1rem; }
+}

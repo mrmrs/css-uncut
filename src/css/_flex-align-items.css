@@ -1,0 +1,41 @@
+/*
+  FLEXBOX - ALIGN ITEMS
+*/
+
+.items-start    { align-items: flex-start; }
+.items-end      { align-items: flex-end; }
+.items-center   { align-items: center; }
+.items-baseline { align-items: baseline; }
+.items-stretch  { align-items: stretch; }
+
+@media (--small) {
+  .items-start-ns    { align-items: flex-start; }
+  .items-end-ns      { align-items: flex-end; }
+  .items-center-ns   { align-items: center; }
+  .items-baseline-ns { align-items: baseline; }
+  .items-stretch-ns  { align-items: stretch; }
+}
+
+@media (--medium) {
+  .items-start-m    { align-items: flex-start; }
+  .items-end-m      { align-items: flex-end; }
+  .items-center-m   { align-items: center; }
+  .items-baseline-m { align-items: baseline; }
+  .items-stretch-m  { align-items: stretch; }
+}
+
+@media (--large) {
+  .items-start-l    { align-items: flex-start; }
+  .items-end-l      { align-items: flex-end; }
+  .items-center-l   { align-items: center; }
+  .items-baseline-l { align-items: baseline; }
+  .items-stretch-l  { align-items: stretch; }
+}
+
+@media (--extra-large) {
+  .items-start-xl    { align-items: flex-start; }
+  .items-end-xl      { align-items: flex-end; }
+  .items-center-xl   { align-items: center; }
+  .items-baseline-xl { align-items: baseline; }
+  .items-stretch-xl  { align-items: stretch; }
+}

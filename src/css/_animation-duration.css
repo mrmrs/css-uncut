@@ -1,0 +1,61 @@
+/*
+  ANIMATION DURATION
+*/
+
+.animate-duration-0    { animation-duration: 0ms; }
+.animate-duration-75   { animation-duration: 75ms; }
+.animate-duration-100  { animation-duration: 100ms; }
+.animate-duration-150  { animation-duration: 150ms; }
+.animate-duration-200  { animation-duration: 200ms; }
+.animate-duration-300  { animation-duration: 300ms; }
+.animate-duration-500  { animation-duration: 500ms; }
+.animate-duration-700  { animation-duration: 700ms; }
+.animate-duration-1000 { animation-duration: 1000ms; }
+
+@media (--small) {
+  .animate-duration-0-ns    { animation-duration: 0ms; }
+  .animate-duration-75-ns   { animation-duration: 75ms; }
+  .animate-duration-100-ns  { animation-duration: 100ms; }
+  .animate-duration-150-ns  { animation-duration: 150ms; }
+  .animate-duration-200-ns  { animation-duration: 200ms; }
+  .animate-duration-300-ns  { animation-duration: 300ms; }
+  .animate-duration-500-ns  { animation-duration: 500ms; }
+  .animate-duration-700-ns  { animation-duration: 700ms; }
+  .animate-duration-1000-ns { animation-duration: 1000ms; }
+}
+
+@media (--medium) {
+  .animate-duration-0-m    { animation-duration: 0ms; }
+  .animate-duration-75-m   { animation-duration: 75ms; }
+  .animate-duration-100-m  { animation-duration: 100ms; }
+  .animate-duration-150-m  { animation-duration: 150ms; }
+  .animate-duration-200-m  { animation-duration: 200ms; }
+  .animate-duration-300-m  { animation-duration: 300ms; }
+  .animate-duration-500-m  { animation-duration: 500ms; }
+  .animate-duration-700-m  { animation-duration: 700ms; }
+  .animate-duration-1000-m { animation-duration: 1000ms; }
+}
+
+@media (--large) {
+  .animate-duration-0-l    { animation-duration: 0ms; }
+  .animate-duration-75-l   { animation-duration: 75ms; }
+  .animate-duration-100-l  { animation-duration: 100ms; }
+  .animate-duration-150-l  { animation-duration: 150ms; }
+  .animate-duration-200-l  { animation-duration: 200ms; }
+  .animate-duration-300-l  { animation-duration: 300ms; }
+  .animate-duration-500-l  { animation-duration: 500ms; }
+  .animate-duration-700-l  { animation-duration: 700ms; }
+  .animate-duration-1000-l { animation-duration: 1000ms; }
+}
+
+@media (--extra-large) {
+  .animate-duration-0-xl    { animation-duration: 0ms; }
+  .animate-duration-75-xl   { animation-duration: 75ms; }
+  .animate-duration-100-xl  { animation-duration: 100ms; }
+  .animate-duration-150-xl  { animation-duration: 150ms; }
+  .animate-duration-200-xl  { animation-duration: 200ms; }
+  .animate-duration-300-xl  { animation-duration: 300ms; }
+  .animate-duration-500-xl  { animation-duration: 500ms; }
+  .animate-duration-700-xl  { animation-duration: 700ms; }
+  .animate-duration-1000-xl { animation-duration: 1000ms; }
+}

@@ -1,0 +1,46 @@
+/*
+  BACKGROUND REPEAT
+*/
+
+.bg-repeat       { background-repeat: repeat; }
+.bg-no-repeat    { background-repeat: no-repeat; }
+.bg-repeat-x     { background-repeat: repeat-x; }
+.bg-repeat-y     { background-repeat: repeat-y; }
+.bg-repeat-round { background-repeat: round; }
+.bg-repeat-space { background-repeat: space; }
+
+@media (--small) {
+  .bg-repeat-ns       { background-repeat: repeat; }
+  .bg-no-repeat-ns    { background-repeat: no-repeat; }
+  .bg-repeat-x-ns     { background-repeat: repeat-x; }
+  .bg-repeat-y-ns     { background-repeat: repeat-y; }
+  .bg-repeat-round-ns { background-repeat: round; }
+  .bg-repeat-space-ns { background-repeat: space; }
+}
+
+@media (--medium) {
+  .bg-repeat-m       { background-repeat: repeat; }
+  .bg-no-repeat-m    { background-repeat: no-repeat; }
+  .bg-repeat-x-m     { background-repeat: repeat-x; }
+  .bg-repeat-y-m     { background-repeat: repeat-y; }
+  .bg-repeat-round-m { background-repeat: round; }
+  .bg-repeat-space-m { background-repeat: space; }
+}
+
+@media (--large) {
+  .bg-repeat-l       { background-repeat: repeat; }
+  .bg-no-repeat-l    { background-repeat: no-repeat; }
+  .bg-repeat-x-l     { background-repeat: repeat-x; }
+  .bg-repeat-y-l     { background-repeat: repeat-y; }
+  .bg-repeat-round-l { background-repeat: round; }
+  .bg-repeat-space-l { background-repeat: space; }
+}
+
+@media (--extra-large) {
+  .bg-repeat-xl       { background-repeat: repeat; }
+  .bg-no-repeat-xl    { background-repeat: no-repeat; }
+  .bg-repeat-x-xl     { background-repeat: repeat-x; }
+  .bg-repeat-y-xl     { background-repeat: repeat-y; }
+  .bg-repeat-round-xl { background-repeat: round; }
+  .bg-repeat-space-xl { background-repeat: space; }
+}

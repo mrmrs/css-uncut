@@ -1,0 +1,36 @@
+/*
+  ANIMATION FILL MODE
+*/
+
+.animate-fill-none      { animation-fill-mode: none; }
+.animate-fill-forwards  { animation-fill-mode: forwards; }
+.animate-fill-backwards { animation-fill-mode: backwards; }
+.animate-fill-both      { animation-fill-mode: both; }
+
+@media (--small) {
+  .animate-fill-none-ns      { animation-fill-mode: none; }
+  .animate-fill-forwards-ns  { animation-fill-mode: forwards; }
+  .animate-fill-backwards-ns { animation-fill-mode: backwards; }
+  .animate-fill-both-ns      { animation-fill-mode: both; }
+}
+
+@media (--medium) {
+  .animate-fill-none-m      { animation-fill-mode: none; }
+  .animate-fill-forwards-m  { animation-fill-mode: forwards; }
+  .animate-fill-backwards-m { animation-fill-mode: backwards; }
+  .animate-fill-both-m      { animation-fill-mode: both; }
+}
+
+@media (--large) {
+  .animate-fill-none-l      { animation-fill-mode: none; }
+  .animate-fill-forwards-l  { animation-fill-mode: forwards; }
+  .animate-fill-backwards-l { animation-fill-mode: backwards; }
+  .animate-fill-both-l      { animation-fill-mode: both; }
+}
+
+@media (--extra-large) {
+  .animate-fill-none-xl      { animation-fill-mode: none; }
+  .animate-fill-forwards-xl  { animation-fill-mode: forwards; }
+  .animate-fill-backwards-xl { animation-fill-mode: backwards; }
+  .animate-fill-both-xl      { animation-fill-mode: both; }
+}

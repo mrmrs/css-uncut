@@ -1,0 +1,30 @@
+/*
+  OUTLINE
+*/
+
+.outline-none { outline: 2px solid transparent; outline-offset: 2px; }
+.outline      { outline-style: solid; }
+.outline-dashed { outline-style: dashed; }
+.outline-dotted { outline-style: dotted; }
+.outline-double { outline-style: double; }
+
+/* Outline Width */
+.outline-0 { outline-width: 0px; }
+.outline-1 { outline-width: 1px; }
+.outline-2 { outline-width: 2px; }
+.outline-4 { outline-width: 4px; }
+.outline-8 { outline-width: 8px; }
+
+/* Outline Offset */
+.outline-offset-0 { outline-offset: 0px; }
+.outline-offset-1 { outline-offset: 1px; }
+.outline-offset-2 { outline-offset: 2px; }
+.outline-offset-4 { outline-offset: 4px; }
+.outline-offset-8 { outline-offset: 8px; }
+
+/* Outline Color */
+.outline-inherit     { outline-color: inherit; }
+.outline-current     { outline-color: currentColor; }
+.outline-transparent { outline-color: transparent; }
+.outline-black       { outline-color: var(--black); }
+.outline-white       { outline-color: var(--white); }
