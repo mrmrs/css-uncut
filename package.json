@@ -1,6 +1,6 @@
 {
   "name": "css-uncut",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The entire CSS language. Uncut. A comprehensive CSS utility library with single-purpose classes namespaced across multiple breakpoints.",
   "main": "css/uncut.css",
   "style": "css/uncut.css",
